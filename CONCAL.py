@@ -11,7 +11,7 @@ st.markdown("## **1st APPLIANCE!**")
 A1N = st.text_input("Name of 1st appliance:")
 if A1N:
     A1M = st.number_input(f"How many {A1N} are you using?")
-    A1W = st.number_input(f"What is the wattage of {A1N} ?")
+    A1W = st.number_input(f"What is the wattage of {A1N}?(watt)")
     A1B = st.number_input(f"How many days in a month do you use {A1N}?(1-31)")
     while A1B > 31 or A1B < 1:
         A1B = st.number_input(
@@ -34,7 +34,7 @@ if ask1 == 1:  # add app2 (1st line)
     A2N = st.text_input("Name of 2nd appliance: ")
     if A2N:
         A2M = st.number_input(f"How many {A2N} are you using?")
-        A2W = st.number_input(f"What is the wattage of {A2N} ?")
+        A2W = st.number_input(f"What is the wattage of {A2N}?(watt)")
         A2B = st.number_input(
             f"How many days in a month do you use {A2N}?(1-31)")
 
@@ -61,7 +61,7 @@ if ask1 == 1:  # add app2 (1st line)
         A3N = st.text_input("Name of 3rd appliance:")
         if A3N:
             A3M = st.number_input(f"How many {A3N} are you using?")
-            A3W = st.number_input(f"What is the wattage of {A3N} ?")
+            A3W = st.number_input(f"What is the wattage of {A3N}?(watt)")
             A3B = st.number_input(
                 f"How many days in a month do you use {A3N}?(1-31)")
 
@@ -88,7 +88,7 @@ if ask1 == 1:  # add app2 (1st line)
             A4N = st.text_input("Name of 4th appliance: ")
             if A4N:
                 A4M = st.number_input(f"How many {A4N} are you using?")
-                A4W = st.number_input(f"What is the wattage of {A4N} ?")
+                A4W = st.number_input(f"What is the wattage of {A4N}?(watt)")
                 A4B = st.number_input(
                     f"How many days in a month do you use {A4N}?(1-31)")
 
@@ -115,7 +115,8 @@ if ask1 == 1:  # add app2 (1st line)
                 A5N = st.text_input("Name of 5th appliance: ")
                 if A5N:
                     A5M = st.number_input(f"How many {A5N} are you using?")
-                    A5W = st.number_input(f"What is the wattage of {A5N} ?")
+                    A5W = st.number_input(
+                        f"What is the wattage of {A5N}?(watt)")
                     A5B = st.number_input(
                         f"How many days in a month do you use {A5N}?(1-31)")
 
@@ -143,7 +144,7 @@ if ask1 == 1:  # add app2 (1st line)
                     if A6N:
                         A6M = st.number_input(f"How many {A6N} are you using?")
                         A6W = st.number_input(
-                            f"What is the wattage of {A6N} ?")
+                            f"What is the wattage of {A6N}?(watt)")
                         A6B = st.number_input(
                             f"How many days in a month do you use {A6N}?(1-31)")
 
@@ -172,7 +173,7 @@ if ask1 == 1:  # add app2 (1st line)
                             A7M = st.number_input(
                                 f"How many {A7N} are you using?")
                             A7W = st.number_input(
-                                f"What is the wattage of {A7N} ?")
+                                f"What is the wattage of {A7N}?(watt)")
                             A7B = st.number_input(
                                 f"How many days in a month do you use {A7N}?(1-31)")
 
@@ -201,7 +202,7 @@ if ask1 == 1:  # add app2 (1st line)
                                 A8M = st.number_input(
                                     f"How many {A8N} are you using?")
                                 A8W = st.number_input(
-                                    f"What is the wattage of {A8N} ?")
+                                    f"What is the wattage of {A8N}?(watt)")
                                 A8B = st.number_input(
                                     f"How many days in a month do you use {A8N}?(1-31)")
 
@@ -231,7 +232,7 @@ if ask1 == 1:  # add app2 (1st line)
                                     A9M = st.number_input(
                                         f"How many {A9N} are you using?")
                                     A9W = st.number_input(
-                                        f"What is the wattage of {A9N} ?")
+                                        f"What is the wattage of {A9N}?(watt)")
                                     A9B = st.number_input(
                                         f"How many days in a month do you use {A9N}?(1-31)")
 
