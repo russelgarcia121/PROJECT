@@ -32,7 +32,7 @@ if ask1 == 1:  # add app2 (1st line)
     if A2N:
         A2M = st.number_input(f"How many {A2N} are you using?")
         A2W = st.number_input(f"What is the wattage of {A2N} ?")
-        A2B = st.number_input("How many days in a month do you use this?(1-31)")
+        A2B = st.number_input("How many days in a month do you use this?(1-30)")
         while A2B > 31 or A2B < 1:
             A2B = st.number_input(
                 "How many days in a month do you use this?(1-31)")
