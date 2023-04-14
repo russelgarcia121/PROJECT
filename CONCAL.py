@@ -782,8 +782,9 @@ if ask1 == 2:
         if app > max_app:
             max_app = app
     if max_app == A1con:
-        st.write("The appliance with the highest consumption is the (",
-                 A1N, ") with a consumption of", Kh1, "kWh", " resulting in a bill of", A1con, "pesos")
+        st.write(A1N)
+        st.write("Bill:", A1con)
+        st.write("Electricity consumption:", Kh1)
     # OUTPUT2
     st.write("************************************************************************************************************************************************************************")
     st.markdown("**IDNDIVIDUAL BILL**")
