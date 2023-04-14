@@ -1141,8 +1141,8 @@ if ask1 == 1:  # add app2 (1st line)
                                                             "************************************************************************************************************************************************************************")
                                                         st.markdown(
                                                             "**HIGHEST ENERGY CONSUMPTION**")
-                                                        apps = [A1con, A2con, A3con,
-                                                                A4con, A5con, A6con, A7con, A8con, A9con, A10con, A11con, A12con + A13con + A14con]
+                                                        apps = [A1con, A2con, A3con, A4con, A5con, A6con, A7con,
+                                                                A8con, A9con, A10con, A11con, A12con + A13con + A14con]
                                                         max_app = apps[0]
                                                         for app in apps:
                                                             if app > max_app:
