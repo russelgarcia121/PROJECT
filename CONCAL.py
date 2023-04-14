@@ -602,7 +602,7 @@ if ask1 == 1 and A1D:  # add app2 (1st line)
                             st.write(
                                 "************************************************************************************************************************************************************************")
                             st.write("Name of appliance___:", A4N)
-                            st.write("Electricity bill       : PHP", A4con)
+                            st.write("Electricity bill          : PHP", A4con)
                             st.write("Energy consumption_:", Y4)
                         if max_app == A5con:
                             st.write(
