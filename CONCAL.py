@@ -380,7 +380,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                     st.markdown(
                                                         "## **14th APPLIANCE!**")
                                                     A14N = st.text_input(
-                                                        "Name of 6th appliance: ")
+                                                        "Name of 14th appliance: ")
                                                     if A14N:
                                                         A14M = st.number_input(
                                                             f"How many {A14N} are you using?")
@@ -410,9 +410,9 @@ if ask1 == 1:  # add app2 (1st line)
                                                     # add app7 (6th line)
                                                     if ask14 == 1:
                                                         st.markdown(
-                                                            "## **7th APPLIANCE!**")
+                                                            "## **15th APPLIANCE!**")
                                                         A15N = st.text_input(
-                                                            "Name of 7th appliance: ")
+                                                            "Name of 15th appliance: ")
                                                         if A15N:
                                                             A15M = st.number_input(
                                                                 f"How many {A15N} are you using?")
