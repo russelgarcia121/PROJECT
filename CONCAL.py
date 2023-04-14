@@ -5,8 +5,8 @@
 # A()D ay ilang Hour in a Day ginagamit
 import streamlit as st
 st.title("Welcome to CONCAL!")
-st.text()
-st.markdown()
+st.text("")
+st.markdown("")
 
 cost = st.number_input("The cost per kilowatt-hour in pesos:")
 
