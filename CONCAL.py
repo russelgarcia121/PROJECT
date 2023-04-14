@@ -841,7 +841,7 @@ if ask1 == 2:
     A1con = ((A1*30)/1000)*cost
 
     # INDIVIDUAL: Kilo-watt/hour
-    Y1 = A1/1000
+    Y1 = (A1*30)/1000
 
     # OUTPUT1
     st.markdown("## **THE RESULTS:**")
