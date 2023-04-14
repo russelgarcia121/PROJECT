@@ -51,9 +51,9 @@ if ask1 ==2:
         if app > max_app:
             max_app = app
     if max_app == A1con:
-        st.write("Ang may pinkamataas na konsumo ay ang", A1N)
+        st.write("Ang may pinkamataas na konsumo ay ang", A1N,"na may consumption na:",A1con)
 
     # OUTPUT
-    st.write("Your electricity bill is", total1, "pesos")
-    st.write("Your energy consumption is", Kh1, "kWh")
     st.write("(1)The consumption of", A1N, "is", A1con, "pesos")
+    st.write("Your electricity bill is      :", total1, "pesos")
+    st.write("Your energy consumption is    :", Kh1, "kWh")
