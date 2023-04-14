@@ -745,11 +745,15 @@ if ask1 == 1 and A1D:  # add app2 (1st line)
         # OUTPUT1
         st.markdown("## **THE RESULTS:**")
         # OUTPUT2
-        st.write("(1)The consumption of", A1N, "is:", A1con, "pesos")
-        st.write("(2)The consumption of", A2N, "is:", A2con, "pesos")
+        st.write("************************************************************************************************************************************************************************")
+        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.write(A1N, ":", A1con, "pesos")
+        st.write(A2N, ":", A2con, "pesos")
         st.write("The largest number in the list is:", max_app)
-        st.write("Your electricity bill is", total2, "pesos")
-        st.write("Your energy consumption is", Kh2, "kWh")
+        st.write("************************************************************************************************************************************************************************")
+        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.write("Electricity bill:", total2, "pesos")
+        st.write("Energy consumption:", Kh2, "kWh")
 
 # compute app1 (1st line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 if ask1 == 2:
