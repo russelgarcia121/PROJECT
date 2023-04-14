@@ -25,12 +25,7 @@ A1D = st.number_input("How many hours in a day do you use this?")
 while A1D > 24 or A1D < 0.00001:
     A1D = st.number_input("How many hours in a day do you use this?")
 
-ask1 = st.number_input(
-    "Add 2nd appliance (enter 1), No more appliances (enter 2): ")
-
-while ask1 > 2 or ask1 < 1:  # ask for input until ask1 is 1 or 2
-    ask1 = st.number_input(
-        "Add 2nd appliance (enter 1), No more appliances (enter 2): ")
+ask1 = 2
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # if ask1 == 1:  # add app2 (1st line)
 #     A2N = str(input("Name of Appliance: "))
