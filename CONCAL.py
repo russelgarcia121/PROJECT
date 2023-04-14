@@ -770,7 +770,10 @@ if ask1 == 2:
     # INDIVIDUALLY: para ma compute ang (cost) kada month.
     A1con = ((A1*30)/1000)*cost
 
+    # OUTPUT1
+    st.markdown("## **THE RESULTS:**")
     # Identify the high consumption appliance
+    st.write("************************************************************************************************************************************************************************")
     apps = [A1con]
     max_app = apps[0]
     for app in apps:
@@ -779,10 +782,9 @@ if ask1 == 2:
     if max_app == A1con:
         st.write("The appliance with the highest consumption is the (",
                  A1N, ") with a consumption of:", A1con, "kWh")
-
-    # OUTPUT1
-    st.markdown("## **THE RESULTS:**")
     # OUTPUT2
+    st.write("************************************************************************************************************************************************************************")
     st.write("(1)The consumption of", A1N, "is", A1con, "pesos")
+    st.write("************************************************************************************************************************************************************************")
     st.write("Your electricity bill is      :", total1, "pesos")
     st.write("Your energy consumption is    :", Kh1, "kWh")
