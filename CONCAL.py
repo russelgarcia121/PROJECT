@@ -581,25 +581,37 @@ if ask1 == 1 and A1D:  # add app2 (1st line)
                             if app > max_app:
                                 max_app = app
                         if max_app == A1con:
+                            st.write(
+                                "************************************************************************************************************************************************************************")
                             st.write("Name of appliance  :", A1N)
                             st.write("Electricity bill   :", A1con)
                             st.write("Energy consumption :", Y1)
                         if max_app == A2con:
+                            st.write(
+                                "************************************************************************************************************************************************************************")
                             st.write("Name of appliance  :", A2N)
                             st.write("Electricity bill   :", A2con)
                             st.write("Energy consumption :", Y2)
                         if max_app == A3con:
+                            st.write(
+                                "************************************************************************************************************************************************************************")
                             st.write("Name of appliance  :", A3N)
                             st.write("Electricity bill   :", A3con)
                             st.write("Energy consumption :", Y3)
                         if max_app == A4con:
+                            st.write(
+                                "************************************************************************************************************************************************************************")
                             st.write("Name of appliance  :", A4N)
                             st.write("Electricity bill   :", A4con)
                             st.write("Energy consumption :", Y4)
                         if max_app == A5con:
+                            st.write(
+                                "************************************************************************************************************************************************************************")
                             st.write("Name of appliance  :", A5N)
                             st.write("Electricity bill   :", A5con)
                             st.write("Energy consumption :", Y5)
+                            st.write(
+                                "************************************************************************************************************************************************************************")
                         if max_app == A6con:
                             st.write("Name of appliance  :", A6N)
                             st.write("Electricity bill   :", A6con)
@@ -671,22 +683,32 @@ if ask1 == 1 and A1D:  # add app2 (1st line)
                         if app > max_app:
                             max_app = app
                     if max_app == A1con:
+                        st.write(
+                            "************************************************************************************************************************************************************************")
                         st.write("Name of appliance  :", A1N)
                         st.write("Electricity bill   :", A1con)
                         st.write("Energy consumption :", Y1)
                     if max_app == A2con:
+                        st.write(
+                            "************************************************************************************************************************************************************************")
                         st.write("Name of appliance  :", A2N)
                         st.write("Electricity bill   :", A2con)
                         st.write("Energy consumption :", Y2)
                     if max_app == A3con:
+                        st.write(
+                            "************************************************************************************************************************************************************************")
                         st.write("Name of appliance  :", A3N)
                         st.write("Electricity bill   :", A3con)
                         st.write("Energy consumption :", Y3)
                     if max_app == A4con:
+                        st.write(
+                            "************************************************************************************************************************************************************************")
                         st.write("Name of appliance  :", A4N)
                         st.write("Electricity bill   :", A4con)
                         st.write("Energy consumption :", Y4)
                     if max_app == A5con:
+                        st.write(
+                            "************************************************************************************************************************************************************************")
                         st.write("Name of appliance  :", A5N)
                         st.write("Electricity bill   :", A5con)
                         st.write("Energy consumption :", Y5)
@@ -749,18 +771,22 @@ if ask1 == 1 and A1D:  # add app2 (1st line)
                     if app > max_app:
                         max_app = app
                 if max_app == A1con:
+                    st.write("************************************************************************************************************************************************************************")
                     st.write("Name of appliance  :", A1N)
                     st.write("Electricity bill   :", A1con)
                     st.write("Energy consumption :", Y1)
                 if max_app == A2con:
+                    st.write("************************************************************************************************************************************************************************")
                     st.write("Name of appliance  :", A2N)
                     st.write("Electricity bill   :", A2con)
                     st.write("Energy consumption :", Y2)
                 if max_app == A3con:
+                    st.write("************************************************************************************************************************************************************************")
                     st.write("Name of appliance  :", A3N)
                     st.write("Electricity bill   :", A3con)
                     st.write("Energy consumption :", Y3)
                 if max_app == A4con:
+                    st.write("************************************************************************************************************************************************************************")
                     st.write("Name of appliance  :", A4N)
                     st.write("Electricity bill   :", A4con)
                     st.write("Energy consumption :", Y4)
@@ -819,14 +845,17 @@ if ask1 == 1 and A1D:  # add app2 (1st line)
                 if app > max_app:
                     max_app = app
             if max_app == A1con:
+                st.write("************************************************************************************************************************************************************************")
                 st.write("Name of appliance  :", A1N)
                 st.write("Electricity bill   :", A1con)
                 st.write("Energy consumption :", Y1)
             if max_app == A2con:
+                st.write("************************************************************************************************************************************************************************")
                 st.write("Name of appliance  :", A2N)
                 st.write("Electricity bill   :", A2con)
                 st.write("Energy consumption :", Y2)
             if max_app == A3con:
+                st.write("************************************************************************************************************************************************************************")
                 st.write("Name of appliance  :", A3N)
                 st.write("Electricity bill   :", A3con)
                 st.write("Energy consumption :", Y3)
@@ -879,10 +908,12 @@ if ask1 == 1 and A1D:  # add app2 (1st line)
             if app > max_app:
                 max_app = app
         if max_app == A1con:
+            st.write("************************************************************************************************************************************************************************")
             st.write("Name of appliance  :", A1N)
             st.write("Electricity bill   :", A1con)
             st.write("Energy consumption :", Y1)
         if max_app == A2con:
+            st.write("************************************************************************************************************************************************************************")
             st.write("Name of appliance  :", A2N)
             st.write("Electricity bill   :", A2con)
             st.write("Energy consumption :", Y2)
@@ -930,6 +961,7 @@ if ask1 == 2:
         if app > max_app:
             max_app = app
     if max_app == A1con:
+        st.write("************************************************************************************************************************************************************************")
         st.write("Name of appliance  :", A1N)
         st.write("Electricity bill   :", A1con)
         st.write("Energy consumption :", Y1)
