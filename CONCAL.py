@@ -716,21 +716,24 @@ if ask1 == 1 and A1D:  # add app2 (1st line)
         A2 = (A2F * (A2W * A2M))
 
         # TOTAL: watt/hour kada araw.
-        wh1 = A1
         wh2 = (A1 + A2)
 
         # TOTAL: Kilo-watt/hour kada month.
-        Kh1 = (wh1*30) / 1000
-        Kh2 = (wh2 * 30) / 1000
+        Kh2 = (wh2*30) / 1000
 
         # TOTAL: para ma compute ang (cost) kada month.
-        total1 = cost * Kh1
         total2 = cost * Kh2
+
+        # INDIVIDUAL: Kilo-watt/hour
+        Y1 = A1/1000
+        Y2 = A2/1000
 
         # INDIVIDUALLY: para ma compute ang (cost) kada month.
         A1con = ((A1 * 30) / 1000) * cost
         A2con = ((A2 * 30) / 1000) * cost
 
+        # OUTPUT1
+        st.markdown("## **THE RESULTS:**")
         # Identify the high consumption appliance
         apps = [A1con, A2con]
         max_app = apps[0]
@@ -738,18 +741,18 @@ if ask1 == 1 and A1D:  # add app2 (1st line)
             if app > max_app:
                 max_app = app
         if max_app == A1con:
-            st.write("Ang may pinkamataas na konsumo ay ang", A1N)
+            st.write(A1N)
+            st.write("Electricity bill:", A1con)
+            st.write("Energy consumption:", Y1)
         if max_app == A2con:
-            st.write("Ang may pinkamataas na konsumo ay ang", A2N)
-
-        # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+            st.write(A1N)
+            st.write("Electricity bill:", A2con)
+            st.write("Energy consumption:", Y2)
         # OUTPUT2
         st.write("************************************************************************************************************************************************************************")
         st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
         st.write(A1N, ":", A1con, "pesos")
         st.write(A2N, ":", A2con, "pesos")
-        st.write("The largest number in the list is:", max_app)
         st.write("************************************************************************************************************************************************************************")
         st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
         st.write("Electricity bill:", total2, "pesos")
@@ -771,6 +774,9 @@ if ask1 == 2:
 
     # TOTAL: para ma compute ang (cost) kada month.
     total1 = cost * Kh1
+
+    # INDIVIDUAL: Kilo-watt/hour
+    Y1 = A1/1000
 
     # INDIVIDUALLY: para ma compute ang (cost) kada month.
     A1con = ((A1*30)/1000)*cost
