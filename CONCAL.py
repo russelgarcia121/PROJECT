@@ -658,9 +658,10 @@ if ask1 == 1 and A1D:  # add app2 (1st line)
                 A3con = ((A3 * 30) / 1000) * cost
                 A4con = ((A4 * 30) / 1000) * cost
                 # INDIVIDUAL: Kilo-watt/hour
-                Y1 = A1/1000
-                Y2 = A2/1000
-                Y3 = A3/1000
+                Y1 = (A1*30)/1000
+                Y2 = (A2*30)/1000
+                Y3 = (A3*30)/1000
+                Y4 = (A4*30)/1000
 
                 # OUTPUT1
                 st.markdown("## **THE RESULTS:**")
@@ -728,9 +729,9 @@ if ask1 == 1 and A1D:  # add app2 (1st line)
             A3con = ((A3 * 30) / 1000) * cost
 
             # INDIVIDUAL: Kilo-watt/hour
-            Y1 = A1/1000
-            Y2 = A2/1000
-            Y3 = A3/1000
+            Y1 = (A1*30)/1000
+            Y2 = (A2*30)/1000
+            Y3 = (A3*30)/1000
 
             # OUTPUT1
             st.markdown("## **THE RESULTS:**")
@@ -789,8 +790,8 @@ if ask1 == 1 and A1D:  # add app2 (1st line)
         A2con = ((A2 * 30) / 1000) * cost
 
         # INDIVIDUAL: Kilo-watt/hour
-        Y1 = A1/1000
-        Y2 = A2/1000
+        Y1 = (A1*30)/1000
+        Y2 = (A2*30)/1000
 
         # OUTPUT1
         st.markdown("## **THE RESULTS:**")
