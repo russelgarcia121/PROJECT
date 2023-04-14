@@ -783,13 +783,13 @@ if ask1 == 2:
             max_app = app
     if max_app == A1con:
         st.write(A1N)
-        st.write("Bill:", A1con)
-        st.write("Electricity consumption:", Kh1)
+        st.write("Electricity bill:", A1con)
+        st.write("Energy consumption:", Kh1)
     # OUTPUT2
     st.write("************************************************************************************************************************************************************************")
     st.markdown("**IDNDIVIDUAL BILL**")
     st.write(A1N, ":", A1con, "pesos")
     st.write("************************************************************************************************************************************************************************")
-    st.markdown("**TOTAL BILL AND ELECTRICITY CONSUMPTION**")
-    st.write("Your electricity bill is      :", total1, "pesos")
-    st.write("Your energy consumption is    :", Kh1, "kWh")
+    st.markdown("**TOTAL BILL AND ENERGY CONSUMPTION**")
+    st.write("Electricity bill:", total1, "pesos")
+    st.write("Energy consumption:", Kh1, "kWh")
