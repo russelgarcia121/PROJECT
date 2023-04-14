@@ -24,29 +24,24 @@ if A1N:
         "Add 2nd appliance (enter 1), No more appliances (enter 2): ")
 
     while ask1 > 2 or ask1 < 1:  # ask for input until ask1 is 1 or 2
-        ask1 = st.number_input(
-            "Add 2nd appliance (enter 1), No more appliances (enter 2): ")
+        ask1 = st.number_input("Add 2nd appliance (enter 1), No more appliances (enter 2): ")
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 if ask1 == 1:  # add app2 (1st line)
     A2N = st.text_input("Name of 2nd appliance: "))
     if A2N:
         A2M=st.number_input(f"How many {A2N} are you using?")
         A2W=st.number_input(f"What is the wattage of {A2N} ?")
-        A2B=st.number_input(
-            "How many days in a month do you use this?(1-31)")
+        A2B=st.number_input("How many days in a month do you use this?(1-31)")
 
         while A2B > 31 or A2B < 1:
-            A2B=st.number_input(
-                "How many days in a month do you use this?(1-31)")
+            A2B=st.number_input("How many days in a month do you use this?(1-31)")
 
         A2D=st.number_input("How many hours in a day do you use this?(1-24)")
 
         while A2D > 24 or A2D < 0.00001:  # ask for input until A()D is <=24 or >=1
-            A2D=st.number_input(
-                "How many hours in a day do you use this?(1-24)")
+            A2D=st.number_input("How many hours in a day do you use this?(1-24)")
 
-        ask2=st.number_input(
-            "Add 3rd appliance (enter 1), No more appliances (enter 2): ")
+        ask2=st.number_input("Add 3rd appliance (enter 1), No more appliances (enter 2): ")
 
         while ask2 > 2 or ask2 < 1:  # ask for input until ask1 is 1 or 2
             ask2=st.number_input(
