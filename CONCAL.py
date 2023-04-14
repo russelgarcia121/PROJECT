@@ -19,12 +19,12 @@ if A1N:
     st.write("What is the wattage of", A1N, "?")
     A1W = st.number_input("")
     A1B = st.number_input("How many days in a month do you use this?")
-    while A1B > 31 or A1B < 1:
-        A1B = st.number_input("How many days in a month do you use this?")
+#     while A1B > 31 or A1B < 1:
+#         A1B = st.number_input("How many days in a month do you use this?")
 
-    A1D = st.number_input("How many hours in a day do you use this?")
-    while A1D > 24 or A1D < 0.00001:
-        A1D = st.number_input("How many hours in a day do you use this?")
+#     A1D = st.number_input("How many hours in a day do you use this?")
+#     while A1D > 24 or A1D < 0.00001:
+#         A1D = st.number_input("How many hours in a day do you use this?")
 
 # ask1 = 2
 
