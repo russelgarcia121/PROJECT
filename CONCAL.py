@@ -26,37 +26,37 @@ if A1N:
     while A1D > 24 or A1D < 0.00001:
         A1D = st.number_input("How many hours in a day do you use this?")
 
-ask1 = 2
+# ask1 = 2
 
-if ask1 == 2:
-    # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B/30) * A1D
+# if ask1 == 2:
+#     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
+#     A1F = (A1B/30) * A1D
 
-    # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
-    A1 = (A1F * (A1W * A1M))
+#     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
+#     A1 = (A1F * (A1W * A1M))
 
-    # TOTAL: watt/hour kada araw.
-    wh1 = A1
+#     # TOTAL: watt/hour kada araw.
+#     wh1 = A1
 
-    # TOTAL: Kilo-watt/hour kada month.
-    Kh1 = (wh1*30) / 1000
+#     # TOTAL: Kilo-watt/hour kada month.
+#     Kh1 = (wh1*30) / 1000
 
-    # TOTAL: para ma compute ang (cost) kada month.
-    total1 = cost * Kh1
+#     # TOTAL: para ma compute ang (cost) kada month.
+#     total1 = cost * Kh1
 
-    # INDIVIDUALLY: para ma compute ang (cost) kada month.
-    A1con = ((A1*30)/1000)*cost
+#     # INDIVIDUALLY: para ma compute ang (cost) kada month.
+#     A1con = ((A1*30)/1000)*cost
 
-    # Identify the high consumption appliance
-    apps = [A1con]
-    max_app = apps[0]
-    for app in apps:
-        if app > max_app:
-            max_app = app
-    if max_app == A1con:
-        st.write("Ang may pinkamataas na konsumo ay ang", A1N)
+#     # Identify the high consumption appliance
+#     apps = [A1con]
+#     max_app = apps[0]
+#     for app in apps:
+#         if app > max_app:
+#             max_app = app
+#     if max_app == A1con:
+#         st.write("Ang may pinkamataas na konsumo ay ang", A1N)
 
-    # OUTPUT
-    st.write("Your electricity bill is", total1, "pesos")
-    st.write("Your energy consumption is", Kh1, "kWh")
-    st.write("(1)The consumption of", A1N, "is", A1con, "pesos")
+#     # OUTPUT
+#     st.write("Your electricity bill is", total1, "pesos")
+#     st.write("Your energy consumption is", Kh1, "kWh")
+#     st.write("(1)The consumption of", A1N, "is", A1con, "pesos")
