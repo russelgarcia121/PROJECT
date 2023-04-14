@@ -745,7 +745,7 @@ if ask1 == 1 and A1D:  # add app2 (1st line)
             st.write("Electricity bill:", A1con)
             st.write("Energy consumption:", Y1)
         if max_app == A2con:
-            st.write(A1N)
+            st.write(A2N)
             st.write("Electricity bill:", A2con)
             st.write("Energy consumption:", Y2)
         # OUTPUT2
