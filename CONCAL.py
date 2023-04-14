@@ -690,6 +690,11 @@ if ask1 == 1 and A1D:  # add app2 (1st line)
             # TOTAL: para ma compute ang (cost) kada month.
             total3 = cost * Kh3
 
+            # INDIVIDUAL: Kilo-watt/hour
+            Y1 = A1/1000
+            Y2 = A2/1000
+            Y3 = A3/1000
+
             # INDIVIDUALLY: para ma compute ang (cost) kada month.
             A1con = ((A1 * 30) / 1000) * cost
             A2con = ((A2 * 30) / 1000) * cost
@@ -697,13 +702,34 @@ if ask1 == 1 and A1D:  # add app2 (1st line)
 
             # OUTPUT1
             st.markdown("## **THE RESULTS:**")
+            # Identify the high consumption appliance
+            apps = [A1con, A2con, A3con]
+            max_app = apps[0]
+            for app in apps:
+                if app > max_app:
+                    max_app = app
+            if max_app == A1con:
+                st.write("Name of appliance  :", A1N)
+                st.write("Electricity bill   :", A1con)
+                st.write("Energy consumption :", Y1)
+            if max_app == A2con:
+                st.write("Name of appliance  :", A2N)
+                st.write("Electricity bill   :", A2con)
+                st.write("Energy consumption :", Y2)
+            if max_app == A2con:
+                st.write("Name of appliance  :", A3N)
+                st.write("Electricity bill   :", A3con)
+                st.write("Energy consumption :", Y3)
             # OUTPUT2
-            st.write("(1)The consumption of", A1N, "is:", A1con, "pesos")
-            st.write("(2)The consumption of", A2N, "is:", A2con, "pesos")
-            st.write("(3)The consumption of", A3N, "is:", A3con, "pesos")
-            st.write("Your electricity bill is", total3, "pesos")
-            st.write("Your energy consumption is", Kh3, "kWh")
-            # print("The largest number in the list is:", max_app)
+            st.write("************************************************************************************************************************************************************************")
+            st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+            st.write(A1N, ":", A1con, "pesos")
+            st.write(A2N, ":", A2con, "pesos")
+            st.write(A3N, ":", A3con, "pesos")
+            st.write("************************************************************************************************************************************************************************")
+            st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+            st.write("Electricity bill:", total3, "pesos")
+            st.write("Energy consumption:", Kh3, "kWh")
 
 # compute app1 and 2 (2nd line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     if ask2 == 2:
