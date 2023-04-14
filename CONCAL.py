@@ -703,6 +703,8 @@ if ask1 == 1 and A1D:  # add app2 (1st line)
             # OUTPUT1
             st.markdown("## **THE RESULTS:**")
             # Identify the high consumption appliance
+            st.write("************************************************************************************************************************************************************************")
+            st.markdown("**HIGHEST ENERGY CONSUMPTION**")
             apps = [A1con, A2con, A3con]
             max_app = apps[0]
             for app in apps:
@@ -761,6 +763,8 @@ if ask1 == 1 and A1D:  # add app2 (1st line)
         # OUTPUT1
         st.markdown("## **THE RESULTS:**")
         # Identify the high consumption appliance
+        st.write("************************************************************************************************************************************************************************")
+        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
         apps = [A1con, A2con]
         max_app = apps[0]
         for app in apps:
