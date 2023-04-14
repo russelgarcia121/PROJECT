@@ -741,13 +741,13 @@ if ask1 == 1 and A1D:  # add app2 (1st line)
             if app > max_app:
                 max_app = app
         if max_app == A1con:
-            st.write(A1N)
-            st.write("Electricity bill:", A1con)
-            st.write("Energy consumption:", Y1)
+            st.write("Name of appliance  :", A1N)
+            st.write("Electricity bill   :", A1con)
+            st.write("Energy consumption :", Y1)
         if max_app == A2con:
-            st.write(A2N)
-            st.write("Electricity bill:", A2con)
-            st.write("Energy consumption:", Y2)
+            st.write("Name of appliance  :", A2N)
+            st.write("Electricity bill   :", A2con)
+            st.write("Energy consumption :", Y2)
         # OUTPUT2
         st.write("************************************************************************************************************************************************************************")
         st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
@@ -792,9 +792,9 @@ if ask1 == 2:
         if app > max_app:
             max_app = app
     if max_app == A1con:
-        st.write(A1N)
-        st.write("Electricity bill:", A1con)
-        st.write("Energy consumption:", Kh1)
+        st.write("Name of appliance  :", A1N)
+        st.write("Electricity bill   :", A1con)
+        st.write("Energy consumption :", Kh1)
     # OUTPUT2
     st.write("************************************************************************************************************************************************************************")
     st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
