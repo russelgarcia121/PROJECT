@@ -372,7 +372,10 @@ if ask1 == 1:  # add app2 (1st line)
                                     A8con = ((A8 * 30) / 1000) * cost
                                     A9con = ((A9 * 30) / 1000) * cost
 
-                                    # OUTPUT
+                                    # OUTPUT1
+                                    st.markdown("## **THE RESULTS:**")
+                                    # OUTPUT2
+
                                     st.write("(1)The consumption of",
                                              A1N, "is:", A1con, "pesos")
                                     st.write("(2)The consumption of", A2N,
@@ -437,7 +440,9 @@ if ask1 == 1:  # add app2 (1st line)
                                 A7con = ((A7 * 30) / 1000) * cost
                                 A8con = ((A8 * 30) / 1000) * cost
 
-                                # OUTPUT
+                                # OUTPUT1
+                                st.markdown("## **THE RESULTS:**")
+                                # OUTPUT2
                                 st.write("(1)The consumption of",
                                          A1N, "is:", A1con, "pesos")
                                 st.write("(2)The consumption of", A2N,
@@ -498,7 +503,9 @@ if ask1 == 1:  # add app2 (1st line)
                             A6con = ((A6 * 30) / 1000) * cost
                             A7con = ((A7 * 30) / 1000) * cost
 
-                            # OUTPUT
+                            # OUTPUT1
+                            st.markdown("## **THE RESULTS:**")
+                            # OUTPUT2
                             st.write("(1)The consumption of",
                                      A1N, "is:", A1con, "pesos")
                             st.write("(2)The consumption of", A2N,
@@ -553,7 +560,9 @@ if ask1 == 1:  # add app2 (1st line)
                         A5con = ((A5 * 30) / 1000) * cost
                         A6con = ((A6 * 30) / 1000) * cost
 
-                        # OUTPUT
+                        # OUTPUT1
+                        st.markdown("## **THE RESULTS:**")
+                        # OUTPUT2
                         st.write("(1)The consumption of",
                                  A1N, "is:", A1con, "pesos")
                         st.write("(2)The consumption of",
@@ -602,7 +611,9 @@ if ask1 == 1:  # add app2 (1st line)
                     A4con = ((A4 * 30) / 1000) * cost
                     A5con = ((A5 * 30) / 1000) * cost
 
-                    # OUTPUT
+                    # OUTPUT1
+                    st.markdown("## **THE RESULTS:**")
+                    # OUTPUT2
                     st.write("(1)The consumption of",
                              A1N, "is:", A1con, "pesos")
                     st.write("(2)The consumption of",
@@ -646,7 +657,9 @@ if ask1 == 1:  # add app2 (1st line)
                 A3con = ((A3 * 30) / 1000) * cost
                 A4con = ((A4 * 30) / 1000) * cost
 
-                # OUTPUT
+                # OUTPUT1
+                st.markdown("## **THE RESULTS:**")
+                # OUTPUT2
                 st.write("(1)The consumption of", A1N, "is:", A1con, "pesos")
                 st.write("(2)The consumption of", A2N, "is:", A2con, "pesos")
                 st.write("(3)The consumption of", A3N, "is:", A3con, "pesos")
@@ -681,7 +694,9 @@ if ask1 == 1:  # add app2 (1st line)
             A2con = ((A2 * 30) / 1000) * cost
             A3con = ((A3 * 30) / 1000) * cost
 
-            # OUTPUT
+            # OUTPUT1
+            st.markdown("## **THE RESULTS:**")
+            # OUTPUT2
             st.write("(1)The consumption of", A1N, "is:", A1con, "pesos")
             st.write("(2)The consumption of", A2N, "is:", A2con, "pesos")
             st.write("(3)The consumption of", A3N, "is:", A3con, "pesos")
@@ -726,7 +741,9 @@ if ask1 == 1:  # add app2 (1st line)
         if max_app == A2con:
             st.write("Ang may pinkamataas na konsumo ay ang", A2N)
 
-        # OUTPUT
+        # OUTPUT1
+        st.markdown("## **THE RESULTS:**")
+        # OUTPUT2
         st.write("(1)The consumption of", A1N, "is:", A1con, "pesos")
         st.write("(2)The consumption of", A2N, "is:", A2con, "pesos")
         st.write("The largest number in the list is:", max_app)
@@ -763,7 +780,9 @@ if ask1 == 2:
         st.write("The appliance with the highest consumption is the (",
                  A1N, ") with a consumption of:", A1con, "kWh")
 
-    # OUTPUT
+    # OUTPUT1
+    st.markdown("## **THE RESULTS:**")
+    # OUTPUT2
     st.write("(1)The consumption of", A1N, "is", A1con, "pesos")
     st.write("Your electricity bill is      :", total1, "pesos")
     st.write("Your energy consumption is    :", Kh1, "kWh")
