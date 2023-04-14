@@ -789,6 +789,6 @@ if ask1 == 2:
     st.markdown("**IDNDIVIDUAL BILL**")
     st.write(A1N, ":", A1con, "pesos")
     st.write("************************************************************************************************************************************************************************")
-    st.markdown("**TOTAL BILL**")
+    st.markdown("**TOTAL BILL AND ELECTRICITY CONSUMPTION**")
     st.write("Your electricity bill is      :", total1, "pesos")
     st.write("Your energy consumption is    :", Kh1, "kWh")
