@@ -13,12 +13,12 @@ cost = st.number_input("The cost per kilowatt-hour in pesos:")
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # add 1st app
 A1N = st.text_input("Name of Appliance:")
-# if A1N:
-#     st.write("How many", A1N, "are you using?")
-#     A1M = st.number_input("")
-#     st.write("What is the wattage of", A1N, "?")
-#     A1W = st.number_input("")
-#     A1B = st.number_input("How many days in a month do you use this?")
+if A1N:
+    st.write("How many", A1N, "are you using?")
+    A1M = st.number_input("")
+    st.write("What is the wattage of", A1N, "?")
+    A1W = st.number_input("")
+    A1B = st.number_input("How many days in a month do you use this?")
 #     while A1B > 31 or A1B < 1:
 #         A1B = st.number_input("How many days in a month do you use this?")
 
