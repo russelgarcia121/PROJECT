@@ -20,12 +20,12 @@ if A1N:
     while A1D > 24 or A1D < 0.00001:
         A1D = st.number_input("How many hours in a day do you use this?(1-24)")
 
-    ask1 = int(
-        input("Add 2nd appliance (enter 1), No more appliances (enter 2): "))
+    ask1 = st.number_input(
+        "Add 2nd appliance (enter 1), No more appliances (enter 2): ")
 
     while ask1 > 2 or ask1 < 1:  # ask for input until ask1 is 1 or 2
-        ask1 = int(
-            input("Add 2nd appliance (enter 1), No more appliances (enter 2): "))
+        ask1 = st.number_input(
+            "Add 2nd appliance (enter 1), No more appliances (enter 2): ")
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 if ask1 == 1:  # add app2 (1st line)
     A2N = str(input("Name of 2nd appliance: "))
@@ -45,12 +45,12 @@ if ask1 == 1:  # add app2 (1st line)
             A2D = st.number_input(
                 "How many hours in a day do you use this?(1-24)")
 
-        ask2 = int(
-            input("Add 3rd appliance (enter 1), No more appliances (enter 2): "))
+        ask2 = st.number_input(
+            "Add 3rd appliance (enter 1), No more appliances (enter 2): ")
 
         while ask2 > 2 or ask2 < 1:  # ask for input until ask1 is 1 or 2
-            ask2 = int(
-                input("Add 3rd appliance (enter 1), No more appliances (enter 2): "))
+            ask2 = st.number_input(
+                "Add 3rd appliance (enter 1), No more appliances (enter 2): ")
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     if ask2 == 1:  # add app3 (2nd line)
         A3N = str(input("Name of 3rd appliance:"))
@@ -71,12 +71,12 @@ if ask1 == 1:  # add app2 (1st line)
                 A3D = st.number_input(
                     "How many hours in a day do you use this?(1-24)")
 
-            ask3 = int(
-                input("Add 4th appliance (enter 1), No more appliances (enter 2): "))
+            ask3 = st.number_input(
+                "Add 4th appliance (enter 1), No more appliances (enter 2): ")
 
             while ask3 > 2 or ask3 < 1:  # ask for input until ask1 is 1 or 2
-                ask3 = int(
-                    input("Add 4th appliance (enter 1), No more appliances (enter 2): "))
+                ask3 = st.number_input(
+                    "Add 4th appliance (enter 1), No more appliances (enter 2): ")
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         if ask3 == 1:  # add app4 (3rd line)
             A4N = str(input("Name of 4th appliance: "))
@@ -97,12 +97,12 @@ if ask1 == 1:  # add app2 (1st line)
                     A4D = st.number_input(
                         "How many hours in a day do you use this?(1-24)")
 
-                ask4 = int(
-                    input("Add 5th appliance (enter 1), No more appliances (enter 2): "))
+                ask4 = st.number_input(
+                    "Add 5th appliance (enter 1), No more appliances (enter 2): ")
 
                 while ask4 > 2 or ask4 < 1:  # ask for input until ask1 is 1 or 2
-                    ask4 = int(
-                        input("Add 5th appliance (enter 1), No more appliances (enter 2): "))
+                    ask4 = st.number_input(
+                        "Add 5th appliance (enter 1), No more appliances (enter 2): ")
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
             if ask4 == 1:  # add app5 (4th line)
                 A5N = str(input("Name of 5th appliance: "))
@@ -123,12 +123,12 @@ if ask1 == 1:  # add app2 (1st line)
                         A5D = st.number_input(
                             "How many hours in a day do you use this?(1-24)")
 
-                    ask5 = int(
-                        input("Add 6th appliance (enter 1), No more appliances (enter 2): "))
+                    ask5 = st.number_input(
+                        "Add 6th appliance (enter 1), No more appliances (enter 2): ")
 
                     while ask5 > 2 or ask5 < 1:  # ask for input until ask1 is 1 or 2
-                        ask5 = int(
-                            input("Add 6th appliance (enter 1), No more appliances (enter 2): "))
+                        ask5 = st.number_input(
+                            "Add 6th appliance (enter 1), No more appliances (enter 2): ")
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                 if ask5 == 1:  # add app6 (5th line)
                     A6N = str(input("Name of 6th appliance: "))
@@ -150,12 +150,12 @@ if ask1 == 1:  # add app2 (1st line)
                             A6D = st.number_input(
                                 "How many hours in a day do you use this?(1-24)")
 
-                        ask6 = int(
-                            input("Add 7th appliance (enter 1), No more appliances (enter 2): "))
+                        ask6 = st.number_input(
+                            "Add 7th appliance (enter 1), No more appliances (enter 2): ")
 
                         while ask6 > 2 or ask6 < 1:  # ask for input until ask1 is 1 or 2
-                            ask6 = int(
-                                input("Add 7th appliance (enter 1), No more appliances (enter 2): "))
+                            ask6 = st.number_input(
+                                "Add 7th appliance (enter 1), No more appliances (enter 2): ")
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                     if ask6 == 1:  # add app7 (6th line)
                         A7N = str(input("Name of 7th appliance: "))
@@ -178,12 +178,12 @@ if ask1 == 1:  # add app2 (1st line)
                                 A7D = st.number_input(
                                     "How many hours in a day do you use this?(1-24)")
 
-                            ask7 = int(
-                                input("Add 8th appliance (enter 1), No more appliances (enter 2): "))
+                            ask7 = st.number_input(
+                                "Add 8th appliance (enter 1), No more appliances (enter 2): ")
 
                             while ask7 > 2 or ask7 < 1:  # ask for input until ask1 is 1 or 2
-                                ask6 = int(
-                                    input("Add 8th appliance (enter 1), No more appliances (enter 2): "))
+                                ask6 = st.number_input(
+                                    "Add 8th appliance (enter 1), No more appliances (enter 2): ")
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                         if ask7 == 1:  # add app8 (7th line)
                             A8N = str(input("Name of 8th appliance: "))
@@ -206,12 +206,12 @@ if ask1 == 1:  # add app2 (1st line)
                                     A8D = st.number_input(
                                         "How many hours in a day do you use this?(1-24)")
 
-                                ask8 = int(
-                                    input("Add 9th appliance (enter 1), No more appliances (enter 2): "))
+                                ask8 = st.number_input(
+                                    "Add 9th appliance (enter 1), No more appliances (enter 2): ")
 
                                 while ask8 > 2 or ask8 < 1:  # ask for input until ask1 is 1 or 2
-                                    ask8 = int(
-                                        input("Add 9th appliance (enter 1), No more appliances (enter 2): "))
+                                    ask8 = st.number_input(
+                                        "Add 9th appliance (enter 1), No more appliances (enter 2): ")
 
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                             if ask8 == 1:  # add app9 (8th line)
@@ -236,12 +236,10 @@ if ask1 == 1:  # add app2 (1st line)
                                             "How many hours in a day do you use this?(1-24)")
 
                                     ask9 = 2
-                                # ask9 = int(
-                                #     input("Add 10th appliance (enter 1), No more appliances (enter 2): "))
+                                # ask9 = st.number_input("Add 10th appliance (enter 1), No more appliances (enter 2): ")
 
                                 # while ask9 > 2 or ask9 < 1:  # ask for input until ask1 is 1 or 2
-                                #     ask9 = int(
-                                #         input("Add 10th appliance (enter 1), No more appliances (enter 2): "))
+                                #     ask9 = st.number_input("Add 10th appliance (enter 1), No more appliances (enter 2): ")
 
 # The Great Wall of Code HAHAHAHAHAHAHA /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # The Great Wall of Code HAHAHAHAHAHAHA /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -363,26 +361,26 @@ if ask1 == 1:  # add app2 (1st line)
                                     A8con = ((A8 * 30) / 1000) * cost
 
                                     # OUTPUT
-                                    print("Your electricity bill is",
-                                          total4, "pesos")
-                                    print("Your energy consumption is",
-                                          Kh4, "kWh")
-                                    print("(1)The consumption of",
-                                          A1N, "is:", A1con, "pesos")
-                                    print("(2)The consumption of", A2N,
-                                          "is:", A2con, "pesos")
-                                    print("(3)The consumption of", A3N,
-                                          "is:", A3con, "pesos")
-                                    print("(4)The consumption of", A4N,
-                                          "is:", A4con, "pesos")
-                                    print("(5)The consumption of", A5N,
-                                          "is:", A5con, "pesos")
-                                    print("(6)The consumption of", A6N,
-                                          "is:", A6con, "pesos")
-                                    print("(7)The consumption of", A7N,
-                                          "is:", A7con, "pesos")
-                                    print("(8)The consumption of", A8N,
-                                          "is:", A8con, "pesos")
+                                    st.write("(1)The consumption of",
+                                             A1N, "is:", A1con, "pesos")
+                                    st.write("(2)The consumption of", A2N,
+                                             "is:", A2con, "pesos")
+                                    st.write("(3)The consumption of", A3N,
+                                             "is:", A3con, "pesos")
+                                    st.write("(4)The consumption of", A4N,
+                                             "is:", A4con, "pesos")
+                                    st.write("(5)The consumption of", A5N,
+                                             "is:", A5con, "pesos")
+                                    st.write("(6)The consumption of", A6N,
+                                             "is:", A6con, "pesos")
+                                    st.write("(7)The consumption of", A7N,
+                                             "is:", A7con, "pesos")
+                                    st.write("(8)The consumption of", A8N,
+                                             "is:", A8con, "pesos")
+                                    st.write("Your electricity bill is",
+                                             total4, "pesos")
+                                    st.write("Your energy consumption is",
+                                             Kh4, "kWh")
                                     # print("The largest number in the list is:", max_app)
 # compute app1,2,3,4,5,6,7 and 8 (8th line)# ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                             if ask8 == 2:
@@ -426,25 +424,26 @@ if ask1 == 1:  # add app2 (1st line)
                                 A8con = ((A8 * 30) / 1000) * cost
 
                                 # OUTPUT
-                                print("Your electricity bill is",
-                                      total4, "pesos")
-                                print("Your energy consumption is", Kh4, "kWh")
-                                print("(1)The consumption of",
-                                      A1N, "is:", A1con, "pesos")
-                                print("(2)The consumption of", A2N,
-                                      "is:", A2con, "pesos")
-                                print("(3)The consumption of", A3N,
-                                      "is:", A3con, "pesos")
-                                print("(4)The consumption of", A4N,
-                                      "is:", A4con, "pesos")
-                                print("(5)The consumption of", A5N,
-                                      "is:", A5con, "pesos")
-                                print("(6)The consumption of", A6N,
-                                      "is:", A6con, "pesos")
-                                print("(7)The consumption of", A7N,
-                                      "is:", A7con, "pesos")
-                                print("(8)The consumption of", A8N,
-                                      "is:", A8con, "pesos")
+                                st.write("(1)The consumption of",
+                                         A1N, "is:", A1con, "pesos")
+                                st.write("(2)The consumption of", A2N,
+                                         "is:", A2con, "pesos")
+                                st.write("(3)The consumption of", A3N,
+                                         "is:", A3con, "pesos")
+                                st.write("(4)The consumption of", A4N,
+                                         "is:", A4con, "pesos")
+                                st.write("(5)The consumption of", A5N,
+                                         "is:", A5con, "pesos")
+                                st.write("(6)The consumption of", A6N,
+                                         "is:", A6con, "pesos")
+                                st.write("(7)The consumption of", A7N,
+                                         "is:", A7con, "pesos")
+                                st.write("(8)The consumption of", A8N,
+                                         "is:", A8con, "pesos")
+                                st.write("Your electricity bill is",
+                                         total4, "pesos")
+                                st.write(
+                                    "Your energy consumption is", Kh4, "kWh")
                                 # print("The largest number in the list is:", max_app)
 
 # compute app1,2,3,4,5,6 and 7 (7th line) # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -486,22 +485,23 @@ if ask1 == 1:  # add app2 (1st line)
                             A7con = ((A7 * 30) / 1000) * cost
 
                             # OUTPUT
-                            print("Your electricity bill is", total4, "pesos")
-                            print("Your energy consumption is", Kh4, "kWh")
-                            print("(1)The consumption of",
-                                  A1N, "is:", A1con, "pesos")
-                            print("(2)The consumption of", A2N,
-                                  "is:", A2con, "pesos")
-                            print("(3)The consumption of", A3N,
-                                  "is:", A3con, "pesos")
-                            print("(4)The consumption of", A4N,
-                                  "is:", A4con, "pesos")
-                            print("(5)The consumption of", A5N,
-                                  "is:", A5con, "pesos")
-                            print("(6)The consumption of", A6N,
-                                  "is:", A6con, "pesos")
-                            print("(7)The consumption of", A7N,
-                                  "is:", A7con, "pesos")
+                            st.write("(1)The consumption of",
+                                     A1N, "is:", A1con, "pesos")
+                            st.write("(2)The consumption of", A2N,
+                                     "is:", A2con, "pesos")
+                            st.write("(3)The consumption of", A3N,
+                                     "is:", A3con, "pesos")
+                            st.write("(4)The consumption of", A4N,
+                                     "is:", A4con, "pesos")
+                            st.write("(5)The consumption of", A5N,
+                                     "is:", A5con, "pesos")
+                            st.write("(6)The consumption of", A6N,
+                                     "is:", A6con, "pesos")
+                            st.write("(7)The consumption of", A7N,
+                                     "is:", A7con, "pesos")
+                            st.write("Your electricity bill is",
+                                     total4, "pesos")
+                            st.write("Your energy consumption is", Kh4, "kWh")
                             # print("The largest number in the list is:", max_app)
 
 # compute app1,2,3,4,5 and 6 (6th line) ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -540,20 +540,20 @@ if ask1 == 1:  # add app2 (1st line)
                         A6con = ((A6 * 30) / 1000) * cost
 
                         # OUTPUT
-                        print("Your electricity bill is", total4, "pesos")
-                        print("Your energy consumption is", Kh4, "kWh")
-                        print("(1)The consumption of",
-                              A1N, "is:", A1con, "pesos")
-                        print("(2)The consumption of",
-                              A2N, "is:", A2con, "pesos")
-                        print("(3)The consumption of",
-                              A3N, "is:", A3con, "pesos")
-                        print("(4)The consumption of",
-                              A4N, "is:", A4con, "pesos")
-                        print("(5)The consumption of",
-                              A5N, "is:", A5con, "pesos")
-                        print("(6)The consumption of",
-                              A6N, "is:", A6con, "pesos")
+                        st.write("(1)The consumption of",
+                                 A1N, "is:", A1con, "pesos")
+                        st.write("(2)The consumption of",
+                                 A2N, "is:", A2con, "pesos")
+                        st.write("(3)The consumption of",
+                                 A3N, "is:", A3con, "pesos")
+                        st.write("(4)The consumption of",
+                                 A4N, "is:", A4con, "pesos")
+                        st.write("(5)The consumption of",
+                                 A5N, "is:", A5con, "pesos")
+                        st.write("(6)The consumption of",
+                                 A6N, "is:", A6con, "pesos")
+                        st.write("Your electricity bill is", total4, "pesos")
+                        st.write("Your energy consumption is", Kh4, "kWh")
                         # print("The largest number in the list is:", max_app)
 
 # compute app1,2,3,4 and 5 (5th line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -589,13 +589,18 @@ if ask1 == 1:  # add app2 (1st line)
                     A5con = ((A5 * 30) / 1000) * cost
 
                     # OUTPUT
-                    print("Your electricity bill is", total4, "pesos")
-                    print("Your energy consumption is", Kh4, "kWh")
-                    print("(1)The consumption of", A1N, "is:", A1con, "pesos")
-                    print("(2)The consumption of", A2N, "is:", A2con, "pesos")
-                    print("(3)The consumption of", A3N, "is:", A3con, "pesos")
-                    print("(4)The consumption of", A4N, "is:", A4con, "pesos")
-                    print("(5)The consumption of", A5N, "is:", A5con, "pesos")
+                    st.write("(1)The consumption of",
+                             A1N, "is:", A1con, "pesos")
+                    st.write("(2)The consumption of",
+                             A2N, "is:", A2con, "pesos")
+                    st.write("(3)The consumption of",
+                             A3N, "is:", A3con, "pesos")
+                    st.write("(4)The consumption of",
+                             A4N, "is:", A4con, "pesos")
+                    st.write("(5)The consumption of",
+                             A5N, "is:", A5con, "pesos")
+                    st.write("Your electricity bill is", total4, "pesos")
+                    st.write("Your energy consumption is", Kh4, "kWh")
                     # print("The largest number in the list is:", max_app)
 
 # compute app1,2,3 and 4 (4th line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -628,12 +633,12 @@ if ask1 == 1:  # add app2 (1st line)
                 A4con = ((A4 * 30) / 1000) * cost
 
                 # OUTPUT
-                print("Your electricity bill is", total4, "pesos")
-                print("Your energy consumption is", Kh4, "kWh")
-                print("(1)The consumption of", A1N, "is:", A1con, "pesos")
-                print("(2)The consumption of", A2N, "is:", A2con, "pesos")
-                print("(3)The consumption of", A3N, "is:", A3con, "pesos")
-                print("(4)The consumption of", A4N, "is:", A4con, "pesos")
+                st.write("(1)The consumption of", A1N, "is:", A1con, "pesos")
+                st.write("(2)The consumption of", A2N, "is:", A2con, "pesos")
+                st.write("(3)The consumption of", A3N, "is:", A3con, "pesos")
+                st.write("(4)The consumption of", A4N, "is:", A4con, "pesos")
+                st.write("Your electricity bill is", total4, "pesos")
+                st.write("Your energy consumption is", Kh4, "kWh")
                 # print("The largest number in the list is:", max_app)
 
 # compute app1,2 and 3 (3rd line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -663,11 +668,11 @@ if ask1 == 1:  # add app2 (1st line)
             A3con = ((A3 * 30) / 1000) * cost
 
             # OUTPUT
-            print("Your electricity bill is", total3, "pesos")
-            print("Your energy consumption is", Kh3, "kWh")
-            print("(1)The consumption of", A1N, "is:", A1con, "pesos")
-            print("(2)The consumption of", A2N, "is:", A2con, "pesos")
-            print("(3)The consumption of", A3N, "is:", A3con, "pesos")
+            st.write("(1)The consumption of", A1N, "is:", A1con, "pesos")
+            st.write("(2)The consumption of", A2N, "is:", A2con, "pesos")
+            st.write("(3)The consumption of", A3N, "is:", A3con, "pesos")
+            st.write("Your electricity bill is", total3, "pesos")
+            st.write("Your energy consumption is", Kh3, "kWh")
             # print("The largest number in the list is:", max_app)
 
 # compute app1 and 2 (2nd line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -703,16 +708,16 @@ if ask1 == 1:  # add app2 (1st line)
             if app > max_app:
                 max_app = app
         if max_app == A1con:
-            print("Ang may pinkamataas na konsumo ay ang", A1N)
+            st.write("Ang may pinkamataas na konsumo ay ang", A1N)
         if max_app == A2con:
-            print("Ang may pinkamataas na konsumo ay ang", A2N)
+            st.write("Ang may pinkamataas na konsumo ay ang", A2N)
 
         # OUTPUT
-        print("Your electricity bill is", total2, "pesos")
-        print("Your energy consumption is", Kh2, "kWh")
-        print("(1)The consumption of", A1N, "is:", A1con, "pesos")
-        print("(2)The consumption of", A2N, "is:", A2con, "pesos")
-        print("The largest number in the list is:", max_app)
+        st.write("(1)The consumption of", A1N, "is:", A1con, "pesos")
+        st.write("(2)The consumption of", A2N, "is:", A2con, "pesos")
+        st.write("The largest number in the list is:", max_app)
+        st.write("Your electricity bill is", total2, "pesos")
+        st.write("Your energy consumption is", Kh2, "kWh")
 
 # compute app1 (1st line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 if ask1 == 2:
@@ -741,9 +746,10 @@ if ask1 == 2:
         if app > max_app:
             max_app = app
     if max_app == A1con:
-        print("Ang may pinkamataas na konsumo ay ang", A1N)
+        st.write("The appliance with the highest consumption is the (",
+                 A1N, ") with a consumption of:", A1con, "kWh")
 
     # OUTPUT
-    print("Your electricity bill is", total1, "pesos")
-    print("Your energy consumption is", Kh1, "kWh")
-    print("(1)The consumption of", A1N, "is", A1con, "pesos")
+    st.write("(1)The consumption of", A1N, "is", A1con, "pesos")
+    st.write("Your electricity bill is      :", total1, "pesos")
+    st.write("Your energy consumption is    :", Kh1, "kWh")
