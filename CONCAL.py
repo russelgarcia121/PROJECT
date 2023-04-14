@@ -380,7 +380,7 @@ if ask1 == 1:  # add app2 (1st line)
                                              "is:", A7con, "pesos")
                                     st.write("(8)The consumption of", A8N,
                                              "is:", A8con, "pesos")
-                                    st.write("(8)The consumption of", A9N,
+                                    st.write("(9)The consumption of", A9N,
                                              "is:", A9con, "pesos")
                                     st.write("Your electricity bill is",
                                              total4, "pesos")
