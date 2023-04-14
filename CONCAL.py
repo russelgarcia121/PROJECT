@@ -839,13 +839,12 @@ if ask1 == 1:  # add app2 (1st line)
                                                                 "************************************************************************************************************************************************************************")
                                                             st.markdown(
                                                                 "**HIGHEST ENERGY CONSUMPTION**")
-                                                            apps = [A1con, A2con, A3con,
-                                                                    A4con, A5con, A6con, A7con, A8con, A9con, A10con, A11con, A12con + A13con + A14con + A15con]
+                                                            apps = [Y1,Y2,Y3,Y4,Y5,Y6,Y7,Y8,Y9,Y10,Y11,Y12,Y13,Y14,Y15]
                                                             max_app = apps[0]
                                                             for app in apps:
                                                                 if app > max_app:
                                                                     max_app = app
-                                                            if max_app == A1con:
+                                                            if max_app == Y1:
                                                                 st.write(
                                                                     "************************************************************************************************************************************************************************")
                                                                 st.write(
@@ -854,7 +853,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                     "Electricity bill   : PHP", A1con)
                                                                 st.write(
                                                                     "Energy consumption :", Y1)
-                                                            if max_app == A2con:
+                                                            if max_app == Y2:
                                                                 st.write(
                                                                     "************************************************************************************************************************************************************************")
                                                                 st.write(
@@ -863,7 +862,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                     "Electricity bill   : PHP", A2con)
                                                                 st.write(
                                                                     "Energy consumption :", Y2)
-                                                            if max_app == A3con:
+                                                            if max_app == Y3:
                                                                 st.write(
                                                                     "************************************************************************************************************************************************************************")
                                                                 st.write(
@@ -872,7 +871,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                     "Electricity bill   : PHP", A3con)
                                                                 st.write(
                                                                     "Energy consumption :", Y3)
-                                                            if max_app == A4con:
+                                                            if max_app == Y4:
                                                                 st.write(
                                                                     "************************************************************************************************************************************************************************")
                                                                 st.write(
@@ -881,7 +880,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                     "Electricity bill   : PHP", A4con)
                                                                 st.write(
                                                                     "Energy consumption :", Y4)
-                                                            if max_app == A5con:
+                                                            if max_app == Y5:
                                                                 st.write(
                                                                     "************************************************************************************************************************************************************************")
                                                                 st.write(
@@ -890,7 +889,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                     "Electricity bill   : PHP", A5con)
                                                                 st.write(
                                                                     "Energy consumption :", Y5)
-                                                            if max_app == A6con:
+                                                            if max_app == Y6:
                                                                 st.write(
                                                                     "************************************************************************************************************************************************************************")
                                                                 st.write(
@@ -899,7 +898,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                     "Electricity bill   : PHP", A6con)
                                                                 st.write(
                                                                     "Energy consumption :", Y6)
-                                                            if max_app == A7con:
+                                                            if max_app == Y7:
                                                                 st.write(
                                                                     "************************************************************************************************************************************************************************")
                                                                 st.write(
@@ -908,7 +907,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                     "Electricity bill   : PHP", A7con)
                                                                 st.write(
                                                                     "Energy consumption :", Y7)
-                                                            if max_app == A8con:
+                                                            if max_app == Y8:
                                                                 st.write(
                                                                     "************************************************************************************************************************************************************************")
                                                                 st.write(
@@ -917,7 +916,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                     "Electricity bill   : PHP", A8con)
                                                                 st.write(
                                                                     "Energy consumption :", Y8)
-                                                            if max_app == A9con:
+                                                            if max_app == Y9:
                                                                 st.write(
                                                                     "************************************************************************************************************************************************************************")
                                                                 st.write(
@@ -926,7 +925,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                     "Electricity bill   : PHP", A9con)
                                                                 st.write(
                                                                     "Energy consumption :", Y9)
-                                                            if max_app == A10con:
+                                                            if max_app == Y10:
                                                                 st.write(
                                                                     "************************************************************************************************************************************************************************")
                                                                 st.write(
@@ -935,7 +934,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                     "Electricity bill   : PHP", A10con)
                                                                 st.write(
                                                                     "Energy consumption :", Y10)
-                                                            if max_app == A11con:
+                                                            if max_app == Y11:
                                                                 st.write(
                                                                     "************************************************************************************************************************************************************************")
                                                                 st.write(
@@ -944,7 +943,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                     "Electricity bill   : PHP", A11con)
                                                                 st.write(
                                                                     "Energy consumption :", Y11)
-                                                            if max_app == A12con:
+                                                            if max_app == Y12:
                                                                 st.write(
                                                                     "************************************************************************************************************************************************************************")
                                                                 st.write(
@@ -953,7 +952,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                     "Electricity bill   : PHP", A12con)
                                                                 st.write(
                                                                     "Energy consumption :", Y12)
-                                                            if max_app == A13con:
+                                                            if max_app == Y13:
                                                                 st.write(
                                                                     "************************************************************************************************************************************************************************")
                                                                 st.write(
@@ -962,7 +961,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                     "Electricity bill   : PHP", A13con)
                                                                 st.write(
                                                                     "Energy consumption :", Y13)
-                                                            if max_app == A14con:
+                                                            if max_app == Y14:
                                                                 st.write(
                                                                     "************************************************************************************************************************************************************************")
                                                                 st.write(
@@ -971,7 +970,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                     "Electricity bill   : PHP", A14con)
                                                                 st.write(
                                                                     "Energy consumption :", Y14)
-                                                            if max_app == A15con:
+                                                            if max_app == Y15:
                                                                 st.write(
                                                                     "************************************************************************************************************************************************************************")
                                                                 st.write(
@@ -1141,13 +1140,12 @@ if ask1 == 1:  # add app2 (1st line)
                                                             "************************************************************************************************************************************************************************")
                                                         st.markdown(
                                                             "**HIGHEST ENERGY CONSUMPTION**")
-                                                        apps = [A1con, A2con, A3con, A4con, A5con, A6con, A7con,
-                                                                A8con, A9con, A10con, A11con, A12con + A13con + A14con]
+                                                        apps = [Y1,Y2,Y3,Y4,Y5,Y6,Y7,Y8,Y9,Y10,Y11,Y12,Y13,Y14]
                                                         max_app = apps[0]
                                                         for app in apps:
                                                             if app > max_app:
                                                                 max_app = app
-                                                        if max_app == A1con:
+                                                        if max_app == Y1:
                                                             st.write(
                                                                 "************************************************************************************************************************************************************************")
                                                             st.write(
@@ -1156,7 +1154,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                 "Electricity bill   : PHP", A1con)
                                                             st.write(
                                                                 "Energy consumption :", Y1)
-                                                        if max_app == A2con:
+                                                        if max_app == Y2:
                                                             st.write(
                                                                 "************************************************************************************************************************************************************************")
                                                             st.write(
@@ -1165,7 +1163,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                 "Electricity bill   : PHP", A2con)
                                                             st.write(
                                                                 "Energy consumption :", Y2)
-                                                        if max_app == A3con:
+                                                        if max_app == Y3:
                                                             st.write(
                                                                 "************************************************************************************************************************************************************************")
                                                             st.write(
@@ -1174,7 +1172,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                 "Electricity bill   : PHP", A3con)
                                                             st.write(
                                                                 "Energy consumption :", Y3)
-                                                        if max_app == A4con:
+                                                        if max_app == Y4:
                                                             st.write(
                                                                 "************************************************************************************************************************************************************************")
                                                             st.write(
@@ -1183,7 +1181,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                 "Electricity bill   : PHP", A4con)
                                                             st.write(
                                                                 "Energy consumption :", Y4)
-                                                        if max_app == A5con:
+                                                        if max_app == Y5:
                                                             st.write(
                                                                 "************************************************************************************************************************************************************************")
                                                             st.write(
@@ -1192,7 +1190,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                 "Electricity bill   : PHP", A5con)
                                                             st.write(
                                                                 "Energy consumption :", Y5)
-                                                        if max_app == A6con:
+                                                        if max_app == Y6:
                                                             st.write(
                                                                 "************************************************************************************************************************************************************************")
                                                             st.write(
@@ -1201,7 +1199,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                 "Electricity bill   : PHP", A6con)
                                                             st.write(
                                                                 "Energy consumption :", Y6)
-                                                        if max_app == A7con:
+                                                        if max_app == Y7:
                                                             st.write(
                                                                 "************************************************************************************************************************************************************************")
                                                             st.write(
@@ -1210,7 +1208,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                 "Electricity bill   : PHP", A7con)
                                                             st.write(
                                                                 "Energy consumption :", Y7)
-                                                        if max_app == A8con:
+                                                        if max_app == Y8:
                                                             st.write(
                                                                 "************************************************************************************************************************************************************************")
                                                             st.write(
@@ -1219,7 +1217,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                 "Electricity bill   : PHP", A8con)
                                                             st.write(
                                                                 "Energy consumption :", Y8)
-                                                        if max_app == A9con:
+                                                        if max_app == Y9:
                                                             st.write(
                                                                 "************************************************************************************************************************************************************************")
                                                             st.write(
@@ -1228,7 +1226,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                 "Electricity bill   : PHP", A9con)
                                                             st.write(
                                                                 "Energy consumption :", Y9)
-                                                        if max_app == A10con:
+                                                        if max_app == Y10:
                                                             st.write(
                                                                 "************************************************************************************************************************************************************************")
                                                             st.write(
@@ -1237,7 +1235,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                 "Electricity bill   : PHP", A10con)
                                                             st.write(
                                                                 "Energy consumption :", Y10)
-                                                        if max_app == A11con:
+                                                        if max_app == Y11:
                                                             st.write(
                                                                 "************************************************************************************************************************************************************************")
                                                             st.write(
@@ -1246,7 +1244,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                 "Electricity bill   : PHP", A11con)
                                                             st.write(
                                                                 "Energy consumption :", Y11)
-                                                        if max_app == A12con:
+                                                        if max_app == Y12:
                                                             st.write(
                                                                 "************************************************************************************************************************************************************************")
                                                             st.write(
@@ -1255,7 +1253,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                 "Electricity bill   : PHP", A12con)
                                                             st.write(
                                                                 "Energy consumption :", Y12)
-                                                        if max_app == A13con:
+                                                        if max_app == Y13:
                                                             st.write(
                                                                 "************************************************************************************************************************************************************************")
                                                             st.write(
@@ -1264,7 +1262,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                                 "Electricity bill   : PHP", A13con)
                                                             st.write(
                                                                 "Energy consumption :", Y13)
-                                                        if max_app == A14con:
+                                                        if max_app == Y14:
                                                             st.write(
                                                                 "************************************************************************************************************************************************************************")
                                                             st.write(
@@ -1412,13 +1410,12 @@ if ask1 == 1:  # add app2 (1st line)
                                                         "************************************************************************************************************************************************************************")
                                                     st.markdown(
                                                         "**HIGHEST ENERGY CONSUMPTION**")
-                                                    apps = [A1con, A2con, A3con,
-                                                            A4con, A5con, A6con, A7con, A8con, A9con, A10con, A11con, A12con + A13con]
+                                                    apps = [Y1,Y2,Y3,Y4,Y5,Y6,Y7,Y8,Y9,Y10,Y11,Y12,Y13]
                                                     max_app = apps[0]
                                                     for app in apps:
                                                         if app > max_app:
                                                             max_app = app
-                                                    if max_app == A1con:
+                                                    if max_app == Y1:
                                                         st.write(
                                                             "************************************************************************************************************************************************************************")
                                                         st.write(
@@ -1427,7 +1424,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                             "Electricity bill   : PHP", A1con)
                                                         st.write(
                                                             "Energy consumption :", Y1)
-                                                    if max_app == A2con:
+                                                    if max_app == Y2:
                                                         st.write(
                                                             "************************************************************************************************************************************************************************")
                                                         st.write(
@@ -1436,7 +1433,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                             "Electricity bill   : PHP", A2con)
                                                         st.write(
                                                             "Energy consumption :", Y2)
-                                                    if max_app == A3con:
+                                                    if max_app == Y3:
                                                         st.write(
                                                             "************************************************************************************************************************************************************************")
                                                         st.write(
@@ -1445,7 +1442,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                             "Electricity bill   : PHP", A3con)
                                                         st.write(
                                                             "Energy consumption :", Y3)
-                                                    if max_app == A4con:
+                                                    if max_app == Y4:
                                                         st.write(
                                                             "************************************************************************************************************************************************************************")
                                                         st.write(
@@ -1454,7 +1451,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                             "Electricity bill   : PHP", A4con)
                                                         st.write(
                                                             "Energy consumption :", Y4)
-                                                    if max_app == A5con:
+                                                    if max_app == Y5:
                                                         st.write(
                                                             "************************************************************************************************************************************************************************")
                                                         st.write(
@@ -1463,7 +1460,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                             "Electricity bill   : PHP", A5con)
                                                         st.write(
                                                             "Energy consumption :", Y5)
-                                                    if max_app == A6con:
+                                                    if max_app == Y6:
                                                         st.write(
                                                             "************************************************************************************************************************************************************************")
                                                         st.write(
@@ -1481,7 +1478,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                             "Electricity bill   : PHP", A7con)
                                                         st.write(
                                                             "Energy consumption :", Y7)
-                                                    if max_app == A8con:
+                                                    if max_app == Y8:
                                                         st.write(
                                                             "************************************************************************************************************************************************************************")
                                                         st.write(
@@ -1490,7 +1487,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                             "Electricity bill   : PHP", A8con)
                                                         st.write(
                                                             "Energy consumption :", Y8)
-                                                    if max_app == A9con:
+                                                    if max_app == Y9:
                                                         st.write(
                                                             "************************************************************************************************************************************************************************")
                                                         st.write(
@@ -1499,7 +1496,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                             "Electricity bill   : PHP", A9con)
                                                         st.write(
                                                             "Energy consumption :", Y9)
-                                                    if max_app == A10con:
+                                                    if max_app == Y10:
                                                         st.write(
                                                             "************************************************************************************************************************************************************************")
                                                         st.write(
@@ -1508,7 +1505,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                             "Electricity bill   : PHP", A10con)
                                                         st.write(
                                                             "Energy consumption :", Y10)
-                                                    if max_app == A11con:
+                                                    if max_app == Y11:
                                                         st.write(
                                                             "************************************************************************************************************************************************************************")
                                                         st.write(
@@ -1517,7 +1514,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                             "Electricity bill   : PHP", A11con)
                                                         st.write(
                                                             "Energy consumption :", Y11)
-                                                    if max_app == A12con:
+                                                    if max_app == Y12:
                                                         st.write(
                                                             "************************************************************************************************************************************************************************")
                                                         st.write(
@@ -1526,7 +1523,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                             "Electricity bill   : PHP", A12con)
                                                         st.write(
                                                             "Energy consumption :", Y12)
-                                                    if max_app == A13con:
+                                                    if max_app == Y13:
                                                         st.write(
                                                             "************************************************************************************************************************************************************************")
                                                         st.write(
@@ -1663,13 +1660,12 @@ if ask1 == 1:  # add app2 (1st line)
                                                     "************************************************************************************************************************************************************************")
                                                 st.markdown(
                                                     "**HIGHEST ENERGY CONSUMPTION**")
-                                                apps = [A1con, A2con, A3con,
-                                                        A4con, A5con, A6con, A7con, A8con, A9con, A10con, A11con, A12con]
+                                                apps = [Y1,Y2,Y3,Y4,Y5,Y6,Y7,Y8,Y9,Y10,Y11,Y12]
                                                 max_app = apps[0]
                                                 for app in apps:
                                                     if app > max_app:
                                                         max_app = app
-                                                if max_app == A1con:
+                                                if max_app == Y1:
                                                     st.write(
                                                         "************************************************************************************************************************************************************************")
                                                     st.write(
@@ -1678,7 +1674,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                         "Electricity bill   : PHP", A1con)
                                                     st.write(
                                                         "Energy consumption :", Y1)
-                                                if max_app == A2con:
+                                                if max_app == Y2:
                                                     st.write(
                                                         "************************************************************************************************************************************************************************")
                                                     st.write(
@@ -1687,7 +1683,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                         "Electricity bill   : PHP", A2con)
                                                     st.write(
                                                         "Energy consumption :", Y2)
-                                                if max_app == A3con:
+                                                if max_app == Y3:
                                                     st.write(
                                                         "************************************************************************************************************************************************************************")
                                                     st.write(
@@ -1696,7 +1692,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                         "Electricity bill   : PHP", A3con)
                                                     st.write(
                                                         "Energy consumption :", Y3)
-                                                if max_app == A4con:
+                                                if max_app == Y4:
                                                     st.write(
                                                         "************************************************************************************************************************************************************************")
                                                     st.write(
@@ -1705,7 +1701,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                         "Electricity bill   : PHP", A4con)
                                                     st.write(
                                                         "Energy consumption :", Y4)
-                                                if max_app == A5con:
+                                                if max_app == Y5:
                                                     st.write(
                                                         "************************************************************************************************************************************************************************")
                                                     st.write(
@@ -1714,7 +1710,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                         "Electricity bill   : PHP", A5con)
                                                     st.write(
                                                         "Energy consumption :", Y5)
-                                                if max_app == A6con:
+                                                if max_app == Y6:
                                                     st.write(
                                                         "************************************************************************************************************************************************************************")
                                                     st.write(
@@ -1732,7 +1728,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                         "Electricity bill   : PHP", A7con)
                                                     st.write(
                                                         "Energy consumption :", Y7)
-                                                if max_app == A8con:
+                                                if max_app == Y8:
                                                     st.write(
                                                         "************************************************************************************************************************************************************************")
                                                     st.write(
@@ -1741,7 +1737,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                         "Electricity bill   : PHP", A8con)
                                                     st.write(
                                                         "Energy consumption :", Y8)
-                                                if max_app == A9con:
+                                                if max_app == Y9:
                                                     st.write(
                                                         "************************************************************************************************************************************************************************")
                                                     st.write(
@@ -1750,7 +1746,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                         "Electricity bill   : PHP", A9con)
                                                     st.write(
                                                         "Energy consumption :", Y9)
-                                                if max_app == A10con:
+                                                if max_app == Y10:
                                                     st.write(
                                                         "************************************************************************************************************************************************************************")
                                                     st.write(
@@ -1759,7 +1755,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                         "Electricity bill   : PHP", A10con)
                                                     st.write(
                                                         "Energy consumption :", Y10)
-                                                if max_app == A11con:
+                                                if max_app == Y11:
                                                     st.write(
                                                         "************************************************************************************************************************************************************************")
                                                     st.write(
@@ -1768,7 +1764,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                         "Electricity bill   : PHP", A11con)
                                                     st.write(
                                                         "Energy consumption :", Y11)
-                                                if max_app == A12con:
+                                                if max_app == Y12:
                                                     st.write(
                                                         "************************************************************************************************************************************************************************")
                                                     st.write(
@@ -1874,13 +1870,12 @@ if ask1 == 1:  # add app2 (1st line)
                                                 "************************************************************************************************************************************************************************")
                                             st.markdown(
                                                 "**HIGHEST ENERGY CONSUMPTION**")
-                                            apps = [A1con, A2con, A3con,
-                                                    A4con, A5con, A6con, A7con, A8con, A9con, A10con, A11con]
+                                            apps = [Y1,Y2,Y3,Y4,Y5,Y6,Y7,Y8,Y9,Y10,Y11]
                                             max_app = apps[0]
                                             for app in apps:
                                                 if app > max_app:
                                                     max_app = app
-                                            if max_app == A1con:
+                                            if max_app == Y1:
                                                 st.write(
                                                     "************************************************************************************************************************************************************************")
                                                 st.write(
@@ -1889,7 +1884,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                     "Electricity bill   : PHP", A1con)
                                                 st.write(
                                                     "Energy consumption :", Y1)
-                                            if max_app == A2con:
+                                            if max_app == Y2:
                                                 st.write(
                                                     "************************************************************************************************************************************************************************")
                                                 st.write(
@@ -1898,7 +1893,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                     "Electricity bill   : PHP", A2con)
                                                 st.write(
                                                     "Energy consumption :", Y2)
-                                            if max_app == A3con:
+                                            if max_app == Y3:
                                                 st.write(
                                                     "************************************************************************************************************************************************************************")
                                                 st.write(
@@ -1907,7 +1902,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                     "Electricity bill   : PHP", A3con)
                                                 st.write(
                                                     "Energy consumption :", Y3)
-                                            if max_app == A4con:
+                                            if max_app == Y4:
                                                 st.write(
                                                     "************************************************************************************************************************************************************************")
                                                 st.write(
@@ -1916,7 +1911,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                     "Electricity bill   : PHP", A4con)
                                                 st.write(
                                                     "Energy consumption :", Y4)
-                                            if max_app == A5con:
+                                            if max_app == Y5:
                                                 st.write(
                                                     "************************************************************************************************************************************************************************")
                                                 st.write(
@@ -1925,7 +1920,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                     "Electricity bill   : PHP", A5con)
                                                 st.write(
                                                     "Energy consumption :", Y5)
-                                            if max_app == A6con:
+                                            if max_app == Y6:
                                                 st.write(
                                                     "************************************************************************************************************************************************************************")
                                                 st.write(
@@ -1934,7 +1929,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                     "Electricity bill   : PHP", A6con)
                                                 st.write(
                                                     "Energy consumption :", Y6)
-                                            if max_app == A7con:
+                                            if max_app == Y7:
                                                 st.write(
                                                     "************************************************************************************************************************************************************************")
                                                 st.write(
@@ -1943,7 +1938,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                     "Electricity bill   : PHP", A7con)
                                                 st.write(
                                                     "Energy consumption :", Y7)
-                                            if max_app == A8con:
+                                            if max_app == Y8:
                                                 st.write(
                                                     "************************************************************************************************************************************************************************")
                                                 st.write(
@@ -1952,7 +1947,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                     "Electricity bill   : PHP", A8con)
                                                 st.write(
                                                     "Energy consumption :", Y8)
-                                            if max_app == A9con:
+                                            if max_app == Y9:
                                                 st.write(
                                                     "************************************************************************************************************************************************************************")
                                                 st.write(
@@ -1961,7 +1956,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                     "Electricity bill   : PHP", A9con)
                                                 st.write(
                                                     "Energy consumption :", Y9)
-                                            if max_app == A10con:
+                                            if max_app == Y10:
                                                 st.write(
                                                     "************************************************************************************************************************************************************************")
                                                 st.write(
@@ -1970,7 +1965,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                     "Electricity bill   : PHP", A10con)
                                                 st.write(
                                                     "Energy consumption :", Y10)
-                                            if max_app == A11con:
+                                            if max_app == Y11:
                                                 st.write(
                                                     "************************************************************************************************************************************************************************")
                                                 st.write(
@@ -2070,13 +2065,12 @@ if ask1 == 1:  # add app2 (1st line)
                                             "************************************************************************************************************************************************************************")
                                         st.markdown(
                                             "**HIGHEST ENERGY CONSUMPTION**")
-                                        apps = [A1con, A2con, A3con,
-                                                A4con, A5con, A6con, A7con, A8con, A9con, A10con]
+                                        apps = [Y1,Y2,Y3,Y4,Y5,Y6,Y7,Y8,Y9,Y10]
                                         max_app = apps[0]
                                         for app in apps:
                                             if app > max_app:
                                                 max_app = app
-                                        if max_app == A1con:
+                                        if max_app == Y1:
                                             st.write(
                                                 "************************************************************************************************************************************************************************")
                                             st.write(
@@ -2085,7 +2079,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                 "Electricity bill   : PHP", A1con)
                                             st.write(
                                                 "Energy consumption :", Y1)
-                                        if max_app == A2con:
+                                        if max_app == Y2:
                                             st.write(
                                                 "************************************************************************************************************************************************************************")
                                             st.write(
@@ -2094,7 +2088,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                 "Electricity bill   : PHP", A2con)
                                             st.write(
                                                 "Energy consumption :", Y2)
-                                        if max_app == A3con:
+                                        if max_app == Y3:
                                             st.write(
                                                 "************************************************************************************************************************************************************************")
                                             st.write(
@@ -2103,7 +2097,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                 "Electricity bill   : PHP", A3con)
                                             st.write(
                                                 "Energy consumption :", Y3)
-                                        if max_app == A4con:
+                                        if max_app == Y4:
                                             st.write(
                                                 "************************************************************************************************************************************************************************")
                                             st.write(
@@ -2112,7 +2106,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                 "Electricity bill   : PHP", A4con)
                                             st.write(
                                                 "Energy consumption :", Y4)
-                                        if max_app == A5con:
+                                        if max_app == Y5:
                                             st.write(
                                                 "************************************************************************************************************************************************************************")
                                             st.write(
@@ -2121,7 +2115,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                 "Electricity bill   : PHP", A5con)
                                             st.write(
                                                 "Energy consumption :", Y5)
-                                        if max_app == A6con:
+                                        if max_app == Y6:
                                             st.write(
                                                 "************************************************************************************************************************************************************************")
                                             st.write(
@@ -2130,7 +2124,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                 "Electricity bill   : PHP", A6con)
                                             st.write(
                                                 "Energy consumption :", Y6)
-                                        if max_app == A7con:
+                                        if max_app == Y7:
                                             st.write(
                                                 "************************************************************************************************************************************************************************")
                                             st.write(
@@ -2139,7 +2133,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                 "Electricity bill   : PHP", A7con)
                                             st.write(
                                                 "Energy consumption :", Y7)
-                                        if max_app == A8con:
+                                        if max_app == Y8:
                                             st.write(
                                                 "************************************************************************************************************************************************************************")
                                             st.write(
@@ -2148,7 +2142,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                 "Electricity bill   : PHP", A8con)
                                             st.write(
                                                 "Energy consumption :", Y8)
-                                        if max_app == A9con:
+                                        if max_app == Y9:
                                             st.write(
                                                 "************************************************************************************************************************************************************************")
                                             st.write(
@@ -2157,7 +2151,7 @@ if ask1 == 1:  # add app2 (1st line)
                                                 "Electricity bill   : PHP", A9con)
                                             st.write(
                                                 "Energy consumption :", Y9)
-                                        if max_app == A10con:
+                                        if max_app == Y10:
                                             st.write(
                                                 "************************************************************************************************************************************************************************")
                                             st.write(
@@ -2253,69 +2247,68 @@ if ask1 == 1:  # add app2 (1st line)
                                         "************************************************************************************************************************************************************************")
                                     st.markdown(
                                         "**HIGHEST ENERGY CONSUMPTION**")
-                                    apps = [A1con, A2con, A3con,
-                                            A4con, A5con, A6con, A7con, A8con, A9con]
+                                    apps = [Y1,Y2,Y3,Y4,Y5,Y6,Y7,Y8,Y9]
                                     max_app = apps[0]
                                     for app in apps:
                                         if app > max_app:
                                             max_app = app
-                                    if max_app == A1con:
+                                    if max_app == Y1:
                                         st.write(
                                             "************************************************************************************************************************************************************************")
                                         st.write("Name of appliance  :", A1N)
                                         st.write(
                                             "Electricity bill   : PHP", A1con)
                                         st.write("Energy consumption :", Y1)
-                                    if max_app == A2con:
+                                    if max_app == Y2:
                                         st.write(
                                             "************************************************************************************************************************************************************************")
                                         st.write("Name of appliance  :", A2N)
                                         st.write(
                                             "Electricity bill   : PHP", A2con)
                                         st.write("Energy consumption :", Y2)
-                                    if max_app == A3con:
+                                    if max_app == Y3:
                                         st.write(
                                             "************************************************************************************************************************************************************************")
                                         st.write("Name of appliance  :", A3N)
                                         st.write(
                                             "Electricity bill   : PHP", A3con)
                                         st.write("Energy consumption :", Y3)
-                                    if max_app == A4con:
+                                    if max_app == Y4:
                                         st.write(
                                             "************************************************************************************************************************************************************************")
                                         st.write("Name of appliance  :", A4N)
                                         st.write(
                                             "Electricity bill   : PHP", A4con)
                                         st.write("Energy consumption :", Y4)
-                                    if max_app == A5con:
+                                    if max_app == Y5:
                                         st.write(
                                             "************************************************************************************************************************************************************************")
                                         st.write("Name of appliance  :", A5N)
                                         st.write(
                                             "Electricity bill   : PHP", A5con)
                                         st.write("Energy consumption :", Y5)
-                                    if max_app == A6con:
+                                    if max_app == Y6:
                                         st.write(
                                             "************************************************************************************************************************************************************************")
                                         st.write("Name of appliance  :", A6N)
                                         st.write(
                                             "Electricity bill   : PHP", A6con)
                                         st.write("Energy consumption :", Y6)
-                                    if max_app == A7con:
+                                    if max_app == Y7:
                                         st.write(
                                             "************************************************************************************************************************************************************************")
                                         st.write("Name of appliance  :", A7N)
                                         st.write(
                                             "Electricity bill   : PHP", A7con)
                                         st.write("Energy consumption :", Y7)
-                                    if max_app == A8con:
+                                    if max_app == Y8:
                                         st.write(
                                             "************************************************************************************************************************************************************************")
                                         st.write("Name of appliance  :", A8N)
                                         st.write(
                                             "Electricity bill   : PHP", A8con)
                                         st.write("Energy consumption :", Y8)
-                                    if max_app == A9con:
+                                    if max_app == Y9:
                                         st.write(
                                             "************************************************************************************************************************************************************************")
                                         st.write("Name of appliance  :", A9N)
@@ -2401,55 +2394,54 @@ if ask1 == 1:  # add app2 (1st line)
                                 st.write(
                                     "************************************************************************************************************************************************************************")
                                 st.markdown("**HIGHEST ENERGY CONSUMPTION**")
-                                apps = [A1con, A2con, A3con,
-                                        A4con, A5con, A6con, A7con, A8con]
+                                apps = [Y1,Y2,Y3,Y4,Y5,Y6,Y7,Y8]
                                 max_app = apps[0]
                                 for app in apps:
                                     if app > max_app:
                                         max_app = app
-                                if max_app == A1con:
+                                if max_app == Y1:
                                     st.write(
                                         "************************************************************************************************************************************************************************")
                                     st.write("Name of appliance  :", A1N)
                                     st.write("Electricity bill   : PHP", A1con)
                                     st.write("Energy consumption :", Y1)
-                                if max_app == A2con:
+                                if max_app == Y2:
                                     st.write(
                                         "************************************************************************************************************************************************************************")
                                     st.write("Name of appliance  :", A2N)
                                     st.write("Electricity bill   : PHP", A2con)
                                     st.write("Energy consumption :", Y2)
-                                if max_app == A3con:
+                                if max_app == Y3:
                                     st.write(
                                         "************************************************************************************************************************************************************************")
                                     st.write("Name of appliance  :", A3N)
                                     st.write("Electricity bill   : PHP", A3con)
                                     st.write("Energy consumption :", Y3)
-                                if max_app == A4con:
+                                if max_app == Y4:
                                     st.write(
                                         "************************************************************************************************************************************************************************")
                                     st.write("Name of appliance  :", A4N)
                                     st.write("Electricity bill   : PHP", A4con)
                                     st.write("Energy consumption :", Y4)
-                                if max_app == A5con:
+                                if max_app == Y5:
                                     st.write(
                                         "************************************************************************************************************************************************************************")
                                     st.write("Name of appliance  :", A5N)
                                     st.write("Electricity bill   : PHP", A5con)
                                     st.write("Energy consumption :", Y5)
-                                if max_app == A6con:
+                                if max_app == Y6:
                                     st.write(
                                         "************************************************************************************************************************************************************************")
                                     st.write("Name of appliance  :", A6N)
                                     st.write("Electricity bill   : PHP", A6con)
                                     st.write("Energy consumption :", Y6)
-                                if max_app == A7con:
+                                if max_app == Y7:
                                     st.write(
                                         "************************************************************************************************************************************************************************")
                                     st.write("Name of appliance  :", A7N)
                                     st.write("Electricity bill   : PHP", A7con)
                                     st.write("Energy consumption :", Y7)
-                                if max_app == A8con:
+                                if max_app == Y8:
                                     st.write(
                                         "************************************************************************************************************************************************************************")
                                     st.write("Name of appliance  :", A8N)
@@ -2526,49 +2518,48 @@ if ask1 == 1:  # add app2 (1st line)
                             st.write(
                                 "************************************************************************************************************************************************************************")
                             st.markdown("**HIGHEST ENERGY CONSUMPTION**")
-                            apps = [A1con, A2con, A3con,
-                                    A4con, A5con, A6con, A7con]
+                            apps = [Y1,Y2,Y3,Y4,Y5,Y6,Y7]
                             max_app = apps[0]
                             for app in apps:
                                 if app > max_app:
                                     max_app = app
-                            if max_app == A1con:
+                            if max_app == Y1:
                                 st.write(
                                     "************************************************************************************************************************************************************************")
                                 st.write("Name of appliance  :", A1N)
                                 st.write("Electricity bill   : PHP", A1con)
                                 st.write("Energy consumption :", Y1)
-                            if max_app == A2con:
+                            if max_app == Y2:
                                 st.write(
                                     "************************************************************************************************************************************************************************")
                                 st.write("Name of appliance  :", A2N)
                                 st.write("Electricity bill   : PHP", A2con)
                                 st.write("Energy consumption :", Y2)
-                            if max_app == A3con:
+                            if max_app == Y3:
                                 st.write(
                                     "************************************************************************************************************************************************************************")
                                 st.write("Name of appliance  :", A3N)
                                 st.write("Electricity bill   : PHP", A3con)
                                 st.write("Energy consumption :", Y3)
-                            if max_app == A4con:
+                            if max_app == Y4:
                                 st.write(
                                     "************************************************************************************************************************************************************************")
                                 st.write("Name of appliance  :", A4N)
                                 st.write("Electricity bill   : PHP", A4con)
                                 st.write("Energy consumption :", Y4)
-                            if max_app == A5con:
+                            if max_app == Y5:
                                 st.write(
                                     "************************************************************************************************************************************************************************")
                                 st.write("Name of appliance  :", A5N)
                                 st.write("Electricity bill   : PHP", A5con)
                                 st.write("Energy consumption :", Y5)
-                            if max_app == A6con:
+                            if max_app == Y6:
                                 st.write(
                                     "************************************************************************************************************************************************************************")
                                 st.write("Name of appliance  :", A6N)
                                 st.write("Electricity bill   : PHP", A6con)
                                 st.write("Energy consumption :", Y6)
-                            if max_app == A7con:
+                            if max_app == Y7:
                                 st.write(
                                     "************************************************************************************************************************************************************************")
                                 st.write("Name of appliance  :", A7N)
@@ -2641,42 +2632,42 @@ if ask1 == 1:  # add app2 (1st line)
                         st.write(
                             "************************************************************************************************************************************************************************")
                         st.markdown("**HIGHEST ENERGY CONSUMPTION**")
-                        apps = [A1con, A2con, A3con, A4con, A5con, A6con]
+                        apps = [Y1, Y2, Y3, Y4, Y5, Y6]
                         max_app = apps[0]
                         for app in apps:
                             if app > max_app:
                                 max_app = app
-                        if max_app == A1con:
+                        if max_app == Y1:
                             st.write(
                                 "************************************************************************************************************************************************************************")
                             st.write("Name of appliance  :", A1N)
                             st.write("Electricity bill   : PHP", A1con)
                             st.write("Energy consumption :", Y1)
-                        if max_app == A2con:
+                        if max_app == Y2:
                             st.write(
                                 "************************************************************************************************************************************************************************")
                             st.write("Name of appliance  :", A2N)
                             st.write("Electricity bill   : PHP", A2con)
                             st.write("Energy consumption :", Y2)
-                        if max_app == A3con:
+                        if max_app == Y3:
                             st.write(
                                 "************************************************************************************************************************************************************************")
                             st.write("Name of appliance  :", A3N)
                             st.write("Electricity bill   : PHP", A3con)
                             st.write("Energy consumption :", Y3)
-                        if max_app == A4con:
+                        if max_app == Y4:
                             st.write(
                                 "************************************************************************************************************************************************************************")
                             st.write("Name of appliance  :", A4N)
                             st.write("Electricity bill   : PHP", A4con)
                             st.write("Energy consumption :", Y4)
-                        if max_app == A5con:
+                        if max_app == Y5:
                             st.write(
                                 "************************************************************************************************************************************************************************")
                             st.write("Name of appliance  :", A5N)
                             st.write("Electricity bill   : PHP", A5con)
                             st.write("Energy consumption :", Y5)
-                        if max_app == A6con:
+                        if max_app == Y6:
                             st.write(
                                 "************************************************************************************************************************************************************************")
                             st.write("Name of appliance  :", A6N)
@@ -2743,36 +2734,36 @@ if ask1 == 1:  # add app2 (1st line)
                     # Identify the high consumption appliance
                     st.write("************************************************************************************************************************************************************************")
                     st.markdown("**HIGHEST ENERGY CONSUMPTION**")
-                    apps = [A1con, A2con, A3con, A4con, A5con]
+                    apps = [Y1, Y2, Y3, Y4, Y5]
                     max_app = apps[0]
                     for app in apps:
                         if app > max_app:
                             max_app = app
-                    if max_app == A1con:
+                    if max_app == Y1:
                         st.write(
                             "************************************************************************************************************************************************************************")
                         st.write("Name of appliance  :", A1N)
                         st.write("Electricity bill   : PHP", A1con)
                         st.write("Energy consumption :", Y1)
-                    if max_app == A2con:
+                    if max_app == Y2:
                         st.write(
                             "************************************************************************************************************************************************************************")
                         st.write("Name of appliance  :", A2N)
                         st.write("Electricity bill   : PHP", A2con)
                         st.write("Energy consumption :", Y2)
-                    if max_app == A3con:
+                    if max_app == Y3:
                         st.write(
                             "************************************************************************************************************************************************************************")
                         st.write("Name of appliance  :", A3N)
                         st.write("Electricity bill   : PHP", A3con)
                         st.write("Energy consumption :", Y3)
-                    if max_app == A4con:
+                    if max_app == Y4:
                         st.write(
                             "************************************************************************************************************************************************************************")
                         st.write("Name of appliance  :", A4N)
                         st.write("Electricity bill   : PHP", A4con)
                         st.write("Energy consumption :", Y4)
-                    if max_app == A5con:
+                    if max_app == Y5:
                         st.write(
                             "************************************************************************************************************************************************************************")
                         st.write("Name of appliance  :", A5N)
@@ -2831,27 +2822,27 @@ if ask1 == 1:  # add app2 (1st line)
                 # Identify the high consumption appliance
                 st.write("************************************************************************************************************************************************************************")
                 st.markdown("**HIGHEST ENERGY CONSUMPTION**")
-                apps = [A1con, A2con, A3con, A4con]
+                apps = [Y1, Y2, Y3, Y4]
                 max_app = apps[0]
                 for app in apps:
                     if app > max_app:
                         max_app = app
-                if max_app == A1con:
+                if max_app == Y1:
                     st.write("************************************************************************************************************************************************************************")
                     st.write("Name of appliance  :", A1N)
                     st.write("Electricity bill   : PHP", A1con)
                     st.write("Energy consumption :", Y1)
-                if max_app == A2con:
+                if max_app == Y2:
                     st.write("************************************************************************************************************************************************************************")
                     st.write("Name of appliance  :", A2N)
                     st.write("Electricity bill   : PHP", A2con)
                     st.write("Energy consumption :", Y2)
-                if max_app == A3con:
+                if max_app == Y3:
                     st.write("************************************************************************************************************************************************************************")
                     st.write("Name of appliance  :", A3N)
                     st.write("Electricity bill   : PHP", A3con)
                     st.write("Energy consumption :", Y3)
-                if max_app == A4con:
+                if max_app == Y4:
                     st.write("************************************************************************************************************************************************************************")
                     st.write("Name of appliance  :", A4N)
                     st.write("Electricity bill   : PHP", A4con)
@@ -2905,22 +2896,22 @@ if ask1 == 1:  # add app2 (1st line)
             # Identify the high consumption appliance
             st.write("************************************************************************************************************************************************************************")
             st.markdown("**HIGHEST ENERGY CONSUMPTION**")
-            apps = [A1con, A2con, A3con]
+            apps = [Y1, Y2, Y3]
             max_app = apps[0]
             for app in apps:
                 if app > max_app:
                     max_app = app
-            if max_app == A1con:
+            if max_app == Y1:
                 st.write("************************************************************************************************************************************************************************")
                 st.write("Name of appliance  :", A1N)
                 st.write("Electricity bill   : PHP", A1con)
                 st.write("Energy consumption :", Y1)
-            if max_app == A2con:
+            if max_app == Y2:
                 st.write("************************************************************************************************************************************************************************")
                 st.write("Name of appliance  :", A2N)
                 st.write("Electricity bill   : PHP", A2con)
                 st.write("Energy consumption :", Y2)
-            if max_app == A3con:
+            if max_app == Y3:
                 st.write("************************************************************************************************************************************************************************")
                 st.write("Name of appliance  :", A3N)
                 st.write("Electricity bill   : PHP", A3con)
@@ -2968,17 +2959,17 @@ if ask1 == 1:  # add app2 (1st line)
         # Identify the high consumption appliance
         st.write("************************************************************************************************************************************************************************")
         st.markdown("**HIGHEST ENERGY CONSUMPTION**")
-        apps = [A1con, A2con]
+        apps = [Y1, Y2]
         max_app = apps[0]
         for app in apps:
             if app > max_app:
                 max_app = app
-        if max_app == A1con:
+        if max_app == Y2:
             st.write("************************************************************************************************************************************************************************")
             st.write("Name of appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1)
-        if max_app == A2con:
+        if max_app == Y2:
             st.write("************************************************************************************************************************************************************************")
             st.write("Name of appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
@@ -3021,12 +3012,12 @@ if ask1 == 2:
     # Identify the high consumption appliance
     st.write("************************************************************************************************************************************************************************")
     st.markdown("**HIGHEST ENERGY CONSUMPTION**")
-    apps = [A1con]
+    apps = [Y1]
     max_app = apps[0]
     for app in apps:
         if app > max_app:
             max_app = app
-    if max_app == A1con:
+    if max_app == Y1:
         st.write("************************************************************************************************************************************************************************")
         st.write("Name of appliance  :", A1N)
         st.write("Electricity bill   : PHP", A1con)
