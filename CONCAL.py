@@ -18,8 +18,7 @@ if A1N:
 
     while A1D > 24 or A1D < 0.00001:
         A1D = st.number_input("How many hours in a day do you use this?")
-
-        ask1 = 2
+    ask1 = 2
 
 if ask1 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
