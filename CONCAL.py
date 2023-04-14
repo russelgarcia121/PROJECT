@@ -8,7 +8,7 @@ cost = st.number_input("The cost per kilowatt-hour in pesos:")
 
 # Add first appliance
 A1N = st.text_input("Name of Appliance:")
-A1M = st.number_input(f"How many {A1N} are you using?")
+A1M = st.number_input("How many",A1N,"are you using?")
 # A1W = st.number_input(f"What is the wattage of {A1N}?")
 # A1B = st.number_input(f"How many days in a month do you use {A1N}? (1-31)", min_value=1, max_value=31)
 # A1D = st.number_input(f"How many hours per day do you use {A1N}? (0.00001-24)", min_value=0.00001, max_value=24)
