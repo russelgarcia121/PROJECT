@@ -344,7 +344,7 @@ if ask1 == 1:  # add app2 (1st line)
 
                                     # TOTAL: watt/hour kada araw.
                                     wh4 = (A1 + A2 + A3 + A4 +
-                                           A5 + A6 + A7 + A8)
+                                           A5 + A6 + A7 + A8 + A9)
 
                                     # TOTAL: Kilo-watt/hour kada month.
                                     Kh4 = ((wh4 * 30) / 1000)
@@ -361,6 +361,7 @@ if ask1 == 1:  # add app2 (1st line)
                                     A6con = ((A6 * 30) / 1000) * cost
                                     A7con = ((A7 * 30) / 1000) * cost
                                     A8con = ((A8 * 30) / 1000) * cost
+                                    A9con = ((A9 * 30) / 1000) * cost
 
                                     # OUTPUT
                                     st.write("(1)The consumption of",
@@ -379,6 +380,8 @@ if ask1 == 1:  # add app2 (1st line)
                                              "is:", A7con, "pesos")
                                     st.write("(8)The consumption of", A8N,
                                              "is:", A8con, "pesos")
+                                    st.write("(8)The consumption of", A9N,
+                                             "is:", A9con, "pesos")
                                     st.write("Your electricity bill is",
                                              total4, "pesos")
                                     st.write("Your energy consumption is",
