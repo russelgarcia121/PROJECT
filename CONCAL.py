@@ -1,63 +1,59 @@
+# A()N ay Name
+# A()M ay Quantity
+# A()W ay Wattage
+# A()B ay ilang Day in a Month ginagamit
+# A()D ay ilang Hour in a Day ginagamit
 import streamlit as st
-
-# Set title
 st.title("Welcome to CONCAL!")
+st.text()
+st.markdown()
 
-# Ask for cost input
 cost = st.number_input("The cost per kilowatt-hour in pesos:")
 
-# Add first appliance
+# ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 1st app
 A1N = st.text_input("Name of Appliance:")
-A1M = st.number_input("How many",A1N,"are you using?")
-# A1W = st.number_input(f"What is the wattage of {A1N}?")
-# A1B = st.number_input(f"How many days in a month do you use {A1N}? (1-31)", min_value=1, max_value=31)
-# A1D = st.number_input(f"How many hours per day do you use {A1N}? (0.00001-24)", min_value=0.00001, max_value=24)
+A1M = st.number_input(f"How many {A1N} are you using?")
+A1W = st.number_input(f"What is the wattage of {A1N} ?")
+A1B = st.number_input("How many days in a month do you use this?")
+while A1B > 31 or A1B < 1:
+    A1B = st.number_input("How many days in a month do you use this?")
 
-# # Compute consumption
-# A1F = (A1B/30) * A1D
-# A1 = A1F * (A1W * A1M)
-# wh1 = A1
-# Kh1 = (wh1 * 30) / 1000
-# total1 = cost * Kh1
-# A1con = ((A1 * 30) / 1000) * cost
+A1D = st.number_input("How many hours in a day do you use this?")
+while A1D > 24 or A1D < 0.00001:
+    A1D = st.number_input("How many hours in a day do you use this?")
 
-# # Identify high consumption appliance
-# max_app = A1con
-# max_app_name = A1N
+ask1 = 2
 
-# # Display results
-# st.write(f"Your electricity bill is {total1} pesos.")
-# st.write(f"Your energy consumption is {Kh1} kWh.")
-# st.write(f"The consumption of {A1N} is {A1con} pesos.")
+if ask1 ==2:
+    # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
+    A1F = (A1B/30) * A1D
 
-# # Add another appliance
-# add_another = st.button("Add Another Appliance")
+    # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
+    A1 = (A1F * (A1W * A1M))
 
-# while add_another:
-#     A2N = st.text_input("Name of Appliance:")
-#     A2M = st.number_input(f"How many {A2N} are you using?")
-#     A2W = st.number_input(f"What is the wattage of {A2N}?")
-#     A2B = st.number_input(f"How many days in a month do you use {A2N}? (1-31)", min_value=1, max_value=31)
-#     A2D = st.number_input(f"How many hours per day do you use {A2N}? (0.00001-24)", min_value=0.00001, max_value=24)
+    # TOTAL: watt/hour kada araw.
+    wh1 = A1
 
-#     # Compute consumption
-#     A2F = (A2B/30) * A2D
-#     A2 = A2F * (A2W * A2M)
-#     wh2 = A2
-#     Kh2 = (wh2 * 30) / 1000
-#     total2 = cost * Kh2
-#     A2con = ((A2 * 30) / 1000) * cost
+    # TOTAL: Kilo-watt/hour kada month.
+    Kh1 = (wh1*30) / 1000
 
-#     # Identify high consumption appliance
-#     if A2con > max_app:
-#         max_app = A2con
-#         max_app_name = A2N
+    # TOTAL: para ma compute ang (cost) kada month.
+    total1 = cost * Kh1
 
-#     # Display results
-#     st.write(f"The consumption of {A2N} is {A2con} pesos.")
+    # INDIVIDUALLY: para ma compute ang (cost) kada month.
+    A1con = ((A1*30)/1000)*cost
 
-#     # Ask if user wants to add another appliance
-#     add_another = st.button("Add Another Appliance")
+    # Identify the high consumption appliance
+    apps = [A1con]
+    max_app = apps[0]
+    for app in apps:
+        if app > max_app:
+            max_app = app
+    if max_app == A1con:
+        st.write("Ang may pinkamataas na konsumo ay ang", A1N)
 
-# # Display high consumption appliance
-# st.write(f"The appliance with the highest consumption is {max_app_name}.")
+    # OUTPUT
+    st.write("Your electricity bill is", total1, "pesos")
+    st.write("Your energy consumption is", Kh1, "kWh")
+    st.write("(1)The consumption of", A1N, "is", A1con, "pesos")
