@@ -775,6 +775,7 @@ if ask1 == 2:
     st.markdown("## **THE RESULTS:**")
     # Identify the high consumption appliance
     st.write("************************************************************************************************************************************************************************")
+    st.markdown("**HIGHEST CONSUMPTION**")
     apps = [A1con]
     max_app = apps[0]
     for app in apps:
@@ -785,7 +786,9 @@ if ask1 == 2:
                  A1N, ") with a consumption of", Kh1, "kWh", " resulting in a bill of", A1con, "pesos")
     # OUTPUT2
     st.write("************************************************************************************************************************************************************************")
+    st.markdown("**IDNDIVIDUAL BILL**")
     st.write("(1)The consumption of", A1N, "is", A1con, "pesos")
     st.write("************************************************************************************************************************************************************************")
+    st.markdown("**TOTAL BILL**")
     st.write("Your electricity bill is      :", total1, "pesos")
     st.write("Your energy consumption is    :", Kh1, "kWh")
