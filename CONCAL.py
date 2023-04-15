@@ -1,16 +1,17 @@
 import streamlit as st
 st.title("Welcome to CONCAL!")
 st.text("An advanced technology for managing")
-st.text("household energy consumption")
+st.text("household energy consumption.")
 st.text("")
 st.markdown("**CONCAL can do the following:**")
 st.text("> Identifies appliance with highest")
-st.text("electricity consumption")
+st.text("electricity consumption.")
 st.text("")
 st.text("> Calculates consumption and bill for")
 st.text("each appliance.")
 st.text("")
-st.text("> Computes total bill and power consumption.")
+st.text("> Computes total bill and")
+st.text("power consumption.")
 
 cost = st.number_input("The cost per kilowatt-hour in pesos:")
 ask1 = 0
