@@ -34,9 +34,11 @@ if A1N:
         
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 if ask1 == 1:  # add app2 (1st line)
+    ak2 = 0
     st.markdown("## **2nd APPLIANCE!**")
     A2N = st.text_input("Name of 2nd appliance: ")
     if A2N:
+        ask2 = 0
         A2M = st.number_input(f"How many {A2N} are you using?",value=0, step=1)
         A2W = st.number_input(f"What is the wattage of {A2N}?(watt)")
         A2B = st.number_input(
