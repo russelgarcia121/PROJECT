@@ -2916,3 +2916,5 @@ if ask1 == 2:
     st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
     st.write("Electricity bill: PHP", total1)
     st.write("Energy consumption:", Kh1, "kWh")
+
+    
