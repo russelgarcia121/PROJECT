@@ -8,10 +8,10 @@ cost = st.number_input("The cost per kilowatt-hour in pesos:")
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # add 1st app
 st.markdown("## **1st APPLIANCE!**")
-
+ask1 = 0  # initialize ask1
 A1N = st.text_input("Name of 1st appliance:")
 if A1N:
-    ask1=0
+    ask1 = 2  # assign value to ask1
     A1M = st.number_input(f"How many {A1N} are you using?", value=0, step=1)
     A1W = st.number_input(f"What is the wattage of {A1N}?(watt)")
     A1B = st.number_input(f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1)
@@ -24,8 +24,6 @@ if A1N:
         A1D = st.number_input(
             f"How many hours in a day do you use {A1N}?(1-24)")
 
-    ask1 = 2
-    
 if ask1 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
     A1F = (A1B/30) * A1D
