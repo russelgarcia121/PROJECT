@@ -21,8 +21,7 @@ if A1N:
     A1W = st.number_input(f"What is the wattage of {A1N}?(watt)")
     A1B = st.number_input(f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1,key="A1B")
     while A1B > 31 or A1B < 1:
-        A1B = st.number_input(
-            f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1,key="A1B")
+        A1B = st.number_input(f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1,key="A1B")
 
     A1D = st.number_input(f"How many hours in a day do you use {A1N}?(1-24)",key="A1D")
     while A1D > 24 or A1D < 0.00001:
