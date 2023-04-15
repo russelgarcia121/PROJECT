@@ -42,8 +42,10 @@ if A1N:
     A1M = st.number_input(f"How many {A1N} are you using?", value=0, step=1)
     A1W = st.number_input(f"What is the wattage of {A1N}?(watt)")
     A1B = st.number_input(f"How many days in a month do you use {A1N}?(1-31)", min_value=1, max_value=31, value=0, step=1)
-    A1D = st.number_input(f"How many hours in a day do you use {A1N}?(1-24)", min_value=1, max_value=24)
-    ask1 = st.number_input("Add 2nd appliance (enter 1), No more appliances (enter 2): ", min_value=1, max_value=2, value=0, step=1)
+    if A1B:
+        A1D = st.number_input(f"How many hours in a day do you use {A1N}?(1-24)", min_value=1, max_value=24)
+        if A1D:
+            ask1 = st.number_input("Add 2nd appliance (enter 1), No more appliances (enter 2): ", min_value=1, max_value=2, value=0, step=1)
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 if ask1 == 1:  # add app2 (1st line)
     st.markdown("## **2nd APPLIANCE!**")
