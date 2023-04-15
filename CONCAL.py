@@ -5,6 +5,34 @@ st.markdown("## **START!**")
 
 cost = st.number_input("The cost per kilowatt-hour in pesos:")
 ask1=0
+ask2=0
+ask3=0
+ask4=0
+ask5=0
+ask6=0
+ask7=0
+ask8=0
+ask9=0
+ask10=0
+ask11=0
+ask12=0
+ask13=0
+ask14=0
+ask15=0
+ask16=0
+ask17=0
+ask18=0
+ask19=0
+ask20=0
+ask21=0
+ask22=0
+ask23=0
+ask24=0
+ask25=0
+ask26=0
+ask27=0
+ask28=0
+ask29=0
 
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # add 1st app
@@ -14,21 +42,21 @@ if A1N:
     A1M = st.number_input(f"How many {A1N} are you using?", value=0, step=1)
     A1W = st.number_input(f"What is the wattage of {A1N}?(watt)")
     A1B = st.number_input(f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1)
-    while A1B > 31 or A1B < 1:
-        A1B = st.number_input(
-            f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1)
+    # while A1B > 31 or A1B < 1:
+    #     A1B = st.number_input(
+    #         f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1)
 
     A1D = st.number_input(f"How many hours in a day do you use {A1N}?(1-24)")
-    while A1D > 24 or A1D < 0.00001:
-        A1D = st.number_input(
-            f"How many hours in a day do you use {A1N}?(1-24)")
+    # while A1D > 24 or A1D < 0.00001:
+    #     A1D = st.number_input(
+    #         f"How many hours in a day do you use {A1N}?(1-24)")
 
     ask1 = st.number_input(
         "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 
-    while ask1 > 2 or ask1 < 1:  # ask for input until ask1 is 1 or 2
-        ask1 = st.number_input(
-            "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+    # while ask1 > 2 or ask1 < 1:  # ask for input until ask1 is 1 or 2
+    #     ask1 = st.number_input(
+    #         "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
         
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 if ask1 == 1:  # add app2 (1st line)
