@@ -11,8 +11,6 @@ ak2 = 0
 st.markdown("## **1st APPLIANCE!**")
 A1N = st.text_input("Name of 1st appliance:")
 if A1N:
-    ask1 = 0
-    ak2 = 0
     A1M = st.number_input(f"How many {A1N} are you using?", value=0, step=1)
     A1W = st.number_input(f"What is the wattage of {A1N}?(watt)")
     A1B = st.number_input(f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1)
@@ -26,19 +24,17 @@ if A1N:
             f"How many hours in a day do you use {A1N}?(1-24)")
 
     ask1 = st.number_input(
-        "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+        "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1, key="ask1")
 
-    # while ask1 > 2 or ask1 < 1:  # ask for input until ask1 is 1 or 2
-    #     ask1 = st.number_input(
-    #         "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+    while ask1 > 2 or ask1 < 1:  # ask for input until ask1 is 1 or 2
+        ask1 = st.number_input(
+            "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1, key="ask1")
         
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 if ask1 == 1:  # add app2 (1st line)
-    ak2 = 0
     st.markdown("## **2nd APPLIANCE!**")
     A2N = st.text_input("Name of 2nd appliance: ")
     if A2N:
-        ask2 = 0
         A2M = st.number_input(f"How many {A2N} are you using?",value=0, step=1)
         A2W = st.number_input(f"What is the wattage of {A2N}?(watt)")
         A2B = st.number_input(
