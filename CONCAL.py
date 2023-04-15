@@ -1,6 +1,8 @@
 import streamlit as st
 st.title("Welcome to CONCAL!")
-st.text("Introducing ConCal, an advanced technology that can identify")
+st.text("An advanced technology for managing")
+st.text("household energy consumption")
+st.text("")
 st.text("the appliance with the highest electricity consumption in your household.")
 st.text("")
 st.text("Not only that, ConCal can also calculate the electricity consumption")
