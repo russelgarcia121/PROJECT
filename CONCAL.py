@@ -4,7 +4,8 @@ st.text("")
 st.markdown("## **START!**")
 
 cost = st.number_input("The cost per kilowatt-hour in pesos:")
-
+ask1 = 0
+ask2 = 0
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # add 1st app
 st.markdown("## **1st APPLIANCE!**")
@@ -50,32 +51,8 @@ if ask1 == 1:  # add app2 (1st line)
             A2D = st.number_input(
                 f"How many hours in a day do you use {A2N}?(1-24)")
 
-            ask2 = 2
-        else:
-            ask2 = 2
-
-# ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-if ask1 == 2 or ask2 == 2:
-    st.markdown("## **2nd APPLIANCE!**")
-    A2N = st.text_input("Name of 2nd appliance: ")
-    if A2N:
-        A2M = st.number_input(f"How many {A2N} are you using?",value=0, step=1)
-        A2W = st.number_input(f"What is the wattage of {A2N}?(watt)")
-        A2B = st.number_input(
-            f"How many days in a month do you use {A2N}?(1-31)",value=0, step=1)
-
-        while A2B > 31 or A2B < 1:
-            A2B = st.number_input(
-                f"How many days in a month do you use {A2N}?(1-31)",value=0, step=1)
-
-        A2D = st.number_input(
-            f"How many hours in a day do you use {A2N}?(1-24)")
-
-        while A2D > 24 or A2D < 0.00001:  # ask for input until A()D is <=24 or >=1
-            A2D = st.number_input(
-                f"How many hours in a day do you use {A2N}?(1-24)")
-
         ask2 = 2
+
     if ask2 == 2:
         # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
         A1F = (A1B / 30) * A1D
