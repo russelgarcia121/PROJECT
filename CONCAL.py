@@ -1,6 +1,14 @@
 import streamlit as st
 st.title("Welcome to CONCAL!")
-st.text("Introducing ConCal, an advanced technology that can identify the appliance with the highest electricity consumption in your household. Not only that, ConCal can also calculate the electricity consumption and bill for each appliance you want to compute. With its capability to compute the total electricity bill and power consumption, ConCal is a convenient tool for managing your household's energy consumption.")
+st.text("Introducing ConCal, an advanced technology that can identify")
+st.text("the appliance with the highest electricity consumption in your household.")
+st.text("")
+st.text("Not only that, ConCal can also calculate the electricity consumption")
+st.text("and bill for each appliance you want to compute.")
+st.text("")
+st.text("With its capability to compute the total electricity ")
+st.text("bill and power consumption,ConCal is a convenient tool")
+st.text("for managing your household's energy consumption.")
 st.markdown("## **START!**")
 
 cost = st.number_input("The cost per kilowatt-hour in pesos:")
