@@ -15,6 +15,8 @@ A2D=0
 st.markdown("## **1st APPLIANCE!**")
 A1N = st.text_input("Name of 1st appliance:")
 if A1N:
+    A1B=0
+    A1D=0
     A1M = st.number_input(f"How many {A1N} are you using?", value=0, step=1)
     A1W = st.number_input(f"What is the wattage of {A1N}?(watt)")
     A1B = st.number_input(f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1,key="A1B")
