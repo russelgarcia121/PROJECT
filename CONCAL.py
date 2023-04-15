@@ -10,7 +10,7 @@ cost = st.number_input("The cost per kilowatt-hour in pesos:")
 st.markdown("## **1st APPLIANCE!**")
 A1N = st.text_input("Name of 1st appliance:")
 if A1N:
-    ask1 = 1.5
+    ask1 = 2
     A1M = st.number_input(f"How many {A1N} are you using?", value=0, step=1)
     A1W = st.number_input(f"What is the wattage of {A1N}?(watt)")
     A1B = st.number_input(f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1)
@@ -31,8 +31,6 @@ if A1N:
             "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
         
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-if ask1 == 1.5:
-    print("")
 if ask1 == 1:  # add app2 (1st line)
     st.markdown("## **2nd APPLIANCE!**")
     A2N = st.text_input("Name of 2nd appliance: ")
