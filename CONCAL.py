@@ -13,15 +13,17 @@ A1N = st.text_input("Name of 1st appliance:")
 if A1N:
     A1M = st.number_input(f"How many {A1N} are you using?", value=0, step=1)
     A1W = st.number_input(f"What is the wattage of {A1N}?(watt)")
-    A1B = st.number_input(f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1)
+    A1B = st.number_input(
+        f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1, key="A1B")
     while A1B > 31 or A1B < 1:
         A1B = st.number_input(
-            f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1)
+            f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1, key="A1B")
 
-    A1D = st.number_input(f"How many hours in a day do you use {A1N}?(1-24)")
+    A1D = st.number_input(
+        f"How many hours in a day do you use {A1N}?(1-24)", key="A1D")
     while A1D > 24 or A1D < 0.00001:
         A1D = st.number_input(
-            f"How many hours in a day do you use {A1N}?(1-24)")
+            f"How many hours in a day do you use {A1N}?(1-24)", key="A1D")
 
     ask1 = st.number_input(
         "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1, key="ask1")
@@ -29,28 +31,29 @@ if A1N:
     while ask1 > 2 or ask1 < 1:  # ask for input until ask1 is 1 or 2
         ask1 = st.number_input(
             "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1, key="ask1")
-        
+
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 if ask1 == 1:  # add app2 (1st line)
-    ask2=0
+    ask2 = 0
     st.markdown("## **2nd APPLIANCE!**")
     A2N = st.text_input("Name of 2nd appliance: ")
     if A2N:
-        A2M = st.number_input(f"How many {A2N} are you using?",value=0, step=1)
+        A2M = st.number_input(
+            f"How many {A2N} are you using?", value=0, step=1)
         A2W = st.number_input(f"What is the wattage of {A2N}?(watt)")
         A2B = st.number_input(
-            f"How many days in a month do you use {A2N}?(1-31)",value=0, step=1)
+            f"How many days in a month do you use {A2N}?(1-31)", value=0, step=1, key="A2B")
 
         while A2B > 31 or A2B < 1:
             A2B = st.number_input(
-                f"How many days in a month do you use {A2N}?(1-31)",value=0, step=1)
+                f"How many days in a month do you use {A2N}?(1-31)", value=0, step=1, key="A2B")
 
         A2D = st.number_input(
-            f"How many hours in a day do you use {A2N}?(1-24)")
+            f"How many hours in a day do you use {A2N}?(1-24)", key="A2D")
 
         while A2D > 24 or A2D < 0.00001:  # ask for input until A()D is <=24 or >=1
             A2D = st.number_input(
-                f"How many hours in a day do you use {A2N}?(1-24)")
+                f"How many hours in a day do you use {A2N}?(1-24)", key="A2D")
 
         ask2 = 2
 
