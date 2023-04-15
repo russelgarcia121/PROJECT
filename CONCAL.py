@@ -10,8 +10,8 @@ st.text("")
 st.text("> Calculates consumption and bill for")
 st.text("each appliance.")
 st.text("")
-st.text("> Computes total bill and")
-st.text("power consumption.")
+st.text("> Computes total bill and power")
+st.text("consumption.")
 
 cost = st.number_input("The cost per kilowatt-hour in pesos:")
 ask1 = 0
