@@ -35,9 +35,9 @@ if ask1 == 1:
             ask2 = st.number_input(
                 "No more appliances (enter 2): ", value=0, step=1)
 
-    if ask2 == 2:
-        st.write(A1N)
-        st.write(A2N)
+        if ask2 == 2:
+            st.write(A1N)
+            st.write(A2N)
 
 if ask1 == 2:
     st.write(A1N)
