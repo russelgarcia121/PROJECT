@@ -6,7 +6,8 @@ st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:b
 st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003; Identifies appliance with highest bill and power consumption.</span></li></ul>", unsafe_allow_html=True)
 st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003; Calculates consumption and bill for each appliance.</span></li></ul>", unsafe_allow_html=True)
 st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003;Computes total bill and power consumption.</span></li></ul>", unsafe_allow_html=True)
-st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Let's start!</span>", unsafe_allow_html=True)
+st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Let's start!</span>",
+         unsafe_allow_html=True)
 cost = st.number_input("# The cost per kilowatt-hour in pesos:")
 ask1 = 0
 ask2 = 0
@@ -40,7 +41,7 @@ ask29 = 0
 ask30 = 0
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # add 1st app
-st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the first appliance.</span>", unsafe_allow_html=True)
+st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 1st appliance.</span>", unsafe_allow_html=True)
 A1N = st.text_input("Name of 1st appliance:")
 if A1N:
     A1M = st.number_input(f"How many {A1N} are you using?", value=0, step=1)
@@ -55,7 +56,7 @@ if A1N:
                 "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 if ask1 == 1:  # add app2 (1st line)
-    st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the second appliance.</span>", unsafe_allow_html=True)
+    st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 2nd appliance.</span>", unsafe_allow_html=True)
     A2N = st.text_input("Name of 2nd appliance: ")
     if A2N:
         A2M = st.number_input(
@@ -71,7 +72,7 @@ if ask1 == 1:  # add app2 (1st line)
                     "Add 3rd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     if ask2 == 1:  # add app3 (2nd line)
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the third appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 3rd appliance.</span>", unsafe_allow_html=True)
         A3N = st.text_input("Name of 3rd appliance:")
         if A3N:
             A3M = st.number_input(
@@ -87,7 +88,7 @@ if ask1 == 1:  # add app2 (1st line)
                         "Add 4th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         if ask3 == 1:  # add app4 (3rd line)
-            st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the fourth appliance.</span>", unsafe_allow_html=True)
+            st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 4th appliance.</span>", unsafe_allow_html=True)
             A4N = st.text_input("Name of 4th appliance: ")
             if A4N:
                 A4M = st.number_input(
@@ -103,7 +104,7 @@ if ask1 == 1:  # add app2 (1st line)
                             "Add 5th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
             if ask4 == 1:  # add app5 (4th line)
-                st.markdown("## **5th APPLIANCE!**")
+                st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 5th appliance.</span>", unsafe_allow_html=True)
                 A5N = st.text_input("Name of 5th appliance: ")
                 if A5N:
                     A5M = st.number_input(
@@ -120,7 +121,8 @@ if ask1 == 1:  # add app2 (1st line)
                                 "Add 6th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                 if ask5 == 1:  # add app6 (5th line)
-                    st.markdown("## **6th APPLIANCE!**")
+                    st.write(
+                        "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 6th appliance.</span>", unsafe_allow_html=True)
                     A6N = st.text_input("Name of 6th appliance: ")
                     if A6N:
                         A6M = st.number_input(
@@ -137,7 +139,8 @@ if ask1 == 1:  # add app2 (1st line)
                                     "Add 7th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                     if ask6 == 1:  # add app7 (6th line)
-                        st.markdown("## **7th APPLIANCE!**")
+                        st.write(
+                            "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 7th appliance.</span>", unsafe_allow_html=True)
                         A7N = st.text_input("Name of 7th appliance: ")
                         if A7N:
                             A7M = st.number_input(
@@ -154,7 +157,8 @@ if ask1 == 1:  # add app2 (1st line)
                                         "Add 8th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                         if ask7 == 1:  # add app8 (7th line)
-                            st.markdown("## **8th APPLIANCE!**")
+                            st.write(
+                                "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 8th appliance.</span>", unsafe_allow_html=True)
                             A8N = st.text_input("Name of 8th appliance: ")
                             if A8N:
                                 A8M = st.number_input(
@@ -171,7 +175,8 @@ if ask1 == 1:  # add app2 (1st line)
                                             "Add 9th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                             if ask8 == 1:  # add app9 (8th line)
-                                st.markdown("## **9th APPLIANCE!**")
+                                st.write(
+                                    "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 9th appliance.</span>", unsafe_allow_html=True)
                                 A9N = st.text_input("Name of 9th appliance: ")
                                 if A9N:
                                     A9M = st.number_input(
@@ -188,7 +193,8 @@ if ask1 == 1:  # add app2 (1st line)
                                                 "Add 10th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                 if ask9 == 1:  # add app10 (9th line)
-                                    st.markdown("## **10th APPLIANCE!**")
+                                    st.write(
+                                        "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 10th appliance.</span>", unsafe_allow_html=True)
                                     A10N = st.text_input(
                                         "Name of 10th appliance: ")
                                     if A10N:
@@ -206,7 +212,8 @@ if ask1 == 1:  # add app2 (1st line)
                                                     "Add 11th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                     if ask10 == 1:  # add app11 (10th line)
-                                        st.markdown("## **11th APPLIANCE!**")
+                                        st.write(
+                                            "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 11th appliance.</span>", unsafe_allow_html=True)
                                         A11N = st.text_input(
                                             "Name of 11th appliance:")
                                         if A11N:
@@ -224,8 +231,8 @@ if ask1 == 1:  # add app2 (1st line)
                                                         "Add 12th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                         if ask11 == 1:  # add app12 (11th line)
-                                            st.markdown(
-                                                "## **12th APPLIANCE!**")
+                                            st.write(
+                                                "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 12th appliance.</span>", unsafe_allow_html=True)
                                             A12N = st.text_input(
                                                 "Name of 12th appliance: ")
                                             if A12N:
@@ -243,8 +250,8 @@ if ask1 == 1:  # add app2 (1st line)
                                                             "Add 13th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
  # add app1 to 13 (12th line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                             if ask12 == 1:
-                                                st.markdown(
-                                                    "## **13th APPLIANCE!**")
+                                                st.write(
+                                                    "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 13th appliance.</span>", unsafe_allow_html=True)
                                                 A13N = st.text_input(
                                                     "Name of 13th appliance: ")
                                                 if A13N:
@@ -262,8 +269,8 @@ if ask1 == 1:  # add app2 (1st line)
                                                                 "Add 14th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # add app1 to 14 (13th line) ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                 if ask13 == 1:
-                                                    st.markdown(
-                                                        "## **14th APPLIANCE!**")
+                                                    st.write(
+                                                        "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 14th appliance.</span>", unsafe_allow_html=True)
                                                     A14N = st.text_input(
                                                         "Name of 14th appliance: ")
                                                     if A14N:
@@ -282,8 +289,8 @@ if ask1 == 1:  # add app2 (1st line)
 # -----------------------add app1 to 15 (14th line)////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                     # add app7 (6th line)
                                                     if ask14 == 1:
-                                                        st.markdown(
-                                                            "## **15th APPLIANCE!**")
+                                                        st.write(
+                                                            "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 15th appliance.</span>", unsafe_allow_html=True)
                                                         A15N = st.text_input(
                                                             "Name of 15th appliance: ")
                                                         if A15N:
