@@ -1,7 +1,9 @@
 import streamlit as st
 
-# Set font family
-st.write("<style>h1{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}</style>", unsafe_allow_html=True)
+# List of fonts to use
+fonts = ["Arial", "Times New Roman", "Verdana", "Georgia", "Comic Sans MS"]
 
-# Display text with custom font
-st.write("<h1>Hi</h1>", unsafe_allow_html=True)
+# Loop through the fonts and display "Hi" in each font
+for i in range(5):
+    font = fonts[i]
+    st.write(f"<span style='font-family:{font}; font-size:36px;'>Hi</span>", unsafe_allow_html=True)
