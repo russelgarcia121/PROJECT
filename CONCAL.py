@@ -9,7 +9,9 @@ st.write("<span style='font-family:Times New Roman; font-size:18px;'>&#10003; Ca
 st.text("")
 st.write("<span style='font-family:Times New Roman; font-size:18px;'>&#10003;Computes total bill and power consumption.</span></li></ul>", unsafe_allow_html=True)
 
-cost = st.number_input("The cost per kilowatt-hour in pesos:",font=("Calibri",16))
+cost = st.number_input("What is your name?", value="", max_chars=None,
+                       key=None, type='default', help=None, font=("Calibri", 16))
+# cost = st.number_input("The cost per kilowatt-hour in pesos:",font=("Calibri",16))
 ask1 = 0
 ask2 = 0
 ask3 = 0
