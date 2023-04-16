@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("Welcome to CONCAL!")
-st.text("An advanced technology for managing")
+st.write(f"<span style='font-family:Times New Roman; font-size:36px;'>An advanced technology for managing</span>", unsafe_allow_html=True)
 st.text("household energy consumption.")
 st.text("")
 st.markdown("**CONCAL can do the following:**")
