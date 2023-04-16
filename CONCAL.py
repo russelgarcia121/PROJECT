@@ -1,7 +1,6 @@
 import streamlit as st
-st.title("Welcome to CONCAL!")
 st.write(f"<span style='font-family:Times New Roman; font-size:36px;font-weight:bold;'>Welcome to CONCAL!</span>", unsafe_allow_html=True)
-st.write(f"<span style='font-family:Times New Roman; font-size:12px;'>An advanced technology for managing household energy consumption.</span>", unsafe_allow_html=True)
+st.write(f"<span style='font-family:Times New Roman; font-size:18px;'>An advanced technology for managing household energy consumption.</span>", unsafe_allow_html=True)
 st.text("")
 st.markdown("**CONCAL can do the following:**")
 st.text("> Identifies appliance with highest")
