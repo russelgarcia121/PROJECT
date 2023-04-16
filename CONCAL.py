@@ -3,7 +3,7 @@ st.write(f"<span style='font-family:Times New Roman; font-size:36px;font-weight:
 st.write(f"<span style='font-family:Times New Roman; font-size:18px;'>An advanced technology for managing household energy consumption.</span>", unsafe_allow_html=True)
 st.text("")
 st.write(f"<span style='font-family:Times New Roman; font-size:24px;font-weight:bold;'>CONCAL can do the following:</span>", unsafe_allow_html=True)
-st.write(f"<ul><li><span style='font-family:Times New Roman; font-size:18px;'>&#10003; Identifies appliance with highest bill and power consumption.</span></li></ul>", unsafe_allow_html=True)
+st.write(f"<span style='font-family:Times New Roman; font-size:18px;'>&#10003; Identifies appliance with highest bill and power consumption.</span></li></ul>", unsafe_allow_html=True)
 st.text("")
 st.write(f"<span style='font-family:Times New Roman; font-size:18px;'>Calculates consumption and bill for each appliance.</span>", unsafe_allow_html=True)
 st.text("")
