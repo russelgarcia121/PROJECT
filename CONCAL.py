@@ -1,7 +1,7 @@
 import streamlit as st
 st.write("<span style='font-family:Times New Roman; font-size:32px;font-weight:bold;'>Welcome to CONCAL!</span>", unsafe_allow_html=True)
 st.write("<span style='font-family:Times New Roman; font-size:14px;'>An advanced technology for managing household energy consumption.</span>", unsafe_allow_html=True)
-st.write("**")
+st.write("***")
 st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>CONCAL can do the following:</span>", unsafe_allow_html=True)
 st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003; Identifies appliance with highest bill and power consumption.</span></li></ul>", unsafe_allow_html=True)
 st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003; Calculates consumption and bill for each appliance.</span></li></ul>", unsafe_allow_html=True)
