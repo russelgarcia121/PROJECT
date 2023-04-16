@@ -4,9 +4,7 @@ st.write("<span style='font-family:Times New Roman; font-size:14px;'>An advanced
 st.text("")
 st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>CONCAL can do the following:</span>", unsafe_allow_html=True)
 st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003; Identifies appliance with highest bill and power consumption.</span></li></ul>", unsafe_allow_html=True)
-st.text("")
 st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003; Calculates consumption and bill for each appliance.</span></li></ul>", unsafe_allow_html=True)
-st.text("")
 st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003;Computes total bill and power consumption.</span></li></ul>", unsafe_allow_html=True)
 
 cost = st.number_input("# The cost per kilowatt-hour in pesos:")
