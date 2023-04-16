@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Add a custom font
-st.markdown('<style>body {font-family: "Times New Roman", sans-serif;}</style>', unsafe_allow_html=True)
+st.markdown('<style>body {font-family: "Algerian", sans-serif;}</style>', unsafe_allow_html=True)
 
 # Add some text using the custom font
 st.header('Hello, world!')
