@@ -1,8 +1,7 @@
 import streamlit as st
 
-# Add a custom font
-st.markdown('<style>body {font-family: "Arial", sans-serif;}</style>', unsafe_allow_html=True)
+# Set font family
+st.write("<style>h1{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}</style>", unsafe_allow_html=True)
 
-# Add some text using the custom font
-st.header('Hello, world!')
-st.write('This is an example of using a custom font in Streamlit.')
+# Display text with custom font
+st.write("<h1>Hi</h1>", unsafe_allow_html=True)
