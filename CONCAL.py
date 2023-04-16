@@ -40,7 +40,7 @@ ask29 = 0
 ask30 = 0
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # add 1st app
-st.markdown("## *Information about the first appliance.*")
+st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the first appliance.</span>", unsafe_allow_html=True)
 A1N = st.text_input("Name of 1st appliance:")
 if A1N:
     A1M = st.number_input(f"How many {A1N} are you using?", value=0, step=1)
