@@ -2,15 +2,13 @@ import streamlit as st
 st.write(f"<span style='font-family:Times New Roman; font-size:36px;font-weight:bold;'>Welcome to CONCAL!</span>", unsafe_allow_html=True)
 st.write(f"<span style='font-family:Times New Roman; font-size:18px;'>An advanced technology for managing household energy consumption.</span>", unsafe_allow_html=True)
 st.text("")
-st.markdown("**CONCAL can do the following:**")
-st.text("> Identifies appliance with highest")
-st.text("bill and power consumption.")
+st.write(f"<span style='font-family:Times New Roman; font-size:24px;font-weight:bold;'>CONCAL can do the following:</span>", unsafe_allow_html=True)
+st.write(f"<span style='font-family:Times New Roman; font-size:18px;'>Identifies appliance with highest bill and power consumption.</span>", unsafe_allow_html=True)
 st.text("")
-st.text("> Calculates consumption and bill for")
-st.text("each appliance.")
+st.write(f"<span style='font-family:Times New Roman; font-size:18px;'>Calculates consumption and bill for each appliance.</span>", unsafe_allow_html=True)
 st.text("")
-st.text("> Computes total bill and power")
-st.text("consumption.")
+st.write(f"<span style='font-family:Times New Roman; font-size:18px;'>Computes total bill and power consumption.</span>", unsafe_allow_html=True)
+
 
 cost = st.number_input("The cost per kilowatt-hour in pesos:")
 ask1 = 0
@@ -2916,5 +2914,3 @@ if ask1 == 2:
     st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
     st.write("Electricity bill: PHP", total1)
     st.write("Energy consumption:", Kh1, "kWh")
-
-    
