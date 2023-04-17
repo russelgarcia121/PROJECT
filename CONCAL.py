@@ -40,7 +40,7 @@ ask27 = 0
 ask28 = 0
 ask29 = 0
 ask30 = 0
-# ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # add 1st app
 st.write("***")
 st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 1st appliance.</span>", unsafe_allow_html=True)
@@ -56,8 +56,9 @@ if A1N:
         if 31 >= A1D >= 1:
             ask1 = st.number_input(
                 "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-# ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-if ask1 == 1:  # add app2 (1st line)
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 2nd app
+if ask1 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 2nd appliance.</span>", unsafe_allow_html=True)
     A2N = st.text_input("Name of 2nd appliance: ")
@@ -73,8 +74,9 @@ if ask1 == 1:  # add app2 (1st line)
             if 31 >= A2D >= 1:
                 ask2 = st.number_input(
                     "Add 3rd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-if ask2 == 1:  # add app3 (2nd line)
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 3rd app
+if ask2 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 3rd appliance.</span>", unsafe_allow_html=True)
     A3N = st.text_input("Name of 3rd appliance:")
@@ -90,198 +92,190 @@ if ask2 == 1:  # add app3 (2nd line)
             if 31 >= A3D >= 1:
                 ask3 = st.number_input(
                     "Add 4th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        if ask3 == 1:  # add app4 (3rd line)
-            st.write("***")
-            st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 4th appliance.</span>", unsafe_allow_html=True)
-            A4N = st.text_input("Name of 4th appliance: ")
-            if A4N:
-                A4M = st.number_input(
-                    f"How many {A4N} are you using?", value=0, step=1)
-                A4W = st.number_input(f"What is the wattage of {A4N}?(watt)")
-                A4B = st.number_input(
-                    f"How many days in a month do you use {A4N}?(1-31)", value=0, step=1)
-                if 31 >= A4B >= 1:
-                    A4D = st.number_input(
-                        f"How many hours in a day do you use {A4N}?(1-24)")
-                    if 31 >= A4D >= 1:
-                        ask4 = st.number_input(
-                            "Add 5th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            if ask4 == 1:  # add app5 (4th line)
-                st.write("***")
-                st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 5th appliance.</span>", unsafe_allow_html=True)
-                A5N = st.text_input("Name of 5th appliance: ")
-                if A5N:
-                    A5M = st.number_input(
-                        f"How many {A5N} are you using?", value=0, step=1)
-                    A5W = st.number_input(
-                        f"What is the wattage of {A5N}?(watt)")
-                    A5B = st.number_input(
-                        f"How many days in a month do you use {A5N}?(1-31)", value=0, step=1)
-                    if 31 >= A5B >= 1:
-                        A5D = st.number_input(
-                            f"How many hours in a day do you use {A5N}?(1-24)")
-                        if 31 >= A5D >= 1:
-                            ask5 = st.number_input(
-                                "Add 6th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-# ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                if ask5 == 1:  # add app6 (5th line)
-                    st.write("***")
-                    st.write(
-                        "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 6th appliance.</span>", unsafe_allow_html=True)
-                    A6N = st.text_input("Name of 6th appliance: ")
-                    if A6N:
-                        A6M = st.number_input(
-                            f"How many {A6N} are you using?", value=0, step=1)
-                        A6W = st.number_input(
-                            f"What is the wattage of {A6N}?(watt)")
-                        A6B = st.number_input(
-                            f"How many days in a month do you use {A6N}?(1-31)", value=0, step=1)
-                        if 31 >= A6B >= 1:
-                            A6D = st.number_input(
-                                f"How many hours in a day do you use {A6N}?(1-24)")
-                            if 31 >= A6D >= 1:
-                                ask6 = st.number_input(
-                                    "Add 7th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-# ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                    if ask6 == 1:  # add app7 (6th line)
-                        st.write("***")
-                        st.write(
-                            "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 7th appliance.</span>", unsafe_allow_html=True)
-                        A7N = st.text_input("Name of 7th appliance: ")
-                        if A7N:
-                            A7M = st.number_input(
-                                f"How many {A7N} are you using?", value=0, step=1)
-                            A7W = st.number_input(
-                                f"What is the wattage of {A7N}?(watt)")
-                            A7B = st.number_input(
-                                f"How many days in a month do you use {A7N}?(1-31)", value=0, step=1)
-                            if 31 >= A7B >= 1:
-                                A7D = st.number_input(
-                                    f"How many hours in a day do you use {A7N}?(1-24)")
-                                if 31 >= A7D >= 1:
-                                    ask7 = st.number_input(
-                                        "Add 8th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-# ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                        if ask7 == 1:  # add app8 (7th line)
-                            st.write("***")
-                            st.write(
-                                "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 8th appliance.</span>", unsafe_allow_html=True)
-                            A8N = st.text_input("Name of 8th appliance: ")
-                            if A8N:
-                                A8M = st.number_input(
-                                    f"How many {A8N} are you using?", value=0, step=1)
-                                A8W = st.number_input(
-                                    f"What is the wattage of {A8N}?(watt)")
-                                A8B = st.number_input(
-                                    f"How many days in a month do you use {A8N}?(1-31)", value=0, step=1)
-                                if 31 >= A8B >= 1:
-                                    A8D = st.number_input(
-                                        f"How many hours in a day do you use {A8N}?(1-24)")
-                                    if 31 >= A8D >= 1:
-                                        ask8 = st.number_input(
-                                            "Add 9th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-# ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                            if ask8 == 1:  # add app9 (8th line)
-                                st.write("***")
-                                st.write(
-                                    "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 9th appliance.</span>", unsafe_allow_html=True)
-                                A9N = st.text_input("Name of 9th appliance: ")
-                                if A9N:
-                                    A9M = st.number_input(
-                                        f"How many {A9N} are you using?", value=0, step=1)
-                                    A9W = st.number_input(
-                                        f"What is the wattage of {A9N}?(watt)")
-                                    A9B = st.number_input(
-                                        f"How many days in a month do you use {A9N}?(1-31)", value=0, step=1)
-                                    if 31 >= A9B >= 1:
-                                        A9D = st.number_input(
-                                            f"How many hours in a day do you use {A9N}?(1-24)")
-                                        if 31 >= A9D >= 1:
-                                            ask9 = st.number_input(
-                                                "Add 10th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-# ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                if ask9 == 1:  # add app10 (9th line)
-                                    st.write("***")
-                                    st.write(
-                                        "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 10th appliance.</span>", unsafe_allow_html=True)
-                                    A10N = st.text_input(
-                                        "Name of 10th appliance: ")
-                                    if A10N:
-                                        A10M = st.number_input(
-                                            f"How many {A10N} are you using?", value=0, step=1)
-                                        A10W = st.number_input(
-                                            f"What is the wattage of {A10N}?(watt)")
-                                        A10B = st.number_input(
-                                            f"How many days in a month do you use {A10N}?(1-31)", value=0, step=1)
-                                        if 31 >= A10B >= 1:
-                                            A10D = st.number_input(
-                                                f"How many hours in a day do you use {A10N}?(1-24)")
-                                            if 31 >= A10D >= 1:
-                                                ask10 = st.number_input(
-                                                    "Add 11th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                    if ask10 == 1:  # add app11 (10th line)
-                                        st.write("***")
-                                        st.write(
-                                            "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 11th appliance.</span>", unsafe_allow_html=True)
-                                        A11N = st.text_input(
-                                            "Name of 11th appliance:")
-                                        if A11N:
-                                            A11M = st.number_input(
-                                                f"How many {A11N} are you using?", value=0, step=1)
-                                            A11W = st.number_input(
-                                                f"What is the wattage of {A11N}?(watt)")
-                                            A11B = st.number_input(
-                                                f"How many days in a month do you use {A11N}?(1-31)", value=0, step=1)
-                                            if 31 >= A11B >= 1:
-                                                A11D = st.number_input(
-                                                    f"How many hours in a day do you use {A11N}?(1-24)")
-                                                if 31 >= A11D >= 1:
-                                                    ask11 = st.number_input(
-                                                        "Add 12th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                        if ask11 == 1:  # add app12 (11th line)
-                                            st.write("***")
-                                            st.write(
-                                                "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 12th appliance.</span>", unsafe_allow_html=True)
-                                            A12N = st.text_input(
-                                                "Name of 12th appliance: ")
-                                            if A12N:
-                                                A12M = st.number_input(
-                                                    f"How many {A12N} are you using?", value=0, step=1)
-                                                A12W = st.number_input(
-                                                    f"What is the wattage of {A12N}?(watt)")
-                                                A12B = st.number_input(
-                                                    f"How many days in a month do you use {A12N}?(1-31)", value=0, step=1)
-                                                if 31 >= A12B >= 1:
-                                                    A12D = st.number_input(
-                                                        f"How many hours in a day do you use {A12N}?(1-24)")
-                                                    if 31 >= A12D >= 1:
-                                                        ask12 = st.number_input(
-                                                            "Add 13th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
- # add app1 to 13 (12th line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                            if ask12 == 1:
-                                                st.write("***")
-                                                st.write(
-                                                    "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 13th appliance.</span>", unsafe_allow_html=True)
-                                                A13N = st.text_input(
-                                                    "Name of 13th appliance: ")
-                                                if A13N:
-                                                    A13M = st.number_input(
-                                                        f"How many {A13N} are you using?", value=0, step=1)
-                                                    A13W = st.number_input(
-                                                        f"What is the wattage of {A13N}?(watt)")
-                                                    A13B = st.number_input(
-                                                        f"How many days in a month do you use {A13N}?(1-31)", value=0, step=1)
-                                                    if 31 >= A13B >= 1:
-                                                        A13D = st.number_input(
-                                                            f"How many hours in a day do you use {A13N}?(1-24)")
-                                                        if 31 >= A13D >= 1:
-                                                            ask13 = st.number_input(
-                                                                "Add 14th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-# add app1 to 14 (13th line) ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+if ask3 == 1:
+    st.write("***")
+    st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 4th appliance.</span>", unsafe_allow_html=True)
+    A4N = st.text_input("Name of 4th appliance: ")
+    if A4N:
+        A4M = st.number_input(
+            f"How many {A4N} are you using?", value=0, step=1)
+        A4W = st.number_input(f"What is the wattage of {A4N}?(watt)")
+        A4B = st.number_input(
+            f"How many days in a month do you use {A4N}?(1-31)", value=0, step=1)
+        if 31 >= A4B >= 1:
+            A4D = st.number_input(
+                f"How many hours in a day do you use {A4N}?(1-24)")
+            if 31 >= A4D >= 1:
+                ask4 = st.number_input(
+                    "Add 5th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+
+if ask4 == 1:
+    st.write("***")
+    st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 5th appliance.</span>", unsafe_allow_html=True)
+    A5N = st.text_input("Name of 5th appliance: ")
+    if A5N:
+        A5M = st.number_input(
+            f"How many {A5N} are you using?", value=0, step=1)
+        A5W = st.number_input(
+            f"What is the wattage of {A5N}?(watt)")
+        A5B = st.number_input(
+            f"How many days in a month do you use {A5N}?(1-31)", value=0, step=1)
+        if 31 >= A5B >= 1:
+            A5D = st.number_input(
+                f"How many hours in a day do you use {A5N}?(1-24)")
+            if 31 >= A5D >= 1:
+                ask5 = st.number_input(
+                    "Add 6th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+
+if ask5 == 1:
+    st.write("***")
+    st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 6th appliance.</span>", unsafe_allow_html=True)
+    A6N = st.text_input("Name of 6th appliance: ")
+    if A6N:
+        A6M = st.number_input(
+            f"How many {A6N} are you using?", value=0, step=1)
+        A6W = st.number_input(
+            f"What is the wattage of {A6N}?(watt)")
+        A6B = st.number_input(
+            f"How many days in a month do you use {A6N}?(1-31)", value=0, step=1)
+        if 31 >= A6B >= 1:
+            A6D = st.number_input(
+                f"How many hours in a day do you use {A6N}?(1-24)")
+            if 31 >= A6D >= 1:
+                ask6 = st.number_input(
+                    "Add 7th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+
+if ask6 == 1: 
+    st.write("***")
+    st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 7th appliance.</span>", unsafe_allow_html=True)
+    A7N = st.text_input("Name of 7th appliance: ")
+    if A7N:
+        A7M = st.number_input(
+            f"How many {A7N} are you using?", value=0, step=1)
+        A7W = st.number_input(
+            f"What is the wattage of {A7N}?(watt)")
+        A7B = st.number_input(
+            f"How many days in a month do you use {A7N}?(1-31)", value=0, step=1)
+        if 31 >= A7B >= 1:
+            A7D = st.number_input(
+                f"How many hours in a day do you use {A7N}?(1-24)")
+            if 31 >= A7D >= 1:
+                ask7 = st.number_input(
+                    "Add 8th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+
+if ask7 == 1:
+    st.write("***")
+    st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 8th appliance.</span>", unsafe_allow_html=True)
+    A8N = st.text_input("Name of 8th appliance: ")
+    if A8N:
+        A8M = st.number_input(
+            f"How many {A8N} are you using?", value=0, step=1)
+        A8W = st.number_input(
+            f"What is the wattage of {A8N}?(watt)")
+        A8B = st.number_input(
+            f"How many days in a month do you use {A8N}?(1-31)", value=0, step=1)
+        if 31 >= A8B >= 1:
+            A8D = st.number_input(
+                f"How many hours in a day do you use {A8N}?(1-24)")
+            if 31 >= A8D >= 1:
+                ask8 = st.number_input(
+                    "Add 9th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+
+if ask8 == 1:
+    st.write("***")
+    st.write(
+        "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 9th appliance.</span>", unsafe_allow_html=True)
+    A9N = st.text_input("Name of 9th appliance: ")
+    if A9N:
+        A9M = st.number_input(
+            f"How many {A9N} are you using?", value=0, step=1)
+        A9W = st.number_input(
+            f"What is the wattage of {A9N}?(watt)")
+        A9B = st.number_input(
+            f"How many days in a month do you use {A9N}?(1-31)", value=0, step=1)
+        if 31 >= A9B >= 1:
+            A9D = st.number_input(
+                f"How many hours in a day do you use {A9N}?(1-24)")
+            if 31 >= A9D >= 1:
+                ask9 = st.number_input(
+                    "Add 10th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+
+if ask9 == 1:
+    st.write("***")
+    st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 10th appliance.</span>", unsafe_allow_html=True)
+    A10N = st.text_input("Name of 10th appliance: ")
+    if A10N:
+        A10M = st.number_input(
+            f"How many {A10N} are you using?", value=0, step=1)
+        A10W = st.number_input(
+            f"What is the wattage of {A10N}?(watt)")
+        A10B = st.number_input(
+            f"How many days in a month do you use {A10N}?(1-31)", value=0, step=1)
+        if 31 >= A10B >= 1:
+            A10D = st.number_input(
+                f"How many hours in a day do you use {A10N}?(1-24)")
+            if 31 >= A10D >= 1:
+                ask10 = st.number_input(
+                    "Add 11th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+
+if ask10 == 1:  # add app11 (10th line)
+    st.write("***")
+    st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 11th appliance.</span>", unsafe_allow_html=True)
+    A11N = st.text_input("Name of 11th appliance:")
+    if A11N:
+        A11M = st.number_input(
+            f"How many {A11N} are you using?", value=0, step=1)
+        A11W = st.number_input(
+            f"What is the wattage of {A11N}?(watt)")
+        A11B = st.number_input(
+            f"How many days in a month do you use {A11N}?(1-31)", value=0, step=1)
+        if 31 >= A11B >= 1:
+            A11D = st.number_input(
+                f"How many hours in a day do you use {A11N}?(1-24)")
+            if 31 >= A11D >= 1:
+                ask11 = st.number_input(
+                    "Add 12th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+
+if ask11 == 1:  # add app12 (11th line)
+    st.write("***")
+    st.write(
+        "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 12th appliance.</span>", unsafe_allow_html=True)
+    A12N = st.text_input(
+        "Name of 12th appliance: ")
+    if A12N:
+        A12M = st.number_input(
+            f"How many {A12N} are you using?", value=0, step=1)
+        A12W = st.number_input(
+            f"What is the wattage of {A12N}?(watt)")
+        A12B = st.number_input(
+            f"How many days in a month do you use {A12N}?(1-31)", value=0, step=1)
+        if 31 >= A12B >= 1:
+            A12D = st.number_input(
+                f"How many hours in a day do you use {A12N}?(1-24)")
+            if 31 >= A12D >= 1:
+                ask12 = st.number_input(
+                    "Add 13th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+
+if ask12 == 1:
+    st.write("***")
+    st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 13th appliance.</span>", unsafe_allow_html=True)
+    A13N = st.text_input(
+        "Name of 13th appliance: ")
+    if A13N:
+        A13M = st.number_input(
+            f"How many {A13N} are you using?", value=0, step=1)
+        A13W = st.number_input(
+            f"What is the wattage of {A13N}?(watt)")
+        A13B = st.number_input(
+            f"How many days in a month do you use {A13N}?(1-31)", value=0, step=1)
+        if 31 >= A13B >= 1:
+            A13D = st.number_input(
+                f"How many hours in a day do you use {A13N}?(1-24)")
+            if 31 >= A13D >= 1:
+                ask13 = st.number_input(
+                    "Add 14th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+
 if ask13 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 14th appliance.</span>", unsafe_allow_html=True)
@@ -297,7 +291,8 @@ if ask13 == 1:
             A14D = st.number_input(
                 f"How many hours in a day do you use {A14N}?(1-24)")
             if 31 >= A14D >= 1:
-                ask14 = st.number_input("Add 15th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                ask14 = st.number_input(
+                    "Add 15th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 
 if ask14 == 1:
     st.write("***")
@@ -502,10 +497,8 @@ if ask24 == 1:
                     "Add 26th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 
 if ask25 == 1:
-    st.write(
-        "***")
-    st.write(
-        "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 26th appliance.</span>", unsafe_allow_html=True)
+    st.write("***")
+    st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 26th appliance.</span>", unsafe_allow_html=True)
     A26N = st.text_input(
         "Name of 26th appliance:")
     if A26N:
