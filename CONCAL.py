@@ -92,7 +92,8 @@ if ask2 == 1:
             if 31 >= A3D >= 1:
                 ask3 = st.number_input(
                     "Add 4th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 4th app
 if ask3 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 4th appliance.</span>", unsafe_allow_html=True)
@@ -109,7 +110,8 @@ if ask3 == 1:
             if 31 >= A4D >= 1:
                 ask4 = st.number_input(
                     "Add 5th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 5th app
 if ask4 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 5th appliance.</span>", unsafe_allow_html=True)
@@ -127,7 +129,8 @@ if ask4 == 1:
             if 31 >= A5D >= 1:
                 ask5 = st.number_input(
                     "Add 6th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 6th app
 if ask5 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 6th appliance.</span>", unsafe_allow_html=True)
@@ -145,8 +148,9 @@ if ask5 == 1:
             if 31 >= A6D >= 1:
                 ask6 = st.number_input(
                     "Add 7th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
-if ask6 == 1: 
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 7th app
+if ask6 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 7th appliance.</span>", unsafe_allow_html=True)
     A7N = st.text_input("Name of 7th appliance: ")
@@ -163,7 +167,8 @@ if ask6 == 1:
             if 31 >= A7D >= 1:
                 ask7 = st.number_input(
                     "Add 8th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 8th app
 if ask7 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 8th appliance.</span>", unsafe_allow_html=True)
@@ -181,7 +186,8 @@ if ask7 == 1:
             if 31 >= A8D >= 1:
                 ask8 = st.number_input(
                     "Add 9th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 9th app
 if ask8 == 1:
     st.write("***")
     st.write(
@@ -200,7 +206,8 @@ if ask8 == 1:
             if 31 >= A9D >= 1:
                 ask9 = st.number_input(
                     "Add 10th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 10th app
 if ask9 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 10th appliance.</span>", unsafe_allow_html=True)
@@ -218,8 +225,9 @@ if ask9 == 1:
             if 31 >= A10D >= 1:
                 ask10 = st.number_input(
                     "Add 11th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
-if ask10 == 1:  # add app11 (10th line)
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 11th app
+if ask10 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 11th appliance.</span>", unsafe_allow_html=True)
     A11N = st.text_input("Name of 11th appliance:")
@@ -236,8 +244,9 @@ if ask10 == 1:  # add app11 (10th line)
             if 31 >= A11D >= 1:
                 ask11 = st.number_input(
                     "Add 12th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
-if ask11 == 1:  # add app12 (11th line)
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 12th app
+if ask11 == 1:
     st.write("***")
     st.write(
         "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 12th appliance.</span>", unsafe_allow_html=True)
@@ -256,7 +265,8 @@ if ask11 == 1:  # add app12 (11th line)
             if 31 >= A12D >= 1:
                 ask12 = st.number_input(
                     "Add 13th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 13th app
 if ask12 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 13th appliance.</span>", unsafe_allow_html=True)
@@ -275,7 +285,8 @@ if ask12 == 1:
             if 31 >= A13D >= 1:
                 ask13 = st.number_input(
                     "Add 14th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 14th app
 if ask13 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 14th appliance.</span>", unsafe_allow_html=True)
@@ -293,10 +304,11 @@ if ask13 == 1:
             if 31 >= A14D >= 1:
                 ask14 = st.number_input(
                     "Add 15th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 15th app
 if ask14 == 1:
     st.write("***")
-    st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 16th appliance.</span>", unsafe_allow_html=True)
+    st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 15th appliance.</span>", unsafe_allow_html=True)
     A15N = st.text_input("Name of 15th appliance: ")
     if A15N:
         A15M = st.number_input(
@@ -311,7 +323,8 @@ if ask14 == 1:
             if 31 >= A15D >= 1:
                 ask15 = st.number_input(
                     "Add 16th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 16th app
 if ask15 == 1:
     st.write("***")
     st.write(
@@ -331,7 +344,8 @@ if ask15 == 1:
             if 31 >= A16D >= 1:
                 ask16 = st.number_input(
                     "Add 17th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 17th app
 if ask16 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 17th appliance.</span>", unsafe_allow_html=True)
@@ -349,7 +363,8 @@ if ask16 == 1:
             if 31 >= A17D >= 1:
                 ask17 = st.number_input(
                     "Add 18th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 18th app
 if ask17 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 18th appliance.</span>", unsafe_allow_html=True)
@@ -367,7 +382,8 @@ if ask17 == 1:
             if 31 >= A18D >= 1:
                 ask18 = st.number_input(
                     "Add 19th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 19th app
 if ask18 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 19th appliance.</span>", unsafe_allow_html=True)
@@ -385,7 +401,8 @@ if ask18 == 1:
             if 31 >= A19D >= 1:
                 ask19 = st.number_input(
                     "Add 20th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 20th app
 if ask19 == 1:
     st.write(
         "***")
@@ -406,7 +423,8 @@ if ask19 == 1:
             if 31 >= A20D >= 1:
                 ask20 = st.number_input(
                     "Add 21st appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 21st app
 if ask20 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 21st appliance.</span>", unsafe_allow_html=True)
@@ -424,7 +442,8 @@ if ask20 == 1:
             if 31 >= A21D >= 1:
                 ask21 = st.number_input(
                     "Add 22nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 22nd app
 if ask21 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 22nd appliance.</span>", unsafe_allow_html=True)
@@ -442,7 +461,8 @@ if ask21 == 1:
             if 31 >= A22D >= 1:
                 ask22 = st.number_input(
                     "Add 23rd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 23rd app
 if ask22 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 23rd appliance.</span>", unsafe_allow_html=True)
@@ -460,7 +480,8 @@ if ask22 == 1:
             if 31 >= A23D >= 1:
                 ask23 = st.number_input(
                     "Add 24th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 24th app
 if ask23 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 24th appliance.</span>", unsafe_allow_html=True)
@@ -478,6 +499,8 @@ if ask23 == 1:
             if 31 >= A24D >= 1:
                 ask24 = st.number_input(
                     "Add 25th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 25th app
 if ask24 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 25th appliance.</span>", unsafe_allow_html=True)
@@ -495,7 +518,8 @@ if ask24 == 1:
             if 31 >= A25D >= 1:
                 ask25 = st.number_input(
                     "Add 26th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 26th app
 if ask25 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 26th appliance.</span>", unsafe_allow_html=True)
@@ -514,7 +538,8 @@ if ask25 == 1:
             if 31 >= A26D >= 1:
                 ask26 = st.number_input(
                     "Add 27th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 27th app
 if ask26 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 27th appliance.</span>", unsafe_allow_html=True)
@@ -531,6 +556,8 @@ if ask26 == 1:
             if 31 >= A27D >= 1:
                 ask27 = st.number_input(
                     "Add 28th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 28th app
 if ask27 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 28th appliance.</span>", unsafe_allow_html=True)
@@ -547,6 +574,8 @@ if ask27 == 1:
             if 31 >= A28D >= 1:
                 ask28 = st.number_input(
                     "Add 29th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 29th app
 if ask28 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 29th appliance.</span>", unsafe_allow_html=True)
@@ -563,7 +592,8 @@ if ask28 == 1:
             if 31 >= A29D >= 1:
                 ask29 = st.number_input(
                     "Add 30th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# add 30th app
 if ask29 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 30th appliance.</span>", unsafe_allow_html=True)
@@ -579,114 +609,69 @@ if ask29 == 1:
                 f"How many hours in a day do you use {A30N}?(1-24)")
             if 31 >= A30D >= 1:
                 ask30 = 2
-
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Calculate 1-15th app
 if ask15 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (
-        A1B / 30) * A1D
-    A2F = (
-        A2B / 30) * A2D
-    A3F = (
-        A3B / 30) * A3D
-    A4F = (
-        A4B / 30) * A4D
-    A5F = (
-        A5B / 30) * A5D
-    A6F = (
-        A6B / 30) * A6D
-    A7F = (
-        A7B / 30) * A7D
-    A8F = (
-        A8B / 30) * A8D
-    A9F = (
-        A9B / 30) * A9D
-    A10F = (
-        A10B / 30) * A10D
-    A11F = (
-        A11B / 30) * A11D
-    A12F = (
-        A12B / 30) * A12D
-    A13F = (
-        A13B / 30) * A13D
-    A14F = (
-        A14B / 30) * A14D
-    A15F = (
-        A15B / 30) * A15D
+    A1F = (A1B / 30) * A1D
+    A2F = (A2B / 30) * A2D
+    A3F = (A3B / 30) * A3D
+    A4F = (A4B / 30) * A4D
+    A5F = (A5B / 30) * A5D
+    A6F = (A6B / 30) * A6D
+    A7F = (A7B / 30) * A7D
+    A8F = (A8B / 30) * A8D
+    A9F = (A9B / 30) * A9D
+    A10F = (A10B / 30) * A10D
+    A11F = (A11B / 30) * A11D
+    A12F = (A12B / 30) * A12D
+    A13F = (A13B / 30) * A13D
+    A14F = (A14B / 30) * A14D
+    A15F = (A15B / 30) * A15D
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
-    A1 = (
-        A1F * (A1W * A1M))
-    A2 = (
-        A2F * (A2W * A2M))
-    A3 = (
-        A3F * (A3W * A3M))
-    A4 = (
-        A4F * (A4W * A4M))
-    A5 = (
-        A5F * (A5W * A5M))
-    A6 = (
-        A6F * (A6W * A6M))
-    A7 = (
-        A7F * (A7W * A7M))
-    A8 = (
-        A8F * (A8W * A8M))
-    A9 = (
-        A9F * (A9W * A9M))
-    A10 = (
-        A10F * (A10W * A10M))
-    A11 = (
-        A11F * (A11W * A11M))
-    A12 = (
-        A12F * (A12W * A12M))
-    A13 = (
-        A13F * (A13W * A13M))
-    A14 = (
-        A14F * (A14W * A14M))
-    A15 = (
-        A15F * (A15W * A15M))
+    A1 = (A1F * (A1W * A1M))
+    A2 = (A2F * (A2W * A2M))
+    A3 = (A3F * (A3W * A3M))
+    A4 = (A4F * (A4W * A4M))
+    A5 = (A5F * (A5W * A5M))
+    A6 = (A6F * (A6W * A6M))
+    A7 = (A7F * (A7W * A7M))
+    A8 = (A8F * (A8W * A8M))
+    A9 = (A9F * (A9W * A9M))
+    A10 = (A10F * (A10W * A10M))
+    A11 = (A11F * (A11W * A11M))
+    A12 = (A12F * (A12W * A12M))
+    A13 = (A13F * (A13W * A13M))
+    A14 = (A14F * (A14W * A14M))
+    A15 = (A15F * (A15W * A15M))
 
     # TOTAL: watt/hour kada araw.
-    wh15 = (A1 + A2 + A3 + A4 +
-            A5 + A6 + A7 + A8 + A9 + A10 + A11 + A12 + A13 + A14 + A15)
+    wh15 = (A1 + A2 + A3 + A4 + A5 + A6 + A7 + A8 +
+            A9 + A10 + A11 + A12 + A13 + A14 + A15)
 
     # TOTAL: Kilo-watt/hour kada month.
-    Kh15 = (
-        (wh15 * 30) / 1000)
+    Kh15 = ((wh15 * 30) / 1000)
 
     # TOTAL: para ma compute ang (cost) kada month.
     total15 = cost * Kh15
 
     # INDIVIDUALLY: para ma compute ang (cost) kada month.
-    A1con = (
-        (A1 * 30) / 1000) * cost
-    A2con = (
-        (A2 * 30) / 1000) * cost
-    A3con = (
-        (A3 * 30) / 1000) * cost
-    A4con = (
-        (A4 * 30) / 1000) * cost
-    A5con = (
-        (A5 * 30) / 1000) * cost
-    A6con = (
-        (A6 * 30) / 1000) * cost
-    A7con = (
-        (A7 * 30) / 1000) * cost
-    A8con = (
-        (A8 * 30) / 1000) * cost
-    A9con = (
-        (A9 * 30) / 1000) * cost
-    A10con = (
-        (A10 * 30) / 1000) * cost
-    A11con = (
-        (A11 * 30) / 1000) * cost
-    A12con = (
-        (A12 * 30) / 1000) * cost
-    A13con = (
-        (A13 * 30) / 1000) * cost
-    A14con = (
-        (A14 * 30) / 1000) * cost
-    A15con = (
-        (A15 * 30) / 1000) * cost
+    A1con = ((A1 * 30) / 1000) * cost
+    A2con = ((A2 * 30) / 1000) * cost
+    A3con = ((A3 * 30) / 1000) * cost
+    A4con = ((A4 * 30) / 1000) * cost
+    A5con = ((A5 * 30) / 1000) * cost
+    A6con = ((A6 * 30) / 1000) * cost
+    A7con = ((A7 * 30) / 1000) * cost
+    A8con = ((A8 * 30) / 1000) * cost
+    A9con = ((A9 * 30) / 1000) * cost
+    A10con = ((A10 * 30) / 1000) * cost
+    A11con = ((A11 * 30) / 1000) * cost
+    A12con = ((A12 * 30) / 1000) * cost
+    A13con = ((A13 * 30) / 1000) * cost
+    A14con = ((A14 * 30) / 1000) * cost
+    A15con = ((A15 * 30) / 1000) * cost
 
     # INDIVIDUAL: Kilo-watt/hour
     Y1 = (A1*30)/1000
@@ -706,198 +691,114 @@ if ask15 == 2:
     Y15 = (A15*30)/1000
 
     # OUTPUT1
-    st.markdown(
-        "## **THE RESULTS:**")
+    st.markdown("## **THE RESULTS:**")
     # Identify the high consumption appliance
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**HIGHEST ENERGY CONSUMPTION**")
-    apps = [
-        Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15]
+    st.write("***")
+    st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+    apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15]
     max_app = apps[0]
     for app in apps:
         if app > max_app:
             max_app = app
     if max_app == Y1:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A1N)
-        st.write(
-            "Electricity bill   : PHP", A1con)
-        st.write(
-            "Energy consumption :", Y1, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A1N)
+        st.write("Electricity bill   : PHP", A1con)
+        st.write("Energy consumption :", Y1, "kWh")
     if max_app == Y2:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A2N)
-        st.write(
-            "Electricity bill   : PHP", A2con)
-        st.write(
-            "Energy consumption :", Y2, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A2N)
+        st.write("Electricity bill   : PHP", A2con)
+        st.write("Energy consumption :", Y2, "kWh")
     if max_app == Y3:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A3N)
-        st.write(
-            "Electricity bill   : PHP", A3con)
-        st.write(
-            "Energy consumption :", Y3, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A3N)
+        st.write("Electricity bill   : PHP", A3con)
+        st.write("Energy consumption :", Y3, "kWh")
     if max_app == Y4:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A4N)
-        st.write(
-            "Electricity bill   : PHP", A4con)
-        st.write(
-            "Energy consumption :", Y4, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A4N)
+        st.write("Electricity bill   : PHP", A4con)
+        st.write("Energy consumption :", Y4, "kWh")
     if max_app == Y5:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A5N)
-        st.write(
-            "Electricity bill   : PHP", A5con)
-        st.write(
-            "Energy consumption :", Y5, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A5N)
+        st.write("Electricity bill   : PHP", A5con)
+        st.write("Energy consumption :", Y5, "kWh")
     if max_app == Y6:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A6N)
-        st.write(
-            "Electricity bill   : PHP", A6con)
-        st.write(
-            "Energy consumption :", Y6, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A6N)
+        st.write("Electricity bill   : PHP", A6con)
+        st.write("Energy consumption :", Y6, "kWh")
     if max_app == Y7:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A7N)
-        st.write(
-            "Electricity bill   : PHP", A7con)
-        st.write(
-            "Energy consumption :", Y7, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A7N)
+        st.write("Electricity bill   : PHP", A7con)
+        st.write("Energy consumption :", Y7, "kWh")
     if max_app == Y8:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A8N)
-        st.write(
-            "Electricity bill   : PHP", A8con)
-        st.write(
-            "Energy consumption :", Y8, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A8N)
+        st.write("Electricity bill   : PHP", A8con)
+        st.write("Energy consumption :", Y8, "kWh")
     if max_app == Y9:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A9N)
-        st.write(
-            "Electricity bill   : PHP", A9con)
-        st.write(
-            "Energy consumption :", Y9, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A9N)
+        st.write("Electricity bill   : PHP", A9con)
+        st.write("Energy consumption :", Y9, "kWh")
     if max_app == Y10:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A10N)
-        st.write(
-            "Electricity bill   : PHP", A10con)
-        st.write(
-            "Energy consumption :", Y10, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A10N)
+        st.write("Electricity bill   : PHP", A10con)
+        st.write("Energy consumption :", Y10, "kWh")
     if max_app == Y11:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A11N)
-        st.write(
-            "Electricity bill   : PHP", A11con)
-        st.write(
-            "Energy consumption :", Y11, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A11N)
+        st.write("Electricity bill   : PHP", A11con)
+        st.write("Energy consumption :", Y11, "kWh")
     if max_app == Y12:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A12N)
-        st.write(
-            "Electricity bill   : PHP", A12con)
-        st.write(
-            "Energy consumption :", Y12, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A12N)
+        st.write("Electricity bill   : PHP", A12con)
+        st.write("Energy consumption :", Y12, "kWh")
     if max_app == Y13:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A13N)
-        st.write(
-            "Electricity bill   : PHP", A13con)
-        st.write(
-            "Energy consumption :", Y13, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A13N)
+        st.write("Electricity bill   : PHP", A13con)
+        st.write("Energy consumption :", Y13, "kWh")
     if max_app == Y14:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A14N)
-        st.write(
-            "Electricity bill   : PHP", A14con)
-        st.write(
-            "Energy consumption :", Y14, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A14N)
+        st.write("Electricity bill   : PHP", A14con)
+        st.write("Energy consumption :", Y14, "kWh")
     if max_app == Y15:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A15N)
-        st.write(
-            "Electricity bill   : PHP", A15con)
-        st.write(
-            "Energy consumption :", Y15, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A15N)
+        st.write("Electricity bill   : PHP", A15con)
+        st.write("Energy consumption :", Y15, "kWh")
     # OUTPUT2
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**INDIVIDUAL ELECTRICITY BILL**")
-    st.write(
-        A1N, ": PHP", A1con)
-    st.write(
-        A2N, ": PHP", A2con)
-    st.write(
-        A3N, ": PHP", A3con)
-    st.write(
-        A4N, ": PHP", A4con)
-    st.write(
-        A5N, ": PHP", A5con)
-    st.write(
-        A6N, ": PHP", A6con)
-    st.write(
-        A7N, ": PHP", A7con)
-    st.write(
-        A8N, ": PHP", A8con)
-    st.write(
-        A9N, ": PHP", A9con)
-    st.write(
-        A10N, ": PHP", A10con)
-    st.write(
-        A11N, ": PHP", A11con)
-    st.write(
-        A12N, ": PHP", A12con)
-    st.write(
-        A13N, ": PHP", A13con)
-    st.write(
-        A14N, ": PHP", A14con)
-    st.write(
-        A15N, ": PHP", A15con)
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
-    st.write(
-        "Electricity bill: PHP", total15)
-    st.write(
-        "Energy consumption:", Kh15, "kWh")
-# compute app1 to 14 (14th line) ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    st.write("***")
+    st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+    st.write(A1N, ": PHP", A1con)
+    st.write(A2N, ": PHP", A2con)
+    st.write(A3N, ": PHP", A3con)
+    st.write(A4N, ": PHP", A4con)
+    st.write(A5N, ": PHP", A5con)
+    st.write(A6N, ": PHP", A6con)
+    st.write(A7N, ": PHP", A7con)
+    st.write(A8N, ": PHP", A8con)
+    st.write(A9N, ": PHP", A9con)
+    st.write(A10N, ": PHP", A10con)
+    st.write(A11N, ": PHP", A11con)
+    st.write(A12N, ": PHP", A12con)
+    st.write(A13N, ": PHP", A13con)
+    st.write(A14N, ": PHP", A14con)
+    st.write(A15N, ": PHP", A15con)
+    st.write("***")
+    st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+    st.write("Electricity bill: PHP", total15)
+    st.write("Energy consumption:", Kh15, "kWh")
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Calculate 1-14th app
 if ask14 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
     A1F = (A1B / 30) * A1D
@@ -909,87 +810,53 @@ if ask14 == 2:
     A7F = (A7B / 30) * A7D
     A8F = (A8B / 30) * A8D
     A9F = (A9B / 30) * A9D
-    A10F = (
-        A10B / 30) * A10D
-    A11F = (
-        A11B / 30) * A11D
-    A12F = (
-        A12B / 30) * A12D
-    A13F = (
-        A13B / 30) * A13D
-    A14F = (
-        A14B / 30) * A14D
+    A10F = (A10B / 30) * A10D
+    A11F = (A11B / 30) * A11D
+    A12F = (A12B / 30) * A12D
+    A13F = (A13B / 30) * A13D
+    A14F = (A14B / 30) * A14D
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
-    A1 = (
-        A1F * (A1W * A1M))
-    A2 = (
-        A2F * (A2W * A2M))
-    A3 = (
-        A3F * (A3W * A3M))
-    A4 = (
-        A4F * (A4W * A4M))
-    A5 = (
-        A5F * (A5W * A5M))
-    A6 = (
-        A6F * (A6W * A6M))
-    A7 = (
-        A7F * (A7W * A7M))
-    A8 = (
-        A8F * (A8W * A8M))
-    A9 = (
-        A9F * (A9W * A9M))
-    A10 = (
-        A10F * (A10W * A10M))
-    A11 = (
-        A11F * (A11W * A11M))
-    A12 = (
-        A12F * (A12W * A12M))
-    A13 = (
-        A13F * (A13W * A13M))
-    A14 = (
-        A14F * (A14W * A14M))
+    A1 = (A1F * (A1W * A1M))
+    A2 = (A2F * (A2W * A2M))
+    A3 = (A3F * (A3W * A3M))
+    A4 = (A4F * (A4W * A4M))
+    A5 = (A5F * (A5W * A5M))
+    A6 = (A6F * (A6W * A6M))
+    A7 = (A7F * (A7W * A7M))
+    A8 = (A8F * (A8W * A8M))
+    A9 = (A9F * (A9W * A9M))
+    A10 = (A10F * (A10W * A10M))
+    A11 = (A11F * (A11W * A11M))
+    A12 = (A12F * (A12W * A12M))
+    A13 = (A13F * (A13W * A13M))
+    A14 = (A14F * (A14W * A14M))
 
     # TOTAL: watt/hour kada araw.
-    wh14 = (A1 + A2 + A3 + A4 +
-            A5 + A6 + A7 + A8 + A9 + A10 + A11 + A12 + A13 + A14)
+    wh14 = (A1 + A2 + A3 + A4 + A5 + A6 + A7 +
+            A8 + A9 + A10 + A11 + A12 + A13 + A14)
 
     # TOTAL: Kilo-watt/hour kada month.
-    Kh14 = (
-        (wh14 * 30) / 1000)
+    Kh14 = ((wh14 * 30) / 1000)
 
     # TOTAL: para ma compute ang (cost) kada month.
     total14 = cost * Kh14
 
     # INDIVIDUALLY: para ma compute ang (cost) kada month.
-    A1con = (
-        (A1 * 30) / 1000) * cost
-    A2con = (
-        (A2 * 30) / 1000) * cost
-    A3con = (
-        (A3 * 30) / 1000) * cost
-    A4con = (
-        (A4 * 30) / 1000) * cost
-    A5con = (
-        (A5 * 30) / 1000) * cost
-    A6con = (
-        (A6 * 30) / 1000) * cost
-    A7con = (
-        (A7 * 30) / 1000) * cost
-    A8con = (
-        (A8 * 30) / 1000) * cost
-    A9con = (
-        (A9 * 30) / 1000) * cost
-    A10con = (
-        (A10 * 30) / 1000) * cost
-    A11con = (
-        (A11 * 30) / 1000) * cost
-    A12con = (
-        (A12 * 30) / 1000) * cost
-    A13con = (
-        (A13 * 30) / 1000) * cost
-    A14con = (
-        (A14 * 30) / 1000) * cost
+    A1con = ((A1 * 30) / 1000) * cost
+    A2con = ((A2 * 30) / 1000) * cost
+    A3con = ((A3 * 30) / 1000) * cost
+    A4con = ((A4 * 30) / 1000) * cost
+    A5con = ((A5 * 30) / 1000) * cost
+    A6con = ((A6 * 30) / 1000) * cost
+    A7con = ((A7 * 30) / 1000) * cost
+    A8con = ((A8 * 30) / 1000) * cost
+    A9con = ((A9 * 30) / 1000) * cost
+    A10con = ((A10 * 30) / 1000) * cost
+    A11con = ((A11 * 30) / 1000) * cost
+    A12con = ((A12 * 30) / 1000) * cost
+    A13con = ((A13 * 30) / 1000) * cost
+    A14con = ((A14 * 30) / 1000) * cost
 
     # INDIVIDUAL: Kilo-watt/hour
     Y1 = (A1*30)/1000
@@ -1008,188 +875,109 @@ if ask14 == 2:
     Y14 = (A14*30)/1000
 
     # OUTPUT1
-    st.markdown(
-        "## **THE RESULTS:**")
+    st.markdown("## **THE RESULTS:**")
     # Identify the high consumption appliance
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**HIGHEST ENERGY CONSUMPTION**")
-    apps = [
-        Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14]
+    st.write("***")
+    st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+    apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14]
     max_app = apps[0]
     for app in apps:
         if app > max_app:
             max_app = app
     if max_app == Y1:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A1N)
-        st.write(
-            "Electricity bill   : PHP", A1con)
-        st.write(
-            "Energy consumption :", Y1, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A1N)
+        st.write("Electricity bill   : PHP", A1con)
+        st.write("Energy consumption :", Y1, "kWh")
     if max_app == Y2:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A2N)
-        st.write(
-            "Electricity bill   : PHP", A2con)
-        st.write(
-            "Energy consumption :", Y2, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A2N)
+        st.write("Electricity bill   : PHP", A2con)
+        st.write("Energy consumption :", Y2, "kWh")
     if max_app == Y3:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A3N)
-        st.write(
-            "Electricity bill   : PHP", A3con)
-        st.write(
-            "Energy consumption :", Y3, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A3N)
+        st.write("Electricity bill   : PHP", A3con)
+        st.write("Energy consumption :", Y3, "kWh")
     if max_app == Y4:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A4N)
-        st.write(
-            "Electricity bill   : PHP", A4con)
-        st.write(
-            "Energy consumption :", Y4, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A4N)
+        st.write("Electricity bill   : PHP", A4con)
+        st.write("Energy consumption :", Y4, "kWh")
     if max_app == Y5:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A5N)
-        st.write(
-            "Electricity bill   : PHP", A5con)
-        st.write(
-            "Energy consumption :", Y5, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A5N)
+        st.write("Electricity bill   : PHP", A5con)
+        st.write("Energy consumption :", Y5, "kWh")
     if max_app == Y6:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A6N)
-        st.write(
-            "Electricity bill   : PHP", A6con)
-        st.write(
-            "Energy consumption :", Y6, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A6N)
+        st.write("Electricity bill   : PHP", A6con)
+        st.write("Energy consumption :", Y6, "kWh")
     if max_app == Y7:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A7N)
-        st.write(
-            "Electricity bill   : PHP", A7con)
-        st.write(
-            "Energy consumption :", Y7, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A7N)
+        st.write("Electricity bill   : PHP", A7con)
+        st.write("Energy consumption :", Y7, "kWh")
     if max_app == Y8:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A8N)
-        st.write(
-            "Electricity bill   : PHP", A8con)
-        st.write(
-            "Energy consumption :", Y8, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A8N)
+        st.write("Electricity bill   : PHP", A8con)
+        st.write("Energy consumption :", Y8, "kWh")
     if max_app == Y9:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A9N)
-        st.write(
-            "Electricity bill   : PHP", A9con)
-        st.write(
-            "Energy consumption :", Y9, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A9N)
+        st.write("Electricity bill   : PHP", A9con)
+        st.write("Energy consumption :", Y9, "kWh")
     if max_app == Y10:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A10N)
-        st.write(
-            "Electricity bill   : PHP", A10con)
-        st.write(
-            "Energy consumption :", Y10, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A10N)
+        st.write("Electricity bill   : PHP", A10con)
+        st.write("Energy consumption :", Y10, "kWh")
     if max_app == Y11:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A11N)
-        st.write(
-            "Electricity bill   : PHP", A11con)
-        st.write(
-            "Energy consumption :", Y11, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A11N)
+        st.write("Electricity bill   : PHP", A11con)
+        st.write("Energy consumption :", Y11, "kWh")
     if max_app == Y12:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A12N)
-        st.write(
-            "Electricity bill   : PHP", A12con)
-        st.write(
-            "Energy consumption :", Y12, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A12N)
+        st.write("Electricity bill   : PHP", A12con)
+        st.write("Energy consumption :", Y12, "kWh")
     if max_app == Y13:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A13N)
-        st.write(
-            "Electricity bill   : PHP", A13con)
-        st.write(
-            "Energy consumption :", Y13, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A13N)
+        st.write("Electricity bill   : PHP", A13con)
+        st.write("Energy consumption :", Y13, "kWh")
     if max_app == Y14:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A14N)
-        st.write(
-            "Electricity bill   : PHP", A14con)
-        st.write(
-            "Energy consumption :", Y14, "kWh")
-    # OUTPUT2
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**INDIVIDUAL ELECTRICITY BILL**")
-    st.write(
-        A1N, ": PHP", A1con)
-    st.write(
-        A2N, ": PHP", A2con)
-    st.write(
-        A3N, ": PHP", A3con)
-    st.write(
-        A4N, ": PHP", A4con)
-    st.write(
-        A5N, ": PHP", A5con)
-    st.write(
-        A6N, ": PHP", A6con)
-    st.write(
-        A7N, ": PHP", A7con)
-    st.write(
-        A8N, ": PHP", A8con)
-    st.write(
-        A9N, ": PHP", A9con)
-    st.write(
-        A10N, ": PHP", A10con)
-    st.write(
-        A11N, ": PHP", A11con)
-    st.write(
-        A12N, ": PHP", A12con)
-    st.write(
-        A13N, ": PHP", A13con)
-    st.write(
-        A14N, ": PHP", A14con)
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
-    st.write(
-        "Electricity bill: PHP", total14)
-    st.write(
-        "Energy consumption:", Kh14, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A14N)
+        st.write("Electricity bill   : PHP", A14con)
+        st.write("Energy consumption :", Y14, "kWh")
 
-# compute app1 to 13 (13th line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    # OUTPUT2
+    st.write("***")
+    st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+    st.write(A1N, ": PHP", A1con)
+    st.write(A2N, ": PHP", A2con)
+    st.write(A3N, ": PHP", A3con)
+    st.write(A4N, ": PHP", A4con)
+    st.write(A5N, ": PHP", A5con)
+    st.write(A6N, ": PHP", A6con)
+    st.write(A7N, ": PHP", A7con)
+    st.write(A8N, ": PHP", A8con)
+    st.write(A9N, ": PHP", A9con)
+    st.write(A10N, ": PHP", A10con)
+    st.write(A11N, ": PHP", A11con)
+    st.write(A12N, ": PHP", A12con)
+    st.write(A13N, ": PHP", A13con)
+    st.write(A14N, ": PHP", A14con)
+    st.write("***")
+    st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+    st.write("Electricity bill: PHP", total14)
+    st.write("Energy consumption:", Kh14, "kWh")
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Calculate 1-13th app
 if ask13 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
     A1F = (A1B / 30) * A1D
@@ -1216,18 +1004,13 @@ if ask13 == 2:
     A7 = (A7F * (A7W * A7M))
     A8 = (A8F * (A8W * A8M))
     A9 = (A9F * (A9W * A9M))
-    A10 = (
-        A10F * (A10W * A10M))
-    A11 = (
-        A11F * (A11W * A11M))
-    A12 = (
-        A12F * (A12W * A12M))
-    A13 = (
-        A13F * (A13W * A13M))
+    A10 = (A10F * (A10W * A10M))
+    A11 = (A11F * (A11W * A11M))
+    A12 = (A12F * (A12W * A12M))
+    A13 = (A13F * (A13W * A13M))
 
     # TOTAL: watt/hour kada araw.
-    wh13 = (A1 + A2 + A3 + A4 +
-            A5 + A6 + A7 + A8 + A9 + A10 + A11 + A12 + A13)
+    wh13 = (A1 + A2 + A3 + A4 + A5 + A6 + A7 + A8 + A9 + A10 + A11 + A12 + A13)
 
     # TOTAL: Kilo-watt/hour kada month.
     Kh13 = ((wh13 * 30) / 1000)
@@ -1236,32 +1019,19 @@ if ask13 == 2:
     total13 = cost * Kh13
 
     # INDIVIDUALLY: para ma compute ang (cost) kada month.
-    A1con = (
-        (A1 * 30) / 1000) * cost
-    A2con = (
-        (A2 * 30) / 1000) * cost
-    A3con = (
-        (A3 * 30) / 1000) * cost
-    A4con = (
-        (A4 * 30) / 1000) * cost
-    A5con = (
-        (A5 * 30) / 1000) * cost
-    A6con = (
-        (A6 * 30) / 1000) * cost
-    A7con = (
-        (A7 * 30) / 1000) * cost
-    A8con = (
-        (A8 * 30) / 1000) * cost
-    A9con = (
-        (A9 * 30) / 1000) * cost
-    A10con = (
-        (A10 * 30) / 1000) * cost
-    A11con = (
-        (A11 * 30) / 1000) * cost
-    A12con = (
-        (A12 * 30) / 1000) * cost
-    A13con = (
-        (A13 * 30) / 1000) * cost
+    A1con = ((A1 * 30) / 1000) * cost
+    A2con = ((A2 * 30) / 1000) * cost
+    A3con = ((A3 * 30) / 1000) * cost
+    A4con = ((A4 * 30) / 1000) * cost
+    A5con = ((A5 * 30) / 1000) * cost
+    A6con = ((A6 * 30) / 1000) * cost
+    A7con = ((A7 * 30) / 1000) * cost
+    A8con = ((A8 * 30) / 1000) * cost
+    A9con = ((A9 * 30) / 1000) * cost
+    A10con = ((A10 * 30) / 1000) * cost
+    A11con = ((A11 * 30) / 1000) * cost
+    A12con = ((A12 * 30) / 1000) * cost
+    A13con = ((A13 * 30) / 1000) * cost
 
     # INDIVIDUAL: Kilo-watt/hour
     Y1 = (A1*30)/1000
@@ -1279,177 +1049,103 @@ if ask13 == 2:
     Y13 = (A13*30)/1000
 
     # OUTPUT1
-    st.markdown(
-        "## **THE RESULTS:**")
+    st.markdown("## **THE RESULTS:**")
     # Identify the high consumption appliance
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**HIGHEST ENERGY CONSUMPTION**")
-    apps = [
-        Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13]
+    st.write("***")
+    st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+    apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13]
     max_app = apps[0]
     for app in apps:
         if app > max_app:
             max_app = app
     if max_app == Y1:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A1N)
-        st.write(
-            "Electricity bill   : PHP", A1con)
-        st.write(
-            "Energy consumption :", Y1, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A1N)
+        st.write("Electricity bill   : PHP", A1con)
+        st.write("Energy consumption :", Y1, "kWh")
     if max_app == Y2:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A2N)
-        st.write(
-            "Electricity bill   : PHP", A2con)
-        st.write(
-            "Energy consumption :", Y2, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A2N)
+        st.write("Electricity bill   : PHP", A2con)
+        st.write("Energy consumption :", Y2, "kWh")
     if max_app == Y3:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A3N)
-        st.write(
-            "Electricity bill   : PHP", A3con)
-        st.write(
-            "Energy consumption :", Y3, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A3N)
+        st.write("Electricity bill   : PHP", A3con)
+        st.write("Energy consumption :", Y3, "kWh")
     if max_app == Y4:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A4N)
-        st.write(
-            "Electricity bill   : PHP", A4con)
-        st.write(
-            "Energy consumption :", Y4, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A4N)
+        st.write("Electricity bill   : PHP", A4con)
+        st.write("Energy consumption :", Y4, "kWh")
     if max_app == Y5:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A5N)
-        st.write(
-            "Electricity bill   : PHP", A5con)
-        st.write(
-            "Energy consumption :", Y5, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A5N)
+        st.write("Electricity bill   : PHP", A5con)
+        st.write("Energy consumption :", Y5, "kWh")
     if max_app == Y6:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A6N)
-        st.write(
-            "Electricity bill   : PHP", A6con)
-        st.write(
-            "Energy consumption :", Y6, "kWh")
-    if max_app == A7con:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A7N)
-        st.write(
-            "Electricity bill   : PHP", A7con)
-        st.write(
-            "Energy consumption :", Y7, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A6N)
+        st.write("Electricity bill   : PHP", A6con)
+        st.write("Energy consumption :", Y6, "kWh")
+    if max_app == Y7:
+        st.write("***")
+        st.write("Name of appliance  :", A7N)
+        st.write("Electricity bill   : PHP", A7con)
+        st.write("Energy consumption :", Y7, "kWh")
     if max_app == Y8:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A8N)
-        st.write(
-            "Electricity bill   : PHP", A8con)
-        st.write(
-            "Energy consumption :", Y8, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A8N)
+        st.write("Electricity bill   : PHP", A8con)
+        st.write("Energy consumption :", Y8, "kWh")
     if max_app == Y9:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A9N)
-        st.write(
-            "Electricity bill   : PHP", A9con)
-        st.write(
-            "Energy consumption :", Y9, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A9N)
+        st.write("Electricity bill   : PHP", A9con)
+        st.write("Energy consumption :", Y9, "kWh")
     if max_app == Y10:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A10N)
-        st.write(
-            "Electricity bill   : PHP", A10con)
-        st.write(
-            "Energy consumption :", Y10, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A10N)
+        st.write("Electricity bill   : PHP", A10con)
+        st.write("Energy consumption :", Y10, "kWh")
     if max_app == Y11:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A11N)
-        st.write(
-            "Electricity bill   : PHP", A11con)
-        st.write(
-            "Energy consumption :", Y11, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A11N)
+        st.write("Electricity bill   : PHP", A11con)
+        st.write("Energy consumption :", Y11, "kWh")
     if max_app == Y12:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A12N)
-        st.write(
-            "Electricity bill   : PHP", A12con)
-        st.write(
-            "Energy consumption :", Y12, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A12N)
+        st.write("Electricity bill   : PHP", A12con)
+        st.write("Energy consumption :", Y12, "kWh")
     if max_app == Y13:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A13N)
-        st.write(
-            "Electricity bill   : PHP", A13con)
-        st.write(
-            "Energy consumption :", Y13, "kWh")
-    # OUTPUT2
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**INDIVIDUAL ELECTRICITY BILL**")
-    st.write(
-        A1N, ": PHP", A1con)
-    st.write(
-        A2N, ": PHP", A2con)
-    st.write(
-        A3N, ": PHP", A3con)
-    st.write(
-        A4N, ": PHP", A4con)
-    st.write(
-        A5N, ": PHP", A5con)
-    st.write(
-        A6N, ": PHP", A6con)
-    st.write(
-        A7N, ": PHP", A7con)
-    st.write(
-        A8N, ": PHP", A8con)
-    st.write(
-        A9N, ": PHP", A9con)
-    st.write(
-        A10N, ": PHP", A10con)
-    st.write(
-        A11N, ": PHP", A11con)
-    st.write(
-        A12N, ": PHP", A12con)
-    st.write(
-        A13N, ": PHP", A13con)
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
-    st.write(
-        "Electricity bill: PHP", total13)
-    st.write(
-        "Energy consumption:", Kh13, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A13N)
+        st.write("Electricity bill   : PHP", A13con)
+        st.write("Energy consumption :", Y13, "kWh")
 
-# compute app1 to 12 (12th line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    # OUTPUT2
+    st.write("***")
+    st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+    st.write(A1N, ": PHP", A1con)
+    st.write(A2N, ": PHP", A2con)
+    st.write(A3N, ": PHP", A3con)
+    st.write(A4N, ": PHP", A4con)
+    st.write(A5N, ": PHP", A5con)
+    st.write(A6N, ": PHP", A6con)
+    st.write(A7N, ": PHP", A7con)
+    st.write(A8N, ": PHP", A8con)
+    st.write(A9N, ": PHP", A9con)
+    st.write(A10N, ": PHP", A10con)
+    st.write(A11N, ": PHP", A11con)
+    st.write(A12N, ": PHP", A12con)
+    st.write(A13N, ": PHP", A13con)
+    st.write("***")
+    st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+    st.write("Electricity bill: PHP", total13)
+    st.write("Energy consumption:", Kh13, "kWh")
+    # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Calculate 1-12th app
 if ask12 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
     A1F = (A1B / 30) * A1D
@@ -1480,40 +1176,27 @@ if ask12 == 2:
     A12 = (A12F * (A12W * A12M))
 
     # TOTAL: watt/hour kada araw.
-    wh12 = (A1 + A2 + A3 + A4 +
-            A5 + A6 + A7 + A8 + A9 + A10 + A11 + A12)
+    wh13 = (A1 + A2 + A3 + A4 + A5 + A6 + A7 + A8 + A9 + A10 + A11 + A12)
 
     # TOTAL: Kilo-watt/hour kada month.
-    Kh12 = ((wh12 * 30) / 1000)
+    Kh12 = ((wh13 * 30) / 1000)
 
     # TOTAL: para ma compute ang (cost) kada month.
     total12 = cost * Kh12
 
     # INDIVIDUALLY: para ma compute ang (cost) kada month.
-    A1con = (
-        (A1 * 30) / 1000) * cost
-    A2con = (
-        (A2 * 30) / 1000) * cost
-    A3con = (
-        (A3 * 30) / 1000) * cost
-    A4con = (
-        (A4 * 30) / 1000) * cost
-    A5con = (
-        (A5 * 30) / 1000) * cost
-    A6con = (
-        (A6 * 30) / 1000) * cost
-    A7con = (
-        (A7 * 30) / 1000) * cost
-    A8con = (
-        (A8 * 30) / 1000) * cost
-    A9con = (
-        (A9 * 30) / 1000) * cost
-    A10con = (
-        (A10 * 30) / 1000) * cost
-    A11con = (
-        (A11 * 30) / 1000) * cost
-    A12con = (
-        (A12 * 30) / 1000) * cost
+    A1con = ((A1 * 30) / 1000) * cost
+    A2con = ((A2 * 30) / 1000) * cost
+    A3con = ((A3 * 30) / 1000) * cost
+    A4con = ((A4 * 30) / 1000) * cost
+    A5con = ((A5 * 30) / 1000) * cost
+    A6con = ((A6 * 30) / 1000) * cost
+    A7con = ((A7 * 30) / 1000) * cost
+    A8con = ((A8 * 30) / 1000) * cost
+    A9con = ((A9 * 30) / 1000) * cost
+    A10con = ((A10 * 30) / 1000) * cost
+    A11con = ((A11 * 30) / 1000) * cost
+    A12con = ((A12 * 30) / 1000) * cost
 
     # INDIVIDUAL: Kilo-watt/hour
     Y1 = (A1*30)/1000
@@ -1530,132 +1213,79 @@ if ask12 == 2:
     Y12 = (A12*30)/1000
 
     # OUTPUT1
-    st.markdown(
-        "## **THE RESULTS:**")
+    st.markdown("## **THE RESULTS:**")
     # Identify the high consumption appliance
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**HIGHEST ENERGY CONSUMPTION**")
-    apps = [
-        Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12]
+    st.write("***")
+    st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+    apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12]
     max_app = apps[0]
     for app in apps:
         if app > max_app:
             max_app = app
     if max_app == Y1:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A1N)
-        st.write(
-            "Electricity bill   : PHP", A1con)
-        st.write(
-            "Energy consumption :", Y1, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A1N)
+        st.write("Electricity bill   : PHP", A1con)
+        st.write("Energy consumption :", Y1, "kWh")
     if max_app == Y2:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A2N)
-        st.write(
-            "Electricity bill   : PHP", A2con)
-        st.write(
-            "Energy consumption :", Y2, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A2N)
+        st.write("Electricity bill   : PHP", A2con)
+        st.write("Energy consumption :", Y2, "kWh")
     if max_app == Y3:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A3N)
-        st.write(
-            "Electricity bill   : PHP", A3con)
-        st.write(
-            "Energy consumption :", Y3, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A3N)
+        st.write("Electricity bill   : PHP", A3con)
+        st.write("Energy consumption :", Y3, "kWh")
     if max_app == Y4:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A4N)
-        st.write(
-            "Electricity bill   : PHP", A4con)
-        st.write(
-            "Energy consumption :", Y4, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A4N)
+        st.write("Electricity bill   : PHP", A4con)
+        st.write("Energy consumption :", Y4, "kWh")
     if max_app == Y5:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A5N)
-        st.write(
-            "Electricity bill   : PHP", A5con)
-        st.write(
-            "Energy consumption :", Y5, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A5N)
+        st.write("Electricity bill   : PHP", A5con)
+        st.write("Energy consumption :", Y5, "kWh")
     if max_app == Y6:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A6N)
-        st.write(
-            "Electricity bill   : PHP", A6con)
-        st.write(
-            "Energy consumption :", Y6, "kWh")
-    if max_app == A7con:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A7N)
-        st.write(
-            "Electricity bill   : PHP", A7con)
-        st.write(
-            "Energy consumption :", Y7, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A6N)
+        st.write("Electricity bill   : PHP", A6con)
+        st.write("Energy consumption :", Y6, "kWh")
+    if max_app == Y7:
+        st.write("***")
+        st.write("Name of appliance  :", A7N)
+        st.write("Electricity bill   : PHP", A7con)
+        st.write("Energy consumption :", Y7, "kWh")
     if max_app == Y8:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A8N)
-        st.write(
-            "Electricity bill   : PHP", A8con)
-        st.write(
-            "Energy consumption :", Y8, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A8N)
+        st.write("Electricity bill   : PHP", A8con)
+        st.write("Energy consumption :", Y8, "kWh")
     if max_app == Y9:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A9N)
-        st.write(
-            "Electricity bill   : PHP", A9con)
-        st.write(
-            "Energy consumption :", Y9, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A9N)
+        st.write("Electricity bill   : PHP", A9con)
+        st.write("Energy consumption :", Y9, "kWh")
     if max_app == Y10:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A10N)
-        st.write(
-            "Electricity bill   : PHP", A10con)
-        st.write(
-            "Energy consumption :", Y10, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A10N)
+        st.write("Electricity bill   : PHP", A10con)
+        st.write("Energy consumption :", Y10, "kWh")
     if max_app == Y11:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A11N)
-        st.write(
-            "Electricity bill   : PHP", A11con)
-        st.write(
-            "Energy consumption :", Y11, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A11N)
+        st.write("Electricity bill   : PHP", A11con)
+        st.write("Energy consumption :", Y11, "kWh")
     if max_app == Y12:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A12N)
-        st.write(
-            "Electricity bill   : PHP", A12con)
-        st.write(
-            "Energy consumption :", Y12, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A12N)
+        st.write("Electricity bill   : PHP", A12con)
+        st.write("Energy consumption :", Y12, "kWh")
+
     # OUTPUT2
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**INDIVIDUAL ELECTRICITY BILL**")
+    st.write("***")
+    st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
     st.write(A1N, ": PHP", A1con)
     st.write(A2N, ": PHP", A2con)
     st.write(A3N, ": PHP", A3con)
@@ -1668,16 +1298,12 @@ if ask12 == 2:
     st.write(A10N, ": PHP", A10con)
     st.write(A11N, ": PHP", A11con)
     st.write(A12N, ": PHP", A12con)
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
-    st.write(
-        "Electricity bill: PHP", total12)
-    st.write(
-        "Energy consumption:", Kh12, "kWh")
-
-# compute app1 to 11 (11th line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    st.write("***")
+    st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+    st.write("Electricity bill: PHP", total12)
+    st.write("Energy consumption:", Kh12, "kWh")
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Calculate 1-11th app
 if ask11 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
     A1F = (A1B / 30) * A1D
@@ -1706,8 +1332,7 @@ if ask11 == 2:
     A11 = (A11F * (A11W * A11M))
 
     # TOTAL: watt/hour kada araw.
-    wh11 = (A1 + A2 + A3 + A4 +
-            A5 + A6 + A7 + A8 + A9 + A10 + A11)
+    wh11 = (A1 + A2 + A3 + A4 + A5 + A6 + A7 + A8 + A9 + A10 + A11)
 
     # TOTAL: Kilo-watt/hour kada month.
     Kh11 = ((wh11 * 30) / 1000)
@@ -1744,120 +1369,72 @@ if ask11 == 2:
     # OUTPUT1
     st.markdown("## **THE RESULTS:**")
     # Identify the high consumption appliance
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**HIGHEST ENERGY CONSUMPTION**")
-    apps = [Y1, Y2, Y3, Y4, Y5,
-            Y6, Y7, Y8, Y9, Y10, Y11]
+    st.write("***")
+    st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+    apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11]
     max_app = apps[0]
     for app in apps:
         if app > max_app:
             max_app = app
     if max_app == Y1:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A1N)
-        st.write(
-            "Electricity bill   : PHP", A1con)
-        st.write(
-            "Energy consumption :", Y1)
+        st.write("***")
+        st.write("Name of appliance  :", A1N)
+        st.write("Electricity bill   : PHP", A1con)
+        st.write("Energy consumption :", Y1, "kWh")
     if max_app == Y2:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A2N)
-        st.write(
-            "Electricity bill   : PHP", A2con)
-        st.write(
-            "Energy consumption :", Y2, "kWh", "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A2N)
+        st.write("Electricity bill   : PHP", A2con)
+        st.write("Energy consumption :", Y2, "kWh")
     if max_app == Y3:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A3N)
-        st.write(
-            "Electricity bill   : PHP", A3con)
-        st.write(
-            "Energy consumption :", Y3, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A3N)
+        st.write("Electricity bill   : PHP", A3con)
+        st.write("Energy consumption :", Y3, "kWh")
     if max_app == Y4:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A4N)
-        st.write(
-            "Electricity bill   : PHP", A4con)
-        st.write(
-            "Energy consumption :", Y4, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A4N)
+        st.write("Electricity bill   : PHP", A4con)
+        st.write("Energy consumption :", Y4, "kWh")
     if max_app == Y5:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A5N)
-        st.write(
-            "Electricity bill   : PHP", A5con)
-        st.write(
-            "Energy consumption :", Y5, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A5N)
+        st.write("Electricity bill   : PHP", A5con)
+        st.write("Energy consumption :", Y5, "kWh")
     if max_app == Y6:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A6N)
-        st.write(
-            "Electricity bill   : PHP", A6con)
-        st.write(
-            "Energy consumption :", Y6, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A6N)
+        st.write("Electricity bill   : PHP", A6con)
+        st.write("Energy consumption :", Y6, "kWh")
     if max_app == Y7:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A7N)
-        st.write(
-            "Electricity bill   : PHP", A7con)
-        st.write(
-            "Energy consumption :", Y7, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A7N)
+        st.write("Electricity bill   : PHP", A7con)
+        st.write("Energy consumption :", Y7, "kWh")
     if max_app == Y8:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A8N)
-        st.write(
-            "Electricity bill   : PHP", A8con)
-        st.write(
-            "Energy consumption :", Y8, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A8N)
+        st.write("Electricity bill   : PHP", A8con)
+        st.write("Energy consumption :", Y8, "kWh")
     if max_app == Y9:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A9N)
-        st.write(
-            "Electricity bill   : PHP", A9con)
-        st.write(
-            "Energy consumption :", Y9, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A9N)
+        st.write("Electricity bill   : PHP", A9con)
+        st.write("Energy consumption :", Y9, "kWh")
     if max_app == Y10:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A10N)
-        st.write(
-            "Electricity bill   : PHP", A10con)
-        st.write(
-            "Energy consumption :", Y10, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A10N)
+        st.write("Electricity bill   : PHP", A10con)
+        st.write("Energy consumption :", Y10, "kWh")
     if max_app == Y11:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A11N)
-        st.write(
-            "Electricity bill   : PHP", A11con)
-        st.write(
-            "Energy consumption :", Y11, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A11N)
+        st.write("Electricity bill   : PHP", A11con)
+        st.write("Energy consumption :", Y11, "kWh")
+
     # OUTPUT2
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**INDIVIDUAL ELECTRICITY BILL**")
+    st.write("***")
+    st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
     st.write(A1N, ": PHP", A1con)
     st.write(A2N, ": PHP", A2con)
     st.write(A3N, ": PHP", A3con)
@@ -1869,15 +1446,12 @@ if ask11 == 2:
     st.write(A9N, ": PHP", A9con)
     st.write(A10N, ": PHP", A10con)
     st.write(A11N, ": PHP", A11con)
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
-    st.write(
-        "Electricity bill: PHP", total11)
-    st.write(
-        "Energy consumption:", Kh11, "kWh")
-# compute app1 to 10 (10th line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    st.write("***")
+    st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+    st.write("Electricity bill: PHP", total11)
+    st.write("Energy consumption:", Kh11, "kWh")
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Calculate 1-10th app
 if ask10 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
     A1F = (A1B / 30) * A1D
@@ -1904,8 +1478,7 @@ if ask10 == 2:
     A10 = (A10F * (A10W * A10M))
 
     # TOTAL: watt/hour kada araw.
-    wh10 = (A1 + A2 + A3 + A4 +
-            A5 + A6 + A7 + A8 + A9 + A10)
+    wh10 = (A1 + A2 + A3 + A4 + A5 + A6 + A7 + A8 + A9 + A10)
 
     # TOTAL: Kilo-watt/hour kada month.
     Kh10 = ((wh10 * 30) / 1000)
@@ -1940,111 +1513,67 @@ if ask10 == 2:
     # OUTPUT1
     st.markdown("## **THE RESULTS:**")
     # Identify the high consumption appliance
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**HIGHEST ENERGY CONSUMPTION**")
-    apps = [Y1, Y2, Y3, Y4, Y5,
-            Y6, Y7, Y8, Y9, Y10]
+    st.write("***")
+    st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+    apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10]
     max_app = apps[0]
     for app in apps:
         if app > max_app:
             max_app = app
     if max_app == Y1:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A1N)
-        st.write(
-            "Electricity bill   : PHP", A1con)
-        st.write(
-            "Energy consumption :", Y1, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A1N)
+        st.write("Electricity bill   : PHP", A1con)
+        st.write("Energy consumption :", Y1, "kWh")
     if max_app == Y2:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A2N)
-        st.write(
-            "Electricity bill   : PHP", A2con)
-        st.write(
-            "Energy consumption :", Y2, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A2N)
+        st.write("Electricity bill   : PHP", A2con)
+        st.write("Energy consumption :", Y2, "kWh")
     if max_app == Y3:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A3N)
-        st.write(
-            "Electricity bill   : PHP", A3con)
-        st.write(
-            "Energy consumption :", Y3, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A3N)
+        st.write("Electricity bill   : PHP", A3con)
+        st.write("Energy consumption :", Y3, "kWh")
     if max_app == Y4:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A4N)
-        st.write(
-            "Electricity bill   : PHP", A4con)
-        st.write(
-            "Energy consumption :", Y4, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A4N)
+        st.write("Electricity bill   : PHP", A4con)
+        st.write("Energy consumption :", Y4, "kWh")
     if max_app == Y5:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A5N)
-        st.write(
-            "Electricity bill   : PHP", A5con)
-        st.write(
-            "Energy consumption :", Y5, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A5N)
+        st.write("Electricity bill   : PHP", A5con)
+        st.write("Energy consumption :", Y5, "kWh")
     if max_app == Y6:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A6N)
-        st.write(
-            "Electricity bill   : PHP", A6con)
-        st.write(
-            "Energy consumption :", Y6, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A6N)
+        st.write("Electricity bill   : PHP", A6con)
+        st.write("Energy consumption :", Y6, "kWh")
     if max_app == Y7:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A7N)
-        st.write(
-            "Electricity bill   : PHP", A7con)
-        st.write(
-            "Energy consumption :", Y7, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A7N)
+        st.write("Electricity bill   : PHP", A7con)
+        st.write("Energy consumption :", Y7, "kWh")
     if max_app == Y8:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A8N)
-        st.write(
-            "Electricity bill   : PHP", A8con)
-        st.write(
-            "Energy consumption :", Y8, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A8N)
+        st.write("Electricity bill   : PHP", A8con)
+        st.write("Energy consumption :", Y8, "kWh")
     if max_app == Y9:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A9N)
-        st.write(
-            "Electricity bill   : PHP", A9con)
-        st.write(
-            "Energy consumption :", Y9, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A9N)
+        st.write("Electricity bill   : PHP", A9con)
+        st.write("Energy consumption :", Y9, "kWh")
     if max_app == Y10:
-        st.write(
-            "************************************************************************************************************************************************************************")
-        st.write(
-            "Name of appliance  :", A10N)
-        st.write(
-            "Electricity bill   : PHP", A10con)
-        st.write(
-            "Energy consumption :", Y10, "kWh")
+        st.write("***")
+        st.write("Name of appliance  :", A10N)
+        st.write("Electricity bill   : PHP", A10con)
+        st.write("Energy consumption :", Y10, "kWh")
+
     # OUTPUT2
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**INDIVIDUAL ELECTRICITY BILL**")
+    st.write("***")
+    st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
     st.write(A1N, ": PHP", A1con)
     st.write(A2N, ": PHP", A2con)
     st.write(A3N, ": PHP", A3con)
@@ -2055,16 +1584,13 @@ if ask10 == 2:
     st.write(A8N, ": PHP", A8con)
     st.write(A9N, ": PHP", A9con)
     st.write(A10N, ": PHP", A10con)
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
-    st.write(
-        "Electricity bill: PHP", total10)
-    st.write(
-        "Energy consumption:", Kh10, "kWh")
+    st.write("***")
+    st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+    st.write("Electricity bill: PHP", total10)
+    st.write("Energy consumption:", Kh10, "kWh")
 
-# compute app1 to 9 (9th line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Calculate 1-9th app
 if ask9 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
     A1F = (A1B / 30) * A1D
@@ -2089,8 +1615,7 @@ if ask9 == 2:
     A9 = (A9F * (A9W * A9M))
 
     # TOTAL: watt/hour kada araw.
-    wh9 = (A1 + A2 + A3 + A4 +
-           A5 + A6 + A7 + A8 + A9)
+    wh9 = (A1 + A2 + A3 + A4 + A5 + A6 + A7 + A8 + A9)
 
     # TOTAL: Kilo-watt/hour kada month.
     Kh9 = ((wh9 * 30) / 1000)
@@ -2123,92 +1648,62 @@ if ask9 == 2:
     # OUTPUT1
     st.markdown("## **THE RESULTS:**")
     # Identify the high consumption appliance
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**HIGHEST ENERGY CONSUMPTION**")
+    st.write("***")
+    st.markdown("**HIGHEST ENERGY CONSUMPTION**")
     apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9]
     max_app = apps[0]
     for app in apps:
         if app > max_app:
             max_app = app
     if max_app == Y1:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A1N)
-        st.write(
-            "Electricity bill   : PHP", A1con)
-        st.write(
-            "Energy consumption :", Y1, "kWh")
+        st.write("Electricity bill   : PHP", A1con)
+        st.write("Energy consumption :", Y1, "kWh")
     if max_app == Y2:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A2N)
-        st.write(
-            "Electricity bill   : PHP", A2con)
-        st.write(
-            "Energy consumption :", Y2, "kWh")
+        st.write("Electricity bill   : PHP", A2con)
+        st.write("Energy consumption :", Y2, "kWh")
     if max_app == Y3:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A3N)
-        st.write(
-            "Electricity bill   : PHP", A3con)
-        st.write(
-            "Energy consumption :", Y3, "kWh")
+        st.write("Electricity bill   : PHP", A3con)
+        st.write("Energy consumption :", Y3, "kWh")
     if max_app == Y4:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A4N)
-        st.write(
-            "Electricity bill   : PHP", A4con)
-        st.write(
-            "Energy consumption :", Y4, "kWh")
+        st.write("Electricity bill   : PHP", A4con)
+        st.write("Energy consumption :", Y4, "kWh")
     if max_app == Y5:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A5N)
-        st.write(
-            "Electricity bill   : PHP", A5con)
-        st.write(
-            "Energy consumption :", Y5, "kWh")
+        st.write("Electricity bill   : PHP", A5con)
+        st.write("Energy consumption :", Y5, "kWh")
     if max_app == Y6:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A6N)
-        st.write(
-            "Electricity bill   : PHP", A6con)
-        st.write(
-            "Energy consumption :", Y6, "kWh")
+        st.write("Electricity bill   : PHP", A6con)
+        st.write("Energy consumption :", Y6, "kWh")
     if max_app == Y7:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A7N)
-        st.write(
-            "Electricity bill   : PHP", A7con)
-        st.write(
-            "Energy consumption :", Y7, "kWh")
+        st.write("Electricity bill   : PHP", A7con)
+        st.write("Energy consumption :", Y7, "kWh")
     if max_app == Y8:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A8N)
-        st.write(
-            "Electricity bill   : PHP", A8con)
-        st.write(
-            "Energy consumption :", Y8, "kWh")
+        st.write("Electricity bill   : PHP", A8con)
+        st.write("Energy consumption :", Y8, "kWh")
     if max_app == Y9:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A9N)
-        st.write(
-            "Electricity bill   : PHP", A9con)
-        st.write(
-            "Energy consumption :", Y9, "kWh")
+        st.write("Electricity bill   : PHP", A9con)
+        st.write("Energy consumption :", Y9, "kWh")
+
     # OUTPUT2
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**INDIVIDUAL ELECTRICITY BILL**")
+    st.write("***")
+    st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
     st.write(A1N, ": PHP", A1con)
     st.write(A2N, ": PHP", A2con)
     st.write(A3N, ": PHP", A3con)
@@ -2218,15 +1713,13 @@ if ask9 == 2:
     st.write(A7N, ": PHP", A7con)
     st.write(A8N, ": PHP", A8con)
     st.write(A9N, ": PHP", A9con)
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+    st.write("***")
+    st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
     st.write("Electricity bill: PHP", total9)
     st.write("Energy consumption:", Kh9, "kWh")
 
-
-# compute app1,2,3,4,5,6,7 and 8 (8th line)# ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Calculate 1-8th app
 if ask8 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
     A1F = (A1B / 30) * A1D
@@ -2280,8 +1773,7 @@ if ask8 == 2:
     # OUTPUT1
     st.markdown("## **THE RESULTS:**")
     # Identify the high consumption appliance
-    st.write(
-        "************************************************************************************************************************************************************************")
+    st.write("***")
     st.markdown("**HIGHEST ENERGY CONSUMPTION**")
     apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8]
     max_app = apps[0]
@@ -2289,56 +1781,48 @@ if ask8 == 2:
         if app > max_app:
             max_app = app
     if max_app == Y1:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A1N)
         st.write("Electricity bill   : PHP", A1con)
         st.write("Energy consumption :", Y1, "kWh")
     if max_app == Y2:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A2N)
         st.write("Electricity bill   : PHP", A2con)
         st.write("Energy consumption :", Y2, "kWh")
     if max_app == Y3:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A3N)
         st.write("Electricity bill   : PHP", A3con)
         st.write("Energy consumption :", Y3, "kWh")
     if max_app == Y4:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A4N)
         st.write("Electricity bill   : PHP", A4con)
         st.write("Energy consumption :", Y4, "kWh")
     if max_app == Y5:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A5N)
         st.write("Electricity bill   : PHP", A5con)
         st.write("Energy consumption :", Y5, "kWh")
     if max_app == Y6:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A6N)
         st.write("Electricity bill   : PHP", A6con)
         st.write("Energy consumption :", Y6, "kWh")
     if max_app == Y7:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A7N)
         st.write("Electricity bill   : PHP", A7con)
         st.write("Energy consumption :", Y7, "kWh")
     if max_app == Y8:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A8N)
         st.write("Electricity bill   : PHP", A8con)
         st.write("Energy consumption :", Y8, "kWh")
+
     # OUTPUT2
-    st.write(
-        "************************************************************************************************************************************************************************")
+    st.write("***")
     st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
     st.write(A1N, ": PHP", A1con)
     st.write(A2N, ": PHP", A2con)
@@ -2348,14 +1832,13 @@ if ask8 == 2:
     st.write(A6N, ": PHP", A6con)
     st.write(A7N, ": PHP", A7con)
     st.write(A8N, ": PHP", A8con)
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+    st.write("***")
+    st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
     st.write("Electricity bill: PHP", total8)
     st.write("Energy consumption:", Kh8, "kWh")
 
-# compute app1,2,3,4,5,6 and 7 (7th line) # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Calculate 1-7th app
 if ask7 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
     A1F = (A1B / 30) * A1D
@@ -2392,6 +1875,7 @@ if ask7 == 2:
     A5con = ((A5 * 30) / 1000) * cost
     A6con = ((A6 * 30) / 1000) * cost
     A7con = ((A7 * 30) / 1000) * cost
+
     # INDIVIDUAL: Kilo-watt/hour
     Y1 = (A1*30)/1000
     Y2 = (A2*30)/1000
@@ -2404,8 +1888,7 @@ if ask7 == 2:
     # OUTPUT1
     st.markdown("## **THE RESULTS:**")
     # Identify the high consumption appliance
-    st.write(
-        "************************************************************************************************************************************************************************")
+    st.write("***")
     st.markdown("**HIGHEST ENERGY CONSUMPTION**")
     apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7]
     max_app = apps[0]
@@ -2413,50 +1896,43 @@ if ask7 == 2:
         if app > max_app:
             max_app = app
     if max_app == Y1:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A1N)
         st.write("Electricity bill   : PHP", A1con)
         st.write("Energy consumption :", Y1, "kWh")
     if max_app == Y2:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A2N)
         st.write("Electricity bill   : PHP", A2con)
         st.write("Energy consumption :", Y2, "kWh")
     if max_app == Y3:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A3N)
         st.write("Electricity bill   : PHP", A3con)
         st.write("Energy consumption :", Y3, "kWh")
     if max_app == Y4:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A4N)
         st.write("Electricity bill   : PHP", A4con)
         st.write("Energy consumption :", Y4, "kWh")
     if max_app == Y5:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A5N)
         st.write("Electricity bill   : PHP", A5con)
         st.write("Energy consumption :", Y5, "kWh")
     if max_app == Y6:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A6N)
         st.write("Electricity bill   : PHP", A6con)
         st.write("Energy consumption :", Y6, "kWh")
     if max_app == Y7:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A7N)
         st.write("Electricity bill   : PHP", A7con)
         st.write("Energy consumption :", Y7, "kWh")
+
     # OUTPUT2
-    st.write(
-        "************************************************************************************************************************************************************************")
+    st.write("***")
     st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
     st.write(A1N, ": PHP", A1con)
     st.write(A2N, ": PHP", A2con)
@@ -2465,14 +1941,13 @@ if ask7 == 2:
     st.write(A5N, ": PHP", A5con)
     st.write(A6N, ": PHP", A6con)
     st.write(A7N, ": PHP", A7con)
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+    st.write("***")
+    st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
     st.write("Electricity bill: PHP", total7)
     st.write("Energy consumption:", Kh7, "kWh")
 
-# compute app1,2,3,4,5 and 6 (6th line) ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Calculate 1-6th app
 if ask6 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
     A1F = (A1B / 30) * A1D
@@ -2518,8 +1993,7 @@ if ask6 == 2:
     # OUTPUT1
     st.markdown("## **THE RESULTS:**")
     # Identify the high consumption appliance
-    st.write(
-        "************************************************************************************************************************************************************************")
+    st.write("***")
     st.markdown("**HIGHEST ENERGY CONSUMPTION**")
     apps = [Y1, Y2, Y3, Y4, Y5, Y6]
     max_app = apps[0]
@@ -2527,44 +2001,38 @@ if ask6 == 2:
         if app > max_app:
             max_app = app
     if max_app == Y1:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A1N)
         st.write("Electricity bill   : PHP", A1con)
         st.write("Energy consumption :", Y1, "kWh")
     if max_app == Y2:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A2N)
         st.write("Electricity bill   : PHP", A2con)
         st.write("Energy consumption :", Y2, "kWh")
     if max_app == Y3:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A3N)
         st.write("Electricity bill   : PHP", A3con)
         st.write("Energy consumption :", Y3, "kWh")
     if max_app == Y4:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A4N)
         st.write("Electricity bill   : PHP", A4con)
         st.write("Energy consumption :", Y4, "kWh")
     if max_app == Y5:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A5N)
         st.write("Electricity bill   : PHP", A5con)
         st.write("Energy consumption :", Y5, "kWh")
     if max_app == Y6:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A6N)
         st.write("Electricity bill   : PHP", A6con)
         st.write("Energy consumption :", Y6, "kWh")
+
     # OUTPUT2
-    st.write(
-        "************************************************************************************************************************************************************************")
+    st.write("***")
     st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
     st.write(A1N, ": PHP", A1con)
     st.write(A2N, ": PHP", A2con)
@@ -2572,14 +2040,13 @@ if ask6 == 2:
     st.write(A4N, ": PHP", A4con)
     st.write(A5N, ": PHP", A5con)
     st.write(A6N, ": PHP", A6con)
-    st.write(
-        "************************************************************************************************************************************************************************")
-    st.markdown(
-        "**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+    st.write("***")
+    st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
     st.write("Electricity bill: PHP", total6)
     st.write("Energy consumption:", Kh6, "kWh")
 
-# compute app1,2,3,4 and 5 (5th line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Calculate 1-5th app
 if ask5 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
     A1F = (A1B / 30) * A1D
@@ -2620,8 +2087,9 @@ if ask5 == 2:
 
     # OUTPUT1
     st.markdown("## **THE RESULTS:**")
+
     # Identify the high consumption appliance
-    st.write("************************************************************************************************************************************************************************")
+    st.write("***")
     st.markdown("**HIGHEST ENERGY CONSUMPTION**")
     apps = [Y1, Y2, Y3, Y4, Y5]
     max_app = apps[0]
@@ -2629,50 +2097,46 @@ if ask5 == 2:
         if app > max_app:
             max_app = app
     if max_app == Y1:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A1N)
         st.write("Electricity bill   : PHP", A1con)
         st.write("Energy consumption :", Y1, "kWh")
     if max_app == Y2:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A2N)
         st.write("Electricity bill   : PHP", A2con)
         st.write("Energy consumption :", Y2, "kWh")
     if max_app == Y3:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A3N)
         st.write("Electricity bill   : PHP", A3con)
         st.write("Energy consumption :", Y3, "kWh")
     if max_app == Y4:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A4N)
         st.write("Electricity bill   : PHP", A4con)
         st.write("Energy consumption :", Y4, "kWh")
     if max_app == Y5:
-        st.write(
-            "************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A5N)
         st.write("Electricity bill   : PHP", A5con)
         st.write("Energy consumption :", Y5, "kWh")
+
     # OUTPUT2
-    st.write("************************************************************************************************************************************************************************")
+    st.write("***")
     st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
     st.write(A1N, ": PHP", A1con)
     st.write(A2N, ": PHP", A2con)
     st.write(A3N, ": PHP", A3con)
     st.write(A4N, ": PHP", A4con)
     st.write(A5N, ": PHP", A5con)
-    st.write("************************************************************************************************************************************************************************")
-    st.markdown(
-        "**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+    st.write("***")
+    st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
     st.write("Electricity bill: PHP", total5)
     st.write("Energy consumption:", Kh5, "kWh")
 
-# compute app1,2,3 and 4 (4th line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Calculate 1-4th app
 if ask4 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
     A1F = (A1B / 30) * A1D
@@ -2700,6 +2164,7 @@ if ask4 == 2:
     A2con = ((A2 * 30) / 1000) * cost
     A3con = ((A3 * 30) / 1000) * cost
     A4con = ((A4 * 30) / 1000) * cost
+
     # INDIVIDUAL: Kilo-watt/hour
     Y1 = (A1*30)/1000
     Y2 = (A2*30)/1000
@@ -2709,7 +2174,7 @@ if ask4 == 2:
     # OUTPUT1
     st.markdown("## **THE RESULTS:**")
     # Identify the high consumption appliance
-    st.write("************************************************************************************************************************************************************************")
+    st.write("***")
     st.markdown("**HIGHEST ENERGY CONSUMPTION**")
     apps = [Y1, Y2, Y3, Y4]
     max_app = apps[0]
@@ -2717,39 +2182,40 @@ if ask4 == 2:
         if app > max_app:
             max_app = app
     if max_app == Y1:
-        st.write("************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A1N)
         st.write("Electricity bill   : PHP", A1con)
         st.write("Energy consumption :", Y1, "kWh")
     if max_app == Y2:
-        st.write("************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A2N)
         st.write("Electricity bill   : PHP", A2con)
         st.write("Energy consumption :", Y2, "kWh")
     if max_app == Y3:
-        st.write("************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A3N)
         st.write("Electricity bill   : PHP", A3con)
         st.write("Energy consumption :", Y3, "kWh")
     if max_app == Y4:
-        st.write("************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A4N)
         st.write("Electricity bill   : PHP", A4con)
         st.write("Energy consumption :", Y4, "kWh")
+
     # OUTPUT2
-    st.write("************************************************************************************************************************************************************************")
+    st.write("***")
     st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
-    st.write(A1N, ": PHP", A1con,)
-    st.write(A2N, ": PHP", A2con,)
-    st.write(A3N, ": PHP", A3con,)
-    st.write(A4N, ": PHP", A4con,)
-    st.write("************************************************************************************************************************************************************************")
-    st.markdown(
-        "**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+    st.write(A1N, ": PHP", A1con)
+    st.write(A2N, ": PHP", A2con)
+    st.write(A3N, ": PHP", A3con)
+    st.write(A4N, ": PHP", A4con)
+    st.write("***")
+    st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
     st.write("Electricity bill: PHP", total4)
     st.write("Energy consumption:", Kh4, "kWh")
 
-# compute app1,2 and 3 (3rd line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Calculate 1-3rd app
 if ask3 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
     A1F = (A1B / 30) * A1D
@@ -2765,7 +2231,7 @@ if ask3 == 2:
     wh3 = (A1 + A2 + A3)
 
     # TOTAL: Kilo-watt/hour kada month.
-    Kh3 = ((wh3 * 30)/1000)
+    Kh3 = ((wh3 * 30) / 1000)
 
     # TOTAL: para ma compute ang (cost) kada month.
     total3 = cost * Kh3
@@ -2783,7 +2249,7 @@ if ask3 == 2:
     # OUTPUT1
     st.markdown("## **THE RESULTS:**")
     # Identify the high consumption appliance
-    st.write("************************************************************************************************************************************************************************")
+    st.write("***")
     st.markdown("**HIGHEST ENERGY CONSUMPTION**")
     apps = [Y1, Y2, Y3]
     max_app = apps[0]
@@ -2791,32 +2257,34 @@ if ask3 == 2:
         if app > max_app:
             max_app = app
     if max_app == Y1:
-        st.write("************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A1N)
         st.write("Electricity bill   : PHP", A1con)
         st.write("Energy consumption :", Y1, "kWh")
     if max_app == Y2:
-        st.write("************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A2N)
         st.write("Electricity bill   : PHP", A2con)
         st.write("Energy consumption :", Y2, "kWh")
     if max_app == Y3:
-        st.write("************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A3N)
         st.write("Electricity bill   : PHP", A3con)
         st.write("Energy consumption :", Y3, "kWh")
+
     # OUTPUT2
-    st.write("************************************************************************************************************************************************************************")
+    st.write("***")
     st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
     st.write(A1N, ": PHP", A1con)
     st.write(A2N, ": PHP", A2con)
     st.write(A3N, ": PHP", A3con)
-    st.write("************************************************************************************************************************************************************************")
+    st.write("***")
     st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
     st.write("Electricity bill: PHP", total3)
     st.write("Energy consumption:", Kh3, "kWh")
 
-# compute app1 and 2 (2nd line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Calculate 1-2nd app
 if ask2 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
     A1F = (A1B / 30) * A1D
@@ -2830,7 +2298,7 @@ if ask2 == 2:
     wh2 = (A1 + A2)
 
     # TOTAL: Kilo-watt/hour kada month.
-    Kh2 = (wh2*30) / 1000
+    Kh2 = ((wh2 * 30) / 1000)
 
     # TOTAL: para ma compute ang (cost) kada month.
     total2 = cost * Kh2
@@ -2846,52 +2314,54 @@ if ask2 == 2:
     # OUTPUT1
     st.markdown("## **THE RESULTS:**")
     # Identify the high consumption appliance
-    st.write("************************************************************************************************************************************************************************")
+    st.write("***")
     st.markdown("**HIGHEST ENERGY CONSUMPTION**")
     apps = [Y1, Y2]
     max_app = apps[0]
     for app in apps:
         if app > max_app:
             max_app = app
-    if max_app == Y2:
-        st.write("************************************************************************************************************************************************************************")
+    if max_app == Y1:
+        st.write("***")
         st.write("Name of appliance  :", A1N)
         st.write("Electricity bill   : PHP", A1con)
         st.write("Energy consumption :", Y1, "kWh")
     if max_app == Y2:
-        st.write("************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A2N)
         st.write("Electricity bill   : PHP", A2con)
         st.write("Energy consumption :", Y2, "kWh")
+
     # OUTPUT2
-    st.write("************************************************************************************************************************************************************************")
+    st.write("***")
     st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
     st.write(A1N, ": PHP", A1con)
     st.write(A2N, ": PHP", A2con)
-    st.write("************************************************************************************************************************************************************************")
+    st.write("***")
     st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
     st.write("Electricity bill: PHP", total2)
     st.write("Energy consumption:", Kh2, "kWh")
 
-# compute app1 (1st line)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Calculate 1st app
 if ask1 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B/30) * A1D
+    A1F = (A1B / 30) * A1D
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
 
     # TOTAL: watt/hour kada araw.
-    wh1 = A1
+    wh1 = (A1 + A2)
 
     # TOTAL: Kilo-watt/hour kada month.
-    Kh1 = (wh1*30) / 1000
+    Kh1 = ((wh1 * 30) / 1000)
 
     # TOTAL: para ma compute ang (cost) kada month.
     total1 = cost * Kh1
 
     # INDIVIDUALLY: para ma compute ang (cost) kada month.
-    A1con = ((A1*30)/1000)*cost
+    A1con = ((A1 * 30) / 1000) * cost
 
     # INDIVIDUAL: Kilo-watt/hour
     Y1 = (A1*30)/1000
@@ -2899,7 +2369,7 @@ if ask1 == 2:
     # OUTPUT1
     st.markdown("## **THE RESULTS:**")
     # Identify the high consumption appliance
-    st.write("************************************************************************************************************************************************************************")
+    st.write("***")
     st.markdown("**HIGHEST ENERGY CONSUMPTION**")
     apps = [Y1]
     max_app = apps[0]
@@ -2907,15 +2377,16 @@ if ask1 == 2:
         if app > max_app:
             max_app = app
     if max_app == Y1:
-        st.write("************************************************************************************************************************************************************************")
+        st.write("***")
         st.write("Name of appliance  :", A1N)
         st.write("Electricity bill   : PHP", A1con)
         st.write("Energy consumption :", Y1, "kWh")
+
     # OUTPUT2
-    st.write("************************************************************************************************************************************************************************")
+    st.write("***")
     st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
-    st.write(A1N, ": PHP", A1con,)
-    st.write("************************************************************************************************************************************************************************")
+    st.write(A1N, ": PHP", A1con)
+    st.write("***")
     st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
     st.write("Electricity bill: PHP", total1)
     st.write("Energy consumption:", Kh1, "kWh")
