@@ -53,7 +53,7 @@ if A1N:
     if 31 >= A1B >= 1:
         A1D = st.number_input(
             f"How many hours in a day do you use {A1N}?(1-24)")
-        if 31 >= A1D >= 1:
+        if 24 >= A1D >= 1:
             ask1 = st.number_input(
                 "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -71,7 +71,7 @@ if ask1 == 1:
         if 31 >= A2B >= 1:
             A2D = st.number_input(
                 f"How many hours in a day do you use {A2N}?(1-24)")
-            if 31 >= A2D >= 1:
+            if 24 >= A2D >= 1:
                 ask2 = st.number_input(
                     "Add 3rd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -89,7 +89,7 @@ if ask2 == 1:
         if 31 >= A3B >= 1:
             A3D = st.number_input(
                 f"How many hours in a day do you use {A3N}?(1-24)")
-            if 31 >= A3D >= 1:
+            if 24 >= A3D >= 1:
                 ask3 = st.number_input(
                     "Add 4th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -107,7 +107,7 @@ if ask3 == 1:
         if 31 >= A4B >= 1:
             A4D = st.number_input(
                 f"How many hours in a day do you use {A4N}?(1-24)")
-            if 31 >= A4D >= 1:
+            if 24 >= A4D >= 1:
                 ask4 = st.number_input(
                     "Add 5th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -126,7 +126,7 @@ if ask4 == 1:
         if 31 >= A5B >= 1:
             A5D = st.number_input(
                 f"How many hours in a day do you use {A5N}?(1-24)")
-            if 31 >= A5D >= 1:
+            if 24 >= A5D >= 1:
                 ask5 = st.number_input(
                     "Add 6th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -145,7 +145,7 @@ if ask5 == 1:
         if 31 >= A6B >= 1:
             A6D = st.number_input(
                 f"How many hours in a day do you use {A6N}?(1-24)")
-            if 31 >= A6D >= 1:
+            if 24 >= A6D >= 1:
                 ask6 = st.number_input(
                     "Add 7th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -164,7 +164,7 @@ if ask6 == 1:
         if 31 >= A7B >= 1:
             A7D = st.number_input(
                 f"How many hours in a day do you use {A7N}?(1-24)")
-            if 31 >= A7D >= 1:
+            if 24 >= A7D >= 1:
                 ask7 = st.number_input(
                     "Add 8th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -183,7 +183,7 @@ if ask7 == 1:
         if 31 >= A8B >= 1:
             A8D = st.number_input(
                 f"How many hours in a day do you use {A8N}?(1-24)")
-            if 31 >= A8D >= 1:
+            if 24 >= A8D >= 1:
                 ask8 = st.number_input(
                     "Add 9th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -203,7 +203,7 @@ if ask8 == 1:
         if 31 >= A9B >= 1:
             A9D = st.number_input(
                 f"How many hours in a day do you use {A9N}?(1-24)")
-            if 31 >= A9D >= 1:
+            if 24 >= A9D >= 1:
                 ask9 = st.number_input(
                     "Add 10th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -222,7 +222,7 @@ if ask9 == 1:
         if 31 >= A10B >= 1:
             A10D = st.number_input(
                 f"How many hours in a day do you use {A10N}?(1-24)")
-            if 31 >= A10D >= 1:
+            if 24 >= A10D >= 1:
                 ask10 = st.number_input(
                     "Add 11th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -241,7 +241,7 @@ if ask10 == 1:
         if 31 >= A11B >= 1:
             A11D = st.number_input(
                 f"How many hours in a day do you use {A11N}?(1-24)")
-            if 31 >= A11D >= 1:
+            if 24 >= A11D >= 1:
                 ask11 = st.number_input(
                     "Add 12th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -262,7 +262,7 @@ if ask11 == 1:
         if 31 >= A12B >= 1:
             A12D = st.number_input(
                 f"How many hours in a day do you use {A12N}?(1-24)")
-            if 31 >= A12D >= 1:
+            if 24 >= A12D >= 1:
                 ask12 = st.number_input(
                     "Add 13th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -282,7 +282,7 @@ if ask12 == 1:
         if 31 >= A13B >= 1:
             A13D = st.number_input(
                 f"How many hours in a day do you use {A13N}?(1-24)")
-            if 31 >= A13D >= 1:
+            if 24 >= A13D >= 1:
                 ask13 = st.number_input(
                     "Add 14th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -301,7 +301,7 @@ if ask13 == 1:
         if 31 >= A14B >= 1:
             A14D = st.number_input(
                 f"How many hours in a day do you use {A14N}?(1-24)")
-            if 31 >= A14D >= 1:
+            if 24 >= A14D >= 1:
                 ask14 = st.number_input(
                     "Add 15th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -320,7 +320,7 @@ if ask14 == 1:
         if 31 >= A15B >= 1:
             A15D = st.number_input(
                 f"How many hours in a day do you use {A15N}?(1-24)")
-            if 31 >= A15D >= 1:
+            if 24 >= A15D >= 1:
                 ask15 = st.number_input(
                     "Add 16th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -341,7 +341,7 @@ if ask15 == 1:
         if 31 >= A16B >= 1:
             A16D = st.number_input(
                 f"How many hours in a day do you use {A16N}?(1-24)")
-            if 31 >= A16D >= 1:
+            if 24 >= A16D >= 1:
                 ask16 = st.number_input(
                     "Add 17th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -360,7 +360,7 @@ if ask16 == 1:
         if 31 >= A17B >= 1:
             A17D = st.number_input(
                 f"How many hours in a day do you use {A17N}?(1-24)")
-            if 31 >= A17D >= 1:
+            if 24 >= A17D >= 1:
                 ask17 = st.number_input(
                     "Add 18th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -379,7 +379,7 @@ if ask17 == 1:
         if 31 >= A18B >= 1:
             A18D = st.number_input(
                 f"How many hours in a day do you use {A18N}?(1-24)")
-            if 31 >= A18D >= 1:
+            if 24 >= A18D >= 1:
                 ask18 = st.number_input(
                     "Add 19th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -398,7 +398,7 @@ if ask18 == 1:
         if 31 >= A19B >= 1:
             A19D = st.number_input(
                 f"How many hours in a day do you use {A19N}?(1-24)")
-            if 31 >= A19D >= 1:
+            if 24 >= A19D >= 1:
                 ask19 = st.number_input(
                     "Add 20th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -420,7 +420,7 @@ if ask19 == 1:
         if 31 >= A20B >= 1:
             A20D = st.number_input(
                 f"How many hours in a day do you use {A20N}?(1-24)")
-            if 31 >= A20D >= 1:
+            if 24 >= A20D >= 1:
                 ask20 = st.number_input(
                     "Add 21st appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -439,7 +439,7 @@ if ask20 == 1:
         if 31 >= A21B >= 1:
             A21D = st.number_input(
                 f"How many hours in a day do you use {A21N}?(1-24)")
-            if 31 >= A21D >= 1:
+            if 24 >= A21D >= 1:
                 ask21 = st.number_input(
                     "Add 22nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -458,7 +458,7 @@ if ask21 == 1:
         if 31 >= A22B >= 1:
             A22D = st.number_input(
                 f"How many hours in a day do you use {A22N}?(1-24)")
-            if 31 >= A22D >= 1:
+            if 24 >= A22D >= 1:
                 ask22 = st.number_input(
                     "Add 23rd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -477,7 +477,7 @@ if ask22 == 1:
         if 31 >= A23B >= 1:
             A23D = st.number_input(
                 f"How many hours in a day do you use {A23N}?(1-24)")
-            if 31 >= A23D >= 1:
+            if 24 >= A23D >= 1:
                 ask23 = st.number_input(
                     "Add 24th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -496,7 +496,7 @@ if ask23 == 1:
         if 31 >= A24B >= 1:
             A24D = st.number_input(
                 f"How many hours in a day do you use {A24N}?(1-24)")
-            if 31 >= A24D >= 1:
+            if 24 >= A24D >= 1:
                 ask24 = st.number_input(
                     "Add 25th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -515,7 +515,7 @@ if ask24 == 1:
         if 31 >= A25B >= 1:
             A25D = st.number_input(
                 f"How many hours in a day do you use {A25N}?(1-24)")
-            if 31 >= A25D >= 1:
+            if 24 >= A25D >= 1:
                 ask25 = st.number_input(
                     "Add 26th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -535,7 +535,7 @@ if ask25 == 1:
         if 31 >= A26B >= 1:
             A26D = st.number_input(
                 f"How many hours in a day do you use {A26N}?(1-24)")
-            if 31 >= A26D >= 1:
+            if 24 >= A26D >= 1:
                 ask26 = st.number_input(
                     "Add 27th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -553,7 +553,7 @@ if ask26 == 1:
         if 31 >= A27B >= 1:
             A27D = st.number_input(
                 f"How many hours in a day do you use {A27N}?(1-24)")
-            if 31 >= A27D >= 1:
+            if 24 >= A27D >= 1:
                 ask27 = st.number_input(
                     "Add 28th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -571,7 +571,7 @@ if ask27 == 1:
         if 31 >= A28B >= 1:
             A28D = st.number_input(
                 f"How many hours in a day do you use {A28N}?(1-24)")
-            if 31 >= A28D >= 1:
+            if 24 >= A28D >= 1:
                 ask28 = st.number_input(
                     "Add 29th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -589,7 +589,7 @@ if ask28 == 1:
         if 31 >= A29B >= 1:
             A29D = st.number_input(
                 f"How many hours in a day do you use {A29N}?(1-24)")
-            if 31 >= A29D >= 1:
+            if 24 >= A29D >= 1:
                 ask29 = st.number_input(
                     "Add 30th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -607,8 +607,348 @@ if ask29 == 1:
         if 31 >= A30B >= 1:
             A30D = st.number_input(
                 f"How many hours in a day do you use {A30N}?(1-24)")
-            if 31 >= A30D >= 1:
+            if 24 >= A30D >= 1:
                 ask30 = 2
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Calculate 1-30th app
+if ask30 == 2:
+    # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
+    A1F = (A1B / 30) * A1D
+    A2F = (A2B / 30) * A2D
+    A3F = (A3B / 30) * A3D
+    A4F = (A4B / 30) * A4D
+    A5F = (A5B / 30) * A5D
+    A6F = (A6B / 30) * A6D
+    A7F = (A7B / 30) * A7D
+    A8F = (A8B / 30) * A8D
+    A9F = (A9B / 30) * A9D
+    A10F = (A10B / 30) * A10D
+    A11F = (A11B / 30) * A11D
+    A12F = (A12B / 30) * A12D
+    A13F = (A13B / 30) * A13D
+    A14F = (A14B / 30) * A14D
+    A15F = (A15B / 30) * A15D
+    A16F = (A16B / 30) * A16D
+    A17F = (A17B / 30) * A17D
+    A18F = (A18B / 30) * A18D
+    A19F = (A19B / 30) * A19D
+    A20F = (A20B / 30) * A20D
+    A21F = (A21B / 30) * A21D
+    A22F = (A22B / 30) * A22D
+    A23F = (A23B / 30) * A23D
+    A24F = (A24B / 30) * A24D
+    A25F = (A25B / 30) * A25D
+    A26F = (A26B / 30) * A26D
+    A27F = (A27B / 30) * A27D
+    A28F = (A28B / 30) * A28D
+    A29F = (A29B / 30) * A29D
+    A30F = (A30B / 30) * A30D
+
+    # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
+    A1 = (A1F * (A1W * A1M))
+    A2 = (A2F * (A2W * A2M))
+    A3 = (A3F * (A3W * A3M))
+    A4 = (A4F * (A4W * A4M))
+    A5 = (A5F * (A5W * A5M))
+    A6 = (A6F * (A6W * A6M))
+    A7 = (A7F * (A7W * A7M))
+    A8 = (A8F * (A8W * A8M))
+    A9 = (A9F * (A9W * A9M))
+    A10 = (A10F * (A10W * A10M))
+    A11 = (A11F * (A11W * A11M))
+    A12 = (A12F * (A12W * A12M))
+    A13 = (A13F * (A13W * A13M))
+    A14 = (A14F * (A14W * A14M))
+    A15 = (A15F * (A15W * A15M))
+    A16 = (A16F * (A16W * A16M))
+    A17 = (A17F * (A17W * A17M))
+    A18 = (A18F * (A18W * A18M))
+    A19 = (A19F * (A19W * A19M))
+    A20 = (A20F * (A20W * A20M))
+    A21 = (A21F * (A21W * A21M))
+    A22 = (A22F * (A22W * A22M))
+    A23 = (A23F * (A23W * A23M))
+    A24 = (A24F * (A24W * A24M))
+    A25 = (A25F * (A25W * A25M))
+    A26 = (A26F * (A26W * A26M))
+    A27 = (A27F * (A27W * A27M))
+    A28 = (A28F * (A28W * A28M))
+    A29 = (A29F * (A29W * A29M))
+    A30 = (A30F * (A30W * A30M))
+
+    # TOTAL: watt/hour kada araw.
+    wh30 = (A1 + A2 + A3 + A4 + A5 + A6 + A7 + A8 + A9 + A10 + A11 + A12 + A13 + A14 + A15 +
+            A16 + A17 + A18 + A19 + A20 + A21 + A22 + A23 + A24 + A25 + A26 + A27 + A28 + A29 + A30)
+
+    # TOTAL: Kilo-watt/hour kada month.
+    Kh30 = ((wh30 * 30) / 1000)
+
+    # TOTAL: para ma compute ang (cost) kada month.
+    total30 = cost * Kh30
+
+    # INDIVIDUALLY: para ma compute ang (cost) kada month.
+    A1con = ((A1 * 30) / 1000) * cost
+    A2con = ((A2 * 30) / 1000) * cost
+    A3con = ((A3 * 30) / 1000) * cost
+    A4con = ((A4 * 30) / 1000) * cost
+    A5con = ((A5 * 30) / 1000) * cost
+    A6con = ((A6 * 30) / 1000) * cost
+    A7con = ((A7 * 30) / 1000) * cost
+    A8con = ((A8 * 30) / 1000) * cost
+    A9con = ((A9 * 30) / 1000) * cost
+    A10con = ((A10 * 30) / 1000) * cost
+    A11con = ((A11 * 30) / 1000) * cost
+    A12con = ((A12 * 30) / 1000) * cost
+    A13con = ((A13 * 30) / 1000) * cost
+    A14con = ((A14 * 30) / 1000) * cost
+    A15con = ((A15 * 30) / 1000) * cost
+    A16con = ((A16 * 30) / 1000) * cost
+    A17con = ((A17 * 30) / 1000) * cost
+    A18con = ((A18 * 30) / 1000) * cost
+    A19con = ((A19 * 30) / 1000) * cost
+    A20con = ((A20 * 30) / 1000) * cost
+    A21con = ((A21 * 30) / 1000) * cost
+    A22con = ((A22 * 30) / 1000) * cost
+    A23con = ((A23 * 30) / 1000) * cost
+    A24con = ((A24 * 30) / 1000) * cost
+    A25con = ((A25 * 30) / 1000) * cost
+    A26con = ((A26 * 30) / 1000) * cost
+    A27con = ((A27 * 30) / 1000) * cost
+    A28con = ((A28 * 30) / 1000) * cost
+    A29con = ((A29 * 30) / 1000) * cost
+    A30con = ((A30 * 30) / 1000) * cost
+
+    # INDIVIDUAL: Kilo-watt/hour
+    Y1 = (A1*30)/1000
+    Y2 = (A2*30)/1000
+    Y3 = (A3*30)/1000
+    Y4 = (A4*30)/1000
+    Y5 = (A5*30)/1000
+    Y6 = (A6*30)/1000
+    Y7 = (A7*30)/1000
+    Y8 = (A8*30)/1000
+    Y9 = (A8*30)/1000
+    Y10 = (A10*30)/1000
+    Y11 = (A11*30)/1000
+    Y12 = (A12*30)/1000
+    Y13 = (A13*30)/1000
+    Y14 = (A14*30)/1000
+    Y15 = (A15*30)/1000
+    Y16 = (A16*30)/1000
+    Y17 = (A17*30)/1000
+    Y18 = (A18*30)/1000
+    Y19 = (A19*30)/1000
+    Y20 = (A20*30)/1000
+    Y21 = (A21*30)/1000
+    Y22 = (A22*30)/1000
+    Y23 = (A23*30)/1000
+    Y24 = (A24*30)/1000
+    Y25 = (A25*30)/1000
+    Y26 = (A26*30)/1000
+    Y27 = (A27*30)/1000
+    Y28 = (A28*30)/1000
+    Y29 = (A29*30)/1000
+    Y30 = (A30*30)/1000
+
+    # OUTPUT1
+    st.markdown("## **THE RESULTS:**")
+    # Identify the high consumption appliance
+    st.write("***")
+    st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+    apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15,
+            Y16, Y17, Y18, Y19, Y20, Y21, Y22, Y23, Y24, Y24, Y26, Y27, Y28, Y29, Y30]
+    max_app = apps[0]
+    for app in apps:
+        if app > max_app:
+            max_app = app
+    if max_app == Y1:
+        st.write("***")
+        st.write("Name of appliance  :", A1N)
+        st.write("Electricity bill   : PHP", A1con)
+        st.write("Energy consumption :", Y1, "kWh")
+    if max_app == Y2:
+        st.write("***")
+        st.write("Name of appliance  :", A2N)
+        st.write("Electricity bill   : PHP", A2con)
+        st.write("Energy consumption :", Y2, "kWh")
+    if max_app == Y3:
+        st.write("***")
+        st.write("Name of appliance  :", A3N)
+        st.write("Electricity bill   : PHP", A3con)
+        st.write("Energy consumption :", Y3, "kWh")
+    if max_app == Y4:
+        st.write("***")
+        st.write("Name of appliance  :", A4N)
+        st.write("Electricity bill   : PHP", A4con)
+        st.write("Energy consumption :", Y4, "kWh")
+    if max_app == Y5:
+        st.write("***")
+        st.write("Name of appliance  :", A5N)
+        st.write("Electricity bill   : PHP", A5con)
+        st.write("Energy consumption :", Y5, "kWh")
+    if max_app == Y6:
+        st.write("***")
+        st.write("Name of appliance  :", A6N)
+        st.write("Electricity bill   : PHP", A6con)
+        st.write("Energy consumption :", Y6, "kWh")
+    if max_app == Y7:
+        st.write("***")
+        st.write("Name of appliance  :", A7N)
+        st.write("Electricity bill   : PHP", A7con)
+        st.write("Energy consumption :", Y7, "kWh")
+    if max_app == Y8:
+        st.write("***")
+        st.write("Name of appliance  :", A8N)
+        st.write("Electricity bill   : PHP", A8con)
+        st.write("Energy consumption :", Y8, "kWh")
+    if max_app == Y9:
+        st.write("***")
+        st.write("Name of appliance  :", A9N)
+        st.write("Electricity bill   : PHP", A9con)
+        st.write("Energy consumption :", Y9, "kWh")
+    if max_app == Y10:
+        st.write("***")
+        st.write("Name of appliance  :", A10N)
+        st.write("Electricity bill   : PHP", A10con)
+        st.write("Energy consumption :", Y10, "kWh")
+    if max_app == Y11:
+        st.write("***")
+        st.write("Name of appliance  :", A11N)
+        st.write("Electricity bill   : PHP", A11con)
+        st.write("Energy consumption :", Y11, "kWh")
+    if max_app == Y12:
+        st.write("***")
+        st.write("Name of appliance  :", A12N)
+        st.write("Electricity bill   : PHP", A12con)
+        st.write("Energy consumption :", Y12, "kWh")
+    if max_app == Y13:
+        st.write("***")
+        st.write("Name of appliance  :", A13N)
+        st.write("Electricity bill   : PHP", A13con)
+        st.write("Energy consumption :", Y13, "kWh")
+    if max_app == Y14:
+        st.write("***")
+        st.write("Name of appliance  :", A14N)
+        st.write("Electricity bill   : PHP", A14con)
+        st.write("Energy consumption :", Y14, "kWh")
+    if max_app == Y15:
+        st.write("***")
+        st.write("Name of appliance  :", A15N)
+        st.write("Electricity bill   : PHP", A15con)
+        st.write("Energy consumption :", Y15, "kWh")
+    if max_app == Y16:
+        st.write("***")
+        st.write("Name of appliance  :", A16N)
+        st.write("Electricity bill   : PHP", A16con)
+        st.write("Energy consumption :", Y16, "kWh")
+    if max_app == Y17:
+        st.write("***")
+        st.write("Name of appliance  :", A17N)
+        st.write("Electricity bill   : PHP", A17con)
+        st.write("Energy consumption :", Y17, "kWh")
+    if max_app == Y18:
+        st.write("***")
+        st.write("Name of appliance  :", A18N)
+        st.write("Electricity bill   : PHP", A18con)
+        st.write("Energy consumption :", Y18, "kWh")
+    if max_app == Y19:
+        st.write("***")
+        st.write("Name of appliance  :", A19N)
+        st.write("Electricity bill   : PHP", A19con)
+        st.write("Energy consumption :", Y19, "kWh")
+    if max_app == Y20:
+        st.write("***")
+        st.write("Name of appliance  :", A20N)
+        st.write("Electricity bill   : PHP", A20con)
+        st.write("Energy consumption :", Y20, "kWh")
+    if max_app == Y21:
+        st.write("***")
+        st.write("Name of appliance  :", A21N)
+        st.write("Electricity bill   : PHP", A21con)
+        st.write("Energy consumption :", Y21, "kWh")
+    if max_app == Y22:
+        st.write("***")
+        st.write("Name of appliance  :", A22N)
+        st.write("Electricity bill   : PHP", A22con)
+        st.write("Energy consumption :", Y22, "kWh")
+    if max_app == Y23:
+        st.write("***")
+        st.write("Name of appliance  :", A23N)
+        st.write("Electricity bill   : PHP", A23con)
+        st.write("Energy consumption :", Y23, "kWh")
+    if max_app == Y24:
+        st.write("***")
+        st.write("Name of appliance  :", A24N)
+        st.write("Electricity bill   : PHP", A24con)
+        st.write("Energy consumption :", Y24, "kWh")
+    if max_app == Y25:
+        st.write("***")
+        st.write("Name of appliance  :", A25N)
+        st.write("Electricity bill   : PHP", A25con)
+        st.write("Energy consumption :", Y25, "kWh")
+    if max_app == Y26:
+        st.write("***")
+        st.write("Name of appliance  :", A26N)
+        st.write("Electricity bill   : PHP", A26con)
+        st.write("Energy consumption :", Y26, "kWh")
+    if max_app == Y27:
+        st.write("***")
+        st.write("Name of appliance  :", A27N)
+        st.write("Electricity bill   : PHP", A27con)
+        st.write("Energy consumption :", Y27, "kWh")
+    if max_app == Y28:
+        st.write("***")
+        st.write("Name of appliance  :", A28N)
+        st.write("Electricity bill   : PHP", A28con)
+        st.write("Energy consumption :", Y28, "kWh")
+    if max_app == Y29:
+        st.write("***")
+        st.write("Name of appliance  :", A29N)
+        st.write("Electricity bill   : PHP", A29con)
+        st.write("Energy consumption :", Y29, "kWh")
+    if max_app == Y30:
+        st.write("***")
+        st.write("Name of appliance  :", A30N)
+        st.write("Electricity bill   : PHP", A30con)
+        st.write("Energy consumption :", Y30, "kWh")
+    # OUTPUT2
+    st.write("***")
+    st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+    st.write(A1N, ": PHP", A1con)
+    st.write(A2N, ": PHP", A2con)
+    st.write(A3N, ": PHP", A3con)
+    st.write(A4N, ": PHP", A4con)
+    st.write(A5N, ": PHP", A5con)
+    st.write(A6N, ": PHP", A6con)
+    st.write(A7N, ": PHP", A7con)
+    st.write(A8N, ": PHP", A8con)
+    st.write(A9N, ": PHP", A9con)
+    st.write(A10N, ": PHP", A10con)
+    st.write(A11N, ": PHP", A11con)
+    st.write(A12N, ": PHP", A12con)
+    st.write(A13N, ": PHP", A13con)
+    st.write(A14N, ": PHP", A14con)
+    st.write(A15N, ": PHP", A15con)
+    st.write(A16N, ": PHP", A16con)
+    st.write(A17N, ": PHP", A17con)
+    st.write(A18N, ": PHP", A18con)
+    st.write(A19N, ": PHP", A19con)
+    st.write(A20N, ": PHP", A20con)
+    st.write(A21N, ": PHP", A21con)
+    st.write(A22N, ": PHP", A22con)
+    st.write(A23N, ": PHP", A23con)
+    st.write(A24N, ": PHP", A24con)
+    st.write(A25N, ": PHP", A25con)
+    st.write(A26N, ": PHP", A26con)
+    st.write(A27N, ": PHP", A27con)
+    st.write(A28N, ": PHP", A28con)
+    st.write(A29N, ": PHP", A29con)
+    st.write(A30N, ": PHP", A30con)
+    st.write("***")
+    st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+    st.write("Electricity bill: PHP", total30)
+    st.write("Energy consumption:", Kh30, "kWh")
+
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # Calculate 1-15th app
 if ask15 == 2:
