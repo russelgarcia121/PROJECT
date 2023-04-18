@@ -57,7 +57,7 @@ st.write("***")
 st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 1st appliance.</span>", unsafe_allow_html=True)
 A1N = st.text_input("Name of 1st appliance:")
 if A1N in Appliances:
-    st.write("<span style='font-family:Times New Roman; font-size:12px;font-weight:bold;'>Please kindly use an alternative name for the device, other than " +
+    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the device, other than " +
              A1N + ".</span>", unsafe_allow_html=True)
 else:
     Appliances.append(A1N)
@@ -80,7 +80,7 @@ if ask1 == 1:
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 2nd appliance.</span>", unsafe_allow_html=True)
     A2N = st.text_input("Name of 2nd appliance: ")
     if A2N in Appliances:
-        st.write("<span style='font-family:Times New Roman; font-size:12px;font-weight:bold;'>Please kindly use an alternative name for the device, other than " +
+        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the device, other than " +
                  A2N + ".</span>", unsafe_allow_html=True)
     else:
         Appliances.append(A2N)
@@ -126,7 +126,7 @@ if ask3 == 1:
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 4th appliance.</span>", unsafe_allow_html=True)
     A4N = st.text_input("Name of 4th appliance: ")
     if A4N in Appliances:
-        st.write("<span style='font-family:Times New Roman; font-size:12px;font-weight:bold;'>Please kindly use an alternative name for the device, other than " +
+        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the device, other than " +
                  A4N + ".</span>", unsafe_allow_html=True)
     else:
         Appliances.append(A4N)
@@ -148,38 +148,48 @@ if ask4 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 5th appliance.</span>", unsafe_allow_html=True)
     A5N = st.text_input("Name of 5th appliance: ")
-    if A5N:
-        A5M = st.number_input(
-            f"How many {A5N} are you using?", value=0, step=1)
-        A5W = st.number_input(
-            f"What is the wattage of {A5N}?(watt)")
-        A5B = st.number_input(
-            f"How many days in a month do you use {A5N}?(1-31)", value=0, step=1)
-        if 31 >= A5B >= 1:
-            A5D = st.number_input(
-                f"How many hours in a day do you use {A5N}?(1-24)")
-            if 24 >= A5D >= 1:
-                ask5 = st.number_input(
-                    "Add 6th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+    if A5N in Appliances:
+        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the device, other than " +
+                 A5N + ".</span>", unsafe_allow_html=True)
+    else:
+        Appliances.append(A5N)
+        if A5N:
+            A5M = st.number_input(
+                f"How many {A5N} are you using?", value=0, step=1)
+            A5W = st.number_input(
+                f"What is the wattage of {A5N}?(watt)")
+            A5B = st.number_input(
+                f"How many days in a month do you use {A5N}?(1-31)", value=0, step=1)
+            if 31 >= A5B >= 1:
+                A5D = st.number_input(
+                    f"How many hours in a day do you use {A5N}?(1-24)")
+                if 24 >= A5D >= 1:
+                    ask5 = st.number_input(
+                        "Add 6th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # add 6th app
 if ask5 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 6th appliance.</span>", unsafe_allow_html=True)
     A6N = st.text_input("Name of 6th appliance: ")
-    if A6N:
-        A6M = st.number_input(
-            f"How many {A6N} are you using?", value=0, step=1)
-        A6W = st.number_input(
-            f"What is the wattage of {A6N}?(watt)")
-        A6B = st.number_input(
-            f"How many days in a month do you use {A6N}?(1-31)", value=0, step=1)
-        if 31 >= A6B >= 1:
-            A6D = st.number_input(
-                f"How many hours in a day do you use {A6N}?(1-24)")
-            if 24 >= A6D >= 1:
-                ask6 = st.number_input(
-                    "Add 7th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+    if A6N in Appliances:
+        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the device, other than " +
+                 A6N + ".</span>", unsafe_allow_html=True)
+    else:
+        Appliances.append(A6N)
+        if A6N:
+            A6M = st.number_input(
+                f"How many {A6N} are you using?", value=0, step=1)
+            A6W = st.number_input(
+                f"What is the wattage of {A6N}?(watt)")
+            A6B = st.number_input(
+                f"How many days in a month do you use {A6N}?(1-31)", value=0, step=1)
+            if 31 >= A6B >= 1:
+                A6D = st.number_input(
+                    f"How many hours in a day do you use {A6N}?(1-24)")
+                if 24 >= A6D >= 1:
+                    ask6 = st.number_input(
+                        "Add 7th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # add 7th app
 if ask6 == 1:
