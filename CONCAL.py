@@ -103,7 +103,7 @@ if ask2 == 1:
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 3rd appliance.</span>", unsafe_allow_html=True)
     A3N = st.text_input("Name of 3rd appliance:")
     if A3N in Appliances:
-        st.write("<span style='font-family:Times New Roman; font-size:14px;font-weight:bold;color:skyblue;'>Please kindly use an alternative name for the device, other than " +
+        st.write("<span style='font-family:Times New Roman; font-size:14px;font-weight:bold;color:blue;'>Please kindly use an alternative name for the device, other than " +
              A3N + ".</span>", unsafe_allow_html=True)
     else:
         Appliances.append(A3N)
