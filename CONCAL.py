@@ -72,7 +72,7 @@ else:
             col1, col2 = st.beta_columns(2)
             A1D = col1.number_input(f"Hours: (0-24)", value=0, step=1,key="A1D")
             A1E = col2.number_input(f"Minutes: (0-59)", value=0, step=1,key="A1E")
-            if ((24 == A1D) and (A1E==0)) or ((24>A1D>=0)and(60>=A1E>=0)):
+            if (((24 == A1D) and (A1E==0))and((A1D>0)or(A1E>0))) or (((24>A1D>=0)and(59>=A1E>=0))and((A1D>0)or(A1E>0))):
                 ask1 = st.number_input(
                     "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -97,7 +97,7 @@ if ask1 == 1:
                 col3, col4 = st.beta_columns(2)
                 A2D = col3.number_input(f"Hours: (0-24)", value=0, step=1,key="A2D")
                 A2E = col4.number_input(f"Minutes: (0-59)", value=0, step=1,key="A2E")
-                if ((24 == A2D) and (A2E==0)) or ((24>A2D>=0)and(60>=A2E>=0)):
+                if ((24 == A2D) and (A2E==0)) or ((24>A2D>=0)and(59>=A2E>=0)):
                     ask2 = st.number_input(
                         "Add 3rd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -118,9 +118,11 @@ if ask2 == 1:
             A3B = st.number_input(
                 f"How many days in a month do you use {A3N}?(1-31)", value=0, step=1)
             if 31 >= A3B >= 1:
-                A3D = st.number_input(
-                    f"How many hours in a day do you use {A3N}?(1-24)")
-                if 24 >= A3D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A3N + ".</span>", unsafe_allow_html=True)
+                col5, col6 = st.beta_columns(2)
+                A3D = col5.number_input(f"Hours: (0-24)", value=0, step=1,key="A3D")
+                A3E = col6.number_input(f"Minutes: (0-59)", value=0, step=1,key="A3E")
+                if ((24 == A3D) and (A3E==0)) or ((24>A3D>=0)and(59>=A3E>=0)):
                     ask3 = st.number_input(
                         "Add 4th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -141,9 +143,11 @@ if ask3 == 1:
             A4B = st.number_input(
                 f"How many days in a month do you use {A4N}?(1-31)", value=0, step=1)
             if 31 >= A4B >= 1:
-                A4D = st.number_input(
-                    f"How many hours in a day do you use {A4N}?(1-24)")
-                if 24 >= A4D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A4N + ".</span>", unsafe_allow_html=True)
+                col7, col8 = st.beta_columns(2)
+                A4D = col7.number_input(f"Hours: (0-24)", value=0, step=1,key="A4D")
+                A4E = col8.number_input(f"Minutes: (0-59)", value=0, step=1,key="A4E")
+                if ((24 == A4D) and (A4E==0)) or ((24>A4D>=0)and(59>=A4E>=0)):
                     ask4 = st.number_input(
                         "Add 5th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -165,9 +169,11 @@ if ask4 == 1:
             A5B = st.number_input(
                 f"How many days in a month do you use {A5N}?(1-31)", value=0, step=1)
             if 31 >= A5B >= 1:
-                A5D = st.number_input(
-                    f"How many hours in a day do you use {A5N}?(1-24)")
-                if 24 >= A5D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A5N + ".</span>", unsafe_allow_html=True)
+                col9, col10 = st.beta_columns(2)
+                A5D = col9.number_input(f"Hours: (0-24)", value=0, step=1,key="A5D")
+                A5E = col10.number_input(f"Minutes: (0-59)", value=0, step=1,key="A5E")
+                if ((24 == A5D) and (A5E==0)) or ((24>A5D>=0)and(59>=A5E>=0)):
                     ask5 = st.number_input(
                         "Add 6th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -189,9 +195,11 @@ if ask5 == 1:
             A6B = st.number_input(
                 f"How many days in a month do you use {A6N}?(1-31)", value=0, step=1)
             if 31 >= A6B >= 1:
-                A6D = st.number_input(
-                    f"How many hours in a day do you use {A6N}?(1-24)")
-                if 24 >= A6D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A6N + ".</span>", unsafe_allow_html=True)
+                col11, col12 = st.beta_columns(2)
+                A6D = col11.number_input(f"Hours: (0-24)", value=0, step=1,key="A6D")
+                A6E = col12.number_input(f"Minutes: (0-59)", value=0, step=1,key="A6E")
+                if ((24 == A6D) and (A6E==0)) or ((24>A6D>=0)and(59>=A6E>=0)):
                     ask6 = st.number_input(
                         "Add 7th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -213,9 +221,11 @@ if ask6 == 1:
             A7B = st.number_input(
                 f"How many days in a month do you use {A7N}?(1-31)", value=0, step=1)
             if 31 >= A7B >= 1:
-                A7D = st.number_input(
-                    f"How many hours in a day do you use {A7N}?(1-24)")
-                if 24 >= A7D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A7N + ".</span>", unsafe_allow_html=True)
+                col13, col14 = st.beta_columns(2)
+                A7D = col13.number_input(f"Hours: (0-24)", value=0, step=1,key="A7D")
+                A7E = col14.number_input(f"Minutes: (0-59)", value=0, step=1,key="A7E")
+                if ((24 == A7D) and (A7E==0)) or ((24>A7D>=0)and(59>=A7E>=0)):
                     ask7 = st.number_input(
                         "Add 8th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -237,9 +247,11 @@ if ask7 == 1:
             A8B = st.number_input(
                 f"How many days in a month do you use {A8N}?(1-31)", value=0, step=1)
             if 31 >= A8B >= 1:
-                A8D = st.number_input(
-                    f"How many hours in a day do you use {A8N}?(1-24)")
-                if 24 >= A8D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A8N + ".</span>", unsafe_allow_html=True)
+                col15, col16 = st.beta_columns(2)
+                A8D = col15.number_input(f"Hours: (0-24)", value=0, step=1,key="A8D")
+                A8E = col16.number_input(f"Minutes: (0-59)", value=0, step=1,key="A8E")
+                if ((24 == A8D) and (A8E==0)) or ((24>A8D>=0)and(59>=A8E>=0)):
                     ask8 = st.number_input(
                         "Add 9th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -262,9 +274,11 @@ if ask8 == 1:
             A9B = st.number_input(
                 f"How many days in a month do you use {A9N}?(1-31)", value=0, step=1)
             if 31 >= A9B >= 1:
-                A9D = st.number_input(
-                    f"How many hours in a day do you use {A9N}?(1-24)")
-                if 24 >= A9D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A9N + ".</span>", unsafe_allow_html=True)
+                col17, col18 = st.beta_columns(2)
+                A9D = col17.number_input(f"Hours: (0-24)", value=0, step=1,key="A9D")
+                A9E = col18.number_input(f"Minutes: (0-59)", value=0, step=1,key="A9E")
+                if ((24 == A9D) and (A9E==0)) or ((24>A9D>=0)and(59>=A9E>=0)):
                     ask9 = st.number_input(
                         "Add 10th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -286,9 +300,11 @@ if ask9 == 1:
             A10B = st.number_input(
                 f"How many days in a month do you use {A10N}?(1-31)", value=0, step=1)
             if 31 >= A10B >= 1:
-                A10D = st.number_input(
-                    f"How many hours in a day do you use {A10N}?(1-24)")
-                if 24 >= A10D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A10N + ".</span>", unsafe_allow_html=True)
+                col19, col20 = st.beta_columns(2)
+                A10D = col19.number_input(f"Hours: (0-24)", value=0, step=1,key="A10D")
+                A10E = col20.number_input(f"Minutes: (0-59)", value=0, step=1,key="A10E")
+                if ((24 == A10D) and (A10E==0)) or ((24>A10D>=0)and(59>=A10E>=0)):
                     ask10 = st.number_input(
                         "Add 11th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -310,9 +326,11 @@ if ask10 == 1:
             A11B = st.number_input(
                 f"How many days in a month do you use {A11N}?(1-31)", value=0, step=1)
             if 31 >= A11B >= 1:
-                A11D = st.number_input(
-                    f"How many hours in a day do you use {A11N}?(1-24)")
-                if 24 >= A11D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A11N + ".</span>", unsafe_allow_html=True)
+                col21, col22 = st.beta_columns(2)
+                A11D = col21.number_input(f"Hours: (0-24)", value=0, step=1,key="A11D")
+                A11E = col22.number_input(f"Minutes: (0-59)", value=0, step=1,key="A11E")
+                if ((24 == A11D) and (A11E==0)) or ((24>A11D>=0)and(59>=A11E>=0)):
                     ask11 = st.number_input(
                         "Add 12th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
