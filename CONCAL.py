@@ -12,6 +12,11 @@ st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:b
 cost = st.number_input("# The cost per kilowatt-hour in pesos:")
 ask1 = 0
 ask2 = 0
+
+Appliances = []
+
+# Get the item to add from the user
+
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # add 1st app
 st.write("***")
@@ -34,17 +39,21 @@ if ask1 == 1:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 2nd appliance.</span>", unsafe_allow_html=True)
     A2N = st.text_input("Name of 2nd appliance: ")
-    if A2N:
-        A2M = st.number_input(
-            f"How many {A2N} are you using?", value=0, step=1)
-        A2W = st.number_input(f"What is the wattage of {A2N}?(watt)")
-        A2B = st.number_input(
-            f"How many days in a month do you use {A2N}?(1-31)", value=0, step=1)
-        if 31 >= A2B >= 1:
-            A2D = st.number_input(
-                f"How many hours in a day do you use {A2N}?(1-24)")
-            if 24 >= A2D >= 1:
-                ask2 = 2
+    if A2N in Appliances:
+        st.write("Use an alternative name aside from", A2N)
+    else:
+        Appliances.append(A2N)
+        if A2N:
+            A2M = st.number_input(
+                f"How many {A2N} are you using?", value=0, step=1)
+            A2W = st.number_input(f"What is the wattage of {A2N}?(watt)")
+            A2B = st.number_input(
+                f"How many days in a month do you use {A2N}?(1-31)", value=0, step=1)
+            if 31 >= A2B >= 1:
+                A2D = st.number_input(
+                    f"How many hours in a day do you use {A2N}?(1-24)")
+                if 24 >= A2D >= 1:
+                    ask2 = 2
 
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # Calculate 1-2nd app
