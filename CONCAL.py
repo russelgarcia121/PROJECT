@@ -70,12 +70,10 @@ else:
         if 31 >= A1B >= 1:
             col1, col2 = st.beta_columns(2)
             A1D = col1.number_input(f"Hours: (0-24)")
-            if 23>=A1D>=0:
-                col1, col2 = st.beta_columns(2)
-                A1E = col2.number_input(f"Minutes: (0-59)")
-                if 24 >= A1D >= 1:
-                    ask1 = st.number_input(
-                        "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+            A1E = col2.number_input(f"Minutes: (0-59)")
+            if (24 >= A1D >= 1) and (23 >= A1D >= 0):
+                ask1 = st.number_input(
+                    "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # add 2nd app
 if ask1 == 1:
@@ -10771,7 +10769,7 @@ if ask2 == 2:
 # Calculate 1st app
 if ask1 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
