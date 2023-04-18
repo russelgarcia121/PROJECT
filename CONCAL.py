@@ -22,17 +22,21 @@ Appliances = []
 st.write("***")
 st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 1st appliance.</span>", unsafe_allow_html=True)
 A1N = st.text_input("Name of 1st appliance:")
-if A1N:
-    A1M = st.number_input(f"How many {A1N} are you using?", value=0, step=1)
-    A1W = st.number_input(f"What is the wattage of {A1N}?(watt)")
-    A1B = st.number_input(
-        f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1)
-    if 31 >= A1B >= 1:
-        A1D = st.number_input(
-            f"How many hours in a day do you use {A1N}?(1-24)")
-        if 24 >= A1D >= 1:
-            ask1 = st.number_input(
-                "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+if A1N in Appliances:
+    st.write("Use an alternative name aside from", A1N)
+else:
+    Appliances.append(A1N)
+    if A1N:
+        A1M = st.number_input(f"How many {A1N} are you using?", value=0, step=1)
+        A1W = st.number_input(f"What is the wattage of {A1N}?(watt)")
+        A1B = st.number_input(
+            f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1)
+        if 31 >= A1B >= 1:
+            A1D = st.number_input(
+                f"How many hours in a day do you use {A1N}?(1-24)")
+            if 24 >= A1D >= 1:
+                ask1 = st.number_input(
+                    "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # add 2nd app
 if ask1 == 1:
