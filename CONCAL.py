@@ -57,7 +57,8 @@ st.write("***")
 st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 1st appliance.</span>", unsafe_allow_html=True)
 A1N = st.text_input("Name of 1st appliance:")
 if A1N in Appliances:
-    st.write("<span style='font-family:Times New Roman; font-size:12px;font-weight:bold;'>Please kindly use an alternative name for the device, other than " + A1N + ".</span>", unsafe_allow_html=True)
+    st.write("<span style='font-family:Times New Roman; font-size:12px;font-weight:bold;'>Please kindly use an alternative name for the device, other than " +
+             A1N + ".</span>", unsafe_allow_html=True)
 else:
     Appliances.append(A1N)
     if A1N:
@@ -79,7 +80,8 @@ if ask1 == 1:
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 2nd appliance.</span>", unsafe_allow_html=True)
     A2N = st.text_input("Name of 2nd appliance: ")
     if A2N in Appliances:
-        st.write("Use an alternative name aside from", A2N)
+        st.write("<span style='font-family:Times New Roman; font-size:12px;font-weight:bold;'>Please kindly use an alternative name for the device, other than " +
+             A2N + ".</span>", unsafe_allow_html=True)
     else:
         Appliances.append(A2N)
         if A2N:
@@ -101,7 +103,8 @@ if ask2 == 1:
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 3rd appliance.</span>", unsafe_allow_html=True)
     A3N = st.text_input("Name of 3rd appliance:")
     if A3N in Appliances:
-        st.write("Use an alternative name aside from", A3N)
+        st.write("<span style='font-family:Times New Roman; font-size:12px;font-weight:bold;'>Please kindly use an alternative name for the device, other than " +
+             A3N + ".</span>", unsafe_allow_html=True)
     else:
         Appliances.append(A3N)
         if A3N:
@@ -123,7 +126,8 @@ if ask3 == 1:
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 4th appliance.</span>", unsafe_allow_html=True)
     A4N = st.text_input("Name of 4th appliance: ")
     if A4N in Appliances:
-        st.write("Use an alternative name aside from", A4N)
+        st.write("<span style='font-family:Times New Roman; font-size:12px;font-weight:bold;'>Please kindly use an alternative name for the device, other than " +
+             A4N + ".</span>", unsafe_allow_html=True)
     else:
         Appliances.append(A4N)
         if A4N:
