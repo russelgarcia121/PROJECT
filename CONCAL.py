@@ -97,7 +97,7 @@ if ask1 == 1:
                 col3, col4 = st.beta_columns(2)
                 A2D = col3.number_input(f"Hours: (0-24)", value=0, step=1,key="A2D")
                 A2E = col4.number_input(f"Minutes: (0-59)", value=0, step=1,key="A2E")
-                if ((24 == A2D) and (A2E==0)) or ((24>A2D>=0)and(59>=A2E>=0)):
+                if (((24 == A2D) and (A2E==0))and((A2D>0.1)or(A2E>0.1))) or (((24>A2D>=0)and(59>=A2E>=0))and((A2D>0.1)or(A2E>0.1))):
                     ask2 = st.number_input(
                         "Add 3rd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -122,7 +122,7 @@ if ask2 == 1:
                 col5, col6 = st.beta_columns(2)
                 A3D = col5.number_input(f"Hours: (0-24)", value=0, step=1,key="A3D")
                 A3E = col6.number_input(f"Minutes: (0-59)", value=0, step=1,key="A3E")
-                if ((24 == A3D) and (A3E==0)) or ((24>A3D>=0)and(59>=A3E>=0)):
+                if (((24 == A3D) and (A3E==0))and((A3D>0.1)or(A3E>0.1))) or (((24>A3D>=0)and(59>=A3E>=0))and((A3D>0.1)or(A3E>0.1))):
                     ask3 = st.number_input(
                         "Add 4th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -147,7 +147,7 @@ if ask3 == 1:
                 col7, col8 = st.beta_columns(2)
                 A4D = col7.number_input(f"Hours: (0-24)", value=0, step=1,key="A4D")
                 A4E = col8.number_input(f"Minutes: (0-59)", value=0, step=1,key="A4E")
-                if ((24 == A4D) and (A4E==0)) or ((24>A4D>=0)and(59>=A4E>=0)):
+                if (((24 == A4D) and (A4E==0))and((A4D>0.1)or(A4E>0.1))) or (((24>A4D>=0)and(59>=A4E>=0))and((A4D>0.1)or(A4E>0.1))):
                     ask4 = st.number_input(
                         "Add 5th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -173,7 +173,7 @@ if ask4 == 1:
                 col9, col10 = st.beta_columns(2)
                 A5D = col9.number_input(f"Hours: (0-24)", value=0, step=1,key="A5D")
                 A5E = col10.number_input(f"Minutes: (0-59)", value=0, step=1,key="A5E")
-                if ((24 == A5D) and (A5E==0)) or ((24>A5D>=0)and(59>=A5E>=0)):
+                if (((24 == A5D) and (A5E==0))and((A5D>0.1)or(A5E>0.1))) or (((24>A5D>=0)and(59>=A5E>=0))and((A5D>0.1)or(A5E>0.1))):
                     ask5 = st.number_input(
                         "Add 6th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -199,7 +199,7 @@ if ask5 == 1:
                 col11, col12 = st.beta_columns(2)
                 A6D = col11.number_input(f"Hours: (0-24)", value=0, step=1,key="A6D")
                 A6E = col12.number_input(f"Minutes: (0-59)", value=0, step=1,key="A6E")
-                if ((24 == A6D) and (A6E==0)) or ((24>A6D>=0)and(59>=A6E>=0)):
+                if (((24 == A6D) and (A6E==0))and((A6D>0.1)or(A1E>0.1))) or (((24>A6D>=0)and(59>=A6E>=0))and((A6D>0.1)or(A6E>0.1))):
                     ask6 = st.number_input(
                         "Add 7th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -225,7 +225,7 @@ if ask6 == 1:
                 col13, col14 = st.beta_columns(2)
                 A7D = col13.number_input(f"Hours: (0-24)", value=0, step=1,key="A7D")
                 A7E = col14.number_input(f"Minutes: (0-59)", value=0, step=1,key="A7E")
-                if ((24 == A7D) and (A7E==0)) or ((24>A7D>=0)and(59>=A7E>=0)):
+                if (((24 == A7D) and (A7E==0))and((A7D>0.1)or(A7E>0.1))) or (((24>A7D>=0)and(59>=A7E>=0))and((A7D>0.1)or(A7E>0.1))):
                     ask7 = st.number_input(
                         "Add 8th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -251,7 +251,7 @@ if ask7 == 1:
                 col15, col16 = st.beta_columns(2)
                 A8D = col15.number_input(f"Hours: (0-24)", value=0, step=1,key="A8D")
                 A8E = col16.number_input(f"Minutes: (0-59)", value=0, step=1,key="A8E")
-                if ((24 == A8D) and (A8E==0)) or ((24>A8D>=0)and(59>=A8E>=0)):
+                if (((24 == A8D) and (A8E==0))and((A8D>0.1)or(A8E>0.1))) or (((24>A8D>=0)and(59>=A8E>=0))and((A8D>0.1)or(A8E>0.1))):
                     ask8 = st.number_input(
                         "Add 9th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -278,7 +278,7 @@ if ask8 == 1:
                 col17, col18 = st.beta_columns(2)
                 A9D = col17.number_input(f"Hours: (0-24)", value=0, step=1,key="A9D")
                 A9E = col18.number_input(f"Minutes: (0-59)", value=0, step=1,key="A9E")
-                if ((24 == A9D) and (A9E==0)) or ((24>A9D>=0)and(59>=A9E>=0)):
+                if (((24 == A9D) and (A9E==0))and((A9D>0.1)or(A9E>0.1))) or (((24>A9D>=0)and(59>=A9E>=0))and((A9D>0.1)or(A9E>0.1))):
                     ask9 = st.number_input(
                         "Add 10th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -304,7 +304,7 @@ if ask9 == 1:
                 col19, col20 = st.beta_columns(2)
                 A10D = col19.number_input(f"Hours: (0-24)", value=0, step=1,key="A10D")
                 A10E = col20.number_input(f"Minutes: (0-59)", value=0, step=1,key="A10E")
-                if ((24 == A10D) and (A10E==0)) or ((24>A10D>=0)and(59>=A10E>=0)):
+                if (((24 == A10D) and (A10E==0))and((A10D>0.1)or(A10E>0.1))) or (((24>A10D>=0)and(59>=A10E>=0))and((A10D>0.1)or(A10E>0.1))):
                     ask10 = st.number_input(
                         "Add 11th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -330,7 +330,7 @@ if ask10 == 1:
                 col21, col22 = st.beta_columns(2)
                 A11D = col21.number_input(f"Hours: (0-24)", value=0, step=1,key="A11D")
                 A11E = col22.number_input(f"Minutes: (0-59)", value=0, step=1,key="A11E")
-                if ((24 == A11D) and (A11E==0)) or ((24>A11D>=0)and(59>=A11E>=0)):
+                if (((24 == A11D) and (A11E==0))and((A11D>0.1)or(A11E>0.1))) or (((24>A11D>=0)and(59>=A11E>=0))and((A11D>0.1)or(A11E>0.1))):
                     ask11 = st.number_input(
                         "Add 12th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -354,9 +354,11 @@ if ask11 == 1:
             A12B = st.number_input(
                 f"How many days in a month do you use {A12N}?(1-31)", value=0, step=1)
             if 31 >= A12B >= 1:
-                A12D = st.number_input(
-                    f"How many hours in a day do you use {A12N}?(1-24)")
-                if 24 >= A12D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A12N + ".</span>", unsafe_allow_html=True)
+                col23, col24 = st.beta_columns(2)
+                A12D = col23.number_input(f"Hours: (0-24)", value=0, step=1,key="A12D")
+                A12E = col24.number_input(f"Minutes: (0-59)", value=0, step=1,key="A12E")
+                if (((24 == A12D) and (A12E==0))and((A12D>0.1)or(A12E>0.1))) or (((24>A12D>=0)and(59>=A12E>=0))and((A12D>0.1)or(A12E>0.1))):
                     ask12 = st.number_input(
                         "Add 13th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -378,9 +380,11 @@ if ask12 == 1:
             A13B = st.number_input(
                 f"How many days in a month do you use {A13N}?(1-31)", value=0, step=1)
             if 31 >= A13B >= 1:
-                A13D = st.number_input(
-                    f"How many hours in a day do you use {A13N}?(1-24)")
-                if 24 >= A13D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A13N + ".</span>", unsafe_allow_html=True)
+                col25, col26 = st.beta_columns(2)
+                A13D = col25.number_input(f"Hours: (0-24)", value=0, step=1,key="A13D")
+                A13E = col26.number_input(f"Minutes: (0-59)", value=0, step=1,key="A13E")
+                if (((24 == A13D) and (A13E==0))and((A13D>0.1)or(A13E>0.1))) or (((24>A13D>=0)and(59>=A13E>=0))and((A13D>0.1)or(A13E>0.1))):
                     ask13 = st.number_input(
                         "Add 14th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -402,9 +406,11 @@ if ask13 == 1:
             A14B = st.number_input(
                 f"How many days in a month do you use {A14N}?(1-31)", value=0, step=1)
             if 31 >= A14B >= 1:
-                A14D = st.number_input(
-                    f"How many hours in a day do you use {A14N}?(1-24)")
-                if 24 >= A14D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A14N + ".</span>", unsafe_allow_html=True)
+                col27, col28 = st.beta_columns(2)
+                A14D = col27.number_input(f"Hours: (0-24)", value=0, step=1,key="A14D")
+                A14E = col28.number_input(f"Minutes: (0-59)", value=0, step=1,key="A14E")
+                if (((24 == A14D) and (A14E==0))and((A14D>0.1)or(A14E>0.1))) or (((24>A14D>=0)and(59>=A14E>=0))and((A14D>0.1)or(A14E>0.1))):
                     ask14 = st.number_input(
                         "Add 15th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -426,9 +432,11 @@ if ask14 == 1:
             A15B = st.number_input(
                 f"How many days in a month do you use {A15N}?(1-31)", value=0, step=1)
             if 31 >= A15B >= 1:
-                A15D = st.number_input(
-                    f"How many hours in a day do you use {A15N}?(1-24)")
-                if 24 >= A15D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A15N + ".</span>", unsafe_allow_html=True)
+                col29, col30 = st.beta_columns(2)
+                A15D = col29.number_input(f"Hours: (0-24)", value=0, step=1,key="A15D")
+                A15E = col30.number_input(f"Minutes: (0-59)", value=0, step=1,key="A15E")
+                if (((24 == A15D) and (A15E==0))and((A15D>0.1)or(A15E>0.1))) or (((24>A15D>=0)and(59>=A15E>=0))and((A15D>0.1)or(A15E>0.1))):
                     ask15 = st.number_input(
                         "Add 16th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -451,9 +459,11 @@ if ask15 == 1:
             A16B = st.number_input(
                 f"How many days in a month do you use {A16N}?(1-31)", value=0, step=1)
             if 31 >= A16B >= 1:
-                A16D = st.number_input(
-                    f"How many hours in a day do you use {A16N}?(1-24)")
-                if 24 >= A16D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A16N + ".</span>", unsafe_allow_html=True)
+                col31, col32 = st.beta_columns(2)
+                A16D = col31.number_input(f"Hours: (0-24)", value=0, step=1,key="A16D")
+                A16E = col32.number_input(f"Minutes: (0-59)", value=0, step=1,key="A16E")
+                if (((24 == A16D) and (A16E==0))and((A16D>0.1)or(A16E>0.1))) or (((24>A16D>=0)and(59>=A16E>=0))and((A16D>0.1)or(A16E>0.1))):
                     ask16 = st.number_input(
                         "Add 17th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -475,9 +485,11 @@ if ask16 == 1:
             A17B = st.number_input(
                 f"How many days in a month do you use {A17N}?(1-31)", value=0, step=1)
             if 31 >= A17B >= 1:
-                A17D = st.number_input(
-                    f"How many hours in a day do you use {A17N}?(1-24)")
-                if 24 >= A17D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A17N + ".</span>", unsafe_allow_html=True)
+                col33, col34 = st.beta_columns(2)
+                A17D = col33.number_input(f"Hours: (0-24)", value=0, step=1,key="A17D")
+                A17E = col34.number_input(f"Minutes: (0-59)", value=0, step=1,key="A17E")
+                if (((24 == A17D) and (A17E==0))and((A17D>0.1)or(A17E>0.1))) or (((24>A17D>=0)and(59>=A17E>=0))and((A17D>0.1)or(A17E>0.1))):
                     ask17 = st.number_input(
                         "Add 18th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -499,9 +511,11 @@ if ask17 == 1:
             A18B = st.number_input(
                 f"How many days in a month do you use {A18N}?(1-31)", value=0, step=1)
             if 31 >= A18B >= 1:
-                A18D = st.number_input(
-                    f"How many hours in a day do you use {A18N}?(1-24)")
-                if 24 >= A18D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A18N + ".</span>", unsafe_allow_html=True)
+                col35, col36 = st.beta_columns(2)
+                A18D = col35.number_input(f"Hours: (0-24)", value=0, step=1,key="A18D")
+                A18E = col36.number_input(f"Minutes: (0-59)", value=0, step=1,key="A18E")
+                if (((24 == A18D) and (A18E==0))and((A18D>0.1)or(A18E>0.1))) or (((24>A18D>=0)and(59>=A18E>=0))and((A18D>0.1)or(A18E>0.1))):
                     ask18 = st.number_input(
                         "Add 19th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -523,9 +537,11 @@ if ask18 == 1:
             A19B = st.number_input(
                 f"How many days in a month do you use {A19N}?(1-31)", value=0, step=1)
             if 31 >= A19B >= 1:
-                A19D = st.number_input(
-                    f"How many hours in a day do you use {A19N}?(1-24)")
-                if 24 >= A19D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A19N + ".</span>", unsafe_allow_html=True)
+                col37, col38 = st.beta_columns(2)
+                A19D = col37.number_input(f"Hours: (0-24)", value=0, step=1,key="A19D")
+                A19E = col38.number_input(f"Minutes: (0-59)", value=0, step=1,key="A19E")
+                if (((24 == A19D) and (A19E==0))and((A19D>0.1)or(A19E>0.1))) or (((24>A19D>=0)and(59>=A19E>=0))and((A19D>0.1)or(A19E>0.1))):
                     ask19 = st.number_input(
                         "Add 20th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -549,9 +565,11 @@ if ask19 == 1:
             A20B = st.number_input(
                 f"How many days in a month do you use {A20N}?(1-31)", value=0, step=1)
             if 31 >= A20B >= 1:
-                A20D = st.number_input(
-                    f"How many hours in a day do you use {A20N}?(1-24)")
-                if 24 >= A20D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A20N + ".</span>", unsafe_allow_html=True)
+                col39, col40 = st.beta_columns(2)
+                A20D = col39.number_input(f"Hours: (0-24)", value=0, step=1,key="A20D")
+                A20E = col40.number_input(f"Minutes: (0-59)", value=0, step=1,key="A20E")
+                if (((24 == A20D) and (A20E==0))and((A20D>0.1)or(A20E>0.1))) or (((24>A20D>=0)and(59>=A20E>=0))and((A20D>0.1)or(A20E>0.1))):
                     ask20 = st.number_input(
                         "Add 21st appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -573,9 +591,11 @@ if ask20 == 1:
             A21B = st.number_input(
                 f"How many days in a month do you use {A21N}?(1-31)", value=0, step=1)
             if 31 >= A21B >= 1:
-                A21D = st.number_input(
-                    f"How many hours in a day do you use {A21N}?(1-24)")
-                if 24 >= A21D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A21N + ".</span>", unsafe_allow_html=True)
+                col41, col42 = st.beta_columns(2)
+                A21D = col41.number_input(f"Hours: (0-24)", value=0, step=1,key="A21D")
+                A21E = col42.number_input(f"Minutes: (0-59)", value=0, step=1,key="A21E")
+                if (((24 == A21D) and (A21E==0))and((A21D>0.1)or(A21E>0.1))) or (((24>A21D>=0)and(59>=A21E>=0))and((A21D>0.1)or(A21E>0.1))):
                     ask21 = st.number_input(
                         "Add 22nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -597,9 +617,11 @@ if ask21 == 1:
             A22B = st.number_input(
                 f"How many days in a month do you use {A22N}?(1-31)", value=0, step=1)
             if 31 >= A22B >= 1:
-                A22D = st.number_input(
-                    f"How many hours in a day do you use {A22N}?(1-24)")
-                if 24 >= A22D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A22N + ".</span>", unsafe_allow_html=True)
+                col43, col44 = st.beta_columns(2)
+                A22D = col43.number_input(f"Hours: (0-24)", value=0, step=1,key="A22D")
+                A22E = col44.number_input(f"Minutes: (0-59)", value=0, step=1,key="A22E")
+                if (((24 == A22D) and (A22E==0))and((A22D>0.1)or(A22E>0.1))) or (((24>A22D>=0)and(59>=A22E>=0))and((A22D>0.1)or(A22E>0.1))):
                     ask22 = st.number_input(
                         "Add 23rd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -621,9 +643,11 @@ if ask22 == 1:
             A23B = st.number_input(
                 f"How many days in a month do you use {A23N}?(1-31)", value=0, step=1)
             if 31 >= A23B >= 1:
-                A23D = st.number_input(
-                    f"How many hours in a day do you use {A23N}?(1-24)")
-                if 24 >= A23D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A23N + ".</span>", unsafe_allow_html=True)
+                col45, col46 = st.beta_columns(2)
+                A23D = col45.number_input(f"Hours: (0-24)", value=0, step=1,key="A23D")
+                A23E = col46.number_input(f"Minutes: (0-59)", value=0, step=1,key="A23E")
+                if (((24 == A23D) and (A23E==0))and((A23D>0.1)or(A23E>0.1))) or (((24>A23D>=0)and(59>=A23E>=0))and((A23D>0.1)or(A23E>0.1))):
                     ask23 = st.number_input(
                         "Add 24th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -645,9 +669,11 @@ if ask23 == 1:
             A24B = st.number_input(
                 f"How many days in a month do you use {A24N}?(1-31)", value=0, step=1)
             if 31 >= A24B >= 1:
-                A24D = st.number_input(
-                    f"How many hours in a day do you use {A24N}?(1-24)")
-                if 24 >= A24D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A24N + ".</span>", unsafe_allow_html=True)
+                col47, col48 = st.beta_columns(2)
+                A24D = col39.number_input(f"Hours: (0-24)", value=0, step=1,key="A24D")
+                A24E = col40.number_input(f"Minutes: (0-59)", value=0, step=1,key="A24E")
+                if (((24 == A24D) and (A24E==0))and((A24D>0.1)or(A24E>0.1))) or (((24>A24D>=0)and(59>=A24E>=0))and((A24D>0.1)or(A24E>0.1))):
                     ask24 = st.number_input(
                         "Add 25th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -669,9 +695,11 @@ if ask24 == 1:
             A25B = st.number_input(
                 f"How many days in a month do you use {A25N}?(1-31)", value=0, step=1)
             if 31 >= A25B >= 1:
-                A25D = st.number_input(
-                    f"How many hours in a day do you use {A25N}?(1-24)")
-                if 24 >= A25D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A25N + ".</span>", unsafe_allow_html=True)
+                col49, col50 = st.beta_columns(2)
+                A25D = col49.number_input(f"Hours: (0-24)", value=0, step=1,key="A25D")
+                A25E = col50.number_input(f"Minutes: (0-59)", value=0, step=1,key="A25E")
+                if (((24 == A25D) and (A25E==0))and((A25D>0.1)or(A25E>0.1))) or (((24>A25D>=0)and(59>=A25E>=0))and((A25D>0.1)or(A25E>0.1))):
                     ask25 = st.number_input(
                         "Add 26th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -693,9 +721,11 @@ if ask25 == 1:
             A26B = st.number_input(
                 f"How many days in a month do you use {A26N}?(1-31)", value=0, step=1)
             if 31 >= A26B >= 1:
-                A26D = st.number_input(
-                    f"How many hours in a day do you use {A26N}?(1-24)")
-                if 24 >= A26D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A26N + ".</span>", unsafe_allow_html=True)
+                col51, col52 = st.beta_columns(2)
+                A26D = col51.number_input(f"Hours: (0-24)", value=0, step=1,key="A26D")
+                A26E = col52.number_input(f"Minutes: (0-59)", value=0, step=1,key="A26E")
+                if (((24 == A26D) and (A26E==0))and((A26D>0.1)or(A26E>0.1))) or (((24>A26D>=0)and(59>=A26E>=0))and((A26D>0.1)or(A26E>0.1))):
                     ask26 = st.number_input(
                         "Add 27th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -716,9 +746,11 @@ if ask26 == 1:
             A27B = st.number_input(
                 f"How many days in a month do you use {A27N}?(1-31)", value=0, step=1)
             if 31 >= A27B >= 1:
-                A27D = st.number_input(
-                    f"How many hours in a day do you use {A27N}?(1-24)")
-                if 24 >= A27D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A27N + ".</span>", unsafe_allow_html=True)
+                col53, col54 = st.beta_columns(2)
+                A27D = col53.number_input(f"Hours: (0-24)", value=0, step=1,key="A27D")
+                A27E = col54.number_input(f"Minutes: (0-59)", value=0, step=1,key="A27E")
+                if (((24 == A27D) and (A27E==0))and((A27D>0.1)or(A27E>0.1))) or (((24>A27D>=0)and(59>=A27E>=0))and((A27D>0.1)or(A27E>0.1))):
                     ask27 = st.number_input(
                         "Add 28th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -739,9 +771,11 @@ if ask27 == 1:
             A28B = st.number_input(
                 f"How many days in a month do you use {A28N}?(1-31)", value=0, step=1)
             if 31 >= A28B >= 1:
-                A28D = st.number_input(
-                    f"How many hours in a day do you use {A28N}?(1-24)")
-                if 24 >= A28D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A28N + ".</span>", unsafe_allow_html=True)
+                col55, col56 = st.beta_columns(2)
+                A28D = col55.number_input(f"Hours: (0-24)", value=0, step=1,key="A28D")
+                A28E = col56.number_input(f"Minutes: (0-59)", value=0, step=1,key="A28E")
+                if (((24 == A28D) and (A28E==0))and((A28D>0.1)or(A28E>0.1))) or (((24>A28D>=0)and(59>=A28E>=0))and((A28D>0.1)or(A28E>0.1))):
                     ask28 = st.number_input(
                         "Add 29th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -762,9 +796,11 @@ if ask28 == 1:
             A29B = st.number_input(
                 f"How many days in a month do you use {A29N}?(1-31)", value=0, step=1)
             if 31 >= A29B >= 1:
-                A29D = st.number_input(
-                    f"How many hours in a day do you use {A29N}?(1-24)")
-                if 24 >= A29D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A29N + ".</span>", unsafe_allow_html=True)
+                col57, col58 = st.beta_columns(2)
+                A29D = col57.number_input(f"Hours: (0-24)", value=0, step=1,key="A29D")
+                A29E = col58.number_input(f"Minutes: (0-59)", value=0, step=1,key="A29E")
+                if (((24 == A29D) and (A29E==0))and((A29D>0.1)or(A29E>0.1))) or (((24>A29D>=0)and(59>=A29E>=0))and((A29D>0.1)or(A29E>0.1))):
                     ask29 = st.number_input(
                         "Add 30th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -785,9 +821,11 @@ if ask29 == 1:
             A30B = st.number_input(
                 f"How many days in a month do you use {A30N}?(1-31)", value=0, step=1)
             if 31 >= A30B >= 1:
-                A30D = st.number_input(
-                    f"How many hours in a day do you use {A30N}?(1-24)")
-                if 24 >= A30D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A30N + ".</span>", unsafe_allow_html=True)
+                col59, col60 = st.beta_columns(2)
+                A30D = col59.number_input(f"Hours: (0-24)", value=0, step=1,key="A30D")
+                A30E = col60.number_input(f"Minutes: (0-59)", value=0, step=1,key="A30E")
+                if (((24 == A30D) and (A30E==0))and((A30D>0.1)or(A30E>0.1))) or (((24>A30D>=0)and(59>=A30E>=0))and((A30D>0.1)or(A30E>0.1))):
                     ask30 = st.number_input(
                         "Add 31st appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 
@@ -810,9 +848,11 @@ if ask30 == 1:
             A31B = st.number_input(
                 f"How many days in a month do you use {A31N}?(1-31)", value=0, step=1)
             if 31 >= A31B >= 1:
-                A31D = st.number_input(
-                    f"How many hours in a day do you use {A31N}?(1-24)")
-                if 24 >= A31D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A31N + ".</span>", unsafe_allow_html=True)
+                col61, col62 = st.beta_columns(2)
+                A31D = col61.number_input(f"Hours: (0-24)", value=0, step=1,key="A31D")
+                A31E = col62.number_input(f"Minutes: (0-59)", value=0, step=1,key="A31E")
+                if (((24 == A31D) and (A31E==0))and((A31D>0.1)or(A31E>0.1))) or (((24>A31D>=0)and(59>=A31E>=0))and((A31D>0.1)or(A31E>0.1))):
                     ask31 = st.number_input(
                         "Add 32nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -834,9 +874,11 @@ if ask31 == 1:
             A32B = st.number_input(
                 f"How many days in a month do you use {A32N}?(1-31)", value=0, step=1)
             if 31 >= A32B >= 1:
-                A32D = st.number_input(
-                    f"How many hours in a day do you use {A32N}?(1-24)")
-                if 24 >= A32D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A32N + ".</span>", unsafe_allow_html=True)
+                col63, col64 = st.beta_columns(2)
+                A32D = col63.number_input(f"Hours: (0-24)", value=0, step=1,key="A32D")
+                A32E = col64.number_input(f"Minutes: (0-59)", value=0, step=1,key="A32E")
+                if (((24 == A32D) and (A32E==0))and((A32D>0.1)or(A32E>0.1))) or (((24>A32D>=0)and(59>=A32E>=0))and((A32D>0.1)or(A32E>0.1))):
                     ask32 = st.number_input(
                         "Add 33rd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -858,9 +900,11 @@ if ask32 == 1:
             A33B = st.number_input(
                 f"How many days in a month do you use {A33N}?(1-31)", value=0, step=1)
             if 31 >= A33B >= 1:
-                A33D = st.number_input(
-                    f"How many hours in a day do you use {A33N}?(1-24)")
-                if 24 >= A33D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A33N + ".</span>", unsafe_allow_html=True)
+                col65, col66 = st.beta_columns(2)
+                A33D = col65.number_input(f"Hours: (0-24)", value=0, step=1,key="A33D")
+                A33E = col66.number_input(f"Minutes: (0-59)", value=0, step=1,key="A33E")
+                if (((24 == A33D) and (A33E==0))and((A33D>0.1)or(A33E>0.1))) or (((24>A33D>=0)and(59>=A33E>=0))and((A33D>0.1)or(A33E>0.1))):
                     ask33 = st.number_input(
                         "Add 34th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -881,9 +925,11 @@ if ask33 == 1:
             A34B = st.number_input(
                 f"How many days in a month do you use {A34N}?(1-31)", value=0, step=1)
             if 31 >= A34B >= 1:
-                A34D = st.number_input(
-                    f"How many hours in a day do you use {A34N}?(1-24)")
-                if 24 >= A34D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A34N + ".</span>", unsafe_allow_html=True)
+                col67, col68 = st.beta_columns(2)
+                A34D = col67.number_input(f"Hours: (0-24)", value=0, step=1,key="A34D")
+                A34E = col68.number_input(f"Minutes: (0-59)", value=0, step=1,key="A34E")
+                if (((24 == A34D) and (A34E==0))and((A34D>0.1)or(A34E>0.1))) or (((24>A34D>=0)and(59>=A34E>=0))and((A34D>0.1)or(A34E>0.1))):
                     ask34 = st.number_input(
                         "Add 35th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -904,9 +950,11 @@ if ask34 == 1:
             A35B = st.number_input(
                 f"How many days in a month do you use {A35N}?(1-31)", value=0, step=1)
             if 31 >= A35B >= 1:
-                A35D = st.number_input(
-                    f"How many hours in a day do you use {A35N}?(1-24)")
-                if 24 >= A35D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A35N + ".</span>", unsafe_allow_html=True)
+                col69, col70 = st.beta_columns(2)
+                A35D = col69.number_input(f"Hours: (0-24)", value=0, step=1,key="A35D")
+                A35E = col70.number_input(f"Minutes: (0-59)", value=0, step=1,key="A35E")
+                if (((24 == A35D) and (A35E==0))and((A35D>0.1)or(A35E>0.1))) or (((24>A35D>=0)and(59>=A35E>=0))and((A35D>0.1)or(A35E>0.1))):
                     ask35 = st.number_input(
                         "Add 36th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -927,9 +975,11 @@ if ask35 == 1:
             A36B = st.number_input(
                 f"How many days in a month do you use {A36N}?(1-31)", value=0, step=1)
             if 31 >= A36B >= 1:
-                A36D = st.number_input(
-                    f"How many hours in a day do you use {A36N}?(1-24)")
-                if 24 >= A36D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A36N + ".</span>", unsafe_allow_html=True)
+                col71, col72 = st.beta_columns(2)
+                A36D = col71.number_input(f"Hours: (0-24)", value=0, step=1,key="A36D")
+                A36E = col72.number_input(f"Minutes: (0-59)", value=0, step=1,key="A36E")
+                if (((24 == A36D) and (A36E==0))and((A36D>0.1)or(A36E>0.1))) or (((24>A36D>=0)and(59>=A36E>=0))and((A36D>0.1)or(A36E>0.1))):
                     ask36 = st.number_input(
                         "Add 37th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -951,9 +1001,11 @@ if ask36 == 1:
             A37B = st.number_input(
                 f"How many days in a month do you use {A37N}?(1-31)", value=0, step=1)
             if 31 >= A37B >= 1:
-                A37D = st.number_input(
-                    f"How many hours in a day do you use {A7N}?(1-24)")
-                if 24 >= A37D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A37N + ".</span>", unsafe_allow_html=True)
+                col73, col74 = st.beta_columns(2)
+                A37D = col73.number_input(f"Hours: (0-24)", value=0, step=1,key="A37D")
+                A37E = col74.number_input(f"Minutes: (0-59)", value=0, step=1,key="A37E")
+                if (((24 == A37D) and (A37E==0))and((A37D>0.1)or(A37E>0.1))) or (((24>A37D>=0)and(59>=A37E>=0))and((A37D>0.1)or(A37E>0.1))):
                     ask37 = st.number_input(
                         "Add 38th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -975,9 +1027,11 @@ if ask37 == 1:
             A38B = st.number_input(
                 f"How many days in a month do you use {A38N}?(1-31)", value=0, step=1)
             if 31 >= A38B >= 1:
-                A38D = st.number_input(
-                    f"How many hours in a day do you use {A38N}?(1-24)")
-                if 24 >= A38D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A38N + ".</span>", unsafe_allow_html=True)
+                col75, col76 = st.beta_columns(2)
+                A38D = col75.number_input(f"Hours: (0-24)", value=0, step=1,key="A38D")
+                A38E = col76.number_input(f"Minutes: (0-59)", value=0, step=1,key="A38E")
+                if (((24 == A38D) and (A38E==0))and((A38D>0.1)or(A38E>0.1))) or (((24>A38D>=0)and(59>=A38E>=0))and((A38D>0.1)or(A38E>0.1))):
                     ask38 = st.number_input(
                         "Add 39th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1000,9 +1054,11 @@ if ask38 == 1:
             A39B = st.number_input(
                 f"How many days in a month do you use {A39N}?(1-31)", value=0, step=1)
             if 31 >= A39B >= 1:
-                A39D = st.number_input(
-                    f"How many hours in a day do you use {A39N}?(1-24)")
-                if 24 >= A39D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A39N + ".</span>", unsafe_allow_html=True)
+                col77, col78 = st.beta_columns(2)
+                A39D = col77.number_input(f"Hours: (0-24)", value=0, step=1,key="A39D")
+                A39E = col78.number_input(f"Minutes: (0-59)", value=0, step=1,key="A39E")
+                if (((24 == A39D) and (A39E==0))and((A39D>0.1)or(A39E>0.1))) or (((24>A39D>=0)and(59>=A39E>=0))and((A39D>0.1)or(A39E>0.1))):
                     ask39 = st.number_input(
                         "Add 40th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1024,55 +1080,57 @@ if ask39 == 1:
             A40B = st.number_input(
                 f"How many days in a month do you use {A40N}?(1-31)", value=0, step=1)
             if 31 >= A40B >= 1:
-                A40D = st.number_input(
-                    f"How many hours in a day do you use {A40N}?(1-24)")
-                if 24 >= A40D >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A40N + ".</span>", unsafe_allow_html=True)
+                col79, col80 = st.beta_columns(2)
+                A40D = col79.number_input(f"Hours: (0-24)", value=0, step=1,key="A40D")
+                A40E = col80.number_input(f"Minutes: (0-59)", value=0, step=1,key="A40E")
+                if (((24 == A40D) and (A40E==0))and((A40D>0.1)or(A40E>0.1))) or (((24>A40D>=0)and(59>=A40E>=0))and((A40D>0.1)or(A40E>0.1))):
                     ask40 = 2
 
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # Calculate 1-40th app
 if ask40 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
-    A23F = (A23B / 30) * A23D
-    A24F = (A24B / 30) * A24D
-    A25F = (A25B / 30) * A25D
-    A26F = (A26B / 30) * A26D
-    A27F = (A27B / 30) * A27D
-    A28F = (A28B / 30) * A28D
-    A29F = (A29B / 30) * A29D
-    A30F = (A30B / 30) * A30D
-    A31F = (A31B / 30) * A31D
-    A32F = (A32B / 30) * A32D
-    A33F = (A33B / 30) * A33D
-    A34F = (A34B / 30) * A34D
-    A35F = (A35B / 30) * A35D
-    A36F = (A36B / 30) * A36D
-    A37F = (A37B / 30) * A37D
-    A38F = (A38B / 30) * A38D
-    A39F = (A39B / 30) * A39D
-    A40F = (A40B / 30) * A40D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
+    A23F = (A23B / 30) * (A23D+(A23E/60))
+    A24F = (A24B / 30) * (A24D+(A24E/60))
+    A25F = (A25B / 30) * (A25D+(A25E/60))
+    A26F = (A26B / 30) * (A26D+(A26E/60))
+    A27F = (A27B / 30) * (A27D+(A27E/60))
+    A28F = (A28B / 30) * (A28D+(A28E/60))
+    A29F = (A29B / 30) * (A29D+(A29E/60))
+    A30F = (A30B / 30) * (A30D+(A30E/60))
+    A31F = (A31B / 30) * (A31D+(A31E/60))
+    A32F = (A32B / 30) * (A32D+(A32E/60))
+    A33F = (A33B / 30) * (A33D+(A33E/60))
+    A34F = (A34B / 30) * (A34D+(A34E/60))
+    A35F = (A35B / 30) * (A35D+(A35E/60))
+    A36F = (A36B / 30) * (A36D+(A36E/60))
+    A37F = (A37B / 30) * (A37D+(A37E/60))
+    A38F = (A38B / 30) * (A38D+(A38E/60))
+    A39F = (A39B / 30) * (A39D+(A39E/60))
+    A40F = (A40B / 30) * (A40D+(A40E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -1474,45 +1532,45 @@ if ask40 == 2:
 # Calculate 1-39th app
 if ask39 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
-    A23F = (A23B / 30) * A23D
-    A24F = (A24B / 30) * A24D
-    A25F = (A25B / 30) * A25D
-    A26F = (A26B / 30) * A26D
-    A27F = (A27B / 30) * A27D
-    A28F = (A28B / 30) * A28D
-    A29F = (A29B / 30) * A29D
-    A30F = (A30B / 30) * A30D
-    A31F = (A31B / 30) * A31D
-    A32F = (A32B / 30) * A32D
-    A33F = (A33B / 30) * A33D
-    A34F = (A34B / 30) * A34D
-    A35F = (A35B / 30) * A35D
-    A36F = (A36B / 30) * A36D
-    A37F = (A37B / 30) * A37D
-    A38F = (A38B / 30) * A38D
-    A39F = (A39B / 30) * A39D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
+    A23F = (A23B / 30) * (A23D+(A23E/60))
+    A24F = (A24B / 30) * (A24D+(A24E/60))
+    A25F = (A25B / 30) * (A25D+(A25E/60))
+    A26F = (A26B / 30) * (A26D+(A26E/60))
+    A27F = (A27B / 30) * (A27D+(A27E/60))
+    A28F = (A28B / 30) * (A28D+(A28E/60))
+    A29F = (A29B / 30) * (A29D+(A29E/60))
+    A30F = (A30B / 30) * (A30D+(A30E/60))
+    A31F = (A31B / 30) * (A31D+(A31E/60))
+    A32F = (A32B / 30) * (A32D+(A32E/60))
+    A33F = (A33B / 30) * (A33D+(A33E/60))
+    A34F = (A34B / 30) * (A34D+(A34E/60))
+    A35F = (A35B / 30) * (A35D+(A35E/60))
+    A36F = (A36B / 30) * (A36D+(A36E/60))
+    A37F = (A37B / 30) * (A37D+(A37E/60))
+    A38F = (A38B / 30) * (A38D+(A38E/60))
+    A39F = (A39B / 30) * (A39D+(A39E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -1905,44 +1963,44 @@ if ask39 == 2:
 # Calculate 1-38th app
 if ask38 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
-    A23F = (A23B / 30) * A23D
-    A24F = (A24B / 30) * A24D
-    A25F = (A25B / 30) * A25D
-    A26F = (A26B / 30) * A26D
-    A27F = (A27B / 30) * A27D
-    A28F = (A28B / 30) * A28D
-    A29F = (A29B / 30) * A29D
-    A30F = (A30B / 30) * A30D
-    A31F = (A31B / 30) * A31D
-    A32F = (A32B / 30) * A32D
-    A33F = (A33B / 30) * A33D
-    A34F = (A34B / 30) * A34D
-    A35F = (A35B / 30) * A35D
-    A36F = (A36B / 30) * A36D
-    A37F = (A37B / 30) * A37D
-    A38F = (A38B / 30) * A38D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
+    A23F = (A23B / 30) * (A23D+(A23E/60))
+    A24F = (A24B / 30) * (A24D+(A24E/60))
+    A25F = (A25B / 30) * (A25D+(A25E/60))
+    A26F = (A26B / 30) * (A26D+(A26E/60))
+    A27F = (A27B / 30) * (A27D+(A27E/60))
+    A28F = (A28B / 30) * (A28D+(A28E/60))
+    A29F = (A29B / 30) * (A29D+(A29E/60))
+    A30F = (A30B / 30) * (A30D+(A30E/60))
+    A31F = (A31B / 30) * (A31D+(A31E/60))
+    A32F = (A32B / 30) * (A32D+(A32E/60))
+    A33F = (A33B / 30) * (A33D+(A33E/60))
+    A34F = (A34B / 30) * (A34D+(A34E/60))
+    A35F = (A35B / 30) * (A35D+(A35E/60))
+    A36F = (A36B / 30) * (A36D+(A36E/60))
+    A37F = (A37B / 30) * (A37D+(A37E/60))
+    A38F = (A38B / 30) * (A38D+(A38E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -2326,43 +2384,43 @@ if ask38 == 2:
 # Calculate 1-37th app
 if ask37 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
-    A23F = (A23B / 30) * A23D
-    A24F = (A24B / 30) * A24D
-    A25F = (A25B / 30) * A25D
-    A26F = (A26B / 30) * A26D
-    A27F = (A27B / 30) * A27D
-    A28F = (A28B / 30) * A28D
-    A29F = (A29B / 30) * A29D
-    A30F = (A30B / 30) * A30D
-    A31F = (A31B / 30) * A31D
-    A32F = (A32B / 30) * A32D
-    A33F = (A33B / 30) * A33D
-    A34F = (A34B / 30) * A34D
-    A35F = (A35B / 30) * A35D
-    A36F = (A36B / 30) * A36D
-    A37F = (A37B / 30) * A37D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
+    A23F = (A23B / 30) * (A23D+(A23E/60))
+    A24F = (A24B / 30) * (A24D+(A24E/60))
+    A25F = (A25B / 30) * (A25D+(A25E/60))
+    A26F = (A26B / 30) * (A26D+(A26E/60))
+    A27F = (A27B / 30) * (A27D+(A27E/60))
+    A28F = (A28B / 30) * (A28D+(A28E/60))
+    A29F = (A29B / 30) * (A29D+(A29E/60))
+    A30F = (A30B / 30) * (A30D+(A30E/60))
+    A31F = (A31B / 30) * (A31D+(A31E/60))
+    A32F = (A32B / 30) * (A32D+(A32E/60))
+    A33F = (A33B / 30) * (A33D+(A33E/60))
+    A34F = (A34B / 30) * (A34D+(A34E/60))
+    A35F = (A35B / 30) * (A35D+(A35E/60))
+    A36F = (A36B / 30) * (A36D+(A36E/60))
+    A37F = (A37B / 30) * (A37D+(A37E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -2737,42 +2795,42 @@ if ask37 == 2:
 # Calculate 1-36th app
 if ask36 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
-    A23F = (A23B / 30) * A23D
-    A24F = (A24B / 30) * A24D
-    A25F = (A25B / 30) * A25D
-    A26F = (A26B / 30) * A26D
-    A27F = (A27B / 30) * A27D
-    A28F = (A28B / 30) * A28D
-    A29F = (A29B / 30) * A29D
-    A30F = (A30B / 30) * A30D
-    A31F = (A31B / 30) * A31D
-    A32F = (A32B / 30) * A32D
-    A33F = (A33B / 30) * A33D
-    A34F = (A34B / 30) * A34D
-    A35F = (A35B / 30) * A35D
-    A36F = (A36B / 30) * A36D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
+    A23F = (A23B / 30) * (A23D+(A23E/60))
+    A24F = (A24B / 30) * (A24D+(A24E/60))
+    A25F = (A25B / 30) * (A25D+(A25E/60))
+    A26F = (A26B / 30) * (A26D+(A26E/60))
+    A27F = (A27B / 30) * (A27D+(A27E/60))
+    A28F = (A28B / 30) * (A28D+(A28E/60))
+    A29F = (A29B / 30) * (A29D+(A29E/60))
+    A30F = (A30B / 30) * (A30D+(A30E/60))
+    A31F = (A31B / 30) * (A31D+(A31E/60))
+    A32F = (A32B / 30) * (A32D+(A32E/60))
+    A33F = (A33B / 30) * (A33D+(A33E/60))
+    A34F = (A34B / 30) * (A34D+(A34E/60))
+    A35F = (A35B / 30) * (A35D+(A35E/60))
+    A36F = (A36B / 30) * (A36D+(A36E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -3138,41 +3196,41 @@ if ask36 == 2:
 # Calculate 1-35th app
 if ask35 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
-    A23F = (A23B / 30) * A23D
-    A24F = (A24B / 30) * A24D
-    A25F = (A25B / 30) * A25D
-    A26F = (A26B / 30) * A26D
-    A27F = (A27B / 30) * A27D
-    A28F = (A28B / 30) * A28D
-    A29F = (A29B / 30) * A29D
-    A30F = (A30B / 30) * A30D
-    A31F = (A31B / 30) * A31D
-    A32F = (A32B / 30) * A32D
-    A33F = (A33B / 30) * A33D
-    A34F = (A34B / 30) * A34D
-    A35F = (A35B / 30) * A35D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
+    A23F = (A23B / 30) * (A23D+(A23E/60))
+    A24F = (A24B / 30) * (A24D+(A24E/60))
+    A25F = (A25B / 30) * (A25D+(A25E/60))
+    A26F = (A26B / 30) * (A26D+(A26E/60))
+    A27F = (A27B / 30) * (A27D+(A27E/60))
+    A28F = (A28B / 30) * (A28D+(A28E/60))
+    A29F = (A29B / 30) * (A29D+(A29E/60))
+    A30F = (A30B / 30) * (A30D+(A30E/60))
+    A31F = (A31B / 30) * (A31D+(A31E/60))
+    A32F = (A32B / 30) * (A32D+(A32E/60))
+    A33F = (A33B / 30) * (A33D+(A33E/60))
+    A34F = (A34B / 30) * (A34D+(A34E/60))
+    A35F = (A35B / 30) * (A35D+(A35E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -3529,40 +3587,40 @@ if ask35 == 2:
 # Calculate 1-34th app
 if ask34 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
-    A23F = (A23B / 30) * A23D
-    A24F = (A24B / 30) * A24D
-    A25F = (A25B / 30) * A25D
-    A26F = (A26B / 30) * A26D
-    A27F = (A27B / 30) * A27D
-    A28F = (A28B / 30) * A28D
-    A29F = (A29B / 30) * A29D
-    A30F = (A30B / 30) * A30D
-    A31F = (A31B / 30) * A31D
-    A32F = (A32B / 30) * A32D
-    A33F = (A33B / 30) * A33D
-    A34F = (A34B / 30) * A34D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
+    A23F = (A23B / 30) * (A23D+(A23E/60))
+    A24F = (A24B / 30) * (A24D+(A24E/60))
+    A25F = (A25B / 30) * (A25D+(A25E/60))
+    A26F = (A26B / 30) * (A26D+(A26E/60))
+    A27F = (A27B / 30) * (A27D+(A27E/60))
+    A28F = (A28B / 30) * (A28D+(A28E/60))
+    A29F = (A29B / 30) * (A29D+(A29E/60))
+    A30F = (A30B / 30) * (A30D+(A30E/60))
+    A31F = (A31B / 30) * (A31D+(A31E/60))
+    A32F = (A32B / 30) * (A32D+(A32E/60))
+    A33F = (A33B / 30) * (A33D+(A33E/60))
+    A34F = (A34B / 30) * (A34D+(A34E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -3910,39 +3968,39 @@ if ask34 == 2:
 # Calculate 1-33th app
 if ask33 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
-    A23F = (A23B / 30) * A23D
-    A24F = (A24B / 30) * A24D
-    A25F = (A25B / 30) * A25D
-    A26F = (A26B / 30) * A26D
-    A27F = (A27B / 30) * A27D
-    A28F = (A28B / 30) * A28D
-    A29F = (A29B / 30) * A29D
-    A30F = (A30B / 30) * A30D
-    A31F = (A31B / 30) * A31D
-    A32F = (A32B / 30) * A32D
-    A33F = (A33B / 30) * A33D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
+    A23F = (A23B / 30) * (A23D+(A23E/60))
+    A24F = (A24B / 30) * (A24D+(A24E/60))
+    A25F = (A25B / 30) * (A25D+(A25E/60))
+    A26F = (A26B / 30) * (A26D+(A26E/60))
+    A27F = (A27B / 30) * (A27D+(A27E/60))
+    A28F = (A28B / 30) * (A28D+(A28E/60))
+    A29F = (A29B / 30) * (A29D+(A29E/60))
+    A30F = (A30B / 30) * (A30D+(A30E/60))
+    A31F = (A31B / 30) * (A31D+(A31E/60))
+    A32F = (A32B / 30) * (A32D+(A32E/60))
+    A33F = (A33B / 30) * (A33D+(A33E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -4281,38 +4339,38 @@ if ask33 == 2:
 # Calculate 1-32nd app
 if ask32 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
-    A23F = (A23B / 30) * A23D
-    A24F = (A24B / 30) * A24D
-    A25F = (A25B / 30) * A25D
-    A26F = (A26B / 30) * A26D
-    A27F = (A27B / 30) * A27D
-    A28F = (A28B / 30) * A28D
-    A29F = (A29B / 30) * A29D
-    A30F = (A30B / 30) * A30D
-    A31F = (A31B / 30) * A31D
-    A32F = (A32B / 30) * A32D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
+    A23F = (A23B / 30) * (A23D+(A23E/60))
+    A24F = (A24B / 30) * (A24D+(A24E/60))
+    A25F = (A25B / 30) * (A25D+(A25E/60))
+    A26F = (A26B / 30) * (A26D+(A26E/60))
+    A27F = (A27B / 30) * (A27D+(A27E/60))
+    A28F = (A28B / 30) * (A28D+(A28E/60))
+    A29F = (A29B / 30) * (A29D+(A29E/60))
+    A30F = (A30B / 30) * (A30D+(A30E/60))
+    A31F = (A31B / 30) * (A31D+(A31E/60))
+    A32F = (A32B / 30) * (A32D+(A32E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -4642,37 +4700,37 @@ if ask32 == 2:
 # Calculate 1-31th app
 if ask31 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
-    A23F = (A23B / 30) * A23D
-    A24F = (A24B / 30) * A24D
-    A25F = (A25B / 30) * A25D
-    A26F = (A26B / 30) * A26D
-    A27F = (A27B / 30) * A27D
-    A28F = (A28B / 30) * A28D
-    A29F = (A29B / 30) * A29D
-    A30F = (A30B / 30) * A30D
-    A31F = (A31B / 30) * A31D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
+    A23F = (A23B / 30) * (A23D+(A23E/60))
+    A24F = (A24B / 30) * (A24D+(A24E/60))
+    A25F = (A25B / 30) * (A25D+(A25E/60))
+    A26F = (A26B / 30) * (A26D+(A26E/60))
+    A27F = (A27B / 30) * (A27D+(A27E/60))
+    A28F = (A28B / 30) * (A28D+(A28E/60))
+    A29F = (A29B / 30) * (A29D+(A29E/60))
+    A30F = (A30B / 30) * (A30D+(A30E/60))
+    A31F = (A31B / 30) * (A31D+(A31E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -4992,36 +5050,36 @@ if ask31 == 2:
 # Calculate 1-30th app
 if ask30 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
-    A23F = (A23B / 30) * A23D
-    A24F = (A24B / 30) * A24D
-    A25F = (A25B / 30) * A25D
-    A26F = (A26B / 30) * A26D
-    A27F = (A27B / 30) * A27D
-    A28F = (A28B / 30) * A28D
-    A29F = (A29B / 30) * A29D
-    A30F = (A30B / 30) * A30D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
+    A23F = (A23B / 30) * (A23D+(A23E/60))
+    A24F = (A24B / 30) * (A24D+(A24E/60))
+    A25F = (A25B / 30) * (A25D+(A25E/60))
+    A26F = (A26B / 30) * (A26D+(A26E/60))
+    A27F = (A27B / 30) * (A27D+(A27E/60))
+    A28F = (A28B / 30) * (A28D+(A28E/60))
+    A29F = (A29B / 30) * (A29D+(A29E/60))
+    A30F = (A30B / 30) * (A30D+(A30E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -5332,35 +5390,35 @@ if ask30 == 2:
 # Calculate 1-29th app
 if ask29 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
-    A23F = (A23B / 30) * A23D
-    A24F = (A24B / 30) * A24D
-    A25F = (A25B / 30) * A25D
-    A26F = (A26B / 30) * A26D
-    A27F = (A27B / 30) * A27D
-    A28F = (A28B / 30) * A28D
-    A29F = (A29B / 30) * A29D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
+    A23F = (A23B / 30) * (A23D+(A23E/60))
+    A24F = (A24B / 30) * (A24D+(A24E/60))
+    A25F = (A25B / 30) * (A25D+(A25E/60))
+    A26F = (A26B / 30) * (A26D+(A26E/60))
+    A27F = (A27B / 30) * (A27D+(A27E/60))
+    A28F = (A28B / 30) * (A28D+(A28E/60))
+    A29F = (A29B / 30) * (A29D+(A29E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -5663,34 +5721,34 @@ if ask29 == 2:
 # Calculate 1-28th app
 if ask28 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
-    A23F = (A23B / 30) * A23D
-    A24F = (A24B / 30) * A24D
-    A25F = (A25B / 30) * A25D
-    A26F = (A26B / 30) * A26D
-    A27F = (A27B / 30) * A27D
-    A28F = (A28B / 30) * A28D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
+    A23F = (A23B / 30) * (A23D+(A23E/60))
+    A24F = (A24B / 30) * (A24D+(A24E/60))
+    A25F = (A25B / 30) * (A25D+(A25E/60))
+    A26F = (A26B / 30) * (A26D+(A26E/60))
+    A27F = (A27B / 30) * (A27D+(A27E/60))
+    A28F = (A28B / 30) * (A28D+(A28E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -5984,33 +6042,33 @@ if ask28 == 2:
 # Calculate 1-27th app
 if ask27 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
-    A23F = (A23B / 30) * A23D
-    A24F = (A24B / 30) * A24D
-    A25F = (A25B / 30) * A25D
-    A26F = (A26B / 30) * A26D
-    A27F = (A27B / 30) * A27D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
+    A23F = (A23B / 30) * (A23D+(A23E/60))
+    A24F = (A24B / 30) * (A24D+(A24E/60))
+    A25F = (A25B / 30) * (A25D+(A25E/60))
+    A26F = (A26B / 30) * (A26D+(A26E/60))
+    A27F = (A27B / 30) * (A27D+(A27E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -6295,32 +6353,32 @@ if ask27 == 2:
 # Calculate 1-26th app
 if ask26 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
-    A23F = (A23B / 30) * A23D
-    A24F = (A24B / 30) * A24D
-    A25F = (A25B / 30) * A25D
-    A26F = (A26B / 30) * A26D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
+    A23F = (A23B / 30) * (A23D+(A23E/60))
+    A24F = (A24B / 30) * (A24D+(A24E/60))
+    A25F = (A25B / 30) * (A25D+(A25E/60))
+    A26F = (A26B / 30) * (A26D+(A26E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -6596,31 +6654,31 @@ if ask26 == 2:
 # Calculate 1-25th app
 if ask25 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
-    A23F = (A23B / 30) * A23D
-    A24F = (A24B / 30) * A24D
-    A25F = (A25B / 30) * A25D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
+    A23F = (A23B / 30) * (A23D+(A23E/60))
+    A24F = (A24B / 30) * (A24D+(A24E/60))
+    A25F = (A25B / 30) * (A25D+(A25E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -6887,30 +6945,30 @@ if ask25 == 2:
 # Calculate 1-24th app
 if ask24 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
-    A23F = (A23B / 30) * A23D
-    A24F = (A24B / 30) * A24D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
+    A23F = (A23B / 30) * (A23D+(A23E/60))
+    A24F = (A24B / 30) * (A24D+(A24E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -7168,29 +7226,29 @@ if ask24 == 2:
 # Calculate 1-23th app
 if ask23 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
-    A23F = (A23B / 30) * A23D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
+    A23F = (A23B / 30) * (A23D+(A23E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -7439,28 +7497,28 @@ if ask23 == 2:
 # Calculate 1-22th app
 if ask22 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
-    A22F = (A22B / 30) * A22D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
+    A22F = (A22B / 30) * (A22D+(A22E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -7700,27 +7758,27 @@ if ask22 == 2:
 # Calculate 1-21th app
 if ask21 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
-    A21F = (A21B / 30) * A21D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
+    A21F = (A21B / 30) * (A21D+(A21E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -7951,26 +8009,27 @@ if ask21 == 2:
 # Calculate 1-20th app
 if ask20 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
-    A20F = (A20B / 30) * A20D
+
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
+    A20F = (A20B / 30) * (A20D+(A20E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -8192,25 +8251,26 @@ if ask20 == 2:
 # Calculate 1-19th app
 if ask19 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
-    A19F = (A19B / 30) * A19D
+
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
+    A19F = (A19B / 30) * (A19D+(A19E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -8423,24 +8483,24 @@ if ask19 == 2:
 # Calculate 1-18th app
 if ask18 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
-    A18F = (A18B / 30) * A18D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
+    A18F = (A18B / 30) * (A18D+(A18E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -8644,23 +8704,23 @@ if ask18 == 2:
 # Calculate 1-17th app
 if ask17 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
-    A17F = (A17B / 30) * A17D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
+    A17F = (A17B / 30) * (A17D+(A17E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -8855,22 +8915,22 @@ if ask17 == 2:
 # Calculate 1-16yth app
 if ask16 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
-    A16F = (A16B / 30) * A16D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
+    A16F = (A16B / 30) * (A16D+(A16E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -9057,21 +9117,21 @@ if ask16 == 2:
 # Calculate 1-15th app
 if ask15 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
-    A15F = (A15B / 30) * A15D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
+    A15F = (A15B / 30) * (A15D+(A15E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -9245,20 +9305,20 @@ if ask15 == 2:
 # Calculate 1-14th app
 if ask14 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
-    A14F = (A14B / 30) * A14D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
+    A14F = (A14B / 30) * (A14D+(A14E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -9424,19 +9484,19 @@ if ask14 == 2:
 # Calculate 1-13th app
 if ask13 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
-    A13F = (A13B / 30) * A13D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
+    A13F = (A13B / 30) * (A13D+(A13E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -9592,18 +9652,19 @@ if ask13 == 2:
 # Calculate 1-12th app
 if ask12 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
-    A12F = (A12B / 30) * A12D
+    
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
+    A12F = (A12B / 30) * (A12D+(A12E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -9750,17 +9811,17 @@ if ask12 == 2:
 # Calculate 1-11th app
 if ask11 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
-    A11F = (A11B / 30) * A11D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
+    A11F = (A11B / 30) * (A11D+(A11E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -9898,16 +9959,16 @@ if ask11 == 2:
 # Calculate 1-10th app
 if ask10 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
-    A10F = (A10B / 30) * A10D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
+    A10F = (A10B / 30) * (A10D+(A10E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -10037,15 +10098,15 @@ if ask10 == 2:
 # Calculate 1-9th app
 if ask9 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
-    A9F = (A9B / 30) * A9D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
+    A9F = (A9B / 30) * (A9D+(A9E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -10166,14 +10227,14 @@ if ask9 == 2:
 # Calculate 1-8th app
 if ask8 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
-    A8F = (A8B / 30) * A8D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
+    A8F = (A8B / 30) * (A8D+(A8E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -10285,13 +10346,13 @@ if ask8 == 2:
 # Calculate 1-7th app
 if ask7 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
-    A7F = (A7B / 30) * A7D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
+    A7F = (A7B / 30) * (A7D+(A7E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -10394,12 +10455,12 @@ if ask7 == 2:
 # Calculate 1-6th app
 if ask6 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
-    A6F = (A6B / 30) * A6D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
+    A6F = (A6B / 30) * (A6D+(A6E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -10493,11 +10554,11 @@ if ask6 == 2:
 # Calculate 1-5th app
 if ask5 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
-    A5F = (A5B / 30) * A5D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
+    A5F = (A5B / 30) * (A5D+(A5E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -10583,10 +10644,10 @@ if ask5 == 2:
 # Calculate 1-4th app
 if ask4 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
-    A4F = (A4B / 30) * A4D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
+    A4F = (A4B / 30) * (A4D+(A4E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -10662,9 +10723,9 @@ if ask4 == 2:
 # Calculate 1-3rd app
 if ask3 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
-    A3F = (A3B / 30) * A3D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
+    A3F = (A3B / 30) * (A3D+(A3E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
@@ -10731,8 +10792,8 @@ if ask3 == 2:
 # Calculate 1-2nd app
 if ask2 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
-    A1F = (A1B / 30) * A1D
-    A2F = (A2B / 30) * A2D
+    A1F = (A1B / 30) * (A1D+(A1E/60))
+    A2F = (A2B / 30) * (A2D+(A2E/60))
 
     # INDIVIDUALLY: para ma compute ang average use (watt/hour) kada araw over the month.
     A1 = (A1F * (A1W * A1M))
