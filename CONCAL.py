@@ -94,9 +94,9 @@ if ask1 == 1:
                 f"How many days in a month do you use {A2N}?(1-31)", value=0, step=1)
             if 31 >= A2B >= 1:
                 st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A2N + ".</span>", unsafe_allow_html=True)
-                col1, col2 = st.beta_columns(2)
-                A2D = col1.number_input(f"Hours: (0-24)", value=0, step=1)
-                A2E = col2.number_input(f"Minutes: (0-59)", value=0, step=1)
+                col3, col4 = st.beta_columns(2)
+                A2D = col3.number_input(f"Hours: (0-24)", value=0, step=1)
+                A2E = col4.number_input(f"Minutes: (0-59)", value=0, step=1)
                 if ((24 == A2D) and (A2E==0)) or ((24>A2D>=0)and(60>=A2E>=0)):
                     ask2 = st.number_input(
                         "Add 3rd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
