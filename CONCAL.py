@@ -10888,7 +10888,7 @@ if ask1 == 2:
         st.write("Energy consumption :", Y1, "kWh")
 
     # OUTPUT2
-    st.write("***")
+    st.write("***") 
     st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
     st.write(A1N, ": PHP", A1con)
     st.write("***")
