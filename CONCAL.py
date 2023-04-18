@@ -10525,7 +10525,6 @@ if ask3 == 2:
     st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
     st.write("Electricity bill: PHP", total3)
     st.write("Energy consumption:", Kh3, "kWh")
-    st.write(Appliances)
 
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # Calculate 1-2nd app
