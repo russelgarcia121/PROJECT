@@ -9,6 +9,7 @@ st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003;Com
 st.write("***")
 st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Let's start!</span>",
          unsafe_allow_html=True)
+cost=0
 cost = st.number_input("# The cost per kilowatt-hour in pesos:")
 ask1 = 0
 ask2 = 0
@@ -53,28 +54,29 @@ ask40 = 0
 Appliances = []
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # add 1st app
-st.write("***")
-st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 1st appliance.</span>", unsafe_allow_html=True)
-A1N = st.text_input("Name of 1st appliance:")
-if A1N in Appliances:
-    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
-             A1N + ".</span>", unsafe_allow_html=True)
-else:
-    Appliances.append(A1N)
-    if A1N:
-        A1M = st.number_input(
-            f"How many {A1N} are you using?", value=0, step=1)
-        A1W = st.number_input(f"What is the wattage of {A1N}?(watt)")
-        A1B = st.number_input(
-            f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1)
-        if 31 >= A1B >= 1:
-            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A1N + ".</span>", unsafe_allow_html=True)
-            col1, col2 = st.beta_columns(2)
-            A1D = col1.number_input(f"Hours: (0-24)", value=0, step=1,key="A1D")
-            A1E = col2.number_input(f"Minutes: (0-59)", value=0, step=1,key="A1E")
-            if (((24 == A1D) and (A1E==0))and((A1D>0.1)or(A1E>0.1))) or (((24>A1D>=0)and(59>=A1E>=0))and((A1D>0.1)or(A1E>0.1))):
-                ask1 = st.number_input(
-                    "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+if cost>0:
+    st.write("***")
+    st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 1st appliance.</span>", unsafe_allow_html=True)
+    A1N = st.text_input("Name of 1st appliance:")
+    if A1N in Appliances:
+        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+                A1N + ".</span>", unsafe_allow_html=True)
+    else:
+        Appliances.append(A1N)
+        if A1N:
+            A1M = st.number_input(
+                f"How many {A1N} are you using?", value=0, step=1)
+            A1W = st.number_input(f"What is the wattage of {A1N}?(watt)")
+            A1B = st.number_input(
+                f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1)
+            if 31 >= A1B >= 1:
+                st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " + A1N + ".</span>", unsafe_allow_html=True)
+                col1, col2 = st.beta_columns(2)
+                A1D = col1.number_input(f"Hours: (0-24)", value=0, step=1,key="A1D")
+                A1E = col2.number_input(f"Minutes: (0-59)", value=0, step=1,key="A1E")
+                if (((24 == A1D) and (A1E==0))and((A1D>0.1)or(A1E>0.1))) or (((24>A1D>=0)and(59>=A1E>=0))and((A1D>0.1)or(A1E>0.1))):
+                    ask1 = st.number_input(
+                        "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # add 2nd app
 if ask1 == 1:
