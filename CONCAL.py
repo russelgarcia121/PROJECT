@@ -68,6 +68,7 @@ else:
         A1B = st.number_input(
             f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1)
         if 31 >= A1B >= 1:
+            st.write(f"Set the amount of time that you use the{A1N}.")
             col1, col2 = st.beta_columns(2)
             A1D = col1.number_input(f"Hours: (0-24)", value=0, step=1)
             A1E = col2.number_input(f"Minutes: (0-59)", value=0, step=1)
