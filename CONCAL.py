@@ -70,7 +70,7 @@ if cost>0:
                  st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
             if A1M<0:
                 st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
-            else:
+            if A1M>=0:
                 A1W = st.number_input(f"What is the wattage of {A1N}?(watt)")
                 A1B = st.number_input(
                     f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1)
