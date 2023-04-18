@@ -67,7 +67,7 @@ if cost>0:
             A1M = st.number_input(
                 f"How many {A1N} are you using?", value=0, step=1)
             if A1M== 0:
-                 st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the cost value. Thank you.</span>", unsafe_allow_html=True)
+                 st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
             else:
                 A1W = st.number_input(f"What is the wattage of {A1N}?(watt)")
                 A1B = st.number_input(
