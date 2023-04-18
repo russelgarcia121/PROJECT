@@ -69,8 +69,8 @@ else:
             f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1)
         if 31 >= A1B >= 1:
             col1, col2 = st.beta_columns(2)
-            A1D = col1.number_input(f"Hours: (0-24)")
-            A1E = col2.number_input(f"Minutes: (0-59)")
+            A1D = col1.number_input(f"Hours: (0-24)", value=0, step=1)
+            A1E = col2.number_input(f"Minutes: (0-59)", value=0, step=1)
             if ((24 == A1D) and (A1E==0)) or ((24>A1D>=0)and(60>=A1E>=0)):
                 ask1 = st.number_input(
                     "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
