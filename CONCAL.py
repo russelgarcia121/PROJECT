@@ -4473,7 +4473,7 @@ if ask17 == 2:
     st.write("Energy consumption:", Kh17, "kWh")
 
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-# Calculate 1-16th app
+# Calculate 1-16yth app
 if ask16 == 2:
     # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
     A1F = (A1B / 30) * A1D
@@ -6417,7 +6417,7 @@ if ask1 == 2:
     A1 = (A1F * (A1W * A1M))
 
     # TOTAL: watt/hour kada araw.
-    wh1 = (A1 + A2)
+    wh1 = (A1)
 
     # TOTAL: Kilo-watt/hour kada month.
     Kh1 = ((wh1 * 30) / 1000)
