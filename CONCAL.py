@@ -78,7 +78,7 @@ if cost>0:
                     ask1 = st.number_input(
                         "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
 if cost<=0:
-    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Can you please give me the cost value? I need it for the next step.</span>", unsafe_allow_html=True)
+    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed to the next step, please type the cost value. Thank you.</span>", unsafe_allow_html=True)
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # add 2nd app
 if ask1 == 1:
