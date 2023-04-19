@@ -11516,7 +11516,7 @@ else:
                     if A1W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A1W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat.</span>", unsafe_allow_html=True)
                     if A1W > 0:
                         A1B = st.number_input(
                             f"Ilang araw sa isang buwan ang ginagamit mo ang {A1N}?(1-31)", value=0, step=1)
