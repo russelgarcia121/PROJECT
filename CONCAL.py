@@ -11450,8 +11450,7 @@ else:
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Magsimula na tayo!</span>",
              unsafe_allow_html=True)
     cost = 0
-    cost = st.number_input(
-        "Ang Upang magpatuloy sa susunod na hakbang, mangyaring ilagay ang presyo. Salamat po. kada kilowatt-hour sa piso:")
+    cost = st.number_input("Ang kada kilowatt-hour sa piso:")
     ask1 = 0
     ask2 = 0
     ask3 = 0
@@ -11532,7 +11531,7 @@ else:
                                 ask1 = st.number_input(
                                     "Magdagdag ng 2nd appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     if cost <= 0:
-        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed to the next step, please type the cost value. Thank you.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy sa susunod na hakbang, mangyaring ilagay ang presyo. Salamat po.</span>", unsafe_allow_html=True)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     # Magdagdag ng 2nd app
     if ask1 == 1:
