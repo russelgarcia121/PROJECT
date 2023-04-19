@@ -11450,7 +11450,8 @@ else:
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Magsimula na tayo!</span>",
              unsafe_allow_html=True)
     cost = 0
-    cost = st.number_input("Ang presyo kada kilowatt-hour sa piso:")
+    cost = st.number_input(
+        "Ang Upang magpatuloy sa susunod na hakbang, mangyaring ilagay ang presyo. Salamat po. kada kilowatt-hour sa piso:")
     ask1 = 0
     ask2 = 0
     ask3 = 0
@@ -11493,1573 +11494,1561 @@ else:
     ask40 = 0
     Appliances = []
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-# add 1st app
+# Magdagdag ng 1st app
     if cost > 0:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 1st appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 1st appliance.</span>", unsafe_allow_html=True)
         A1N = st.text_input("Name of 1st appliance:")
         if A1N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A1N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A1N)
             if A1N:
-                A1M = st.number_input(
-                    f"How many {A1N} are you using?", value=0, step=1)
+                A1M = st.number_input(f"Ilang {A1N} ang ginagamit mo?", value=0, step=1)
                 if A1M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A1M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A1M > 0:
                     A1W = st.number_input(
-                        f"What is the wattage of {A1N}?(watt)")
+                        f"Ano ang wattage ng{A1N}?(watt)")
                     if A1W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A1W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A1W > 0:
                         A1B = st.number_input(
-                            f"How many days in a month do you use {A1N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A1N}?(1-31)", value=0, step=1)
                         if 31 >= A1B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A1N + ".</span>", unsafe_allow_html=True)
                             col1, col2 = st.beta_columns(2)
                             A1D = col1.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A1D")
+                                f"Oras: (0-24)", value=0, step=1, key="A1D")
                             A1E = col2.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A1E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A1E")
                             if (((24 == A1D) and (A1E == 0)) and ((A1D > 0.1) or (A1E > 0.1))) or (((24 > A1D >= 0) and (59 >= A1E >= 0)) and ((A1D > 0.1) or (A1E > 0.1))):
                                 ask1 = st.number_input(
-                                    "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 2nd appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     if cost <= 0:
         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed to the next step, please type the cost value. Thank you.</span>", unsafe_allow_html=True)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 2nd app
+    # Magdagdag ng 2nd app
     if ask1 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 2nd appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 2nd appliance.</span>", unsafe_allow_html=True)
         A2N = st.text_input("Name of 2nd appliance: ")
         if A2N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A2N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A2N)
             if A2N:
-                A2M = st.number_input(
-                    f"How many {A2N} are you using?", value=0, step=1)
+                A2M = st.number_input(f"Ilang {A2N} ang ginagamit mo?", value=0, step=1)
                 if A2M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A2M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A2M > 0:
                     A2W = st.number_input(
-                        f"What is the wattage of {A2N}?(watt)")
+                        f"Ano ang wattage ng{A2N}?(watt)")
                     if A2W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A2W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A2W > 0:
                         A2B = st.number_input(
-                            f"How many days in a month do you use {A2N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A2N}?(1-31)", value=0, step=1)
                         if 31 >= A2B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A2N + ".</span>", unsafe_allow_html=True)
                             col3, col4 = st.beta_columns(2)
                             A2D = col3.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A2D")
+                                f"Oras: (0-24)", value=0, step=1, key="A2D")
                             A2E = col4.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A2E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A2E")
                             if (((24 == A2D) and (A2E == 0)) and ((A2D > 0.1) or (A2E > 0.1))) or (((24 > A2D >= 0) and (59 >= A2E >= 0)) and ((A2D > 0.1) or (A2E > 0.1))):
                                 ask2 = st.number_input(
-                                    "Add 3rd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 3rd appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 3rd app
+    # Magdagdag ng 3rd app
     if ask2 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 3rd appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 3rd appliance.</span>", unsafe_allow_html=True)
         A3N = st.text_input("Name of 3rd appliance:")
         if A3N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A3N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A3N)
             if A3N:
-                A3M = st.number_input(
-                    f"How many {A3N} are you using?", value=0, step=1)
+                A3M = st.number_input(f"Ilang {A3N} ang ginagamit mo?", value=0, step=1)
                 if A3M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A3M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A3M > 0:
                     A3W = st.number_input(
-                        f"What is the wattage of {A3N}?(watt)")
+                        f"Ano ang wattage ng{A3N}?(watt)")
                     if A3W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A3W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A3W > 0:
                         A3B = st.number_input(
-                            f"How many days in a month do you use {A3N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A3N}?(1-31)", value=0, step=1)
                         if 31 >= A3B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A3N + ".</span>", unsafe_allow_html=True)
                             col5, col6 = st.beta_columns(2)
                             A3D = col5.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A3D")
+                                f"Oras: (0-24)", value=0, step=1, key="A3D")
                             A3E = col6.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A3E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A3E")
                             if (((24 == A3D) and (A3E == 0)) and ((A3D > 0.1) or (A3E > 0.1))) or (((24 > A3D >= 0) and (59 >= A3E >= 0)) and ((A3D > 0.1) or (A3E > 0.1))):
                                 ask3 = st.number_input(
-                                    "Add 4th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 4th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 4th app
+    # Magdagdag ng 4th app
     if ask3 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 4th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 4th appliance.</span>", unsafe_allow_html=True)
         A4N = st.text_input("Name of 4th appliance: ")
         if A4N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A4N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A4N)
             if A4N:
-                A4M = st.number_input(
-                    f"How many {A4N} are you using?", value=0, step=1)
+                A4M = st.number_input(f"Ilang {A4N} ang ginagamit mo?", value=0, step=1)
                 if A4M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A4M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A4M > 0:
                     A4W = st.number_input(
-                        f"What is the wattage of {A4N}?(watt)")
+                        f"Ano ang wattage ng{A4N}?(watt)")
                     if A4W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A4W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A4W > 0:
                         A4B = st.number_input(
-                            f"How many days in a month do you use {A4N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A4N}?(1-31)", value=0, step=1)
                         if 31 >= A4B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A4N + ".</span>", unsafe_allow_html=True)
                             col7, col8 = st.beta_columns(2)
                             A4D = col7.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A4D")
+                                f"Oras: (0-24)", value=0, step=1, key="A4D")
                             A4E = col8.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A4E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A4E")
                             if (((24 == A4D) and (A4E == 0)) and ((A4D > 0.1) or (A4E > 0.1))) or (((24 > A4D >= 0) and (59 >= A4E >= 0)) and ((A4D > 0.1) or (A4E > 0.1))):
                                 ask4 = st.number_input(
-                                    "Add 5th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 5th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 5th app
+    # Magdagdag ng 5th app
     if ask4 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 5th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 5th appliance.</span>", unsafe_allow_html=True)
         A5N = st.text_input("Name of 5th appliance: ")
         if A5N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A5N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A5N)
             if A5N:
-                A5M = st.number_input(
-                    f"How many {A5N} are you using?", value=0, step=1)
+                A5M = st.number_input(f"Ilang {A5N} ang ginagamit mo?", value=0, step=1)
                 if A5M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A5M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A5M > 0:
                     A5W = st.number_input(
-                        f"What is the wattage of {A5N}?(watt)")
+                        f"Ano ang wattage ng{A5N}?(watt)")
                     if A5W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A5W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A5W > 0:
                         A5B = st.number_input(
-                            f"How many days in a month do you use {A5N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A5N}?(1-31)", value=0, step=1)
                         if 31 >= A5B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A5N + ".</span>", unsafe_allow_html=True)
                             col9, col10 = st.beta_columns(2)
                             A5D = col9.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A5D")
+                                f"Oras: (0-24)", value=0, step=1, key="A5D")
                             A5E = col10.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A5E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A5E")
                             if (((24 == A5D) and (A5E == 0)) and ((A5D > 0.1) or (A5E > 0.1))) or (((24 > A5D >= 0) and (59 >= A5E >= 0)) and ((A5D > 0.1) or (A5E > 0.1))):
                                 ask5 = st.number_input(
-                                    "Add 6th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 6th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 6th app
+    # Magdagdag ng 6th app
     if ask5 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 6th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 6th appliance.</span>", unsafe_allow_html=True)
         A6N = st.text_input("Name of 6th appliance: ")
         if A6N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A6N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A6N)
             if A6N:
-                A6M = st.number_input(
-                    f"How many {A6N} are you using?", value=0, step=1)
+                A6M = st.number_input(f"Ilang {A6N} ang ginagamit mo?", value=0, step=1)
                 if A6M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A6M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A6M > 0:
                     A6W = st.number_input(
-                        f"What is the wattage of {A6N}?(watt)")
+                        f"Ano ang wattage ng{A6N}?(watt)")
                     if A6W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A6W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A6W > 0:
                         A6B = st.number_input(
-                            f"How many days in a month do you use {A6N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A6N}?(1-31)", value=0, step=1)
                         if 31 >= A6B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A6N + ".</span>", unsafe_allow_html=True)
                             col11, col12 = st.beta_columns(2)
                             A6D = col11.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A6D")
+                                f"Oras: (0-24)", value=0, step=1, key="A6D")
                             A6E = col12.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A6E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A6E")
                             if (((24 == A6D) and (A6E == 0)) and ((A6D > 0.1) or (A1E > 0.1))) or (((24 > A6D >= 0) and (59 >= A6E >= 0)) and ((A6D > 0.1) or (A6E > 0.1))):
                                 ask6 = st.number_input(
-                                    "Add 7th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 7th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 7th app
+    # Magdagdag ng 7th app
     if ask6 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 7th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 7th appliance.</span>", unsafe_allow_html=True)
         A7N = st.text_input("Name of 7th appliance: ")
         if A7N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A7N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A7N)
             if A7N:
-                A7M = st.number_input(
-                    f"How many {A7N} are you using?", value=0, step=1)
+                A7M = st.number_input(f"Ilang {A7N} ang ginagamit mo?", value=0, step=1)
                 if A7M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A7M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A7M > 0:
                     A7W = st.number_input(
-                        f"What is the wattage of {A7N}?(watt)")
+                        f"Ano ang wattage ng{A7N}?(watt)")
                     if A7W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A7W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A7W > 0:
                         A7B = st.number_input(
-                            f"How many days in a month do you use {A7N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A7N}?(1-31)", value=0, step=1)
                         if 31 >= A7B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A7N + ".</span>", unsafe_allow_html=True)
                             col13, col14 = st.beta_columns(2)
                             A7D = col13.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A7D")
+                                f"Oras: (0-24)", value=0, step=1, key="A7D")
                             A7E = col14.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A7E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A7E")
                             if (((24 == A7D) and (A7E == 0)) and ((A7D > 0.1) or (A7E > 0.1))) or (((24 > A7D >= 0) and (59 >= A7E >= 0)) and ((A7D > 0.1) or (A7E > 0.1))):
                                 ask7 = st.number_input(
-                                    "Add 8th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 8th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 8th app
+    # Magdagdag ng 8th app
     if ask7 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 8th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 8th appliance.</span>", unsafe_allow_html=True)
         A8N = st.text_input("Name of 8th appliance: ")
         if A8N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A8N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A8N)
             if A8N:
-                A8M = st.number_input(
-                    f"How many {A8N} are you using?", value=0, step=1)
+                A8M = st.number_input(f"Ilang {A8N} ang ginagamit mo?", value=0, step=1)
                 if A8M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A8M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A8M > 0:
                     A8W = st.number_input(
-                        f"What is the wattage of {A8N}?(watt)")
+                        f"Ano ang wattage ng{A8N}?(watt)")
                     if A8W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A8W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A8W > 0:
                         A8B = st.number_input(
-                            f"How many days in a month do you use {A8N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A8N}?(1-31)", value=0, step=1)
                         if 31 >= A8B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A8N + ".</span>", unsafe_allow_html=True)
                             col15, col16 = st.beta_columns(2)
                             A8D = col15.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A8D")
+                                f"Oras: (0-24)", value=0, step=1, key="A8D")
                             A8E = col16.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A8E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A8E")
                             if (((24 == A8D) and (A8E == 0)) and ((A8D > 0.1) or (A8E > 0.1))) or (((24 > A8D >= 0) and (59 >= A8E >= 0)) and ((A8D > 0.1) or (A8E > 0.1))):
                                 ask8 = st.number_input(
-                                    "Add 9th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 9th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 9th app
+    # Magdagdag ng 9th app
     if ask8 == 1:
         st.write("***")
         st.write(
-            "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 9th appliance.</span>", unsafe_allow_html=True)
+            "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 9th appliance.</span>", unsafe_allow_html=True)
         A9N = st.text_input("Name of 9th appliance: ")
         if A9N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A9N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A9N)
             if A9N:
-                A9M = st.number_input(
-                    f"How many {A9N} are you using?", value=0, step=1)
+                A9M = st.number_input(f"Ilang {A9N} ang ginagamit mo?", value=0, step=1)
                 if A9M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A9M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A9M > 0:
                     A9W = st.number_input(
-                        f"What is the wattage of {A9N}?(watt)")
+                        f"Ano ang wattage ng{A9N}?(watt)")
                     if A9W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A9W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A9W > 0:
                         A9B = st.number_input(
-                            f"How many days in a month do you use {A9N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A9N}?(1-31)", value=0, step=1)
                         if 31 >= A9B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A9N + ".</span>", unsafe_allow_html=True)
                             col17, col18 = st.beta_columns(2)
                             A9D = col17.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A9D")
+                                f"Oras: (0-24)", value=0, step=1, key="A9D")
                             A9E = col18.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A9E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A9E")
                             if (((24 == A9D) and (A9E == 0)) and ((A9D > 0.1) or (A9E > 0.1))) or (((24 > A9D >= 0) and (59 >= A9E >= 0)) and ((A9D > 0.1) or (A9E > 0.1))):
                                 ask9 = st.number_input(
-                                    "Add 10th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 10th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 10th app
+    # Magdagdag ng 10th app
     if ask9 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 10th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 10th appliance.</span>", unsafe_allow_html=True)
         A10N = st.text_input("Name of 10th appliance: ")
         if A10N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A10N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A10N)
             if A10N:
-                A10M = st.number_input(
-                    f"How many {A10N} are you using?", value=0, step=1)
+                A10M = st.number_input(f"Ilang {A10N} ang ginagamit mo?", value=0, step=1)
                 if A10M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A10M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A10M > 0:
                     A10W = st.number_input(
-                        f"What is the wattage of {A10N}?(watt)")
+                        f"Ano ang wattage ng{A10N}?(watt)")
                     if A10W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A10W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A10W > 0:
                         A10B = st.number_input(
-                            f"How many days in a month do you use {A10N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A10N}?(1-31)", value=0, step=1)
                         if 31 >= A10B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A10N + ".</span>", unsafe_allow_html=True)
                             col19, col20 = st.beta_columns(2)
                             A10D = col19.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A10D")
+                                f"Oras: (0-24)", value=0, step=1, key="A10D")
                             A10E = col20.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A10E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A10E")
                             if (((24 == A10D) and (A10E == 0)) and ((A10D > 0.1) or (A10E > 0.1))) or (((24 > A10D >= 0) and (59 >= A10E >= 0)) and ((A10D > 0.1) or (A10E > 0.1))):
                                 ask10 = st.number_input(
-                                    "Add 11th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 11th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 11th app
+    # Magdagdag ng 11th app
     if ask10 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 11th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 11th appliance.</span>", unsafe_allow_html=True)
         A11N = st.text_input("Name of 11th appliance:")
         if A11N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A11N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A11N)
             if A11N:
                 A11M = st.number_input(
-                    f"How many {A11N} are you using?", value=0, step=1)
+                    f"Ilang {A11N} ang ginagamit mo?", value=0, step=1)
                 if A11M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A11M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A11M > 0:
                     A11W = st.number_input(
-                        f"What is the wattage of {A11N}?(watt)")
+                        f"Ano ang wattage ng{A11N}?(watt)")
                     if A11W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A11W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A11W > 0:
                         A11B = st.number_input(
-                            f"How many days in a month do you use {A11N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A11N}?(1-31)", value=0, step=1)
                         if 31 >= A11B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A11N + ".</span>", unsafe_allow_html=True)
                             col21, col22 = st.beta_columns(2)
                             A11D = col21.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A11D")
+                                f"Oras: (0-24)", value=0, step=1, key="A11D")
                             A11E = col22.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A11E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A11E")
                             if (((24 == A11D) and (A11E == 0)) and ((A11D > 0.1) or (A11E > 0.1))) or (((24 > A11D >= 0) and (59 >= A11E >= 0)) and ((A11D > 0.1) or (A11E > 0.1))):
                                 ask11 = st.number_input(
-                                    "Add 12th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 12th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 12th app
+    # Magdagdag ng 12th app
     if ask11 == 1:
         st.write("***")
         st.write(
-            "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 12th appliance.</span>", unsafe_allow_html=True)
+            "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 12th appliance.</span>", unsafe_allow_html=True)
         A12N = st.text_input(
             "Name of 12th appliance: ")
         if A12N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A12N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A12N)
             if A12N:
                 A12M = st.number_input(
-                    f"How many {A12N} are you using?", value=0, step=1)
+                    f"Ilang {A12N} ang ginagamit mo?", value=0, step=1)
                 if A12M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A12M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A12M > 0:
                     A12W = st.number_input(
-                        f"What is the wattage of {A12N}?(watt)")
+                        f"Ano ang wattage ng{A12N}?(watt)")
                     if A12W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A12W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A12W > 0:
                         A12B = st.number_input(
-                            f"How many days in a month do you use {A12N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A12N}?(1-31)", value=0, step=1)
                         if 31 >= A12B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A12N + ".</span>", unsafe_allow_html=True)
                             col23, col24 = st.beta_columns(2)
                             A12D = col23.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A12D")
+                                f"Oras: (0-24)", value=0, step=1, key="A12D")
                             A12E = col24.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A12E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A12E")
                             if (((24 == A12D) and (A12E == 0)) and ((A12D > 0.1) or (A12E > 0.1))) or (((24 > A12D >= 0) and (59 >= A12E >= 0)) and ((A12D > 0.1) or (A12E > 0.1))):
                                 ask12 = st.number_input(
-                                    "Add 13th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 13th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 13th app
+    # Magdagdag ng 13th app
     if ask12 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 13th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 13th appliance.</span>", unsafe_allow_html=True)
         A13N = st.text_input("Name of 13th appliance: ")
         if A13N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A13N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A13N)
             if A13N:
                 A13M = st.number_input(
-                    f"How many {A13N} are you using?", value=0, step=1)
+                    f"Ilang {A13N} ang ginagamit mo?", value=0, step=1)
                 if A13M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A13M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A13M > 0:
                     A13W = st.number_input(
-                        f"What is the wattage of {A13N}?(watt)")
+                        f"Ano ang wattage ng{A13N}?(watt)")
                     if A13W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A13W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A13W > 0:
                         A13B = st.number_input(
-                            f"How many days in a month do you use {A13N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A13N}?(1-31)", value=0, step=1)
                         if 31 >= A13B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A13N + ".</span>", unsafe_allow_html=True)
                             col25, col26 = st.beta_columns(2)
                             A13D = col25.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A13D")
+                                f"Oras: (0-24)", value=0, step=1, key="A13D")
                             A13E = col26.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A13E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A13E")
                             if (((24 == A13D) and (A13E == 0)) and ((A13D > 0.1) or (A13E > 0.1))) or (((24 > A13D >= 0) and (59 >= A13E >= 0)) and ((A13D > 0.1) or (A13E > 0.1))):
                                 ask13 = st.number_input(
-                                    "Add 14th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 14th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 14th app
+    # Magdagdag ng 14th app
     if ask13 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 14th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 14th appliance.</span>", unsafe_allow_html=True)
         A14N = st.text_input("Name of 14th appliance: ")
         if A14N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A14N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A14N)
             if A14N:
                 A14M = st.number_input(
-                    f"How many {A14N} are you using?", value=0, step=1)
+                    f"Ilang {A14N} ang ginagamit mo?", value=0, step=1)
                 if A14M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A14M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A14M > 0:
                     A14W = st.number_input(
-                        f"What is the wattage of {A14N}?(watt)")
+                        f"Ano ang wattage ng{A14N}?(watt)")
                     if A14W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A14W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A14W > 0:
                         A14B = st.number_input(
-                            f"How many days in a month do you use {A14N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A14N}?(1-31)", value=0, step=1)
                         if 31 >= A14B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A14N + ".</span>", unsafe_allow_html=True)
                             col27, col28 = st.beta_columns(2)
                             A14D = col27.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A14D")
+                                f"Oras: (0-24)", value=0, step=1, key="A14D")
                             A14E = col28.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A14E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A14E")
                             if (((24 == A14D) and (A14E == 0)) and ((A14D > 0.1) or (A14E > 0.1))) or (((24 > A14D >= 0) and (59 >= A14E >= 0)) and ((A14D > 0.1) or (A14E > 0.1))):
                                 ask14 = st.number_input(
-                                    "Add 15th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 15th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 15th app
+    # Magdagdag ng 15th app
     if ask14 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 15th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 15th appliance.</span>", unsafe_allow_html=True)
         A15N = st.text_input("Name of 15th appliance: ")
         if A15N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A15N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A15N)
             if A15N:
                 A15M = st.number_input(
-                    f"How many {A15N} are you using?", value=0, step=1)
+                    f"Ilang {A15N} ang ginagamit mo?", value=0, step=1)
                 if A15M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A15M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A15M > 0:
                     A15W = st.number_input(
-                        f"What is the wattage of {A15N}?(watt)")
+                        f"Ano ang wattage ng{A15N}?(watt)")
                     if A15W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A15W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A15W > 0:
                         A15B = st.number_input(
-                            f"How many days in a month do you use {A15N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A15N}?(1-31)", value=0, step=1)
                         if 31 >= A15B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A15N + ".</span>", unsafe_allow_html=True)
                             col29, col30 = st.beta_columns(2)
                             A15D = col29.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A15D")
+                                f"Oras: (0-24)", value=0, step=1, key="A15D")
                             A15E = col30.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A15E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A15E")
                             if (((24 == A15D) and (A15E == 0)) and ((A15D > 0.1) or (A15E > 0.1))) or (((24 > A15D >= 0) and (59 >= A15E >= 0)) and ((A15D > 0.1) or (A15E > 0.1))):
                                 ask15 = st.number_input(
-                                    "Add 16th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 16th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 16th app
+    # Magdagdag ng 16th app
     if ask15 == 1:
         st.write("***")
         st.write(
-            "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 16th appliance.</span>", unsafe_allow_html=True)
+            "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 16th appliance.</span>", unsafe_allow_html=True)
         A16N = st.text_input("Name of 16th appliance: ")
         if A16N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A16N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A16N)
             if A16N:
                 A16M = st.number_input(
-                    f"How many {A16N} are you using?", value=0, step=1)
+                    f"Ilang {A16N} ang ginagamit mo?", value=0, step=1)
                 if A16M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A16M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A16M > 0:
                     A16W = st.number_input(
-                        f"What is the wattage of {A16N}?(watt)")
+                        f"Ano ang wattage ng{A16N}?(watt)")
                     if A16W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A16W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A16W > 0:
                         A16B = st.number_input(
-                            f"How many days in a month do you use {A16N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A16N}?(1-31)", value=0, step=1)
                         if 31 >= A16B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A16N + ".</span>", unsafe_allow_html=True)
                             col31, col32 = st.beta_columns(2)
                             A16D = col31.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A16D")
+                                f"Oras: (0-24)", value=0, step=1, key="A16D")
                             A16E = col32.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A16E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A16E")
                             if (((24 == A16D) and (A16E == 0)) and ((A16D > 0.1) or (A16E > 0.1))) or (((24 > A16D >= 0) and (59 >= A16E >= 0)) and ((A16D > 0.1) or (A16E > 0.1))):
                                 ask16 = st.number_input(
-                                    "Add 17th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 17th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 17th app
+    # Magdagdag ng 17th app
     if ask16 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 17th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 17th appliance.</span>", unsafe_allow_html=True)
         A17N = st.text_input("Name of 17th appliance: ")
         if A17N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A17N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A17N)
             if A17N:
                 A17M = st.number_input(
-                    f"How many {A17N} are you using?", value=0, step=1)
+                    f"Ilang {A17N} ang ginagamit mo?", value=0, step=1)
                 if A17M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A17M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A17M > 0:
                     A17W = st.number_input(
-                        f"What is the wattage of {A17N}?(watt)")
+                        f"Ano ang wattage ng{A17N}?(watt)")
                     if A17W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A17W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A17W > 0:
                         A17B = st.number_input(
-                            f"How many days in a month do you use {A17N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A17N}?(1-31)", value=0, step=1)
                         if 31 >= A17B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A17N + ".</span>", unsafe_allow_html=True)
                             col33, col34 = st.beta_columns(2)
                             A17D = col33.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A17D")
+                                f"Oras: (0-24)", value=0, step=1, key="A17D")
                             A17E = col34.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A17E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A17E")
                             if (((24 == A17D) and (A17E == 0)) and ((A17D > 0.1) or (A17E > 0.1))) or (((24 > A17D >= 0) and (59 >= A17E >= 0)) and ((A17D > 0.1) or (A17E > 0.1))):
                                 ask17 = st.number_input(
-                                    "Add 18th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 18th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 18th app
+    # Magdagdag ng 18th app
     if ask17 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 18th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 18th appliance.</span>", unsafe_allow_html=True)
         A18N = st.text_input("Name of 18th appliance:")
         if A18N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A18N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A18N)
             if A18N:
                 A18M = st.number_input(
-                    f"How many {A18N} are you using?", value=0, step=1)
+                    f"Ilang {A18N} ang ginagamit mo?", value=0, step=1)
                 if A18M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A18M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A18M > 0:
                     A18W = st.number_input(
-                        f"What is the wattage of {A18N}?(watt)")
+                        f"Ano ang wattage ng{A18N}?(watt)")
                     if A18W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A18W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A18W > 0:
                         A18B = st.number_input(
-                            f"How many days in a month do you use {A18N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A18N}?(1-31)", value=0, step=1)
                         if 31 >= A18B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A18N + ".</span>", unsafe_allow_html=True)
                             col35, col36 = st.beta_columns(2)
                             A18D = col35.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A18D")
+                                f"Oras: (0-24)", value=0, step=1, key="A18D")
                             A18E = col36.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A18E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A18E")
                             if (((24 == A18D) and (A18E == 0)) and ((A18D > 0.1) or (A18E > 0.1))) or (((24 > A18D >= 0) and (59 >= A18E >= 0)) and ((A18D > 0.1) or (A18E > 0.1))):
                                 ask18 = st.number_input(
-                                    "Add 19th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 19th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 19th app
+    # Magdagdag ng 19th app
     if ask18 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 19th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 19th appliance.</span>", unsafe_allow_html=True)
         A19N = st.text_input("Name of 19th appliance: ")
         if A19N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A19N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A19N)
             if A19N:
                 A19M = st.number_input(
-                    f"How many {A19N} are you using?", value=0, step=1)
+                    f"Ilang {A19N} ang ginagamit mo?", value=0, step=1)
                 if A19M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A19M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A19M > 0:
                     A19W = st.number_input(
-                        f"What is the wattage of {A19N}?(watt)")
+                        f"Ano ang wattage ng{A19N}?(watt)")
                     if A19W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A19W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A19W > 0:
                         A19B = st.number_input(
-                            f"How many days in a month do you use {A19N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A19N}?(1-31)", value=0, step=1)
                         if 31 >= A19B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A19N + ".</span>", unsafe_allow_html=True)
                             col37, col38 = st.beta_columns(2)
                             A19D = col37.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A19D")
+                                f"Oras: (0-24)", value=0, step=1, key="A19D")
                             A19E = col38.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A19E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A19E")
                             if (((24 == A19D) and (A19E == 0)) and ((A19D > 0.1) or (A19E > 0.1))) or (((24 > A19D >= 0) and (59 >= A19E >= 0)) and ((A19D > 0.1) or (A19E > 0.1))):
                                 ask19 = st.number_input(
-                                    "Add 20th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 20th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 20th app
+    # Magdagdag ng 20th app
     if ask19 == 1:
         st.write(
             "***")
         st.write(
-            "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 20th appliance.</span>", unsafe_allow_html=True)
+            "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 20th appliance.</span>", unsafe_allow_html=True)
         A20N = st.text_input("Name of 20th appliance: ")
         if A20N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A20N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A20N)
             if A20N:
                 A20M = st.number_input(
-                    f"How many {A20N} are you using?", value=0, step=1)
+                    f"Ilang {A20N} ang ginagamit mo?", value=0, step=1)
                 if A20M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A20M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A20M > 0:
                     A20W = st.number_input(
-                        f"What is the wattage of {A20N}?(watt)")
+                        f"Ano ang wattage ng{A20N}?(watt)")
                     if A20W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A20W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A20W > 0:
                         A20B = st.number_input(
-                            f"How many days in a month do you use {A20N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A20N}?(1-31)", value=0, step=1)
                         if 31 >= A20B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A20N + ".</span>", unsafe_allow_html=True)
                             col39, col40 = st.beta_columns(2)
                             A20D = col39.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A20D")
+                                f"Oras: (0-24)", value=0, step=1, key="A20D")
                             A20E = col40.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A20E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A20E")
                             if (((24 == A20D) and (A20E == 0)) and ((A20D > 0.1) or (A20E > 0.1))) or (((24 > A20D >= 0) and (59 >= A20E >= 0)) and ((A20D > 0.1) or (A20E > 0.1))):
                                 ask20 = st.number_input(
-                                    "Add 21st appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 21st appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 21st app
+    # Magdagdag ng 21st app
     if ask20 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 21st appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 21st appliance.</span>", unsafe_allow_html=True)
         A21N = st.text_input("Name of 21st appliance: ")
         if A21N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A21N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A21N)
             if A21N:
                 A21M = st.number_input(
-                    f"How many {A21N} are you using?", value=0, step=1)
+                    f"Ilang {A21N} ang ginagamit mo?", value=0, step=1)
                 if A21M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A21M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A21M > 0:
                     A21W = st.number_input(
-                        f"What is the wattage of {A21N}?(watt)")
+                        f"Ano ang wattage ng{A21N}?(watt)")
                     if A21W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A21W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A21W > 0:
                         A21B = st.number_input(
-                            f"How many days in a month do you use {A21N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A21N}?(1-31)", value=0, step=1)
                         if 31 >= A21B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A21N + ".</span>", unsafe_allow_html=True)
                             col41, col42 = st.beta_columns(2)
                             A21D = col41.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A21D")
+                                f"Oras: (0-24)", value=0, step=1, key="A21D")
                             A21E = col42.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A21E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A21E")
                             if (((24 == A21D) and (A21E == 0)) and ((A21D > 0.1) or (A21E > 0.1))) or (((24 > A21D >= 0) and (59 >= A21E >= 0)) and ((A21D > 0.1) or (A21E > 0.1))):
                                 ask21 = st.number_input(
-                                    "Add 22nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 22nd appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 22nd app
+    # Magdagdag ng 22nd app
     if ask21 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 22nd appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 22nd appliance.</span>", unsafe_allow_html=True)
         A22N = st.text_input("Name of 22nd appliance: ")
         if A22N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A22N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A22N)
             if A22N:
                 A22M = st.number_input(
-                    f"How many {A22N} are you using?", value=0, step=1)
+                    f"Ilang {A22N} ang ginagamit mo?", value=0, step=1)
                 if A22M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A22M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A22M > 0:
                     A22W = st.number_input(
-                        f"What is the wattage of {A22N}?(watt)")
+                        f"Ano ang wattage ng{A22N}?(watt)")
                     if A22W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A22W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A22W > 0:
                         A22B = st.number_input(
-                            f"How many days in a month do you use {A22N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A22N}?(1-31)", value=0, step=1)
                         if 31 >= A22B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A22N + ".</span>", unsafe_allow_html=True)
                             col43, col44 = st.beta_columns(2)
                             A22D = col43.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A22D")
+                                f"Oras: (0-24)", value=0, step=1, key="A22D")
                             A22E = col44.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A22E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A22E")
                             if (((24 == A22D) and (A22E == 0)) and ((A22D > 0.1) or (A22E > 0.1))) or (((24 > A22D >= 0) and (59 >= A22E >= 0)) and ((A22D > 0.1) or (A22E > 0.1))):
                                 ask22 = st.number_input(
-                                    "Add 23rd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 23rd appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 23rd app
+    # Magdagdag ng 23rd app
     if ask22 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 23rd appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 23rd appliance.</span>", unsafe_allow_html=True)
         A23N = st.text_input("Name of 23rd appliance: ")
         if A23N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A23N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A23N)
             if A23N:
                 A23M = st.number_input(
-                    f"How many {A23N} are you using?", value=0, step=1)
+                    f"Ilang {A23N} ang ginagamit mo?", value=0, step=1)
                 if A23M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A23M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A23M > 0:
                     A23W = st.number_input(
-                        f"What is the wattage of {A23N}?(watt)")
+                        f"Ano ang wattage ng{A23N}?(watt)")
                     if A23W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A23W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A23W > 0:
                         A23B = st.number_input(
-                            f"How many days in a month do you use {A23N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A23N}?(1-31)", value=0, step=1)
                         if 31 >= A23B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A23N + ".</span>", unsafe_allow_html=True)
                             col45, col46 = st.beta_columns(2)
                             A23D = col45.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A23D")
+                                f"Oras: (0-24)", value=0, step=1, key="A23D")
                             A23E = col46.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A23E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A23E")
                             if (((24 == A23D) and (A23E == 0)) and ((A23D > 0.1) or (A23E > 0.1))) or (((24 > A23D >= 0) and (59 >= A23E >= 0)) and ((A23D > 0.1) or (A23E > 0.1))):
                                 ask23 = st.number_input(
-                                    "Add 24th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 24th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 24th app
+    # Magdagdag ng 24th app
     if ask23 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 24th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 24th appliance.</span>", unsafe_allow_html=True)
         A24N = st.text_input("Name of 24th appliance: ")
         if A24N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A24N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A24N)
             if A24N:
                 A24M = st.number_input(
-                    f"How many {A24N} are you using?", value=0, step=1)
+                    f"Ilang {A24N} ang ginagamit mo?", value=0, step=1)
                 if A24M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A24M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A24M > 0:
                     A24W = st.number_input(
-                        f"What is the wattage of {A24N}?(watt)")
+                        f"Ano ang wattage ng{A24N}?(watt)")
                     if A24W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A24W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A24W > 0:
                         A24B = st.number_input(
-                            f"How many days in a month do you use {A24N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A24N}?(1-31)", value=0, step=1)
                         if 31 >= A24B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A24N + ".</span>", unsafe_allow_html=True)
                             col47, col48 = st.beta_columns(2)
                             A24D = col39.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A24D")
+                                f"Oras: (0-24)", value=0, step=1, key="A24D")
                             A24E = col40.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A24E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A24E")
                             if (((24 == A24D) and (A24E == 0)) and ((A24D > 0.1) or (A24E > 0.1))) or (((24 > A24D >= 0) and (59 >= A24E >= 0)) and ((A24D > 0.1) or (A24E > 0.1))):
                                 ask24 = st.number_input(
-                                    "Add 25th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 25th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 25th app
+    # Magdagdag ng 25th app
     if ask24 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 25th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 25th appliance.</span>", unsafe_allow_html=True)
         A25N = st.text_input("Name of 25th appliance: ")
         if A25N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A25N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A25N)
             if A25N:
                 A25M = st.number_input(
-                    f"How many {A25N} are you using?", value=0, step=1)
+                    f"Ilang {A25N} ang ginagamit mo?", value=0, step=1)
                 if A25M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A25M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A25M > 0:
                     A25W = st.number_input(
-                        f"What is the wattage of {A25N}?(watt)")
+                        f"Ano ang wattage ng{A25N}?(watt)")
                     if A25W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A25W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A25W > 0:
                         A25B = st.number_input(
-                            f"How many days in a month do you use {A25N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A25N}?(1-31)", value=0, step=1)
                         if 31 >= A25B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A25N + ".</span>", unsafe_allow_html=True)
                             col49, col50 = st.beta_columns(2)
                             A25D = col49.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A25D")
+                                f"Oras: (0-24)", value=0, step=1, key="A25D")
                             A25E = col50.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A25E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A25E")
                             if (((24 == A25D) and (A25E == 0)) and ((A25D > 0.1) or (A25E > 0.1))) or (((24 > A25D >= 0) and (59 >= A25E >= 0)) and ((A25D > 0.1) or (A25E > 0.1))):
                                 ask25 = st.number_input(
-                                    "Add 26th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 26th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 26th app
+    # Magdagdag ng 26th app
     if ask25 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 26th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 26th appliance.</span>", unsafe_allow_html=True)
         A26N = st.text_input("Name of 26th appliance:")
         if A26N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A26N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A26N)
             if A26N:
                 A26M = st.number_input(
-                    f"How many {A26N} are you using?", value=0, step=1)
+                    f"Ilang {A26N} ang ginagamit mo?", value=0, step=1)
                 if A26M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A26M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A26M > 0:
                     A26W = st.number_input(
-                        f"What is the wattage of {A26N}?(watt)")
+                        f"Ano ang wattage ng{A26N}?(watt)")
                     if A26W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A26W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A26W > 0:
                         A26B = st.number_input(
-                            f"How many days in a month do you use {A26N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A26N}?(1-31)", value=0, step=1)
                         if 31 >= A26B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A26N + ".</span>", unsafe_allow_html=True)
                             col51, col52 = st.beta_columns(2)
                             A26D = col51.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A26D")
+                                f"Oras: (0-24)", value=0, step=1, key="A26D")
                             A26E = col52.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A26E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A26E")
                             if (((24 == A26D) and (A26E == 0)) and ((A26D > 0.1) or (A26E > 0.1))) or (((24 > A26D >= 0) and (59 >= A26E >= 0)) and ((A26D > 0.1) or (A26E > 0.1))):
                                 ask26 = st.number_input(
-                                    "Add 27th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 27th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 27th app
+    # Magdagdag ng 27th app
     if ask26 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 27th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 27th appliance.</span>", unsafe_allow_html=True)
         A27N = st.text_input("Name of 27th appliance: ")
         if A27N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A27N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A27N)
             if A27N:
                 A27M = st.number_input(
-                    f"How many {A27N} are you using?", value=0, step=1)
+                    f"Ilang {A27N} ang ginagamit mo?", value=0, step=1)
                 if A27M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A27M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A27M > 0:
                     A27W = st.number_input(
-                        f"What is the wattage of {A27N}?(watt)")
+                        f"Ano ang wattage ng{A27N}?(watt)")
                     if A27W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A27W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A27W > 0:
                         A27B = st.number_input(
-                            f"How many days in a month do you use {A27N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A27N}?(1-31)", value=0, step=1)
                         if 31 >= A27B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A27N + ".</span>", unsafe_allow_html=True)
                             col53, col54 = st.beta_columns(2)
                             A27D = col53.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A27D")
+                                f"Oras: (0-24)", value=0, step=1, key="A27D")
                             A27E = col54.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A27E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A27E")
                             if (((24 == A27D) and (A27E == 0)) and ((A27D > 0.1) or (A27E > 0.1))) or (((24 > A27D >= 0) and (59 >= A27E >= 0)) and ((A27D > 0.1) or (A27E > 0.1))):
                                 ask27 = st.number_input(
-                                    "Add 28th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 28th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 28th app
+    # Magdagdag ng 28th app
     if ask27 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 28th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 28th appliance.</span>", unsafe_allow_html=True)
         A28N = st.text_input("Name of 28th appliance: ")
         if A28N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A28N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A28N)
             if A28N:
                 A28M = st.number_input(
-                    f"How many {A28N} are you using?", value=0, step=1)
+                    f"Ilang {A28N} ang ginagamit mo?", value=0, step=1)
                 if A28M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A28M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A28M > 0:
                     A28W = st.number_input(
-                        f"What is the wattage of {A28N}?(watt)")
+                        f"Ano ang wattage ng{A28N}?(watt)")
                     if A28W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A28W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A28W > 0:
                         A28B = st.number_input(
-                            f"How many days in a month do you use {A28N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A28N}?(1-31)", value=0, step=1)
                         if 31 >= A28B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A28N + ".</span>", unsafe_allow_html=True)
                             col55, col56 = st.beta_columns(2)
                             A28D = col55.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A28D")
+                                f"Oras: (0-24)", value=0, step=1, key="A28D")
                             A28E = col56.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A28E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A28E")
                             if (((24 == A28D) and (A28E == 0)) and ((A28D > 0.1) or (A28E > 0.1))) or (((24 > A28D >= 0) and (59 >= A28E >= 0)) and ((A28D > 0.1) or (A28E > 0.1))):
                                 ask28 = st.number_input(
-                                    "Add 29th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 29th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 29th app
+    # Magdagdag ng 29th app
     if ask28 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 29th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 29th appliance.</span>", unsafe_allow_html=True)
         A29N = st.text_input("Name of 29th appliance: ")
         if A29N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A29N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A29N)
             if A29N:
                 A29M = st.number_input(
-                    f"How many {A29N} are you using?", value=0, step=1)
+                    f"Ilang {A29N} ang ginagamit mo?", value=0, step=1)
                 if A29M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A29M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A29M > 0:
                     A29W = st.number_input(
-                        f"What is the wattage of {A29N}?(watt)")
+                        f"Ano ang wattage ng{A29N}?(watt)")
                     if A29W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A29W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A29W > 0:
                         A29B = st.number_input(
-                            f"How many days in a month do you use {A29N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A29N}?(1-31)", value=0, step=1)
                         if 31 >= A29B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A29N + ".</span>", unsafe_allow_html=True)
                             col57, col58 = st.beta_columns(2)
                             A29D = col57.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A29D")
+                                f"Oras: (0-24)", value=0, step=1, key="A29D")
                             A29E = col58.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A29E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A29E")
                             if (((24 == A29D) and (A29E == 0)) and ((A29D > 0.1) or (A29E > 0.1))) or (((24 > A29D >= 0) and (59 >= A29E >= 0)) and ((A29D > 0.1) or (A29E > 0.1))):
                                 ask29 = st.number_input(
-                                    "Add 30th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 30th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 30th app
+    # Magdagdag ng 30th app
     if ask29 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 30th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 30th appliance.</span>", unsafe_allow_html=True)
         A30N = st.text_input("Name of 30th appliance: ")
         if A30N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A30N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A30N)
             if A30N:
                 A30M = st.number_input(
-                    f"How many {A30N} are you using?", value=0, step=1)
+                    f"Ilang {A30N} ang ginagamit mo?", value=0, step=1)
                 if A30M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A30M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A30M > 0:
                     A30W = st.number_input(
-                        f"What is the wattage of {A30N}?(watt)")
+                        f"Ano ang wattage ng{A30N}?(watt)")
                     if A30W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A30W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A30W > 0:
                         A30B = st.number_input(
-                            f"How many days in a month do you use {A30N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A30N}?(1-31)", value=0, step=1)
                         if 31 >= A30B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A30N + ".</span>", unsafe_allow_html=True)
                             col59, col60 = st.beta_columns(2)
                             A30D = col59.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A30D")
+                                f"Oras: (0-24)", value=0, step=1, key="A30D")
                             A30E = col60.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A30E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A30E")
                             if (((24 == A30D) and (A30E == 0)) and ((A30D > 0.1) or (A30E > 0.1))) or (((24 > A30D >= 0) and (59 >= A30E >= 0)) and ((A30D > 0.1) or (A30E > 0.1))):
                                 ask30 = st.number_input(
-                                    "Add 31st appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 31st appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
 
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 31st app
+    # Magdagdag ng 31st app
     if ask30 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 31st appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 31st appliance.</span>", unsafe_allow_html=True)
         A31N = st.text_input("Name of 31st appliance: ")
         if A31N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A31N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A31N)
             if A31N:
                 A31M = st.number_input(
-                    f"How many {A31N} are you using?", value=0, step=1)
+                    f"Ilang {A31N} ang ginagamit mo?", value=0, step=1)
                 if A31M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A31M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A31M > 0:
                     A31W = st.number_input(
-                        f"What is the wattage of {A31N}?(watt)")
+                        f"Ano ang wattage ng{A31N}?(watt)")
                     if A31W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A31W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A31W > 0:
                         A31B = st.number_input(
-                            f"How many days in a month do you use {A31N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A31N}?(1-31)", value=0, step=1)
                         if 31 >= A31B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A31N + ".</span>", unsafe_allow_html=True)
                             col61, col62 = st.beta_columns(2)
                             A31D = col61.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A31D")
+                                f"Oras: (0-24)", value=0, step=1, key="A31D")
                             A31E = col62.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A31E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A31E")
                             if (((24 == A31D) and (A31E == 0)) and ((A31D > 0.1) or (A31E > 0.1))) or (((24 > A31D >= 0) and (59 >= A31E >= 0)) and ((A31D > 0.1) or (A31E > 0.1))):
                                 ask31 = st.number_input(
-                                    "Add 32nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 32nd appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 32nd app
+    # Magdagdag ng 32nd app
     if ask31 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 32nd appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 32nd appliance.</span>", unsafe_allow_html=True)
         A32N = st.text_input("Name of 32nd appliance:")
         if A32N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A32N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A32N)
             if A32N:
                 A32M = st.number_input(
-                    f"How many {A32N} are you using?", value=0, step=1)
+                    f"Ilang {A32N} ang ginagamit mo?", value=0, step=1)
                 if A32M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A32M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A32M > 0:
                     A32W = st.number_input(
-                        f"What is the wattage of {A32N}?(watt)")
+                        f"Ano ang wattage ng{A32N}?(watt)")
                     if A32W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A32W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A32W > 0:
                         A32B = st.number_input(
-                            f"How many days in a month do you use {A32N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A32N}?(1-31)", value=0, step=1)
                         if 31 >= A32B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A32N + ".</span>", unsafe_allow_html=True)
                             col63, col64 = st.beta_columns(2)
                             A32D = col63.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A32D")
+                                f"Oras: (0-24)", value=0, step=1, key="A32D")
                             A32E = col64.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A32E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A32E")
                             if (((24 == A32D) and (A32E == 0)) and ((A32D > 0.1) or (A32E > 0.1))) or (((24 > A32D >= 0) and (59 >= A32E >= 0)) and ((A32D > 0.1) or (A32E > 0.1))):
                                 ask32 = st.number_input(
-                                    "Add 33rd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 33rd appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 33rd app
+    # Magdagdag ng 33rd app
 
     if ask32 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 33rd appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 33rd appliance.</span>", unsafe_allow_html=True)
         A33N = st.text_input("Name of 33rd appliance: ")
         if A33N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A33N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A33N)
             if A33N:
                 A33M = st.number_input(
-                    f"How many {A33N} are you using?", value=0, step=1)
+                    f"Ilang {A33N} ang ginagamit mo?", value=0, step=1)
                 if A33M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A33M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A33M > 0:
                     A33W = st.number_input(
-                        f"What is the wattage of {A33N}?(watt)")
+                        f"Ano ang wattage ng{A33N}?(watt)")
                     if A33W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A33W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A33W > 0:
                         A33B = st.number_input(
-                            f"How many days in a month do you use {A33N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A33N}?(1-31)", value=0, step=1)
                         if 31 >= A33B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A33N + ".</span>", unsafe_allow_html=True)
                             col65, col66 = st.beta_columns(2)
                             A33D = col65.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A33D")
+                                f"Oras: (0-24)", value=0, step=1, key="A33D")
                             A33E = col66.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A33E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A33E")
                             if (((24 == A33D) and (A33E == 0)) and ((A33D > 0.1) or (A33E > 0.1))) or (((24 > A33D >= 0) and (59 >= A33E >= 0)) and ((A33D > 0.1) or (A33E > 0.1))):
                                 ask33 = st.number_input(
-                                    "Add 34th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 34th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 34th app
+    # Magdagdag ng 34th app
     if ask33 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 34th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 34th appliance.</span>", unsafe_allow_html=True)
         A34N = st.text_input("Name of 34th appliance: ")
         if A34N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A34N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A34N)
             if A34N:
                 A34M = st.number_input(
-                    f"How many {A34N} are you using?", value=0, step=1)
+                    f"Ilang {A34N} ang ginagamit mo?", value=0, step=1)
                 if A34M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A34M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A34M > 0:
                     A34W = st.number_input(
-                        f"What is the wattage of {A34N}?(watt)")
+                        f"Ano ang wattage ng{A34N}?(watt)")
                     if A34W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A34W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A34W > 0:
                         A34B = st.number_input(
-                            f"How many days in a month do you use {A34N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A34N}?(1-31)", value=0, step=1)
                         if 31 >= A34B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A34N + ".</span>", unsafe_allow_html=True)
                             col67, col68 = st.beta_columns(2)
                             A34D = col67.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A34D")
+                                f"Oras: (0-24)", value=0, step=1, key="A34D")
                             A34E = col68.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A34E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A34E")
                             if (((24 == A34D) and (A34E == 0)) and ((A34D > 0.1) or (A34E > 0.1))) or (((24 > A34D >= 0) and (59 >= A34E >= 0)) and ((A34D > 0.1) or (A34E > 0.1))):
                                 ask34 = st.number_input(
-                                    "Add 35th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 35th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 35th app
+    # Magdagdag ng 35th app
     if ask34 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 35th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 35th appliance.</span>", unsafe_allow_html=True)
         A35N = st.text_input("Name of 35th appliance: ")
         if A35N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A35N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A35N)
             if A35N:
                 A35M = st.number_input(
-                    f"How many {A35N} are you using?", value=0, step=1)
+                    f"Ilang {A35N} ang ginagamit mo?", value=0, step=1)
                 if A35M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A35M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A35M > 0:
                     A35W = st.number_input(
-                        f"What is the wattage of {A35N}?(watt)")
+                        f"Ano ang wattage ng{A35N}?(watt)")
                     if A35W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A35W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A35W > 0:
                         A35B = st.number_input(
-                            f"How many days in a month do you use {A35N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A35N}?(1-31)", value=0, step=1)
                         if 31 >= A35B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A35N + ".</span>", unsafe_allow_html=True)
                             col69, col70 = st.beta_columns(2)
                             A35D = col69.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A35D")
+                                f"Oras: (0-24)", value=0, step=1, key="A35D")
                             A35E = col70.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A35E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A35E")
                             if (((24 == A35D) and (A35E == 0)) and ((A35D > 0.1) or (A35E > 0.1))) or (((24 > A35D >= 0) and (59 >= A35E >= 0)) and ((A35D > 0.1) or (A35E > 0.1))):
                                 ask35 = st.number_input(
-                                    "Add 36th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 36th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 36th app
+    # Magdagdag ng 36th app
     if ask35 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 36th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 36th appliance.</span>", unsafe_allow_html=True)
         A36N = st.text_input("Name of 36th appliance: ")
         if A36N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A36N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A36N)
             if A36N:
                 A36M = st.number_input(
-                    f"How many {A36N} are you using?", value=0, step=1)
+                    f"Ilang {A36N} ang ginagamit mo?", value=0, step=1)
                 if A36M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A36M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A36M > 0:
                     A36W = st.number_input(
-                        f"What is the wattage of {A36N}?(watt)")
+                        f"Ano ang wattage ng{A36N}?(watt)")
                     if A36W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A36W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A36W > 0:
                         A36B = st.number_input(
-                            f"How many days in a month do you use {A36N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A36N}?(1-31)", value=0, step=1)
                         if 31 >= A36B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A36N + ".</span>", unsafe_allow_html=True)
                             col71, col72 = st.beta_columns(2)
                             A36D = col71.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A36D")
+                                f"Oras: (0-24)", value=0, step=1, key="A36D")
                             A36E = col72.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A36E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A36E")
                             if (((24 == A36D) and (A36E == 0)) and ((A36D > 0.1) or (A36E > 0.1))) or (((24 > A36D >= 0) and (59 >= A36E >= 0)) and ((A36D > 0.1) or (A36E > 0.1))):
                                 ask36 = st.number_input(
-                                    "Add 37th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 37th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 37th app
+    # Magdagdag ng 37th app
     if ask36 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 37th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 37th appliance.</span>", unsafe_allow_html=True)
         A37N = st.text_input("Name of 37th appliance: ")
         if A37N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A37N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A37N)
             if A37N:
                 A37M = st.number_input(
-                    f"How many {A37N} are you using?", value=0, step=1)
+                    f"Ilang {A37N} ang ginagamit mo?", value=0, step=1)
                 if A37M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A37M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A37M > 0:
                     A37W = st.number_input(
-                        f"What is the wattage of {A37N}?(watt)")
+                        f"Ano ang wattage ng{A37N}?(watt)")
                     if A37W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A37W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A37W > 0:
                         A37B = st.number_input(
-                            f"How many days in a month do you use {A37N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A37N}?(1-31)", value=0, step=1)
                         if 31 >= A37B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A37N + ".</span>", unsafe_allow_html=True)
                             col73, col74 = st.beta_columns(2)
                             A37D = col73.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A37D")
+                                f"Oras: (0-24)", value=0, step=1, key="A37D")
                             A37E = col74.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A37E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A37E")
                             if (((24 == A37D) and (A37E == 0)) and ((A37D > 0.1) or (A37E > 0.1))) or (((24 > A37D >= 0) and (59 >= A37E >= 0)) and ((A37D > 0.1) or (A37E > 0.1))):
                                 ask37 = st.number_input(
-                                    "Add 38th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 38th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
         # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 38th app
+    # Magdagdag ng 38th app
     if ask37 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 38th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 38th appliance.</span>", unsafe_allow_html=True)
         A38N = st.text_input("Name of 38th appliance: ")
         if A38N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A38N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A38N)
             if A38N:
                 A38M = st.number_input(
-                    f"How many {A38N} are you using?", value=0, step=1)
+                    f"Ilang {A38N} ang ginagamit mo?", value=0, step=1)
                 if A38M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A38M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A38M > 0:
                     A38W = st.number_input(
-                        f"What is the wattage of {A38N}?(watt)")
+                        f"Ano ang wattage ng{A38N}?(watt)")
                     if A38W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A38W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A38W > 0:
                         A38B = st.number_input(
-                            f"How many days in a month do you use {A38N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A38N}?(1-31)", value=0, step=1)
                         if 31 >= A38B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A38N + ".</span>", unsafe_allow_html=True)
                             col75, col76 = st.beta_columns(2)
                             A38D = col75.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A38D")
+                                f"Oras: (0-24)", value=0, step=1, key="A38D")
                             A38E = col76.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A38E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A38E")
                             if (((24 == A38D) and (A38E == 0)) and ((A38D > 0.1) or (A38E > 0.1))) or (((24 > A38D >= 0) and (59 >= A38E >= 0)) and ((A38D > 0.1) or (A38E > 0.1))):
                                 ask38 = st.number_input(
-                                    "Add 39th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 39th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 39th app
+    # Magdagdag ng 39th app
     if ask38 == 1:
         st.write("***")
         st.write(
-            "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 39th appliance.</span>", unsafe_allow_html=True)
+            "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 39th appliance.</span>", unsafe_allow_html=True)
         A39N = st.text_input("Name of 39th appliance: ")
         if A39N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A39N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A39N)
             if A39N:
-                A39M = st.number_input(
-                    f"How many {A39N} are you using?", value=0, step=1)
+                A39M = st.number_input(f"Ilang {A39N} ang ginagamit mo?", value=0, step=1)
                 if A39M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A39M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A39M > 0:
                     A39W = st.number_input(
-                        f"What is the wattage of {A39N}?(watt)")
+                        f"Ano ang wattage ng{A39N}?(watt)")
                     if A9W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A39W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A39W > 0:
                         A39B = st.number_input(
-                            f"How many days in a month do you use {A39N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A39N}?(1-31)", value=0, step=1)
                         if 31 >= A39B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A39N + ".</span>", unsafe_allow_html=True)
                             col77, col78 = st.beta_columns(2)
                             A39D = col77.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A39D")
+                                f"Oras: (0-24)", value=0, step=1, key="A39D")
                             A39E = col78.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A39E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A39E")
                             if (((24 == A39D) and (A39E == 0)) and ((A39D > 0.1) or (A39E > 0.1))) or (((24 > A39D >= 0) and (59 >= A39E >= 0)) and ((A39D > 0.1) or (A39E > 0.1))):
                                 ask39 = st.number_input(
-                                    "Add 40th appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
+                                    "Magdagdag ng 40th appliance (enter 1), Wala ng appliances (enter 2): ", value=0, step=1)
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    # add 40th app
+    # Magdagdag ng 40th app
     if ask39 == 1:
         st.write("***")
-        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Information about the 40th appliance.</span>", unsafe_allow_html=True)
+        st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 40th appliance.</span>", unsafe_allow_html=True)
         A40N = st.text_input("Name of 40th appliance: ")
         if A40N in Appliances:
-            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Please kindly use an alternative name for the appliance, other than " +
+            st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A40N + ".</span>", unsafe_allow_html=True)
         else:
             Appliances.append(A40N)
             if A40N:
-                A40M = st.number_input(
-                    f"How many {A40N} are you using?", value=0, step=1)
+                A40M = st.number_input (f"Ilang {A40N} ang ginagamit mo?", value=0, step=1)
                 if A40M == 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the quantity value. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago ka magpatuloy sa susunod na hakbang, mangyaring magtype ng halaga ng dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A40M < 0:
-                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for quantity. Thank you.</span>", unsafe_allow_html=True)
+                    st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A40M > 0:
                     A40W = st.number_input(
-                        f"What is the wattage of {A40N}?(watt)")
+                        f"Ano ang wattage ng{A40N}?(watt)")
                     if A40W == 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Before you proceed to the next step, please type the wattage value. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A40W < 0:
-                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>To proceed, please enter a non-negative value for wattage. Thank you.</span>", unsafe_allow_html=True)
+                        st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Upang magpatuloy, mangyaring maglagay ng hindi-negatibong halaga para sa wattage. Salamat..</span>", unsafe_allow_html=True)
                     if A40W > 0:
                         A40B = st.number_input(
-                            f"How many days in a month do you use {A40N}?(1-31)", value=0, step=1)
+                            f"Ilang araw sa isang buwan ang ginagamit mo ang {A40N}?(1-31)", value=0, step=1)
                         if 31 >= A40B >= 1:
-                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
+                            st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Ilagay ang tagal ng oras na gagamitin mo ang " +
                                      A40N + ".</span>", unsafe_allow_html=True)
                             col79, col80 = st.beta_columns(2)
                             A40D = col79.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A40D")
+                                f"Oras: (0-24)", value=0, step=1, key="A40D")
                             A40E = col80.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A40E")
+                                f"Minuto: (0-59)", value=0, step=1, key="A40E")
                             if (((24 == A40D) and (A40E == 0)) and ((A40D > 0.1) or (A40E > 0.1))) or (((24 > A40D >= 0) and (59 >= A40E >= 0)) and ((A40D > 0.1) or (A40E > 0.1))):
                                 ask40 = 2
 
