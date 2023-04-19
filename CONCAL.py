@@ -13245,10 +13245,10 @@ else:
         Y40 = (A40*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15, Y16, Y17, Y18, Y19, Y20, Y21,
                 Y22, Y23, Y24, Y24, Y25, Y26, Y27, Y28, Y29, Y30, Y31, Y32, Y33, Y34, Y35, Y36, Y37, Y38, Y39, Y40]
         max_app = apps[0]
@@ -13257,208 +13257,208 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
         if max_app == Y23:
             st.write("***")
-            st.write("Name of appliance  :", A23N)
+            st.write("Pangalan ng appliance  :", A23N)
             st.write("Electricity bill   : PHP", A23con)
             st.write("Energy consumption :", Y23, "kWh")
         if max_app == Y24:
             st.write("***")
-            st.write("Name of appliance  :", A24N)
+            st.write("Pangalan ng appliance  :", A24N)
             st.write("Electricity bill   : PHP", A24con)
             st.write("Energy consumption :", Y24, "kWh")
         if max_app == Y25:
             st.write("***")
-            st.write("Name of appliance  :", A25N)
+            st.write("Pangalan ng appliance  :", A25N)
             st.write("Electricity bill   : PHP", A25con)
             st.write("Energy consumption :", Y25, "kWh")
         if max_app == Y26:
             st.write("***")
-            st.write("Name of appliance  :", A26N)
+            st.write("Pangalan ng appliance  :", A26N)
             st.write("Electricity bill   : PHP", A26con)
             st.write("Energy consumption :", Y26, "kWh")
         if max_app == Y27:
             st.write("***")
-            st.write("Name of appliance  :", A27N)
+            st.write("Pangalan ng appliance  :", A27N)
             st.write("Electricity bill   : PHP", A27con)
             st.write("Energy consumption :", Y27, "kWh")
         if max_app == Y28:
             st.write("***")
-            st.write("Name of appliance  :", A28N)
+            st.write("Pangalan ng appliance  :", A28N)
             st.write("Electricity bill   : PHP", A28con)
             st.write("Energy consumption :", Y28, "kWh")
         if max_app == Y29:
             st.write("***")
-            st.write("Name of appliance  :", A29N)
+            st.write("Pangalan ng appliance  :", A29N)
             st.write("Electricity bill   : PHP", A29con)
             st.write("Energy consumption :", Y29, "kWh")
         if max_app == Y30:
             st.write("***")
-            st.write("Name of appliance  :", A30N)
+            st.write("Pangalan ng appliance  :", A30N)
             st.write("Electricity bill   : PHP", A30con)
             st.write("Energy consumption :", Y30, "kWh")
         if max_app == Y31:
             st.write("***")
-            st.write("Name of appliance  :", A31N)
+            st.write("Pangalan ng appliance  :", A31N)
             st.write("Electricity bill   : PHP", A31con)
             st.write("Energy consumption :", Y31, "kWh")
         if max_app == Y32:
             st.write("***")
-            st.write("Name of appliance  :", A32N)
+            st.write("Pangalan ng appliance  :", A32N)
             st.write("Electricity bill   : PHP", A32con)
             st.write("Energy consumption :", Y32, "kWh")
         if max_app == Y33:
             st.write("***")
-            st.write("Name of appliance  :", A33N)
+            st.write("Pangalan ng appliance  :", A33N)
             st.write("Electricity bill   : PHP", A33con)
             st.write("Energy consumption :", Y33, "kWh")
         if max_app == Y34:
             st.write("***")
-            st.write("Name of appliance  :", A34N)
+            st.write("Pangalan ng appliance  :", A34N)
             st.write("Electricity bill   : PHP", A34con)
             st.write("Energy consumption :", Y34, "kWh")
         if max_app == Y35:
             st.write("***")
-            st.write("Name of appliance  :", A35N)
+            st.write("Pangalan ng appliance  :", A35N)
             st.write("Electricity bill   : PHP", A35con)
             st.write("Energy consumption :", Y35, "kWh")
         if max_app == Y36:
             st.write("***")
-            st.write("Name of appliance  :", A36N)
+            st.write("Pangalan ng appliance  :", A36N)
             st.write("Electricity bill   : PHP", A36con)
             st.write("Energy consumption :", Y36, "kWh")
         if max_app == Y37:
             st.write("***")
-            st.write("Name of appliance  :", A37N)
+            st.write("Pangalan ng appliance  :", A37N)
             st.write("Electricity bill   : PHP", A37con)
             st.write("Energy consumption :", Y37, "kWh")
         if max_app == Y38:
             st.write("***")
-            st.write("Name of appliance  :", A38N)
+            st.write("Pangalan ng appliance  :", A38N)
             st.write("Electricity bill   : PHP", A38con)
             st.write("Energy consumption :", Y38, "kWh")
         if max_app == Y39:
             st.write("***")
-            st.write("Name of appliance  :", A39N)
+            st.write("Pangalan ng appliance  :", A39N)
             st.write("Electricity bill   : PHP", A39con)
             st.write("Energy consumption :", Y39, "kWh")
         if max_app == Y40:
             st.write("***")
-            st.write("Name of appliance  :", A40N)
+            st.write("Pangalan ng appliance  :", A40N)
             st.write("Electricity bill   : PHP", A40con)
             st.write("Energy consumption :", Y40, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -13500,7 +13500,7 @@ else:
         st.write(A39N, ": PHP", A39con)
         st.write(A40N, ": PHP", A40con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total40)
         st.write("Energy consumption:", Kh40, "kWh")
 
@@ -13682,10 +13682,10 @@ else:
         Y39 = (A39*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15, Y16, Y17, Y18, Y19, Y20, Y21,
                 Y22, Y23, Y24, Y24, Y25, Y26, Y27, Y28, Y29, Y30, Y31, Y32, Y33, Y34, Y35, Y36, Y37, Y38, Y39]
         max_app = apps[0]
@@ -13694,203 +13694,203 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
         if max_app == Y23:
             st.write("***")
-            st.write("Name of appliance  :", A23N)
+            st.write("Pangalan ng appliance  :", A23N)
             st.write("Electricity bill   : PHP", A23con)
             st.write("Energy consumption :", Y23, "kWh")
         if max_app == Y24:
             st.write("***")
-            st.write("Name of appliance  :", A24N)
+            st.write("Pangalan ng appliance  :", A24N)
             st.write("Electricity bill   : PHP", A24con)
             st.write("Energy consumption :", Y24, "kWh")
         if max_app == Y25:
             st.write("***")
-            st.write("Name of appliance  :", A25N)
+            st.write("Pangalan ng appliance  :", A25N)
             st.write("Electricity bill   : PHP", A25con)
             st.write("Energy consumption :", Y25, "kWh")
         if max_app == Y26:
             st.write("***")
-            st.write("Name of appliance  :", A26N)
+            st.write("Pangalan ng appliance  :", A26N)
             st.write("Electricity bill   : PHP", A26con)
             st.write("Energy consumption :", Y26, "kWh")
         if max_app == Y27:
             st.write("***")
-            st.write("Name of appliance  :", A27N)
+            st.write("Pangalan ng appliance  :", A27N)
             st.write("Electricity bill   : PHP", A27con)
             st.write("Energy consumption :", Y27, "kWh")
         if max_app == Y28:
             st.write("***")
-            st.write("Name of appliance  :", A28N)
+            st.write("Pangalan ng appliance  :", A28N)
             st.write("Electricity bill   : PHP", A28con)
             st.write("Energy consumption :", Y28, "kWh")
         if max_app == Y29:
             st.write("***")
-            st.write("Name of appliance  :", A29N)
+            st.write("Pangalan ng appliance  :", A29N)
             st.write("Electricity bill   : PHP", A29con)
             st.write("Energy consumption :", Y29, "kWh")
         if max_app == Y30:
             st.write("***")
-            st.write("Name of appliance  :", A30N)
+            st.write("Pangalan ng appliance  :", A30N)
             st.write("Electricity bill   : PHP", A30con)
             st.write("Energy consumption :", Y30, "kWh")
         if max_app == Y31:
             st.write("***")
-            st.write("Name of appliance  :", A31N)
+            st.write("Pangalan ng appliance  :", A31N)
             st.write("Electricity bill   : PHP", A31con)
             st.write("Energy consumption :", Y31, "kWh")
         if max_app == Y32:
             st.write("***")
-            st.write("Name of appliance  :", A32N)
+            st.write("Pangalan ng appliance  :", A32N)
             st.write("Electricity bill   : PHP", A32con)
             st.write("Energy consumption :", Y32, "kWh")
         if max_app == Y33:
             st.write("***")
-            st.write("Name of appliance  :", A33N)
+            st.write("Pangalan ng appliance  :", A33N)
             st.write("Electricity bill   : PHP", A33con)
             st.write("Energy consumption :", Y33, "kWh")
         if max_app == Y34:
             st.write("***")
-            st.write("Name of appliance  :", A34N)
+            st.write("Pangalan ng appliance  :", A34N)
             st.write("Electricity bill   : PHP", A34con)
             st.write("Energy consumption :", Y34, "kWh")
         if max_app == Y35:
             st.write("***")
-            st.write("Name of appliance  :", A35N)
+            st.write("Pangalan ng appliance  :", A35N)
             st.write("Electricity bill   : PHP", A35con)
             st.write("Energy consumption :", Y35, "kWh")
         if max_app == Y36:
             st.write("***")
-            st.write("Name of appliance  :", A36N)
+            st.write("Pangalan ng appliance  :", A36N)
             st.write("Electricity bill   : PHP", A36con)
             st.write("Energy consumption :", Y36, "kWh")
         if max_app == Y37:
             st.write("***")
-            st.write("Name of appliance  :", A37N)
+            st.write("Pangalan ng appliance  :", A37N)
             st.write("Electricity bill   : PHP", A37con)
             st.write("Energy consumption :", Y37, "kWh")
         if max_app == Y38:
             st.write("***")
-            st.write("Name of appliance  :", A38N)
+            st.write("Pangalan ng appliance  :", A38N)
             st.write("Electricity bill   : PHP", A38con)
             st.write("Energy consumption :", Y38, "kWh")
         if max_app == Y39:
             st.write("***")
-            st.write("Name of appliance  :", A39N)
+            st.write("Pangalan ng appliance  :", A39N)
             st.write("Electricity bill   : PHP", A39con)
             st.write("Energy consumption :", Y39, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -13931,7 +13931,7 @@ else:
         st.write(A38N, ": PHP", A38con)
         st.write(A39N, ": PHP", A39con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total39)
         st.write("Energy consumption:", Kh39, "kWh")
 
@@ -14109,10 +14109,10 @@ else:
         Y38 = (A38*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15, Y16, Y17, Y18, Y19, Y20, Y21,
                 Y22, Y23, Y24, Y24, Y25, Y26, Y27, Y28, Y29, Y30, Y31, Y32, Y33, Y34, Y35, Y36, Y37, Y38]
         max_app = apps[0]
@@ -14121,198 +14121,198 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
         if max_app == Y23:
             st.write("***")
-            st.write("Name of appliance  :", A23N)
+            st.write("Pangalan ng appliance  :", A23N)
             st.write("Electricity bill   : PHP", A23con)
             st.write("Energy consumption :", Y23, "kWh")
         if max_app == Y24:
             st.write("***")
-            st.write("Name of appliance  :", A24N)
+            st.write("Pangalan ng appliance  :", A24N)
             st.write("Electricity bill   : PHP", A24con)
             st.write("Energy consumption :", Y24, "kWh")
         if max_app == Y25:
             st.write("***")
-            st.write("Name of appliance  :", A25N)
+            st.write("Pangalan ng appliance  :", A25N)
             st.write("Electricity bill   : PHP", A25con)
             st.write("Energy consumption :", Y25, "kWh")
         if max_app == Y26:
             st.write("***")
-            st.write("Name of appliance  :", A26N)
+            st.write("Pangalan ng appliance  :", A26N)
             st.write("Electricity bill   : PHP", A26con)
             st.write("Energy consumption :", Y26, "kWh")
         if max_app == Y27:
             st.write("***")
-            st.write("Name of appliance  :", A27N)
+            st.write("Pangalan ng appliance  :", A27N)
             st.write("Electricity bill   : PHP", A27con)
             st.write("Energy consumption :", Y27, "kWh")
         if max_app == Y28:
             st.write("***")
-            st.write("Name of appliance  :", A28N)
+            st.write("Pangalan ng appliance  :", A28N)
             st.write("Electricity bill   : PHP", A28con)
             st.write("Energy consumption :", Y28, "kWh")
         if max_app == Y29:
             st.write("***")
-            st.write("Name of appliance  :", A29N)
+            st.write("Pangalan ng appliance  :", A29N)
             st.write("Electricity bill   : PHP", A29con)
             st.write("Energy consumption :", Y29, "kWh")
         if max_app == Y30:
             st.write("***")
-            st.write("Name of appliance  :", A30N)
+            st.write("Pangalan ng appliance  :", A30N)
             st.write("Electricity bill   : PHP", A30con)
             st.write("Energy consumption :", Y30, "kWh")
         if max_app == Y31:
             st.write("***")
-            st.write("Name of appliance  :", A31N)
+            st.write("Pangalan ng appliance  :", A31N)
             st.write("Electricity bill   : PHP", A31con)
             st.write("Energy consumption :", Y31, "kWh")
         if max_app == Y32:
             st.write("***")
-            st.write("Name of appliance  :", A32N)
+            st.write("Pangalan ng appliance  :", A32N)
             st.write("Electricity bill   : PHP", A32con)
             st.write("Energy consumption :", Y32, "kWh")
         if max_app == Y33:
             st.write("***")
-            st.write("Name of appliance  :", A33N)
+            st.write("Pangalan ng appliance  :", A33N)
             st.write("Electricity bill   : PHP", A33con)
             st.write("Energy consumption :", Y33, "kWh")
         if max_app == Y34:
             st.write("***")
-            st.write("Name of appliance  :", A34N)
+            st.write("Pangalan ng appliance  :", A34N)
             st.write("Electricity bill   : PHP", A34con)
             st.write("Energy consumption :", Y34, "kWh")
         if max_app == Y35:
             st.write("***")
-            st.write("Name of appliance  :", A35N)
+            st.write("Pangalan ng appliance  :", A35N)
             st.write("Electricity bill   : PHP", A35con)
             st.write("Energy consumption :", Y35, "kWh")
         if max_app == Y36:
             st.write("***")
-            st.write("Name of appliance  :", A36N)
+            st.write("Pangalan ng appliance  :", A36N)
             st.write("Electricity bill   : PHP", A36con)
             st.write("Energy consumption :", Y36, "kWh")
         if max_app == Y37:
             st.write("***")
-            st.write("Name of appliance  :", A37N)
+            st.write("Pangalan ng appliance  :", A37N)
             st.write("Electricity bill   : PHP", A37con)
             st.write("Energy consumption :", Y37, "kWh")
         if max_app == Y38:
             st.write("***")
-            st.write("Name of appliance  :", A38N)
+            st.write("Pangalan ng appliance  :", A38N)
             st.write("Electricity bill   : PHP", A38con)
             st.write("Energy consumption :", Y38, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -14352,7 +14352,7 @@ else:
         st.write(A37N, ": PHP", A37con)
         st.write(A38N, ": PHP", A38con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total38)
         st.write("Energy consumption:", Kh38, "kWh")
 
@@ -14526,10 +14526,10 @@ else:
         Y37 = (A37*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15, Y16, Y17, Y18, Y19, Y20, Y21,
                 Y22, Y23, Y24, Y24, Y25, Y26, Y27, Y28, Y29, Y30, Y31, Y32, Y33, Y34, Y35, Y36, Y37]
         max_app = apps[0]
@@ -14538,193 +14538,193 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
         if max_app == Y23:
             st.write("***")
-            st.write("Name of appliance  :", A23N)
+            st.write("Pangalan ng appliance  :", A23N)
             st.write("Electricity bill   : PHP", A23con)
             st.write("Energy consumption :", Y23, "kWh")
         if max_app == Y24:
             st.write("***")
-            st.write("Name of appliance  :", A24N)
+            st.write("Pangalan ng appliance  :", A24N)
             st.write("Electricity bill   : PHP", A24con)
             st.write("Energy consumption :", Y24, "kWh")
         if max_app == Y25:
             st.write("***")
-            st.write("Name of appliance  :", A25N)
+            st.write("Pangalan ng appliance  :", A25N)
             st.write("Electricity bill   : PHP", A25con)
             st.write("Energy consumption :", Y25, "kWh")
         if max_app == Y26:
             st.write("***")
-            st.write("Name of appliance  :", A26N)
+            st.write("Pangalan ng appliance  :", A26N)
             st.write("Electricity bill   : PHP", A26con)
             st.write("Energy consumption :", Y26, "kWh")
         if max_app == Y27:
             st.write("***")
-            st.write("Name of appliance  :", A27N)
+            st.write("Pangalan ng appliance  :", A27N)
             st.write("Electricity bill   : PHP", A27con)
             st.write("Energy consumption :", Y27, "kWh")
         if max_app == Y28:
             st.write("***")
-            st.write("Name of appliance  :", A28N)
+            st.write("Pangalan ng appliance  :", A28N)
             st.write("Electricity bill   : PHP", A28con)
             st.write("Energy consumption :", Y28, "kWh")
         if max_app == Y29:
             st.write("***")
-            st.write("Name of appliance  :", A29N)
+            st.write("Pangalan ng appliance  :", A29N)
             st.write("Electricity bill   : PHP", A29con)
             st.write("Energy consumption :", Y29, "kWh")
         if max_app == Y30:
             st.write("***")
-            st.write("Name of appliance  :", A30N)
+            st.write("Pangalan ng appliance  :", A30N)
             st.write("Electricity bill   : PHP", A30con)
             st.write("Energy consumption :", Y30, "kWh")
         if max_app == Y31:
             st.write("***")
-            st.write("Name of appliance  :", A31N)
+            st.write("Pangalan ng appliance  :", A31N)
             st.write("Electricity bill   : PHP", A31con)
             st.write("Energy consumption :", Y31, "kWh")
         if max_app == Y32:
             st.write("***")
-            st.write("Name of appliance  :", A32N)
+            st.write("Pangalan ng appliance  :", A32N)
             st.write("Electricity bill   : PHP", A32con)
             st.write("Energy consumption :", Y32, "kWh")
         if max_app == Y33:
             st.write("***")
-            st.write("Name of appliance  :", A33N)
+            st.write("Pangalan ng appliance  :", A33N)
             st.write("Electricity bill   : PHP", A33con)
             st.write("Energy consumption :", Y33, "kWh")
         if max_app == Y34:
             st.write("***")
-            st.write("Name of appliance  :", A34N)
+            st.write("Pangalan ng appliance  :", A34N)
             st.write("Electricity bill   : PHP", A34con)
             st.write("Energy consumption :", Y34, "kWh")
         if max_app == Y35:
             st.write("***")
-            st.write("Name of appliance  :", A35N)
+            st.write("Pangalan ng appliance  :", A35N)
             st.write("Electricity bill   : PHP", A35con)
             st.write("Energy consumption :", Y35, "kWh")
         if max_app == Y36:
             st.write("***")
-            st.write("Name of appliance  :", A36N)
+            st.write("Pangalan ng appliance  :", A36N)
             st.write("Electricity bill   : PHP", A36con)
             st.write("Energy consumption :", Y36, "kWh")
         if max_app == Y37:
             st.write("***")
-            st.write("Name of appliance  :", A37N)
+            st.write("Pangalan ng appliance  :", A37N)
             st.write("Electricity bill   : PHP", A37con)
             st.write("Energy consumption :", Y37, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -14763,7 +14763,7 @@ else:
         st.write(A36N, ": PHP", A36con)
         st.write(A37N, ": PHP", A37con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total37)
         st.write("Energy consumption:", Kh37, "kWh")
 
@@ -14933,10 +14933,10 @@ else:
         Y36 = (A36*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15, Y16, Y17, Y18, Y19, Y20, Y21,
                 Y22, Y23, Y24, Y24, Y25, Y26, Y27, Y28, Y29, Y30, Y31, Y32, Y33, Y34, Y35, Y36]
         max_app = apps[0]
@@ -14945,188 +14945,188 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
         if max_app == Y23:
             st.write("***")
-            st.write("Name of appliance  :", A23N)
+            st.write("Pangalan ng appliance  :", A23N)
             st.write("Electricity bill   : PHP", A23con)
             st.write("Energy consumption :", Y23, "kWh")
         if max_app == Y24:
             st.write("***")
-            st.write("Name of appliance  :", A24N)
+            st.write("Pangalan ng appliance  :", A24N)
             st.write("Electricity bill   : PHP", A24con)
             st.write("Energy consumption :", Y24, "kWh")
         if max_app == Y25:
             st.write("***")
-            st.write("Name of appliance  :", A25N)
+            st.write("Pangalan ng appliance  :", A25N)
             st.write("Electricity bill   : PHP", A25con)
             st.write("Energy consumption :", Y25, "kWh")
         if max_app == Y26:
             st.write("***")
-            st.write("Name of appliance  :", A26N)
+            st.write("Pangalan ng appliance  :", A26N)
             st.write("Electricity bill   : PHP", A26con)
             st.write("Energy consumption :", Y26, "kWh")
         if max_app == Y27:
             st.write("***")
-            st.write("Name of appliance  :", A27N)
+            st.write("Pangalan ng appliance  :", A27N)
             st.write("Electricity bill   : PHP", A27con)
             st.write("Energy consumption :", Y27, "kWh")
         if max_app == Y28:
             st.write("***")
-            st.write("Name of appliance  :", A28N)
+            st.write("Pangalan ng appliance  :", A28N)
             st.write("Electricity bill   : PHP", A28con)
             st.write("Energy consumption :", Y28, "kWh")
         if max_app == Y29:
             st.write("***")
-            st.write("Name of appliance  :", A29N)
+            st.write("Pangalan ng appliance  :", A29N)
             st.write("Electricity bill   : PHP", A29con)
             st.write("Energy consumption :", Y29, "kWh")
         if max_app == Y30:
             st.write("***")
-            st.write("Name of appliance  :", A30N)
+            st.write("Pangalan ng appliance  :", A30N)
             st.write("Electricity bill   : PHP", A30con)
             st.write("Energy consumption :", Y30, "kWh")
         if max_app == Y31:
             st.write("***")
-            st.write("Name of appliance  :", A31N)
+            st.write("Pangalan ng appliance  :", A31N)
             st.write("Electricity bill   : PHP", A31con)
             st.write("Energy consumption :", Y31, "kWh")
         if max_app == Y32:
             st.write("***")
-            st.write("Name of appliance  :", A32N)
+            st.write("Pangalan ng appliance  :", A32N)
             st.write("Electricity bill   : PHP", A32con)
             st.write("Energy consumption :", Y32, "kWh")
         if max_app == Y33:
             st.write("***")
-            st.write("Name of appliance  :", A33N)
+            st.write("Pangalan ng appliance  :", A33N)
             st.write("Electricity bill   : PHP", A33con)
             st.write("Energy consumption :", Y33, "kWh")
         if max_app == Y34:
             st.write("***")
-            st.write("Name of appliance  :", A34N)
+            st.write("Pangalan ng appliance  :", A34N)
             st.write("Electricity bill   : PHP", A34con)
             st.write("Energy consumption :", Y34, "kWh")
         if max_app == Y35:
             st.write("***")
-            st.write("Name of appliance  :", A35N)
+            st.write("Pangalan ng appliance  :", A35N)
             st.write("Electricity bill   : PHP", A35con)
             st.write("Energy consumption :", Y35, "kWh")
         if max_app == Y36:
             st.write("***")
-            st.write("Name of appliance  :", A36N)
+            st.write("Pangalan ng appliance  :", A36N)
             st.write("Electricity bill   : PHP", A36con)
             st.write("Energy consumption :", Y36, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -15164,7 +15164,7 @@ else:
         st.write(A35N, ": PHP", A35con)
         st.write(A36N, ": PHP", A36con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total36)
         st.write("Energy consumption:", Kh36, "kWh")
 
@@ -15330,10 +15330,10 @@ else:
         Y35 = (A35*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15, Y16, Y17, Y18, Y19, Y20, Y21,
                 Y22, Y23, Y24, Y24, Y25, Y26, Y27, Y28, Y29, Y30, Y31, Y32, Y33, Y34, Y35]
         max_app = apps[0]
@@ -15342,183 +15342,183 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
         if max_app == Y23:
             st.write("***")
-            st.write("Name of appliance  :", A23N)
+            st.write("Pangalan ng appliance  :", A23N)
             st.write("Electricity bill   : PHP", A23con)
             st.write("Energy consumption :", Y23, "kWh")
         if max_app == Y24:
             st.write("***")
-            st.write("Name of appliance  :", A24N)
+            st.write("Pangalan ng appliance  :", A24N)
             st.write("Electricity bill   : PHP", A24con)
             st.write("Energy consumption :", Y24, "kWh")
         if max_app == Y25:
             st.write("***")
-            st.write("Name of appliance  :", A25N)
+            st.write("Pangalan ng appliance  :", A25N)
             st.write("Electricity bill   : PHP", A25con)
             st.write("Energy consumption :", Y25, "kWh")
         if max_app == Y26:
             st.write("***")
-            st.write("Name of appliance  :", A26N)
+            st.write("Pangalan ng appliance  :", A26N)
             st.write("Electricity bill   : PHP", A26con)
             st.write("Energy consumption :", Y26, "kWh")
         if max_app == Y27:
             st.write("***")
-            st.write("Name of appliance  :", A27N)
+            st.write("Pangalan ng appliance  :", A27N)
             st.write("Electricity bill   : PHP", A27con)
             st.write("Energy consumption :", Y27, "kWh")
         if max_app == Y28:
             st.write("***")
-            st.write("Name of appliance  :", A28N)
+            st.write("Pangalan ng appliance  :", A28N)
             st.write("Electricity bill   : PHP", A28con)
             st.write("Energy consumption :", Y28, "kWh")
         if max_app == Y29:
             st.write("***")
-            st.write("Name of appliance  :", A29N)
+            st.write("Pangalan ng appliance  :", A29N)
             st.write("Electricity bill   : PHP", A29con)
             st.write("Energy consumption :", Y29, "kWh")
         if max_app == Y30:
             st.write("***")
-            st.write("Name of appliance  :", A30N)
+            st.write("Pangalan ng appliance  :", A30N)
             st.write("Electricity bill   : PHP", A30con)
             st.write("Energy consumption :", Y30, "kWh")
         if max_app == Y31:
             st.write("***")
-            st.write("Name of appliance  :", A31N)
+            st.write("Pangalan ng appliance  :", A31N)
             st.write("Electricity bill   : PHP", A31con)
             st.write("Energy consumption :", Y31, "kWh")
         if max_app == Y32:
             st.write("***")
-            st.write("Name of appliance  :", A32N)
+            st.write("Pangalan ng appliance  :", A32N)
             st.write("Electricity bill   : PHP", A32con)
             st.write("Energy consumption :", Y32, "kWh")
         if max_app == Y33:
             st.write("***")
-            st.write("Name of appliance  :", A33N)
+            st.write("Pangalan ng appliance  :", A33N)
             st.write("Electricity bill   : PHP", A33con)
             st.write("Energy consumption :", Y33, "kWh")
         if max_app == Y34:
             st.write("***")
-            st.write("Name of appliance  :", A34N)
+            st.write("Pangalan ng appliance  :", A34N)
             st.write("Electricity bill   : PHP", A34con)
             st.write("Energy consumption :", Y34, "kWh")
         if max_app == Y35:
             st.write("***")
-            st.write("Name of appliance  :", A35N)
+            st.write("Pangalan ng appliance  :", A35N)
             st.write("Electricity bill   : PHP", A35con)
             st.write("Energy consumption :", Y35, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -15555,7 +15555,7 @@ else:
         st.write(A34N, ": PHP", A34con)
         st.write(A35N, ": PHP", A35con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total35)
         st.write("Energy consumption:", Kh35, "kWh")
 
@@ -15717,10 +15717,10 @@ else:
         Y34 = (A34*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15, Y16, Y17, Y18, Y19, Y20, Y21,
                 Y22, Y23, Y24, Y24, Y25, Y26, Y27, Y28, Y29, Y30, Y31, Y32, Y33, Y34]
         max_app = apps[0]
@@ -15729,178 +15729,178 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
         if max_app == Y23:
             st.write("***")
-            st.write("Name of appliance  :", A23N)
+            st.write("Pangalan ng appliance  :", A23N)
             st.write("Electricity bill   : PHP", A23con)
             st.write("Energy consumption :", Y23, "kWh")
         if max_app == Y24:
             st.write("***")
-            st.write("Name of appliance  :", A24N)
+            st.write("Pangalan ng appliance  :", A24N)
             st.write("Electricity bill   : PHP", A24con)
             st.write("Energy consumption :", Y24, "kWh")
         if max_app == Y25:
             st.write("***")
-            st.write("Name of appliance  :", A25N)
+            st.write("Pangalan ng appliance  :", A25N)
             st.write("Electricity bill   : PHP", A25con)
             st.write("Energy consumption :", Y25, "kWh")
         if max_app == Y26:
             st.write("***")
-            st.write("Name of appliance  :", A26N)
+            st.write("Pangalan ng appliance  :", A26N)
             st.write("Electricity bill   : PHP", A26con)
             st.write("Energy consumption :", Y26, "kWh")
         if max_app == Y27:
             st.write("***")
-            st.write("Name of appliance  :", A27N)
+            st.write("Pangalan ng appliance  :", A27N)
             st.write("Electricity bill   : PHP", A27con)
             st.write("Energy consumption :", Y27, "kWh")
         if max_app == Y28:
             st.write("***")
-            st.write("Name of appliance  :", A28N)
+            st.write("Pangalan ng appliance  :", A28N)
             st.write("Electricity bill   : PHP", A28con)
             st.write("Energy consumption :", Y28, "kWh")
         if max_app == Y29:
             st.write("***")
-            st.write("Name of appliance  :", A29N)
+            st.write("Pangalan ng appliance  :", A29N)
             st.write("Electricity bill   : PHP", A29con)
             st.write("Energy consumption :", Y29, "kWh")
         if max_app == Y30:
             st.write("***")
-            st.write("Name of appliance  :", A30N)
+            st.write("Pangalan ng appliance  :", A30N)
             st.write("Electricity bill   : PHP", A30con)
             st.write("Energy consumption :", Y30, "kWh")
         if max_app == Y31:
             st.write("***")
-            st.write("Name of appliance  :", A31N)
+            st.write("Pangalan ng appliance  :", A31N)
             st.write("Electricity bill   : PHP", A31con)
             st.write("Energy consumption :", Y31, "kWh")
         if max_app == Y32:
             st.write("***")
-            st.write("Name of appliance  :", A32N)
+            st.write("Pangalan ng appliance  :", A32N)
             st.write("Electricity bill   : PHP", A32con)
             st.write("Energy consumption :", Y32, "kWh")
         if max_app == Y33:
             st.write("***")
-            st.write("Name of appliance  :", A33N)
+            st.write("Pangalan ng appliance  :", A33N)
             st.write("Electricity bill   : PHP", A33con)
             st.write("Energy consumption :", Y33, "kWh")
         if max_app == Y34:
             st.write("***")
-            st.write("Name of appliance  :", A34N)
+            st.write("Pangalan ng appliance  :", A34N)
             st.write("Electricity bill   : PHP", A34con)
             st.write("Energy consumption :", Y34, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -15936,7 +15936,7 @@ else:
         st.write(A33N, ": PHP", A33con)
         st.write(A34N, ": PHP", A34con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total34)
         st.write("Energy consumption:", Kh34, "kWh")
 
@@ -16094,10 +16094,10 @@ else:
         Y33 = (A33*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15, Y16, Y17, Y18, Y19, Y20, Y21,
                 Y22, Y23, Y24, Y24, Y25, Y26, Y27, Y28, Y29, Y30, Y31, Y32, Y33]
         max_app = apps[0]
@@ -16106,173 +16106,173 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
         if max_app == Y23:
             st.write("***")
-            st.write("Name of appliance  :", A23N)
+            st.write("Pangalan ng appliance  :", A23N)
             st.write("Electricity bill   : PHP", A23con)
             st.write("Energy consumption :", Y23, "kWh")
         if max_app == Y24:
             st.write("***")
-            st.write("Name of appliance  :", A24N)
+            st.write("Pangalan ng appliance  :", A24N)
             st.write("Electricity bill   : PHP", A24con)
             st.write("Energy consumption :", Y24, "kWh")
         if max_app == Y25:
             st.write("***")
-            st.write("Name of appliance  :", A25N)
+            st.write("Pangalan ng appliance  :", A25N)
             st.write("Electricity bill   : PHP", A25con)
             st.write("Energy consumption :", Y25, "kWh")
         if max_app == Y26:
             st.write("***")
-            st.write("Name of appliance  :", A26N)
+            st.write("Pangalan ng appliance  :", A26N)
             st.write("Electricity bill   : PHP", A26con)
             st.write("Energy consumption :", Y26, "kWh")
         if max_app == Y27:
             st.write("***")
-            st.write("Name of appliance  :", A27N)
+            st.write("Pangalan ng appliance  :", A27N)
             st.write("Electricity bill   : PHP", A27con)
             st.write("Energy consumption :", Y27, "kWh")
         if max_app == Y28:
             st.write("***")
-            st.write("Name of appliance  :", A28N)
+            st.write("Pangalan ng appliance  :", A28N)
             st.write("Electricity bill   : PHP", A28con)
             st.write("Energy consumption :", Y28, "kWh")
         if max_app == Y29:
             st.write("***")
-            st.write("Name of appliance  :", A29N)
+            st.write("Pangalan ng appliance  :", A29N)
             st.write("Electricity bill   : PHP", A29con)
             st.write("Energy consumption :", Y29, "kWh")
         if max_app == Y30:
             st.write("***")
-            st.write("Name of appliance  :", A30N)
+            st.write("Pangalan ng appliance  :", A30N)
             st.write("Electricity bill   : PHP", A30con)
             st.write("Energy consumption :", Y30, "kWh")
         if max_app == Y31:
             st.write("***")
-            st.write("Name of appliance  :", A31N)
+            st.write("Pangalan ng appliance  :", A31N)
             st.write("Electricity bill   : PHP", A31con)
             st.write("Energy consumption :", Y31, "kWh")
         if max_app == Y32:
             st.write("***")
-            st.write("Name of appliance  :", A32N)
+            st.write("Pangalan ng appliance  :", A32N)
             st.write("Electricity bill   : PHP", A32con)
             st.write("Energy consumption :", Y32, "kWh")
         if max_app == Y33:
             st.write("***")
-            st.write("Name of appliance  :", A33N)
+            st.write("Pangalan ng appliance  :", A33N)
             st.write("Electricity bill   : PHP", A33con)
             st.write("Energy consumption :", Y33, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -16307,7 +16307,7 @@ else:
         st.write(A32N, ": PHP", A32con)
         st.write(A33N, ": PHP", A33con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total33)
         st.write("Energy consumption:", Kh33, "kWh")
 
@@ -16461,10 +16461,10 @@ else:
         Y32 = (A32*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15,
                 Y16, Y17, Y18, Y19, Y20, Y21, Y22, Y23, Y24, Y24, Y25, Y26, Y27, Y28, Y29, Y30, Y31, Y32]
         max_app = apps[0]
@@ -16473,167 +16473,167 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
         if max_app == Y23:
             st.write("***")
-            st.write("Name of appliance  :", A23N)
+            st.write("Pangalan ng appliance  :", A23N)
             st.write("Electricity bill   : PHP", A23con)
             st.write("Energy consumption :", Y23, "kWh")
         if max_app == Y24:
             st.write("***")
-            st.write("Name of appliance  :", A24N)
+            st.write("Pangalan ng appliance  :", A24N)
             st.write("Electricity bill   : PHP", A24con)
             st.write("Energy consumption :", Y24, "kWh")
         if max_app == Y25:
             st.write("***")
-            st.write("Name of appliance  :", A25N)
+            st.write("Pangalan ng appliance  :", A25N)
             st.write("Electricity bill   : PHP", A25con)
             st.write("Energy consumption :", Y25, "kWh")
         if max_app == Y26:
             st.write("***")
-            st.write("Name of appliance  :", A26N)
+            st.write("Pangalan ng appliance  :", A26N)
             st.write("Electricity bill   : PHP", A26con)
             st.write("Energy consumption :", Y26, "kWh")
         if max_app == Y27:
             st.write("***")
-            st.write("Name of appliance  :", A27N)
+            st.write("Pangalan ng appliance  :", A27N)
             st.write("Electricity bill   : PHP", A27con)
             st.write("Energy consumption :", Y27, "kWh")
         if max_app == Y28:
             st.write("***")
-            st.write("Name of appliance  :", A28N)
+            st.write("Pangalan ng appliance  :", A28N)
             st.write("Electricity bill   : PHP", A28con)
             st.write("Energy consumption :", Y28, "kWh")
         if max_app == Y29:
             st.write("***")
-            st.write("Name of appliance  :", A29N)
+            st.write("Pangalan ng appliance  :", A29N)
             st.write("Electricity bill   : PHP", A29con)
             st.write("Energy consumption :", Y29, "kWh")
         if max_app == Y30:
             st.write("***")
-            st.write("Name of appliance  :", A30N)
+            st.write("Pangalan ng appliance  :", A30N)
             st.write("Electricity bill   : PHP", A30con)
             st.write("Energy consumption :", Y30, "kWh")
         if max_app == Y31:
             st.write("***")
-            st.write("Name of appliance  :", A31N)
+            st.write("Pangalan ng appliance  :", A31N)
             st.write("Electricity bill   : PHP", A31con)
             st.write("Energy consumption :", Y31, "kWh")
         if max_app == Y32:
             st.write("***")
-            st.write("Name of appliance  :", A32N)
+            st.write("Pangalan ng appliance  :", A32N)
             st.write("Electricity bill   : PHP", A32con)
             st.write("Energy consumption :", Y32, "kWh")
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -16667,7 +16667,7 @@ else:
         st.write(A31N, ": PHP", A31con)
         st.write(A32N, ": PHP", A32con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total32)
         st.write("Energy consumption:", Kh32, "kWh")
 
@@ -16817,10 +16817,10 @@ else:
         Y31 = (A31*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15,
                 Y16, Y17, Y18, Y19, Y20, Y21, Y22, Y23, Y24, Y24, Y25, Y26, Y27, Y28, Y29, Y30, Y31]
         max_app = apps[0]
@@ -16829,162 +16829,162 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
         if max_app == Y23:
             st.write("***")
-            st.write("Name of appliance  :", A23N)
+            st.write("Pangalan ng appliance  :", A23N)
             st.write("Electricity bill   : PHP", A23con)
             st.write("Energy consumption :", Y23, "kWh")
         if max_app == Y24:
             st.write("***")
-            st.write("Name of appliance  :", A24N)
+            st.write("Pangalan ng appliance  :", A24N)
             st.write("Electricity bill   : PHP", A24con)
             st.write("Energy consumption :", Y24, "kWh")
         if max_app == Y25:
             st.write("***")
-            st.write("Name of appliance  :", A25N)
+            st.write("Pangalan ng appliance  :", A25N)
             st.write("Electricity bill   : PHP", A25con)
             st.write("Energy consumption :", Y25, "kWh")
         if max_app == Y26:
             st.write("***")
-            st.write("Name of appliance  :", A26N)
+            st.write("Pangalan ng appliance  :", A26N)
             st.write("Electricity bill   : PHP", A26con)
             st.write("Energy consumption :", Y26, "kWh")
         if max_app == Y27:
             st.write("***")
-            st.write("Name of appliance  :", A27N)
+            st.write("Pangalan ng appliance  :", A27N)
             st.write("Electricity bill   : PHP", A27con)
             st.write("Energy consumption :", Y27, "kWh")
         if max_app == Y28:
             st.write("***")
-            st.write("Name of appliance  :", A28N)
+            st.write("Pangalan ng appliance  :", A28N)
             st.write("Electricity bill   : PHP", A28con)
             st.write("Energy consumption :", Y28, "kWh")
         if max_app == Y29:
             st.write("***")
-            st.write("Name of appliance  :", A29N)
+            st.write("Pangalan ng appliance  :", A29N)
             st.write("Electricity bill   : PHP", A29con)
             st.write("Energy consumption :", Y29, "kWh")
         if max_app == Y30:
             st.write("***")
-            st.write("Name of appliance  :", A30N)
+            st.write("Pangalan ng appliance  :", A30N)
             st.write("Electricity bill   : PHP", A30con)
             st.write("Energy consumption :", Y30, "kWh")
         if max_app == Y31:
             st.write("***")
-            st.write("Name of appliance  :", A31N)
+            st.write("Pangalan ng appliance  :", A31N)
             st.write("Electricity bill   : PHP", A31con)
             st.write("Energy consumption :", Y31, "kWh")
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -17017,7 +17017,7 @@ else:
         st.write(A30N, ": PHP", A30con)
         st.write(A31N, ": PHP", A31con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total31)
         st.write("Energy consumption:", Kh31, "kWh")
 
@@ -17163,10 +17163,10 @@ else:
         Y30 = (A30*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15,
                 Y16, Y17, Y18, Y19, Y20, Y21, Y22, Y23, Y24, Y24, Y25, Y26, Y27, Y28, Y29, Y30]
         max_app = apps[0]
@@ -17175,157 +17175,157 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
         if max_app == Y23:
             st.write("***")
-            st.write("Name of appliance  :", A23N)
+            st.write("Pangalan ng appliance  :", A23N)
             st.write("Electricity bill   : PHP", A23con)
             st.write("Energy consumption :", Y23, "kWh")
         if max_app == Y24:
             st.write("***")
-            st.write("Name of appliance  :", A24N)
+            st.write("Pangalan ng appliance  :", A24N)
             st.write("Electricity bill   : PHP", A24con)
             st.write("Energy consumption :", Y24, "kWh")
         if max_app == Y25:
             st.write("***")
-            st.write("Name of appliance  :", A25N)
+            st.write("Pangalan ng appliance  :", A25N)
             st.write("Electricity bill   : PHP", A25con)
             st.write("Energy consumption :", Y25, "kWh")
         if max_app == Y26:
             st.write("***")
-            st.write("Name of appliance  :", A26N)
+            st.write("Pangalan ng appliance  :", A26N)
             st.write("Electricity bill   : PHP", A26con)
             st.write("Energy consumption :", Y26, "kWh")
         if max_app == Y27:
             st.write("***")
-            st.write("Name of appliance  :", A27N)
+            st.write("Pangalan ng appliance  :", A27N)
             st.write("Electricity bill   : PHP", A27con)
             st.write("Energy consumption :", Y27, "kWh")
         if max_app == Y28:
             st.write("***")
-            st.write("Name of appliance  :", A28N)
+            st.write("Pangalan ng appliance  :", A28N)
             st.write("Electricity bill   : PHP", A28con)
             st.write("Energy consumption :", Y28, "kWh")
         if max_app == Y29:
             st.write("***")
-            st.write("Name of appliance  :", A29N)
+            st.write("Pangalan ng appliance  :", A29N)
             st.write("Electricity bill   : PHP", A29con)
             st.write("Energy consumption :", Y29, "kWh")
         if max_app == Y30:
             st.write("***")
-            st.write("Name of appliance  :", A30N)
+            st.write("Pangalan ng appliance  :", A30N)
             st.write("Electricity bill   : PHP", A30con)
             st.write("Energy consumption :", Y30, "kWh")
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -17357,7 +17357,7 @@ else:
         st.write(A29N, ": PHP", A29con)
         st.write(A30N, ": PHP", A30con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total30)
         st.write("Energy consumption:", Kh30, "kWh")
 
@@ -17499,10 +17499,10 @@ else:
         Y29 = (A29*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15,
                 Y16, Y17, Y18, Y19, Y20, Y21, Y22, Y23, Y24, Y24, Y25, Y26, Y27, Y28, Y29]
         max_app = apps[0]
@@ -17511,153 +17511,153 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
         if max_app == Y23:
             st.write("***")
-            st.write("Name of appliance  :", A23N)
+            st.write("Pangalan ng appliance  :", A23N)
             st.write("Electricity bill   : PHP", A23con)
             st.write("Energy consumption :", Y23, "kWh")
         if max_app == Y24:
             st.write("***")
-            st.write("Name of appliance  :", A24N)
+            st.write("Pangalan ng appliance  :", A24N)
             st.write("Electricity bill   : PHP", A24con)
             st.write("Energy consumption :", Y24, "kWh")
         if max_app == Y25:
             st.write("***")
-            st.write("Name of appliance  :", A25N)
+            st.write("Pangalan ng appliance  :", A25N)
             st.write("Electricity bill   : PHP", A25con)
             st.write("Energy consumption :", Y25, "kWh")
         if max_app == Y26:
             st.write("***")
-            st.write("Name of appliance  :", A26N)
+            st.write("Pangalan ng appliance  :", A26N)
             st.write("Electricity bill   : PHP", A26con)
             st.write("Energy consumption :", Y26, "kWh")
         if max_app == Y27:
             st.write("***")
-            st.write("Name of appliance  :", A27N)
+            st.write("Pangalan ng appliance  :", A27N)
             st.write("Electricity bill   : PHP", A27con)
             st.write("Energy consumption :", Y27, "kWh")
         if max_app == Y28:
             st.write("***")
-            st.write("Name of appliance  :", A28N)
+            st.write("Pangalan ng appliance  :", A28N)
             st.write("Electricity bill   : PHP", A28con)
             st.write("Energy consumption :", Y28, "kWh")
         if max_app == Y29:
             st.write("***")
-            st.write("Name of appliance  :", A29N)
+            st.write("Pangalan ng appliance  :", A29N)
             st.write("Electricity bill   : PHP", A29con)
             st.write("Energy consumption :", Y29, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -17688,7 +17688,7 @@ else:
         st.write(A28N, ": PHP", A28con)
         st.write(A29N, ": PHP", A29con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total29)
         st.write("Energy consumption:", Kh29, "kWh")
 
@@ -17826,10 +17826,10 @@ else:
         Y28 = (A28*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15,
                 Y16, Y17, Y18, Y19, Y20, Y21, Y22, Y23, Y24, Y24, Y25, Y26, Y27, Y28]
         max_app = apps[0]
@@ -17838,148 +17838,148 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
         if max_app == Y23:
             st.write("***")
-            st.write("Name of appliance  :", A23N)
+            st.write("Pangalan ng appliance  :", A23N)
             st.write("Electricity bill   : PHP", A23con)
             st.write("Energy consumption :", Y23, "kWh")
         if max_app == Y24:
             st.write("***")
-            st.write("Name of appliance  :", A24N)
+            st.write("Pangalan ng appliance  :", A24N)
             st.write("Electricity bill   : PHP", A24con)
             st.write("Energy consumption :", Y24, "kWh")
         if max_app == Y25:
             st.write("***")
-            st.write("Name of appliance  :", A25N)
+            st.write("Pangalan ng appliance  :", A25N)
             st.write("Electricity bill   : PHP", A25con)
             st.write("Energy consumption :", Y25, "kWh")
         if max_app == Y26:
             st.write("***")
-            st.write("Name of appliance  :", A26N)
+            st.write("Pangalan ng appliance  :", A26N)
             st.write("Electricity bill   : PHP", A26con)
             st.write("Energy consumption :", Y26, "kWh")
         if max_app == Y27:
             st.write("***")
-            st.write("Name of appliance  :", A27N)
+            st.write("Pangalan ng appliance  :", A27N)
             st.write("Electricity bill   : PHP", A27con)
             st.write("Energy consumption :", Y27, "kWh")
         if max_app == Y28:
             st.write("***")
-            st.write("Name of appliance  :", A28N)
+            st.write("Pangalan ng appliance  :", A28N)
             st.write("Electricity bill   : PHP", A28con)
             st.write("Energy consumption :", Y28, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -18009,7 +18009,7 @@ else:
         st.write(A27N, ": PHP", A27con)
         st.write(A28N, ": PHP", A28con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total28)
         st.write("Energy consumption:", Kh28, "kWh")
 
@@ -18143,10 +18143,10 @@ else:
         Y27 = (A27*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15,
                 Y16, Y17, Y18, Y19, Y20, Y21, Y22, Y23, Y24, Y24, Y25, Y26, Y27]
         max_app = apps[0]
@@ -18155,143 +18155,143 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
         if max_app == Y23:
             st.write("***")
-            st.write("Name of appliance  :", A23N)
+            st.write("Pangalan ng appliance  :", A23N)
             st.write("Electricity bill   : PHP", A23con)
             st.write("Energy consumption :", Y23, "kWh")
         if max_app == Y24:
             st.write("***")
-            st.write("Name of appliance  :", A24N)
+            st.write("Pangalan ng appliance  :", A24N)
             st.write("Electricity bill   : PHP", A24con)
             st.write("Energy consumption :", Y24, "kWh")
         if max_app == Y25:
             st.write("***")
-            st.write("Name of appliance  :", A25N)
+            st.write("Pangalan ng appliance  :", A25N)
             st.write("Electricity bill   : PHP", A25con)
             st.write("Energy consumption :", Y25, "kWh")
         if max_app == Y26:
             st.write("***")
-            st.write("Name of appliance  :", A26N)
+            st.write("Pangalan ng appliance  :", A26N)
             st.write("Electricity bill   : PHP", A26con)
             st.write("Energy consumption :", Y26, "kWh")
         if max_app == Y27:
             st.write("***")
-            st.write("Name of appliance  :", A27N)
+            st.write("Pangalan ng appliance  :", A27N)
             st.write("Electricity bill   : PHP", A27con)
             st.write("Energy consumption :", Y27, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -18320,7 +18320,7 @@ else:
         st.write(A26N, ": PHP", A26con)
         st.write(A27N, ": PHP", A27con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total27)
         st.write("Energy consumption:", Kh27, "kWh")
 
@@ -18450,10 +18450,10 @@ else:
         Y26 = (A26*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15,
                 Y16, Y17, Y18, Y19, Y20, Y21, Y22, Y23, Y24, Y24, Y25, Y26]
         max_app = apps[0]
@@ -18462,138 +18462,138 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
         if max_app == Y23:
             st.write("***")
-            st.write("Name of appliance  :", A23N)
+            st.write("Pangalan ng appliance  :", A23N)
             st.write("Electricity bill   : PHP", A23con)
             st.write("Energy consumption :", Y23, "kWh")
         if max_app == Y24:
             st.write("***")
-            st.write("Name of appliance  :", A24N)
+            st.write("Pangalan ng appliance  :", A24N)
             st.write("Electricity bill   : PHP", A24con)
             st.write("Energy consumption :", Y24, "kWh")
         if max_app == Y25:
             st.write("***")
-            st.write("Name of appliance  :", A25N)
+            st.write("Pangalan ng appliance  :", A25N)
             st.write("Electricity bill   : PHP", A25con)
             st.write("Energy consumption :", Y25, "kWh")
         if max_app == Y26:
             st.write("***")
-            st.write("Name of appliance  :", A26N)
+            st.write("Pangalan ng appliance  :", A26N)
             st.write("Electricity bill   : PHP", A26con)
             st.write("Energy consumption :", Y26, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -18621,7 +18621,7 @@ else:
         st.write(A25N, ": PHP", A25con)
         st.write(A26N, ": PHP", A26con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total26)
         st.write("Energy consumption:", Kh26, "kWh")
 
@@ -18747,10 +18747,10 @@ else:
         Y25 = (A25*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15,
                 Y16, Y17, Y18, Y19, Y20, Y21, Y22, Y23, Y24, Y24, Y25]
         max_app = apps[0]
@@ -18759,133 +18759,133 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
         if max_app == Y23:
             st.write("***")
-            st.write("Name of appliance  :", A23N)
+            st.write("Pangalan ng appliance  :", A23N)
             st.write("Electricity bill   : PHP", A23con)
             st.write("Energy consumption :", Y23, "kWh")
         if max_app == Y24:
             st.write("***")
-            st.write("Name of appliance  :", A24N)
+            st.write("Pangalan ng appliance  :", A24N)
             st.write("Electricity bill   : PHP", A24con)
             st.write("Energy consumption :", Y24, "kWh")
         if max_app == Y25:
             st.write("***")
-            st.write("Name of appliance  :", A25N)
+            st.write("Pangalan ng appliance  :", A25N)
             st.write("Electricity bill   : PHP", A25con)
             st.write("Energy consumption :", Y25, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -18912,7 +18912,7 @@ else:
         st.write(A24N, ": PHP", A24con)
         st.write(A25N, ": PHP", A25con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total25)
         st.write("Energy consumption:", Kh25, "kWh")
 
@@ -19034,10 +19034,10 @@ else:
         Y24 = (A24*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15,
                 Y16, Y17, Y18, Y19, Y20, Y21, Y22, Y23, Y24]
         max_app = apps[0]
@@ -19046,128 +19046,128 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
         if max_app == Y23:
             st.write("***")
-            st.write("Name of appliance  :", A23N)
+            st.write("Pangalan ng appliance  :", A23N)
             st.write("Electricity bill   : PHP", A23con)
             st.write("Energy consumption :", Y23, "kWh")
         if max_app == Y24:
             st.write("***")
-            st.write("Name of appliance  :", A24N)
+            st.write("Pangalan ng appliance  :", A24N)
             st.write("Electricity bill   : PHP", A24con)
             st.write("Energy consumption :", Y24, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -19193,7 +19193,7 @@ else:
         st.write(A23N, ": PHP", A23con)
         st.write(A24N, ": PHP", A24con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total24)
         st.write("Energy consumption:", Kh24, "kWh")
 
@@ -19311,10 +19311,10 @@ else:
         Y23 = (A23*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15,
                 Y16, Y17, Y18, Y19, Y20, Y21, Y22, Y23]
         max_app = apps[0]
@@ -19323,123 +19323,123 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
         if max_app == Y23:
             st.write("***")
-            st.write("Name of appliance  :", A23N)
+            st.write("Pangalan ng appliance  :", A23N)
             st.write("Electricity bill   : PHP", A23con)
             st.write("Energy consumption :", Y23, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -19464,7 +19464,7 @@ else:
         st.write(A22N, ": PHP", A22con)
         st.write(A23N, ": PHP", A23con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total23)
         st.write("Energy consumption:", Kh23, "kWh")
 
@@ -19578,10 +19578,10 @@ else:
         Y22 = (A22*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15,
                 Y16, Y17, Y18, Y19, Y20, Y21, Y22]
         max_app = apps[0]
@@ -19590,118 +19590,118 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
         if max_app == Y22:
             st.write("***")
-            st.write("Name of appliance  :", A22N)
+            st.write("Pangalan ng appliance  :", A22N)
             st.write("Electricity bill   : PHP", A22con)
             st.write("Energy consumption :", Y22, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -19725,7 +19725,7 @@ else:
         st.write(A21N, ": PHP", A21con)
         st.write(A22N, ": PHP", A22con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total22)
         st.write("Energy consumption:", Kh22, "kWh")
 
@@ -19835,10 +19835,10 @@ else:
         Y21 = (A21*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15,
                 Y16, Y17, Y18, Y19, Y20, Y21]
         max_app = apps[0]
@@ -19847,113 +19847,113 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
         if max_app == Y21:
             st.write("***")
-            st.write("Name of appliance  :", A21N)
+            st.write("Pangalan ng appliance  :", A21N)
             st.write("Electricity bill   : PHP", A21con)
             st.write("Energy consumption :", Y21, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -19976,7 +19976,7 @@ else:
         st.write(A20N, ": PHP", A20con)
         st.write(A21N, ": PHP", A21con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total21)
         st.write("Energy consumption:", Kh21, "kWh")
 
@@ -20083,10 +20083,10 @@ else:
         Y20 = (A20*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15,
                 Y16, Y17, Y18, Y19, Y20]
         max_app = apps[0]
@@ -20095,108 +20095,108 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
         if max_app == Y20:
             st.write("***")
-            st.write("Name of appliance  :", A20N)
+            st.write("Pangalan ng appliance  :", A20N)
             st.write("Electricity bill   : PHP", A20con)
             st.write("Energy consumption :", Y20, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -20218,7 +20218,7 @@ else:
         st.write(A19N, ": PHP", A19con)
         st.write(A20N, ": PHP", A20con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total20)
         st.write("Energy consumption:", Kh20, "kWh")
 
@@ -20321,10 +20321,10 @@ else:
         Y19 = (A19*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15,
                 Y16, Y17, Y18, Y19]
         max_app = apps[0]
@@ -20333,103 +20333,103 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
         if max_app == Y19:
             st.write("***")
-            st.write("Name of appliance  :", A19N)
+            st.write("Pangalan ng appliance  :", A19N)
             st.write("Electricity bill   : PHP", A19con)
             st.write("Energy consumption :", Y19, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -20450,7 +20450,7 @@ else:
         st.write(A18N, ": PHP", A18con)
         st.write(A19N, ": PHP", A19con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total19)
         st.write("Energy consumption:", Kh19, "kWh")
 
@@ -20548,10 +20548,10 @@ else:
         Y18 = (A18*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15,
                 Y16, Y17, Y18]
         max_app = apps[0]
@@ -20560,98 +20560,98 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
         if max_app == Y18:
             st.write("***")
-            st.write("Name of appliance  :", A18N)
+            st.write("Pangalan ng appliance  :", A18N)
             st.write("Electricity bill   : PHP", A18con)
             st.write("Energy consumption :", Y18, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -20671,7 +20671,7 @@ else:
         st.write(A17N, ": PHP", A17con)
         st.write(A18N, ": PHP", A18con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total18)
         st.write("Energy consumption:", Kh18, "kWh")
 
@@ -20765,10 +20765,10 @@ else:
         Y17 = (A17*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15,
                 Y16, Y17]
         max_app = apps[0]
@@ -20777,93 +20777,93 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
         if max_app == Y17:
             st.write("***")
-            st.write("Name of appliance  :", A17N)
+            st.write("Pangalan ng appliance  :", A17N)
             st.write("Electricity bill   : PHP", A17con)
             st.write("Energy consumption :", Y17, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -20882,7 +20882,7 @@ else:
         st.write(A16N, ": PHP", A16con)
         st.write(A17N, ": PHP", A17con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total17)
         st.write("Energy consumption:", Kh17, "kWh")
 
@@ -20972,10 +20972,10 @@ else:
         Y16 = (A16*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15,
                 Y16,]
         max_app = apps[0]
@@ -20984,88 +20984,88 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         if max_app == Y16:
             st.write("***")
-            st.write("Name of appliance  :", A16N)
+            st.write("Pangalan ng appliance  :", A16N)
             st.write("Electricity bill   : PHP", A16con)
             st.write("Energy consumption :", Y16, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -21083,7 +21083,7 @@ else:
         st.write(A15N, ": PHP", A15con)
         st.write(A16N, ": PHP", A16con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total16)
         st.write("Energy consumption:", Kh16, "kWh")
 
@@ -21169,10 +21169,10 @@ else:
         Y15 = (A15*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8,
                 Y9, Y10, Y11, Y12, Y13, Y14, Y15]
         max_app = apps[0]
@@ -21181,82 +21181,82 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
         if max_app == Y15:
             st.write("***")
-            st.write("Name of appliance  :", A15N)
+            st.write("Pangalan ng appliance  :", A15N)
             st.write("Electricity bill   : PHP", A15con)
             st.write("Energy consumption :", Y15, "kWh")
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -21273,7 +21273,7 @@ else:
         st.write(A14N, ": PHP", A14con)
         st.write(A15N, ": PHP", A15con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total15)
         st.write("Energy consumption:", Kh15, "kWh")
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -21354,10 +21354,10 @@ else:
         Y14 = (A14*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14]
         max_app = apps[0]
         for app in apps:
@@ -21365,78 +21365,78 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
         if max_app == Y14:
             st.write("***")
-            st.write("Name of appliance  :", A14N)
+            st.write("Pangalan ng appliance  :", A14N)
             st.write("Electricity bill   : PHP", A14con)
             st.write("Energy consumption :", Y14, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -21452,7 +21452,7 @@ else:
         st.write(A13N, ": PHP", A13con)
         st.write(A14N, ": PHP", A14con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total14)
         st.write("Energy consumption:", Kh14, "kWh")
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -21529,10 +21529,10 @@ else:
         Y13 = (A13*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13]
         max_app = apps[0]
         for app in apps:
@@ -21540,73 +21540,73 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
         if max_app == Y13:
             st.write("***")
-            st.write("Name of appliance  :", A13N)
+            st.write("Pangalan ng appliance  :", A13N)
             st.write("Electricity bill   : PHP", A13con)
             st.write("Energy consumption :", Y13, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -21621,7 +21621,7 @@ else:
         st.write(A12N, ": PHP", A12con)
         st.write(A13N, ": PHP", A13con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total13)
         st.write("Energy consumption:", Kh13, "kWh")
         # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -21694,10 +21694,10 @@ else:
         Y12 = (A12*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12]
         max_app = apps[0]
         for app in apps:
@@ -21705,68 +21705,68 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
         if max_app == Y12:
             st.write("***")
-            st.write("Name of appliance  :", A12N)
+            st.write("Pangalan ng appliance  :", A12N)
             st.write("Electricity bill   : PHP", A12con)
             st.write("Energy consumption :", Y12, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -21780,7 +21780,7 @@ else:
         st.write(A11N, ": PHP", A11con)
         st.write(A12N, ": PHP", A12con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total12)
         st.write("Energy consumption:", Kh12, "kWh")
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -21848,10 +21848,10 @@ else:
         Y11 = (A11*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11]
         max_app = apps[0]
         for app in apps:
@@ -21859,63 +21859,63 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
         if max_app == Y11:
             st.write("***")
-            st.write("Name of appliance  :", A11N)
+            st.write("Pangalan ng appliance  :", A11N)
             st.write("Electricity bill   : PHP", A11con)
             st.write("Energy consumption :", Y11, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -21928,7 +21928,7 @@ else:
         st.write(A10N, ": PHP", A10con)
         st.write(A11N, ": PHP", A11con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total11)
         st.write("Energy consumption:", Kh11, "kWh")
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -21992,10 +21992,10 @@ else:
         Y10 = (A10*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10]
         max_app = apps[0]
         for app in apps:
@@ -22003,58 +22003,58 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
         if max_app == Y10:
             st.write("***")
-            st.write("Name of appliance  :", A10N)
+            st.write("Pangalan ng appliance  :", A10N)
             st.write("Electricity bill   : PHP", A10con)
             st.write("Energy consumption :", Y10, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -22066,7 +22066,7 @@ else:
         st.write(A9N, ": PHP", A9con)
         st.write(A10N, ": PHP", A10con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total10)
         st.write("Energy consumption:", Kh10, "kWh")
 
@@ -22127,10 +22127,10 @@ else:
         Y9 = (A9*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9]
         max_app = apps[0]
         for app in apps:
@@ -22138,53 +22138,53 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
         if max_app == Y9:
             st.write("***")
-            st.write("Name of appliance  :", A9N)
+            st.write("Pangalan ng appliance  :", A9N)
             st.write("Electricity bill   : PHP", A9con)
             st.write("Energy consumption :", Y9, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -22195,7 +22195,7 @@ else:
         st.write(A8N, ": PHP", A8con)
         st.write(A9N, ": PHP", A9con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total9)
         st.write("Energy consumption:", Kh9, "kWh")
 
@@ -22252,10 +22252,10 @@ else:
         Y8 = (A8*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8]
         max_app = apps[0]
         for app in apps:
@@ -22263,48 +22263,48 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
         if max_app == Y8:
             st.write("***")
-            st.write("Name of appliance  :", A8N)
+            st.write("Pangalan ng appliance  :", A8N)
             st.write("Electricity bill   : PHP", A8con)
             st.write("Energy consumption :", Y8, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -22314,7 +22314,7 @@ else:
         st.write(A7N, ": PHP", A7con)
         st.write(A8N, ": PHP", A8con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total8)
         st.write("Energy consumption:", Kh8, "kWh")
 
@@ -22367,10 +22367,10 @@ else:
         Y7 = (A7*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6, Y7]
         max_app = apps[0]
         for app in apps:
@@ -22378,43 +22378,43 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
         if max_app == Y7:
             st.write("***")
-            st.write("Name of appliance  :", A7N)
+            st.write("Pangalan ng appliance  :", A7N)
             st.write("Electricity bill   : PHP", A7con)
             st.write("Energy consumption :", Y7, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -22423,7 +22423,7 @@ else:
         st.write(A6N, ": PHP", A6con)
         st.write(A7N, ": PHP", A7con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total7)
         st.write("Energy consumption:", Kh7, "kWh")
 
@@ -22472,10 +22472,10 @@ else:
         Y6 = (A6*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5, Y6]
         max_app = apps[0]
         for app in apps:
@@ -22483,38 +22483,38 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
         if max_app == Y6:
             st.write("***")
-            st.write("Name of appliance  :", A6N)
+            st.write("Pangalan ng appliance  :", A6N)
             st.write("Electricity bill   : PHP", A6con)
             st.write("Energy consumption :", Y6, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -22522,7 +22522,7 @@ else:
         st.write(A5N, ": PHP", A5con)
         st.write(A6N, ": PHP", A6con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total6)
         st.write("Energy consumption:", Kh6, "kWh")
 
@@ -22567,11 +22567,11 @@ else:
         Y5 = (A5*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
 
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4, Y5]
         max_app = apps[0]
         for app in apps:
@@ -22579,40 +22579,40 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
         if max_app == Y5:
             st.write("***")
-            st.write("Name of appliance  :", A5N)
+            st.write("Pangalan ng appliance  :", A5N)
             st.write("Electricity bill   : PHP", A5con)
             st.write("Energy consumption :", Y5, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
         st.write(A4N, ": PHP", A4con)
         st.write(A5N, ": PHP", A5con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total5)
         st.write("Energy consumption:", Kh5, "kWh")
 
@@ -22653,10 +22653,10 @@ else:
         Y4 = (A4*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3, Y4]
         max_app = apps[0]
         for app in apps:
@@ -22664,34 +22664,34 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
         if max_app == Y4:
             st.write("***")
-            st.write("Name of appliance  :", A4N)
+            st.write("Pangalan ng appliance  :", A4N)
             st.write("Electricity bill   : PHP", A4con)
             st.write("Energy consumption :", Y4, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
         st.write(A4N, ": PHP", A4con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total4)
         st.write("Energy consumption:", Kh4, "kWh")
 
@@ -22728,10 +22728,10 @@ else:
         Y3 = (A3*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2, Y3]
         max_app = apps[0]
         for app in apps:
@@ -22739,28 +22739,28 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
         if max_app == Y3:
             st.write("***")
-            st.write("Name of appliance  :", A3N)
+            st.write("Pangalan ng appliance  :", A3N)
             st.write("Electricity bill   : PHP", A3con)
             st.write("Energy consumption :", Y3, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total3)
         st.write("Energy consumption:", Kh3, "kWh")
 
@@ -22793,10 +22793,10 @@ else:
         Y2 = (A2*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1, Y2]
         max_app = apps[0]
         for app in apps:
@@ -22804,22 +22804,22 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
         if max_app == Y2:
             st.write("***")
-            st.write("Name of appliance  :", A2N)
+            st.write("Pangalan ng appliance  :", A2N)
             st.write("Electricity bill   : PHP", A2con)
             st.write("Energy consumption :", Y2, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total2)
         st.write("Energy consumption:", Kh2, "kWh")
 
@@ -22848,10 +22848,10 @@ else:
         Y1 = (A1*30)/1000
 
         # OUTPUT1
-        st.markdown("## **THE RESULTS:**")
+        st.markdown("## **ANG MGA RESULTA:**")
         # Identify the high consumption appliance
         st.write("***")
-        st.markdown("**HIGHEST ENERGY CONSUMPTION**")
+        st.markdown("**MAY PINAKA MATAAS NA ENERGY CONSUMPTION**")
         apps = [Y1]
         max_app = apps[0]
         for app in apps:
@@ -22859,15 +22859,15 @@ else:
                 max_app = app
         if max_app == Y1:
             st.write("***")
-            st.write("Name of appliance  :", A1N)
+            st.write("Pangalan ng appliance  :", A1N)
             st.write("Electricity bill   : PHP", A1con)
             st.write("Energy consumption :", Y1, "kWh")
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL ELECTRICITY BILL**")
+        st.markdown("**ELECTRICITY BILL NG BAWAT ISA**")
         st.write(A1N, ": PHP", A1con)
         st.write("***")
-        st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
+        st.markdown("**TOTAL NG ELECTRICITY BILL AT ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total1)
         st.write("Energy consumption:", Kh1, "kWh")
