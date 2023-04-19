@@ -11450,7 +11450,7 @@ else:
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Magsimula na tayo!</span>",
              unsafe_allow_html=True)
     cost = 0
-    cost = st.number_input("Ang kada kilowatt-hour sa piso:")
+    cost = st.number_input("Ang presyo kada kilowatt-hour sa piso:")
     ask1 = 0
     ask2 = 0
     ask3 = 0
