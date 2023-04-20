@@ -11440,12 +11440,12 @@ if language == "English":
 else:
 
     st.write("<span style='font-family:Times New Roman; font-size:32px;font-weight:bold;'>Maligayang pagdating sa CONCAL!</span>", unsafe_allow_html=True)
-    st.write("<span style='font-family:Times New Roman; font-size:14px;'>Isang napakalayong teknolohiya para sa pagpapamahala ng pagkonsumo ng enerhiya sa tahanan.</span>", unsafe_allow_html=True)
+    st.write("<span style='font-family:Times New Roman; font-size:14px;'>Isang maunlad na teknolohiya para pamahalaan ang pagkonsumo ng enerhiya sa tahanan.</span>", unsafe_allow_html=True)
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Ang CONCAL ay may kakayahang gawin ang mga sumusunod:</span>", unsafe_allow_html=True)
-    st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003;Nagtutukoy ng kagamitan na may pinakamataas na bill at pagkonsumo ng kuryente.</span></li></ul>", unsafe_allow_html=True)
-    st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003;Kayang kalkulahin ang pagkonsumo at bayad para sa bawat kagamitan.</span></li></ul>", unsafe_allow_html=True)
-    st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003;Kayang mag-compute ng kabuuang bayad at konsumo ng kuryente.</span></li></ul>", unsafe_allow_html=True)
+    st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003;Hanapin ang kagamitan na may pinakamataas na bill at pagkonsumo ng kuryente sa loob ng isang buwan.</span></li></ul>", unsafe_allow_html=True)
+    st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003;Bilangin ang pagkonsumo ng kuryente at bayarin sa kuryente para sa bawat kagamitan sa loob ng isang buwan</span></li></ul>", unsafe_allow_html=True)
+    st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003;Kalkulahin ang pagkonsumo ng kuryente at kabuuang halaga ng kuryente para sa lahat ng kagamitan sa loob ng isang buwan.</span></li></ul>", unsafe_allow_html=True)
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Magsimula na tayo!</span>",
              unsafe_allow_html=True)
