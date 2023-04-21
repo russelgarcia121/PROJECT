@@ -11444,7 +11444,7 @@ else:
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Ang CONCAL ay may kakayahang gawin ang mga sumusunod:</span>", unsafe_allow_html=True)
     st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003;Hanapin ang kagamitan na may pinakamataas na bill at pagkonsumo ng kuryente sa loob ng isang buwan.</span></li></ul>", unsafe_allow_html=True)
-    st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003;Bilangin ang pagkonsumo ng kuryente at bayarin sa kuryente para sa bawat kagamitan sa loob ng isang buwan</span></li></ul>", unsafe_allow_html=True)
+    st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003;Bilangin ang pagkonsumo ng kuryente at bayarin sa kuryente para sa bawat kagamitan sa loob ng isang buwan.</span></li></ul>", unsafe_allow_html=True)
     st.write("<span style='font-family:Times New Roman; font-size:14px;'>&#10003;Kalkulahin ang pagkonsumo ng kuryente at kabuuang halaga ng kuryente para sa lahat ng kagamitan sa loob ng isang buwan.</span></li></ul>", unsafe_allow_html=True)
     st.write("***")
     st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Magsimula na tayo!</span>",
