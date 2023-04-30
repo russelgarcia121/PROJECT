@@ -1,6 +1,6 @@
 import streamlit as st
 
-language = st.radio("Choose a language / Pumili ng wika",
+language = st.radio("<span style='font-family:Times New Roman; font-size:14px;'>Choose a language / Pumili ng wika.</span>", unsafe_allow_html=True,
                     ("English", "Filipino"))
 
 if language == "English":
