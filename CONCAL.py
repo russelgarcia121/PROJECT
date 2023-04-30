@@ -1,7 +1,6 @@
 import streamlit as st
-
-language = st.radio("<span style='font-family:Times New Roman; font-size:14px;'>Choose a language / Pumili ng wika.</span>", unsafe_allow_html=True,
-                    ("English", "Filipino"))
+st.write("<span style='font-family:Times New Roman; font-size:14px;'>Choose a language / Pumili ng wika.</span>", unsafe_allow_html=True)
+language = st.radio("English", "Filipino")
 
 if language == "English":
     st.write("<span style='font-family:Times New Roman; font-size:32px;font-weight:bold;'>Welcome to CONCAL!</span>", unsafe_allow_html=True)
