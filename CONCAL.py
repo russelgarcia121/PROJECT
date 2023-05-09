@@ -1630,7 +1630,7 @@ if language == "English":
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     # Calculate 1-40th app
     if ask40 == 2:
-        # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.
+        # INDIVIDUALLY: para ma compute ang average use (hour) kada araw over the month.s
         A1F = (A1B / 30) * (A1D+(A1E/60))
         A2F = (A2B / 30) * (A2D+(A2E/60))
         A3F = (A3B / 30) * (A3D+(A3E/60))
@@ -11435,7 +11435,6 @@ if language == "English":
         st.markdown("**TOTAL ELECTRICITY BILL AND ENERGY CONSUMPTION**")
         st.write("Electricity bill: PHP", total1)
         st.write("Energy consumption:", Kh1, "kWh")
-
 else:
 
     st.write("<span style='font-family:Times New Roman; font-size:32px;font-weight:bold;'>Maligayang pagdating sa CONCAL!</span>", unsafe_allow_html=True)
@@ -11496,7 +11495,7 @@ else:
     if cost > 0:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 1st appliance.</span>", unsafe_allow_html=True)
-        A1N = st.text_input("Name of 1st appliance:")
+        A1N = st.text_input("Pangalan ng 1st appliance:")
         if A1N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A1N + ".</span>", unsafe_allow_html=True)
@@ -11537,7 +11536,7 @@ else:
     if ask1 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 2nd appliance.</span>", unsafe_allow_html=True)
-        A2N = st.text_input("Name of 2nd appliance: ")
+        A2N = st.text_input("Pangalan ng 2nd appliance: ")
         if A2N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A2N + ".</span>", unsafe_allow_html=True)
@@ -11576,7 +11575,7 @@ else:
     if ask2 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 3rd appliance.</span>", unsafe_allow_html=True)
-        A3N = st.text_input("Name of 3rd appliance:")
+        A3N = st.text_input("Pangalan ng 3rd appliance:")
         if A3N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A3N + ".</span>", unsafe_allow_html=True)
@@ -11615,7 +11614,7 @@ else:
     if ask3 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 4th appliance.</span>", unsafe_allow_html=True)
-        A4N = st.text_input("Name of 4th appliance: ")
+        A4N = st.text_input("Pangalan ng 4th appliance: ")
         if A4N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A4N + ".</span>", unsafe_allow_html=True)
@@ -11654,7 +11653,7 @@ else:
     if ask4 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 5th appliance.</span>", unsafe_allow_html=True)
-        A5N = st.text_input("Name of 5th appliance: ")
+        A5N = st.text_input("Pangalan ng 5th appliance: ")
         if A5N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A5N + ".</span>", unsafe_allow_html=True)
@@ -11693,7 +11692,7 @@ else:
     if ask5 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 6th appliance.</span>", unsafe_allow_html=True)
-        A6N = st.text_input("Name of 6th appliance: ")
+        A6N = st.text_input("Pangalan ng 6th appliance: ")
         if A6N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A6N + ".</span>", unsafe_allow_html=True)
@@ -11732,7 +11731,7 @@ else:
     if ask6 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 7th appliance.</span>", unsafe_allow_html=True)
-        A7N = st.text_input("Name of 7th appliance: ")
+        A7N = st.text_input("Pangalan ng 7th appliance: ")
         if A7N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A7N + ".</span>", unsafe_allow_html=True)
@@ -11771,7 +11770,7 @@ else:
     if ask7 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 8th appliance.</span>", unsafe_allow_html=True)
-        A8N = st.text_input("Name of 8th appliance: ")
+        A8N = st.text_input("Pangalan ng 8th appliance: ")
         if A8N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A8N + ".</span>", unsafe_allow_html=True)
@@ -11811,7 +11810,7 @@ else:
         st.write("***")
         st.write(
             "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 9th appliance.</span>", unsafe_allow_html=True)
-        A9N = st.text_input("Name of 9th appliance: ")
+        A9N = st.text_input("Pangalan ng 9th appliance: ")
         if A9N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A9N + ".</span>", unsafe_allow_html=True)
@@ -11850,7 +11849,7 @@ else:
     if ask9 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 10th appliance.</span>", unsafe_allow_html=True)
-        A10N = st.text_input("Name of 10th appliance: ")
+        A10N = st.text_input("Pangalan ng 10th appliance: ")
         if A10N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A10N + ".</span>", unsafe_allow_html=True)
@@ -11889,7 +11888,7 @@ else:
     if ask10 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 11th appliance.</span>", unsafe_allow_html=True)
-        A11N = st.text_input("Name of 11th appliance:")
+        A11N = st.text_input("Pangalan ng 11th appliance:")
         if A11N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A11N + ".</span>", unsafe_allow_html=True)
@@ -11930,7 +11929,7 @@ else:
         st.write(
             "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 12th appliance.</span>", unsafe_allow_html=True)
         A12N = st.text_input(
-            "Name of 12th appliance: ")
+            "Pangalan ng 12th appliance: ")
         if A12N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A12N + ".</span>", unsafe_allow_html=True)
@@ -11969,7 +11968,7 @@ else:
     if ask12 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 13th appliance.</span>", unsafe_allow_html=True)
-        A13N = st.text_input("Name of 13th appliance: ")
+        A13N = st.text_input("Pangalan ng 13th appliance: ")
         if A13N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A13N + ".</span>", unsafe_allow_html=True)
@@ -12008,7 +12007,7 @@ else:
     if ask13 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 14th appliance.</span>", unsafe_allow_html=True)
-        A14N = st.text_input("Name of 14th appliance: ")
+        A14N = st.text_input("Pangalan ng 14th appliance: ")
         if A14N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A14N + ".</span>", unsafe_allow_html=True)
@@ -12047,7 +12046,7 @@ else:
     if ask14 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 15th appliance.</span>", unsafe_allow_html=True)
-        A15N = st.text_input("Name of 15th appliance: ")
+        A15N = st.text_input("Pangalan ng 15th appliance: ")
         if A15N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A15N + ".</span>", unsafe_allow_html=True)
@@ -12087,7 +12086,7 @@ else:
         st.write("***")
         st.write(
             "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 16th appliance.</span>", unsafe_allow_html=True)
-        A16N = st.text_input("Name of 16th appliance: ")
+        A16N = st.text_input("Pangalan ng 16th appliance: ")
         if A16N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A16N + ".</span>", unsafe_allow_html=True)
@@ -12126,7 +12125,7 @@ else:
     if ask16 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 17th appliance.</span>", unsafe_allow_html=True)
-        A17N = st.text_input("Name of 17th appliance: ")
+        A17N = st.text_input("Pangalan ng 17th appliance: ")
         if A17N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A17N + ".</span>", unsafe_allow_html=True)
@@ -12165,7 +12164,7 @@ else:
     if ask17 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 18th appliance.</span>", unsafe_allow_html=True)
-        A18N = st.text_input("Name of 18th appliance:")
+        A18N = st.text_input("Pangalan ng 18th appliance:")
         if A18N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A18N + ".</span>", unsafe_allow_html=True)
@@ -12204,7 +12203,7 @@ else:
     if ask18 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 19th appliance.</span>", unsafe_allow_html=True)
-        A19N = st.text_input("Name of 19th appliance: ")
+        A19N = st.text_input("Pangalan ng 19th appliance: ")
         if A19N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A19N + ".</span>", unsafe_allow_html=True)
@@ -12245,7 +12244,7 @@ else:
             "***")
         st.write(
             "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 20th appliance.</span>", unsafe_allow_html=True)
-        A20N = st.text_input("Name of 20th appliance: ")
+        A20N = st.text_input("Pangalan ng 20th appliance: ")
         if A20N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A20N + ".</span>", unsafe_allow_html=True)
@@ -12284,7 +12283,7 @@ else:
     if ask20 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 21st appliance.</span>", unsafe_allow_html=True)
-        A21N = st.text_input("Name of 21st appliance: ")
+        A21N = st.text_input("Pangalan ng 21st appliance: ")
         if A21N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A21N + ".</span>", unsafe_allow_html=True)
@@ -12323,7 +12322,7 @@ else:
     if ask21 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 22nd appliance.</span>", unsafe_allow_html=True)
-        A22N = st.text_input("Name of 22nd appliance: ")
+        A22N = st.text_input("Pangalan ng 22nd appliance: ")
         if A22N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A22N + ".</span>", unsafe_allow_html=True)
@@ -12362,7 +12361,7 @@ else:
     if ask22 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 23rd appliance.</span>", unsafe_allow_html=True)
-        A23N = st.text_input("Name of 23rd appliance: ")
+        A23N = st.text_input("Pangalan ng 23rd appliance: ")
         if A23N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A23N + ".</span>", unsafe_allow_html=True)
@@ -12401,7 +12400,7 @@ else:
     if ask23 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 24th appliance.</span>", unsafe_allow_html=True)
-        A24N = st.text_input("Name of 24th appliance: ")
+        A24N = st.text_input("Pangalan ng 24th appliance: ")
         if A24N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A24N + ".</span>", unsafe_allow_html=True)
@@ -12440,7 +12439,7 @@ else:
     if ask24 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 25th appliance.</span>", unsafe_allow_html=True)
-        A25N = st.text_input("Name of 25th appliance: ")
+        A25N = st.text_input("Pangalan ng 25th appliance: ")
         if A25N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A25N + ".</span>", unsafe_allow_html=True)
@@ -12479,7 +12478,7 @@ else:
     if ask25 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 26th appliance.</span>", unsafe_allow_html=True)
-        A26N = st.text_input("Name of 26th appliance:")
+        A26N = st.text_input("Pangalan ng 26th appliance:")
         if A26N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A26N + ".</span>", unsafe_allow_html=True)
@@ -12518,7 +12517,7 @@ else:
     if ask26 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 27th appliance.</span>", unsafe_allow_html=True)
-        A27N = st.text_input("Name of 27th appliance: ")
+        A27N = st.text_input("Pangalan ng 27th appliance: ")
         if A27N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A27N + ".</span>", unsafe_allow_html=True)
@@ -12557,7 +12556,7 @@ else:
     if ask27 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 28th appliance.</span>", unsafe_allow_html=True)
-        A28N = st.text_input("Name of 28th appliance: ")
+        A28N = st.text_input("Pangalan ng 28th appliance: ")
         if A28N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A28N + ".</span>", unsafe_allow_html=True)
@@ -12596,7 +12595,7 @@ else:
     if ask28 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 29th appliance.</span>", unsafe_allow_html=True)
-        A29N = st.text_input("Name of 29th appliance: ")
+        A29N = st.text_input("Pangalan ng 29th appliance: ")
         if A29N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A29N + ".</span>", unsafe_allow_html=True)
@@ -12635,7 +12634,7 @@ else:
     if ask29 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 30th appliance.</span>", unsafe_allow_html=True)
-        A30N = st.text_input("Name of 30th appliance: ")
+        A30N = st.text_input("Pangalan ng 30th appliance: ")
         if A30N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A30N + ".</span>", unsafe_allow_html=True)
@@ -12675,7 +12674,7 @@ else:
     if ask30 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 31st appliance.</span>", unsafe_allow_html=True)
-        A31N = st.text_input("Name of 31st appliance: ")
+        A31N = st.text_input("Pangalan ng 31st appliance: ")
         if A31N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A31N + ".</span>", unsafe_allow_html=True)
@@ -12714,7 +12713,7 @@ else:
     if ask31 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 32nd appliance.</span>", unsafe_allow_html=True)
-        A32N = st.text_input("Name of 32nd appliance:")
+        A32N = st.text_input("Pangalan ng 32nd appliance:")
         if A32N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A32N + ".</span>", unsafe_allow_html=True)
@@ -12754,7 +12753,7 @@ else:
     if ask32 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 33rd appliance.</span>", unsafe_allow_html=True)
-        A33N = st.text_input("Name of 33rd appliance: ")
+        A33N = st.text_input("Pangalan ng 33rd appliance: ")
         if A33N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A33N + ".</span>", unsafe_allow_html=True)
@@ -12793,7 +12792,7 @@ else:
     if ask33 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 34th appliance.</span>", unsafe_allow_html=True)
-        A34N = st.text_input("Name of 34th appliance: ")
+        A34N = st.text_input("Pangalan ng 34th appliance: ")
         if A34N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A34N + ".</span>", unsafe_allow_html=True)
@@ -12832,7 +12831,7 @@ else:
     if ask34 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 35th appliance.</span>", unsafe_allow_html=True)
-        A35N = st.text_input("Name of 35th appliance: ")
+        A35N = st.text_input("Pangalan ng 35th appliance: ")
         if A35N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A35N + ".</span>", unsafe_allow_html=True)
@@ -12871,7 +12870,7 @@ else:
     if ask35 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 36th appliance.</span>", unsafe_allow_html=True)
-        A36N = st.text_input("Name of 36th appliance: ")
+        A36N = st.text_input("Pangalan ng 36th appliance: ")
         if A36N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A36N + ".</span>", unsafe_allow_html=True)
@@ -12910,7 +12909,7 @@ else:
     if ask36 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 37th appliance.</span>", unsafe_allow_html=True)
-        A37N = st.text_input("Name of 37th appliance: ")
+        A37N = st.text_input("Pangalan ng 37th appliance: ")
         if A37N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A37N + ".</span>", unsafe_allow_html=True)
@@ -12949,7 +12948,7 @@ else:
     if ask37 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 38th appliance.</span>", unsafe_allow_html=True)
-        A38N = st.text_input("Name of 38th appliance: ")
+        A38N = st.text_input("Pangalan ng 38th appliance: ")
         if A38N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A38N + ".</span>", unsafe_allow_html=True)
@@ -12989,7 +12988,7 @@ else:
         st.write("***")
         st.write(
             "<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 39th appliance.</span>", unsafe_allow_html=True)
-        A39N = st.text_input("Name of 39th appliance: ")
+        A39N = st.text_input("Pangalan ng 39th appliance: ")
         if A39N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A39N + ".</span>", unsafe_allow_html=True)
@@ -13028,7 +13027,7 @@ else:
     if ask39 == 1:
         st.write("***")
         st.write("<span style='font-family:Times New Roman; font-size:18px;font-weight:bold;'>Impormasyon tungkol sa 40th appliance.</span>", unsafe_allow_html=True)
-        A40N = st.text_input("Name of 40th appliance: ")
+        A40N = st.text_input("Pangalan ng 40th appliance: ")
         if A40N in Appliances:
             st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Gumamit ng ibang pangalan para sa gamit na ito, maliban sa " +
                      A40N + ".</span>", unsafe_allow_html=True)
@@ -13061,6 +13060,7 @@ else:
                                 f"Minuto: (0-59)", value=0, step=1, key="A40E")
                             if (((24 == A40D) and (A40E == 0)) and ((A40D > 0.1) or (A40E > 0.1))) or (((24 > A40D >= 0) and (59 >= A40E >= 0)) and ((A40D > 0.1) or (A40E > 0.1))):
                                 ask40 = 2
+
 
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     # Calculate 1-40th app
