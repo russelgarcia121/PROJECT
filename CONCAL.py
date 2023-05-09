@@ -1,6 +1,6 @@
 import streamlit as st
 st.write("<span style='font-family:Times New Roman; font-size:14px;'>Choose a language / Pumili ng wika.</span>", unsafe_allow_html=True)
-language = st.radio("",("English", "Filipino"))
+language = st.radio("", ("English", "Filipino"))
 
 if language == "English":
     st.write("<span style='font-family:Times New Roman; font-size:32px;font-weight:bold;'>Welcome to CONCAL!</span>", unsafe_allow_html=True)
@@ -11510,7 +11510,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A1M > 0:
                     A1W = st.number_input(
-                        f"Ano ang wattage ng{A1N}?(watt)")
+                        f"Ano ang wattage ng {A1N}?(watt)")
                     if A1W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A1W < 0:
@@ -11551,7 +11551,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A2M > 0:
                     A2W = st.number_input(
-                        f"Ano ang wattage ng{A2N}?(watt)")
+                        f"Ano ang wattage ng {A2N}?(watt)")
                     if A2W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A2W < 0:
@@ -11590,7 +11590,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A3M > 0:
                     A3W = st.number_input(
-                        f"Ano ang wattage ng{A3N}?(watt)")
+                        f"Ano ang wattage ng {A3N}?(watt)")
                     if A3W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A3W < 0:
@@ -11629,7 +11629,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A4M > 0:
                     A4W = st.number_input(
-                        f"Ano ang wattage ng{A4N}?(watt)")
+                        f"Ano ang wattage ng {A4N}?(watt)")
                     if A4W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A4W < 0:
@@ -11668,7 +11668,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A5M > 0:
                     A5W = st.number_input(
-                        f"Ano ang wattage ng{A5N}?(watt)")
+                        f"Ano ang wattage ng {A5N}?(watt)")
                     if A5W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A5W < 0:
@@ -11707,7 +11707,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A6M > 0:
                     A6W = st.number_input(
-                        f"Ano ang wattage ng{A6N}?(watt)")
+                        f"Ano ang wattage ng {A6N}?(watt)")
                     if A6W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A6W < 0:
@@ -11746,7 +11746,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A7M > 0:
                     A7W = st.number_input(
-                        f"Ano ang wattage ng{A7N}?(watt)")
+                        f"Ano ang wattage ng {A7N}?(watt)")
                     if A7W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A7W < 0:
@@ -11785,7 +11785,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A8M > 0:
                     A8W = st.number_input(
-                        f"Ano ang wattage ng{A8N}?(watt)")
+                        f"Ano ang wattage ng {A8N}?(watt)")
                     if A8W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A8W < 0:
@@ -11825,7 +11825,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A9M > 0:
                     A9W = st.number_input(
-                        f"Ano ang wattage ng{A9N}?(watt)")
+                        f"Ano ang wattage ng {A9N}?(watt)")
                     if A9W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A9W < 0:
@@ -11864,7 +11864,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A10M > 0:
                     A10W = st.number_input(
-                        f"Ano ang wattage ng{A10N}?(watt)")
+                        f"Ano ang wattage ng {A10N}?(watt)")
                     if A10W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A10W < 0:
@@ -11903,7 +11903,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A11M > 0:
                     A11W = st.number_input(
-                        f"Ano ang wattage ng{A11N}?(watt)")
+                        f"Ano ang wattage ng {A11N}?(watt)")
                     if A11W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A11W < 0:
@@ -11944,7 +11944,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A12M > 0:
                     A12W = st.number_input(
-                        f"Ano ang wattage ng{A12N}?(watt)")
+                        f"Ano ang wattage ng {A12N}?(watt)")
                     if A12W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A12W < 0:
@@ -11983,7 +11983,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A13M > 0:
                     A13W = st.number_input(
-                        f"Ano ang wattage ng{A13N}?(watt)")
+                        f"Ano ang wattage ng {A13N}?(watt)")
                     if A13W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A13W < 0:
@@ -12022,7 +12022,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A14M > 0:
                     A14W = st.number_input(
-                        f"Ano ang wattage ng{A14N}?(watt)")
+                        f"Ano ang wattage ng {A14N}?(watt)")
                     if A14W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A14W < 0:
@@ -12061,7 +12061,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A15M > 0:
                     A15W = st.number_input(
-                        f"Ano ang wattage ng{A15N}?(watt)")
+                        f"Ano ang wattage ng {A15N}?(watt)")
                     if A15W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A15W < 0:
@@ -12101,7 +12101,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A16M > 0:
                     A16W = st.number_input(
-                        f"Ano ang wattage ng{A16N}?(watt)")
+                        f"Ano ang wattage ng {A16N}?(watt)")
                     if A16W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A16W < 0:
@@ -12140,7 +12140,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A17M > 0:
                     A17W = st.number_input(
-                        f"Ano ang wattage ng{A17N}?(watt)")
+                        f"Ano ang wattage ng {A17N}?(watt)")
                     if A17W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A17W < 0:
@@ -12179,7 +12179,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A18M > 0:
                     A18W = st.number_input(
-                        f"Ano ang wattage ng{A18N}?(watt)")
+                        f"Ano ang wattage ng {A18N}?(watt)")
                     if A18W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A18W < 0:
@@ -12218,7 +12218,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A19M > 0:
                     A19W = st.number_input(
-                        f"Ano ang wattage ng{A19N}?(watt)")
+                        f"Ano ang wattage ng {A19N}?(watt)")
                     if A19W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A19W < 0:
@@ -12259,7 +12259,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A20M > 0:
                     A20W = st.number_input(
-                        f"Ano ang wattage ng{A20N}?(watt)")
+                        f"Ano ang wattage ng {A20N}?(watt)")
                     if A20W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A20W < 0:
@@ -12298,7 +12298,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A21M > 0:
                     A21W = st.number_input(
-                        f"Ano ang wattage ng{A21N}?(watt)")
+                        f"Ano ang wattage ng {A21N}?(watt)")
                     if A21W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A21W < 0:
@@ -12337,7 +12337,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A22M > 0:
                     A22W = st.number_input(
-                        f"Ano ang wattage ng{A22N}?(watt)")
+                        f"Ano ang wattage ng {A22N}?(watt)")
                     if A22W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A22W < 0:
@@ -12376,7 +12376,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A23M > 0:
                     A23W = st.number_input(
-                        f"Ano ang wattage ng{A23N}?(watt)")
+                        f"Ano ang wattage ng {A23N}?(watt)")
                     if A23W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A23W < 0:
@@ -12415,7 +12415,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A24M > 0:
                     A24W = st.number_input(
-                        f"Ano ang wattage ng{A24N}?(watt)")
+                        f"Ano ang wattage ng {A24N}?(watt)")
                     if A24W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A24W < 0:
@@ -12454,7 +12454,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A25M > 0:
                     A25W = st.number_input(
-                        f"Ano ang wattage ng{A25N}?(watt)")
+                        f"Ano ang wattage ng {A25N}?(watt)")
                     if A25W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A25W < 0:
@@ -12493,7 +12493,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A26M > 0:
                     A26W = st.number_input(
-                        f"Ano ang wattage ng{A26N}?(watt)")
+                        f"Ano ang wattage ng {A26N}?(watt)")
                     if A26W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A26W < 0:
@@ -12532,7 +12532,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A27M > 0:
                     A27W = st.number_input(
-                        f"Ano ang wattage ng{A27N}?(watt)")
+                        f"Ano ang wattage ng {A27N}?(watt)")
                     if A27W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A27W < 0:
@@ -12571,7 +12571,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A28M > 0:
                     A28W = st.number_input(
-                        f"Ano ang wattage ng{A28N}?(watt)")
+                        f"Ano ang wattage ng {A28N}?(watt)")
                     if A28W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A28W < 0:
@@ -12610,7 +12610,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A29M > 0:
                     A29W = st.number_input(
-                        f"Ano ang wattage ng{A29N}?(watt)")
+                        f"Ano ang wattage ng {A29N}?(watt)")
                     if A29W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A29W < 0:
@@ -12649,7 +12649,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A30M > 0:
                     A30W = st.number_input(
-                        f"Ano ang wattage ng{A30N}?(watt)")
+                        f"Ano ang wattage ng {A30N}?(watt)")
                     if A30W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A30W < 0:
@@ -12689,7 +12689,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A31M > 0:
                     A31W = st.number_input(
-                        f"Ano ang wattage ng{A31N}?(watt)")
+                        f"Ano ang wattage ng {A31N}?(watt)")
                     if A31W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A31W < 0:
@@ -12728,7 +12728,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A32M > 0:
                     A32W = st.number_input(
-                        f"Ano ang wattage ng{A32N}?(watt)")
+                        f"Ano ang wattage ng {A32N}?(watt)")
                     if A32W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A32W < 0:
@@ -12768,7 +12768,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A33M > 0:
                     A33W = st.number_input(
-                        f"Ano ang wattage ng{A33N}?(watt)")
+                        f"Ano ang wattage ng {A33N}?(watt)")
                     if A33W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A33W < 0:
@@ -12807,7 +12807,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A34M > 0:
                     A34W = st.number_input(
-                        f"Ano ang wattage ng{A34N}?(watt)")
+                        f"Ano ang wattage ng {A34N}?(watt)")
                     if A34W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A34W < 0:
@@ -12846,7 +12846,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A35M > 0:
                     A35W = st.number_input(
-                        f"Ano ang wattage ng{A35N}?(watt)")
+                        f"Ano ang wattage ng {A35N}?(watt)")
                     if A35W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A35W < 0:
@@ -12885,7 +12885,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A36M > 0:
                     A36W = st.number_input(
-                        f"Ano ang wattage ng{A36N}?(watt)")
+                        f"Ano ang wattage ng {A36N}?(watt)")
                     if A36W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A36W < 0:
@@ -12924,7 +12924,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A37M > 0:
                     A37W = st.number_input(
-                        f"Ano ang wattage ng{A37N}?(watt)")
+                        f"Ano ang wattage ng {A37N}?(watt)")
                     if A37W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A37W < 0:
@@ -12963,7 +12963,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A38M > 0:
                     A38W = st.number_input(
-                        f"Ano ang wattage ng{A38N}?(watt)")
+                        f"Ano ang wattage ng {A38N}?(watt)")
                     if A38W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A38W < 0:
@@ -13003,7 +13003,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A39M > 0:
                     A39W = st.number_input(
-                        f"Ano ang wattage ng{A39N}?(watt)")
+                        f"Ano ang wattage ng {A39N}?(watt)")
                     if A9W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A39W < 0:
@@ -13042,7 +13042,7 @@ else:
                     st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Mangyaring ipasok ang isang hindi-negatibong halaga para sa dami. Salamat po.</span>", unsafe_allow_html=True)
                 if A40M > 0:
                     A40W = st.number_input(
-                        f"Ano ang wattage ng{A40N}?(watt)")
+                        f"Ano ang wattage ng {A40N}?(watt)")
                     if A40W == 0:
                         st.write("<span style='font-family:Times New Roman; font-size:14px;font-style:italic;font-weight:bold;'>Bago magpatuloy sa susunod na hakbang, mangyaring ilagay ang wattage. Salamat po.</span>", unsafe_allow_html=True)
                     if A40W < 0:
@@ -13060,7 +13060,6 @@ else:
                                 f"Minuto: (0-59)", value=0, step=1, key="A40E")
                             if (((24 == A40D) and (A40E == 0)) and ((A40D > 0.1) or (A40E > 0.1))) or (((24 > A40D >= 0) and (59 >= A40E >= 0)) and ((A40D > 0.1) or (A40E > 0.1))):
                                 ask40 = 2
-
 
     # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     # Calculate 1-40th app
