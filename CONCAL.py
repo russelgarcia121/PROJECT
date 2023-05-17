@@ -13456,7 +13456,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -13888,7 +13888,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -14310,7 +14310,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -14722,7 +14722,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -15124,7 +15124,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -15516,7 +15516,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -15898,7 +15898,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -16270,7 +16270,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -16631,7 +16631,7 @@ else:
             st.write("Konsumo ng enerhiya :", Y32, "kWh")
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -16982,7 +16982,7 @@ else:
             st.write("Konsumo ng enerhiya :", Y31, "kWh")
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -17323,7 +17323,7 @@ else:
             st.write("Konsumo ng enerhiya :", Y30, "kWh")
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -17655,7 +17655,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -17977,7 +17977,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -18289,7 +18289,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -18591,7 +18591,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -18883,7 +18883,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -19165,7 +19165,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -19437,7 +19437,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -19699,7 +19699,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -19951,7 +19951,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -20194,7 +20194,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -20427,7 +20427,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -20649,7 +20649,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -20861,7 +20861,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -21063,7 +21063,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -21254,7 +21254,7 @@ else:
             st.write("Konsumo ng enerhiya :", Y15, "kWh")
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -21434,7 +21434,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -21604,7 +21604,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -21764,7 +21764,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -21913,7 +21913,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -22052,7 +22052,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -22182,7 +22182,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -22302,7 +22302,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -22412,7 +22412,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -22512,7 +22512,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -22603,7 +22603,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -22683,7 +22683,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -22753,7 +22753,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write(A3N, ": PHP", A3con)
@@ -22813,7 +22813,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write(A2N, ": PHP", A2con)
         st.write("***")
@@ -22863,7 +22863,7 @@ else:
 
         # OUTPUT2
         st.write("***")
-        st.markdown("**INDIVIDUAL BILL NG KURYENTE**")
+        st.markdown("**INDIBIDWAL NA BAYARIN PARA SA KURYENTE**")
         st.write(A1N, ": PHP", A1con)
         st.write("***")
         st.markdown("**TOTAL NA BAYARIN SA KURYENTE AT KONSUMO NG ENERHIYA**")
