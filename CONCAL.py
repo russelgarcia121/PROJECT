@@ -2,8 +2,6 @@ import streamlit as st
 from sympy import symbols, diff
 
 def differential_calculator():
-    st.title("Differential Calculus Calculator")
-    
     # Getting the function from the user
     function_str = st.text_input("Enter the function:")
     x = symbols('x')
@@ -15,12 +13,16 @@ def differential_calculator():
         # Calculating the derivative
         derivative = diff(function, x)
         
-        # Displaying the result
+        # Printing the result
         st.write("Derivative:", derivative)
     
     except Exception as e:
         st.write("Error:", e)
 
-# Running the Streamlit app
-if __name__ == "__main__":
+# Main function to run the Streamlit app
+def main():
+    st.title("Differential Calculus Calculator")
     differential_calculator()
+
+if __name__ == "__main__":
+    main()
