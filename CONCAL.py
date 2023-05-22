@@ -1,41 +1,26 @@
 import streamlit as st
+from sympy import symbols, diff
 
-def add(a, b):
-    return a + b
-
-def subtract(a, b):
-    return a - b
-
-def multiply(a, b):
-    return a * b
-
-def divide(a, b):
-    if b == 0:
-        return "Error: Cannot divide by zero"
-    return a / b
-
-# Main calculator function
-def calculator():
-    st.title("Simple Calculator")
+def differential_calculator():
+    st.title("Differential Calculus Calculator")
     
-    # Get user input
-    num1 = st.number_input("Enter the first number:", step=1.0)
-    operator = st.selectbox("Select an operation:", ("+", "-", "*", "/"))
-    num2 = st.number_input("Enter the second number:", step=1.0)
+    # Getting the function from the user
+    function_str = st.text_input("Enter the function:")
+    x = symbols('x')
     
-    # Perform calculation based on operator
-    result = 0
-    if operator == "+":
-        result = add(num1, num2)
-    elif operator == "-":
-        result = subtract(num1, num2)
-    elif operator == "*":
-        result = multiply(num1, num2)
-    elif operator == "/":
-        result = divide(num1, num2)
+    try:
+        # Converting the function string to a symbolic expression
+        function = eval(function_str)
+        
+        # Calculating the derivative
+        derivative = diff(function, x)
+        
+        # Displaying the result
+        st.write("Derivative:", derivative)
     
-    # Display the result
-    st.write("Result:", result)
+    except Exception as e:
+        st.write("Error:", e)
 
-# Run the calculator
-calculator()
+# Running the Streamlit app
+if __name__ == "__main__":
+    differential_calculator()
