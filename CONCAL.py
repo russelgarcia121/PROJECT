@@ -87,12 +87,20 @@ if language == "English":
                         if 31 >= A1B >= 1:
                             st.write("<span style='font-family:Source Sans Pro; font-size:14px;'>Set the amount of time that you use the " +
                                      A1N + ".</span>", unsafe_allow_html=True)
-                            col1, col2 = st.beta_columns(2)
-                            A1D = col1.number_input(
-                                f"Hours: (0-24)", value=0, step=1, key="A1D")
-                            A1E = col2.number_input(
-                                f"Minutes: (0-59)", value=0, step=1, key="A1E")
+                            # col1, col2 = st.beta_columns(2)
+                            # A1D = col1.number_input(
+                            #     f"Hours: (0-24)", value=0, step=1, key="A1D")
+                            # A1E = col2.number_input(
+                            #     f"Minutes: (0-59)", value=0, step=1, key="A1E")
+                            # if (((24 == A1D) and (A1E == 0)) and ((A1D > 0.1) or (A1E > 0.1))) or (((24 > A1D >= 0) and (59 >= A1E >= 0)) and ((A1D > 0.1) or (A1E > 0.1))):
+                            
+                            
+                            A1D = st.number_input(
+                                f"Hours: (0-24)", value=0, step=1)
+                            A1E = st.number_input(
+                                f"Minutes: (0-59)", value=0, step=1)
                             if (((24 == A1D) and (A1E == 0)) and ((A1D > 0.1) or (A1E > 0.1))) or (((24 > A1D >= 0) and (59 >= A1E >= 0)) and ((A1D > 0.1) or (A1E > 0.1))):
+                                
                                 ask1 = st.number_input(
                                     "Add 2nd appliance (enter 1), No more appliances (enter 2): ", value=0, step=1)
     if cost <= 0:
